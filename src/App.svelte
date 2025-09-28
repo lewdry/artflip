@@ -5,36 +5,170 @@
   let loading = false;
   let error = null;
 
+  // Backup object IDs in case proxies fail
+  const fallbackObjectIDs = [
+    436532, 459080, 437853, 436105, 459055, 338059, 459054, 437329, 
+    438817, 459053, 437894, 459052, 436963, 459051, 437392, 438813,
+    11734, 436535, 459049, 438807, 437853, 459048, 436951, 438801,
+    459047, 437882, 436954, 459046, 438796, 437876, 459045, 436943,
+    438787, 459044, 437865, 436932, 459043, 438778, 437858, 459042,
+    436925, 438769, 459041, 437851, 436918, 459040, 438760, 437844,
+    459039, 436911, 438751, 459038, 437837, 436904, 459037, 438742,
+    10467, 272099, 459074, 39799, 471596, 459073, 36647, 438635,
+    459072, 38065, 438629, 459071, 37858, 438623, 459070, 37851,
+    367069, 436516, 459069, 438617, 367076, 436509, 459068, 438611,
+    367083, 436502, 459067, 438605, 367090, 436495, 459066, 438599,
+    11150, 437379, 459065, 438593, 11157, 437372, 459064, 438587
+  ];
+
+  // Cache for search results and rate limiting
+  let cachedObjectIDs = null;
+  let lastSearchTime = 0;
+  let lastRequestTime = 0;
+  const CACHE_DURATION = 10 * 60 * 1000; // 10 minutes
+  const MIN_REQUEST_INTERVAL = 2000; // 2 seconds between requests
+
+  async function rateLimitedFetch(url) {
+    // Enforce minimum time between requests
+    const now = Date.now();
+    const timeSinceLastRequest = now - lastRequestTime;
+    
+    if (timeSinceLastRequest < MIN_REQUEST_INTERVAL) {
+      await new Promise(resolve => 
+        setTimeout(resolve, MIN_REQUEST_INTERVAL - timeSinceLastRequest)
+      );
+    }
+    
+    lastRequestTime = Date.now();
+    
+    // Try direct API call first (might work without VPN)
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+      
+      const response = await fetch(url, { 
+        signal: controller.signal,
+        headers: {
+          'User-Agent': 'MetMuseumViewer/1.0'
+        }
+      });
+      
+      clearTimeout(timeoutId);
+      
+      if (response.ok) {
+        return await response.json();
+      }
+    } catch (directError) {
+      console.log('Direct API failed, trying proxies...');
+    }
+    
+    // Fallback to single reliable proxy
+    const corsProxy = 'https://api.allorigins.win/get?url=';
+    const proxyUrl = `${corsProxy}${encodeURIComponent(url)}`;
+    
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
+    
+    const response = await fetch(proxyUrl, { 
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'MetMuseumViewer/1.0'
+      }
+    });
+    
+    clearTimeout(timeoutId);
+    
+    if (!response.ok) {
+      throw new Error(`Proxy failed: ${response.status}`);
+    }
+    
+    const text = await response.text();
+    
+    if (text.trim().startsWith('<')) {
+      throw new Error('Received HTML error page');
+    }
+    
+    const proxyData = JSON.parse(text);
+    return JSON.parse(proxyData.contents);
+  }
+
+  async function getObjectIDs() {
+    // Use cached results if they're recent
+    if (cachedObjectIDs && Date.now() - lastSearchTime < CACHE_DURATION) {
+      console.log('Using cached search results');
+      return cachedObjectIDs;
+    }
+
+    try {
+      console.log('Fetching fresh search results...');
+      const searchUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=*';
+      const searchData = await rateLimitedFetch(searchUrl);
+      
+      if (searchData?.objectIDs && searchData.objectIDs.length > 0) {
+        cachedObjectIDs = searchData.objectIDs;
+        lastSearchTime = Date.now();
+        console.log(`Cached ${searchData.objectIDs.length} object IDs`);
+        return cachedObjectIDs;
+      }
+      
+    } catch (searchError) {
+      console.warn('Search failed:', searchError);
+    }
+    
+    // If search failed, use fallback
+    console.log('Using fallback object IDs');
+    return fallbackObjectIDs;
+  }
+
   async function fetchRandomArtwork() {
     loading = true;
     error = null;
     
     try {
-      // First, get all object IDs
-      const searchResponse = await fetch('https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=*');
-      const searchData = await searchResponse.json();
+      // Get object IDs (from cache, search, or fallback)
+      const objectIDs = await getObjectIDs();
       
-      if (!searchData.objectIDs || searchData.objectIDs.length === 0) {
-        throw new Error('No artworks found');
+      // Try up to 3 random artworks to find one that's public domain
+      let attempts = 0;
+      const maxAttempts = 3;
+      
+      while (attempts < maxAttempts) {
+        try {
+          // Pick a random object ID
+          const randomId = objectIDs[Math.floor(Math.random() * objectIDs.length)];
+          
+          console.log(`Fetching artwork ${randomId} (attempt ${attempts + 1})`);
+          
+          const apiUrl = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomId}`;
+          const artworkData = await rateLimitedFetch(apiUrl);
+          
+          if (!artworkData) {
+            attempts++;
+            continue;
+          }
+          
+          // Only check if it's public domain (trust API for hasImages)
+          if (artworkData.isPublicDomain && artworkData.primaryImage) {
+            artwork = artworkData;
+            console.log('Successfully loaded artwork:', artworkData.title);
+            return; // Success! Exit the function
+          }
+          
+          console.log('Artwork not public domain, trying another...');
+          attempts++;
+          
+        } catch (attemptError) {
+          console.warn(`Attempt ${attempts + 1} failed:`, attemptError);
+          attempts++;
+        }
       }
       
-      // Pick a random object ID
-      const randomId = searchData.objectIDs[Math.floor(Math.random() * searchData.objectIDs.length)];
+      // If we get here, we couldn't find a public domain artwork after maxAttempts
+      throw new Error(`Could not find a suitable artwork after ${maxAttempts} attempts`);
       
-      // Fetch the specific artwork
-      const artworkResponse = await fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomId}`);
-      const artworkData = await artworkResponse.json();
-      
-      // Make sure it has an image AND is Open Access (CC0)
-      if (!artworkData.primaryImage || !artworkData.isPublicDomain) {
-        // If no image or not public domain, try again
-        fetchRandomArtwork();
-        return;
-      }
-      
-      artwork = artworkData;
     } catch (err) {
-      error = err.message;
+      error = `Unable to fetch artwork: ${err.message}`;
+      console.error('Fetch error:', err);
     } finally {
       loading = false;
     }
@@ -48,7 +182,7 @@
 <main>
   <div class="container">
     <header>
-      <h1>Met Museum Explorer</h1>
+      <h1>RandyMet - A Met Museum Explorer</h1>
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
         {#if loading}
           <span class="spinner"></span>
