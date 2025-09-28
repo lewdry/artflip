@@ -136,7 +136,7 @@
   <div class="container">
     <header>
       <div class="title-group">
-        <h1>RandyMet</h1>
+        <h1>ArtFlip</h1>
         <h2>Random art from the Metropolitan Museum</h2>
       </div>
 
