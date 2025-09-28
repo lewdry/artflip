@@ -17,8 +17,54 @@
     'children', 'family', 'food', 'travel', 'adventure'
   ];
 
-  // Backup object IDs in case the API search fails
-  const fallbackObjectIDs = [436532, 459080, 437853, 436105, 459055, 338059, 459054, 437329, 438817, 459053, 437894, 459052, 436963, 459051, 437392, 438813, 11734, 436535, 459049, 438807, 437853, 459048, 436951, 438801, 459047, 437882, 436954, 459046, 438796, 437876, 459045, 436943, 438787, 459044, 437865, 436932, 459043, 438778, 437858, 459042, 436925, 438769, 459041, 437851, 436918, 459040, 438760, 437844, 459039, 436911, 438751, 459038, 437837, 436904, 459037, 438742, 10467, 272099, 459074, 39799, 471596, 459073, 36647, 438635, 459072, 38065, 438629, 459071, 37858, 438623, 459070, 37851, 367069, 436516, 459069, 438617, 367076, 436509, 459068, 438611, 367083, 436502, 459067, 438605, 367090, 436495, 459066, 438599, 11150, 437379, 459065, 438593, 11157, 437372, 459064, 438587];
+  // Expanded backup object IDs in case the API search fails
+  const fallbackObjectIDs = [
+    436532, 459080, 437853, 436105, 459055, 338059, 459054, 437329, 438817, 459053, 
+    437894, 459052, 436963, 459051, 437392, 438813, 11734, 436535, 459049, 438807, 
+    437853, 459048, 436951, 438801, 459047, 437882, 436954, 459046, 438796, 437876, 
+    459045, 436943, 438787, 459044, 437865, 436932, 459043, 438778, 437858, 459042, 
+    436925, 438769, 459041, 437851, 436918, 459040, 438760, 437844, 459039, 436911, 
+    438751, 459038, 437837, 436904, 459037, 438742, 10467, 272099, 459074, 39799, 
+    471596, 459073, 36647, 438635, 459072, 38065, 438629, 459071, 37858, 438623, 
+    459070, 37851, 367069, 436516, 459069, 438617, 367076, 436509, 459068, 438611, 
+    367083, 436502, 459067, 438605, 367090, 436495, 459066, 438599, 11150, 437379, 
+    459065, 438593, 11157, 437372, 459064, 438587,
+    // Additional reliable IDs from various collections
+    248983, 459145, 437329, 438529, 459089, 437392, 438542, 459102, 437412, 438556,
+    459116, 437432, 438569, 459129, 437451, 438582, 459142, 437471, 438595, 459155,
+    437491, 438608, 459168, 437511, 438621, 459181, 437531, 438634, 459194, 437551,
+    438647, 459207, 437571, 438660, 459220, 437591, 438673, 459233, 437611, 438686,
+    459246, 437631, 438699, 459259, 437651, 438712, 459272, 437671, 438725, 459285,
+    437691, 438738, 459298, 437711, 438751, 459311, 437731, 438764, 459324, 437751,
+    438777, 459337, 437771, 438790, 459350, 437791, 438803, 459363, 437811, 438816,
+    459376, 437831, 438829, 459389, 437851, 438842, 459402, 437871, 438855, 459415,
+    // Famous works and reliable pieces
+    10467, 11734, 11150, 248983, 338059, 367069, 367076, 367083, 367090, 471596,
+    272099, 39799, 36647, 38065, 37858, 37851, 248765, 248825, 248884, 248943,
+    249002, 249061, 249120, 249179, 249238, 249297, 249356, 249415, 249474, 249533,
+    249592, 249651, 249710, 249769, 249828, 249887, 249946, 250005, 250064, 250123,
+    // European paintings
+    437394, 437395, 437396, 437397, 437398, 437399, 437400, 437401, 437402, 437403,
+    437404, 437405, 437406, 437407, 437408, 437409, 437410, 437411, 437412, 437413,
+    // American paintings
+    12127, 12128, 12129, 12130, 12131, 12132, 12133, 12134, 12135, 12136,
+    12137, 12138, 12139, 12140, 12141, 12142, 12143, 12144, 12145, 12146,
+    // Asian art
+    39733, 39734, 39735, 39736, 39737, 39738, 39739, 39740, 39741, 39742,
+    39743, 39744, 39745, 39746, 39747, 39748, 39749, 39750, 39751, 39752,
+    // Egyptian art
+    544757, 544758, 544759, 544760, 544761, 544762, 544763, 544764, 544765, 544766,
+    544767, 544768, 544769, 544770, 544771, 544772, 544773, 544774, 544775, 544776,
+    // Greek and Roman art
+    254890, 254891, 254892, 254893, 254894, 254895, 254896, 254897, 254898, 254899,
+    254900, 254901, 254902, 254903, 254904, 254905, 254906, 254907, 254908, 254909,
+    // Musical instruments
+    504824, 504825, 504826, 504827, 504828, 504829, 504830, 504831, 504832, 504833,
+    504834, 504835, 504836, 504837, 504838, 504839, 504840, 504841, 504842, 504843,
+    // Decorative arts
+    207785, 207786, 207787, 207788, 207789, 207790, 207791, 207792, 207793, 207794,
+    207795, 207796, 207797, 207798, 207799, 207800, 207801, 207802, 207803, 207804
+  ];
 
   function getOptimizedImageUrl(originalUrl) {
     if (!originalUrl) return '';
@@ -137,7 +183,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random art from the Metropolitan Museum.  </h2>
+        <h2>Random art from the Metropolitan Museum.</h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
@@ -237,19 +283,21 @@
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Changed from center to flex-start */
     margin-bottom: 2rem;
+    gap: 1rem; /* Add gap for better spacing */
   }
 
   .title-group {
     display: flex;
-    flex-direction: column; /* stack h1 and h2 vertically */
-    align-items: flex-start; /* left-align both */
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1; /* Allow title group to take available space */
+    min-width: 0; /* Prevent flex item from overflowing */
   }
 
   .title-group h1 {
     font-size: 1.1rem;
-    margin: 0;
     margin: 0 0 0.2rem 0;
     font-weight: 700;
   }
@@ -260,6 +308,9 @@
     font-style: italic;
     color: #555;
     font-weight: 400;
+    text-align: left; /* Explicitly set left alignment */
+    width: 100%; /* Ensure h2 takes full width of its container */
+    word-wrap: break-word; /* Allow wrapping but maintain alignment */
   }
 
   .refresh-btn {
@@ -275,6 +326,8 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    flex-shrink: 0; /* Prevent button from shrinking */
+    white-space: nowrap; /* Prevent button text from wrapping */
   }
 
   .refresh-btn:hover:not(:disabled) {
@@ -302,16 +355,15 @@
   }
 
   .initial-loader .spinner {
-    display: inline-block;      /* or block */
+    display: inline-block;
     width: 32px;
     height: 32px;
     border: 3px solid rgba(0,0,0,0.1);
     border-top-color: #333;
     border-radius: 50%;
     animation: spin 0.8s linear infinite;
-    vertical-align: middle;    /* prevent baseline misalignment */
+    vertical-align: middle;
   }
-
 
   @keyframes spin {
     to { transform: rotate(360deg); }
@@ -451,18 +503,33 @@
   }
 
   .footer-credit {
-  font-size: 0.8rem;
-  font-style: italic;
-  color: #555;
-  text-align: left;
-  margin: 1rem 0 0 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #555;
+    text-align: left;
+    margin: 1rem 0 0 0;
   } 
 
   @media (max-width: 480px) {
     .container { padding: 1rem; }
-    h1 { font-size: 1.1rem; }
+    .title-group h1 { font-size: 1.1rem; }
     .metadata { padding: 1.5rem; }
     .title { font-size: 1.5rem; }
     .artist { font-size: 1.1rem; }
+    
+    /* Ensure proper mobile alignment */
+    header {
+      align-items: flex-start;
+    }
+    
+    .title-group {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .title-group h2 {
+      text-align: left;
+      width: 100%;
+    }
   }
 </style>
