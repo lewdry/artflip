@@ -137,7 +137,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random art from the Metropolitan Museum</h2>
+        <h2>Random art from the Metropolitan Museum.  </h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
@@ -208,7 +208,12 @@
         <p>Finding a masterpiece...</p>
       </div>
     {/if}
-    <p class="footer-credit">Lewis Dryburgh, 2025</p>
+    <footer>
+      <p class="footer-credit">
+        All artwork retrieved is public domain, available under Creative Commons.<br>
+        Lewis Dryburgh, 2025
+      </p>
+    </footer>
   </div>
 </main>
 
