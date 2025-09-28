@@ -21,6 +21,19 @@
     11150, 437379, 459065, 438593, 11157, 437372, 459064, 438587
   ];
 
+  // Function to get optimized image URL
+  function getOptimizedImageUrl(originalUrl) {
+    if (!originalUrl) return '';
+    
+    // Met Museum images can be resized by adding parameters
+    // Original: https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg
+    // Resized: https://images.metmuseum.org/CRDImages/as/web-large/DP251139.jpg
+    
+    // Replace 'original' with 'web-large' for faster loading (about 1200px wide)
+    // or use 'web-medium' for even smaller (about 800px wide)
+    return originalUrl.replace('/original/', '/web-medium/');
+  }
+
   // Cache for search results and rate limiting
   let cachedObjectIDs = null;
   let lastSearchTime = 0;
@@ -182,12 +195,12 @@
 <main>
   <div class="container">
     <header>
-      <h1>RandyMet - A Met Museum Explorer</h1>
+      <h1>RandyMet - Art Explorer</h1>
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
         {#if loading}
           <span class="spinner"></span>
         {:else}
-          New Artwork
+          New Art
         {/if}
       </button>
     </header>
@@ -201,7 +214,7 @@
       <article class="artwork">
         <div class="image-container">
           <img 
-            src={artwork.primaryImage} 
+            src={getOptimizedImageUrl(artwork.primaryImage)} 
             alt={artwork.title || 'Artwork'}
             loading="lazy"
           />
@@ -270,7 +283,7 @@
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0;
     color: #2c2c2c;
