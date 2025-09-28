@@ -31,7 +31,7 @@
     
     // Replace 'original' with 'web-large' for faster loading (about 1200px wide)
     // or use 'web-medium' for even smaller (about 800px wide)
-    return originalUrl.replace('/original/', '/web-medium/');
+    return originalUrl.replace('/original/', '/web-large/');
   }
 
   // Cache for search results and rate limiting
@@ -60,10 +60,7 @@
       const timeoutId = setTimeout(() => controller.abort(), 8000);
       
       const response = await fetch(url, { 
-        signal: controller.signal,
-        headers: {
-          'User-Agent': 'MetMuseumViewer/1.0'
-        }
+        signal: controller.signal
       });
       
       clearTimeout(timeoutId);
@@ -83,10 +80,7 @@
     const timeoutId = setTimeout(() => controller.abort(), 15000);
     
     const response = await fetch(proxyUrl, { 
-      signal: controller.signal,
-      headers: {
-        'User-Agent': 'MetMuseumViewer/1.0'
-      }
+      signal: controller.signal
     });
     
     clearTimeout(timeoutId);
@@ -162,6 +156,9 @@
           
           // Only check if it's public domain (trust API for hasImages)
           if (artworkData.isPublicDomain && artworkData.primaryImage) {
+            // Log ALL available fields to help identify description field
+            console.log('ALL artwork fields:', artworkData);
+            
             artwork = artworkData;
             console.log('Successfully loaded artwork:', artworkData.title);
             return; // Success! Exit the function
@@ -195,12 +192,12 @@
 <main>
   <div class="container">
     <header>
-      <h1>RandyMet - Art Explorer</h1>
+      <h1>RandyMet - Met Museum Explorer</h1>
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
         {#if loading}
           <span class="spinner"></span>
         {:else}
-          New Art
+          New Artwork
         {/if}
       </button>
     </header>
@@ -236,12 +233,16 @@
               <p class="medium">{artwork.medium}</p>
             {/if}
             
-            {#if artwork.dimensions}
-              <p class="dimensions">{artwork.dimensions}</p>
-            {/if}
-            
             {#if artwork.department}
               <p class="department">{artwork.department}</p>
+            {/if}
+
+            {#if artwork.culture}
+              <p class="culture">{artwork.culture}</p>
+            {/if}
+
+            {#if artwork.period}
+              <p class="period">{artwork.period}</p>
             {/if}
           </div>
           
@@ -283,7 +284,7 @@
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin: 0;
     color: #2c2c2c;
@@ -411,9 +412,14 @@
     color: #666;
   }
 
-  .dimensions {
-    color: #777;
-    font-size: 0.85rem;
+  .culture {
+    color: #555;
+    font-style: italic;
+  }
+
+  .period {
+    color: #666;
+    font-size: 0.9rem;
   }
 
   .department {
@@ -423,6 +429,8 @@
     letter-spacing: 0.5px;
     font-weight: 500;
   }
+
+
 
   .museum-link {
     display: inline-block;
@@ -449,7 +457,7 @@
     }
 
     h1 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     }
 
     .refresh-btn {
