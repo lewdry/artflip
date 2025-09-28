@@ -29,41 +29,16 @@
     459070, 37851, 367069, 436516, 459069, 438617, 367076, 436509, 459068, 438611, 
     367083, 436502, 459067, 438605, 367090, 436495, 459066, 438599, 11150, 437379, 
     459065, 438593, 11157, 437372, 459064, 438587,
-    // Additional reliable IDs from various collections
-    248983, 459145, 437329, 438529, 459089, 437392, 438542, 459102, 437412, 438556,
-    459116, 437432, 438569, 459129, 437451, 438582, 459142, 437471, 438595, 459155,
-    437491, 438608, 459168, 437511, 438621, 459181, 437531, 438634, 459194, 437551,
-    438647, 459207, 437571, 438660, 459220, 437591, 438673, 459233, 437611, 438686,
-    459246, 437631, 438699, 459259, 437651, 438712, 459272, 437671, 438725, 459285,
-    437691, 438738, 459298, 437711, 438751, 459311, 437731, 438764, 459324, 437751,
-    438777, 459337, 437771, 438790, 459350, 437791, 438803, 459363, 437811, 438816,
-    459376, 437831, 438829, 459389, 437851, 438842, 459402, 437871, 438855, 459415,
-    // Famous works and reliable pieces
-    10467, 11734, 11150, 248983, 338059, 367069, 367076, 367083, 367090, 471596,
-    272099, 39799, 36647, 38065, 37858, 37851, 248765, 248825, 248884, 248943,
-    249002, 249061, 249120, 249179, 249238, 249297, 249356, 249415, 249474, 249533,
-    249592, 249651, 249710, 249769, 249828, 249887, 249946, 250005, 250064, 250123,
-    // European paintings
-    437394, 437395, 437396, 437397, 437398, 437399, 437400, 437401, 437402, 437403,
-    437404, 437405, 437406, 437407, 437408, 437409, 437410, 437411, 437412, 437413,
-    // American paintings
-    12127, 12128, 12129, 12130, 12131, 12132, 12133, 12134, 12135, 12136,
-    12137, 12138, 12139, 12140, 12141, 12142, 12143, 12144, 12145, 12146,
-    // Asian art
-    39733, 39734, 39735, 39736, 39737, 39738, 39739, 39740, 39741, 39742,
-    39743, 39744, 39745, 39746, 39747, 39748, 39749, 39750, 39751, 39752,
-    // Egyptian art
-    544757, 544758, 544759, 544760, 544761, 544762, 544763, 544764, 544765, 544766,
-    544767, 544768, 544769, 544770, 544771, 544772, 544773, 544774, 544775, 544776,
-    // Greek and Roman art
-    254890, 254891, 254892, 254893, 254894, 254895, 254896, 254897, 254898, 254899,
-    254900, 254901, 254902, 254903, 254904, 254905, 254906, 254907, 254908, 254909,
-    // Musical instruments
-    504824, 504825, 504826, 504827, 504828, 504829, 504830, 504831, 504832, 504833,
-    504834, 504835, 504836, 504837, 504838, 504839, 504840, 504841, 504842, 504843,
-    // Decorative arts
-    207785, 207786, 207787, 207788, 207789, 207790, 207791, 207792, 207793, 207794,
-    207795, 207796, 207797, 207798, 207799, 207800, 207801, 207802, 207803, 207804
+    // Additional reliable public domain works
+    435809, 435844, 435882, 435922, 435964, 436009, 436047, 436084, 436121, 436162,
+    // Famous Egyptian art pieces
+    544757, 591390, 557261, 557262, 557263, 557264, 557265,
+    // Well-known European paintings
+    437133, 437394, 437853, 438815, 438816, 438817, 438818, 438819,
+    // Reliable American art
+    11150, 12127, 12128, 12129, 12130,
+    // Asian art collection
+    39733, 39799, 49147, 54608, 36647, 38065, 37858, 37851
   ];
 
   function getOptimizedImageUrl(originalUrl) {
@@ -71,10 +46,8 @@
     return originalUrl.replace('/original/', '/web-large/');
   }
 
-  let cachedObjectIDs = null;
-  let lastSearchTime = 0;
+  // **REMOVED** caching variables that caused the bug
   let lastRequestTime = 0;
-  const CACHE_DURATION = 20 * 60 * 1000;
   const MIN_REQUEST_INTERVAL = 1000;
 
   async function rateLimitedFetch(url) {
@@ -110,13 +83,9 @@
     return JSON.parse(proxyData.contents);
   }
 
+  // **MODIFIED** This function no longer caches results.
   async function getObjectIDs() {
-    if (cachedObjectIDs && Date.now() - lastSearchTime < CACHE_DURATION) {
-      return cachedObjectIDs;
-    }
-
     try {
-      // **CHANGE: Pick a random term from the list for the search query**
       const randomTerm = searchTerms[Math.floor(Math.random() * searchTerms.length)];
       console.log(`Searching for artworks related to: "${randomTerm}"`);
 
@@ -125,9 +94,7 @@
       const searchData = await rateLimitedFetch(searchUrl);
       
       if (searchData?.objectIDs && searchData.objectIDs.length > 0) {
-        cachedObjectIDs = searchData.objectIDs;
-        lastSearchTime = Date.now();
-        return cachedObjectIDs;
+        return searchData.objectIDs;
       }
     } catch (searchError) {
       console.warn('API search failed, using fallback list.', searchError);
@@ -136,7 +103,48 @@
     console.log('Using fallback object IDs');
     return fallbackObjectIDs;
   }
+  
+  /**
+   * Fetches an initial artwork directly from the fallback list for a fast first load.
+   */
+  async function fetchInitialArtwork() {
+    loading = true;
+    error = null;
 
+    try {
+        let attempts = 0;
+        const maxAttempts = 5;
+
+        while (attempts < maxAttempts) {
+            try {
+                // Directly use a random ID from the reliable fallback list
+                const randomId = fallbackObjectIDs[Math.floor(Math.random() * fallbackObjectIDs.length)];
+                const apiUrl = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${randomId}`;
+                const artworkData = await rateLimitedFetch(apiUrl);
+
+                if (artworkData?.isPublicDomain && artworkData.primaryImage) {
+                    artwork = artworkData;
+                    return; // Success, exit function
+                }
+                attempts++;
+            } catch (attemptError) {
+                console.warn(`Initial fallback fetch attempt ${attempts + 1} failed:`, attemptError);
+                attempts++;
+            }
+        }
+        throw new Error(`Could not find a suitable fallback artwork after ${maxAttempts} attempts.`);
+    } catch (err) {
+        error = err.message;
+        console.error('Fatal error in fetchInitialArtwork:', err);
+    } finally {
+        loading = false;
+    }
+  }
+
+
+  /**
+   * Fetches a new artwork by first searching the API, then using fallbacks if needed.
+   */
   async function fetchRandomArtwork() {
     loading = true;
     error = null;
@@ -174,7 +182,7 @@
   }
 
   onMount(() => {
-    fetchRandomArtwork();
+    fetchInitialArtwork();
   });
 </script>
 
