@@ -264,7 +264,7 @@
     {/if}
     <footer>
       <p class="footer-credit">
-        All artwork retrieved is public domain, available under Creative Commons.<br>
+        All artwork displayed here is public domain, available under Creative Commons.<br>
         Lewis Dryburgh, 2025
       </p>
     </footer>
