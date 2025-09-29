@@ -6,9 +6,9 @@
   let loading = true;
   let error = null;
 
-  // Bulletproof reliable IDs first, then your JSON highlights  
+  // Bulletproof reliable IDs first, then other highlights  
   const publicDomainHighlights = [
-    // Bulletproof known reliable public domain works
+    // Reliable public domain works
     436532, 459080, 437853, 436105, 459055, 338059, 459054, 437329, 438817, 459053, 
     437894, 459052, 436963, 459051, 437392, 438813, 436535, 459049, 438807, 459048, 
     436951, 438801, 459047, 437882, 436954, 459046, 438796, 437876, 459045, 436943, 
@@ -22,7 +22,7 @@
     557262, 557263, 557264, 557265, 437133, 437394, 438815, 438816, 438818, 438819, 
     12127, 12128, 12129, 12130, 49147, 54608,
     
-    // Your original JSON highlights (removing duplicates already above)
+    // Highlights
     200, 214, 237, 364, 458, 632, 674, 802, 1029, 1076, 1083, 1084, 1503, 1524, 
     1650, 1662, 1674, 1815, 1981, 1997, 2022, 2059, 2211, 2390, 2408, 3152, 3158, 
     3395, 3497, 3555, 4280, 4282, 4285, 4470, 4501, 4591, 4785, 4923, 5505, 5582, 
@@ -191,7 +191,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random art from the Metropolitan Museum.</h2>
+        <h2>Random highlights from the Metropolitan Museum of Art.</h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
