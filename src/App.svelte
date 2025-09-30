@@ -111,7 +111,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random highlights from the Metropolitan Museum of Art.</h2>
+        <h2>Random artworks from open access collections.</h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
