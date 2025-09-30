@@ -118,7 +118,7 @@
         {#if loading && artwork} 
           <span class="spinner"></span>
         {:else}
-          New Art
+          New Artwork
         {/if}
       </button>
     </header>
