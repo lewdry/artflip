@@ -194,7 +194,7 @@
     <footer>
       <p class="footer-credit">
         All artwork displayed here is public domain, available under Creative Commons.<br>
-        Lewis Dryburgh, 2025
+        <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
     </footer>
   </div>
