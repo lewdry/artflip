@@ -363,7 +363,8 @@
     width: 100%;
     height: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
+    background: #fff;
     max-height: 80vh;
   }
 

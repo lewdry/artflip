@@ -13,29 +13,39 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # 1. Checkout repo
       - uses: actions/checkout@v4
       
+      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
           
+      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
         
+      # 4. Build Svelte app with dynamic base
       - name: Build
         run: npm run build
-        
+        env:
+          BASE_PATH: /artflip/   # <-- ensures correct asset paths for GitHub Pages
+          
+      # 5. Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
+      # 6. Upload build artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
           
+      # 7. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
