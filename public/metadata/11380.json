@@ -1,0 +1,32 @@
+{
+  "objectID": 11380,
+  "title": "Nocturne",
+  "artistDisplayName": "John La Farge",
+  "artistDisplayBio": "American, New York 1835–1910 Providence, Rhode Island",
+  "objectDate": "ca. 1885",
+  "objectName": "Watercolor",
+  "medium": "Watercolor, gouache, and charcoal on off-white wove paper\r adhered to wove paper",
+  "dimensions": "8 1/4 x 7 in. (21 x 17.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Miss Louise Veltin, 1937",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11380",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT256385.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT256385.jpg",
+  "localImage": "11380.jpg",
+  "tags": [
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

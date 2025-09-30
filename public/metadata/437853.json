@@ -1,0 +1,47 @@
+{
+  "objectID": 437853,
+  "title": "Venice, from the Porch of Madonna della Salute",
+  "artistDisplayName": "Joseph Mallord William Turner",
+  "artistDisplayBio": "British, London 1775–1851 London",
+  "objectDate": "ca. 1835",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "36 x 48 1/8 in. (91.4 x 122.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Cornelius Vanderbilt, 1899",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437853",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP169568.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169568.jpg",
+  "localImage": "437853.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Cities",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008389",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q515"
+    },
+    {
+      "term": "Canals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006075",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12284"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    },
+    {
+      "term": "Venice",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7018159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q641"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectID": 255154,
+  "title": "Terracotta amphora (jar)",
+  "artistDisplayName": "Andokides",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 530 BCE",
+  "objectName": "Amphora, Type A",
+  "medium": "Terracotta",
+  "dimensions": "H. 22 5/8 in. (57.5 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Greek, Attic",
+  "period": "Archaic",
+  "dynasty": "",
+  "creditLine": "Purchase, Joseph Pulitzer Bequest, 1963",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/255154",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP116936.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP116936.jpg",
+  "localImage": "255154.jpg",
+  "tags": [
+    {
+      "term": "Apollo",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000109",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q37340"
+    },
+    {
+      "term": "Dionysus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001029",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41680"
+    },
+    {
+      "term": "Maenads",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q209599"
+    },
+    {
+      "term": "Satyrs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379732",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q163709"
+    },
+    {
+      "term": "Herakles",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000042",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q122248"
+    }
+  ]
+}

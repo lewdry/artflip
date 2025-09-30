@@ -1,0 +1,47 @@
+{
+  "objectID": 459039,
+  "title": "Madonna and Child with Saints Francis and Jerome",
+  "artistDisplayName": "Francesco Francia",
+  "artistDisplayBio": "Italian, Bologna ca. 1447–1517 Bologna",
+  "objectDate": "ca. 1512–15",
+  "objectName": "Painting",
+  "medium": "Oil and gold on wood",
+  "dimensions": "29 1/2 × 22 1/2 in. (74.9 × 57.2 cm)\r\nFramed: 39 3/8 × 32 5/8 in. (100 × 82.9 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459039",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT3067.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT3067.jpg",
+  "localImage": "459039.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint Francis",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500349636",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q676555"
+    },
+    {
+      "term": "Saint Jerome",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 459208,
+  "title": "Adoration of the Shepherds",
+  "artistDisplayName": "Francesco di Marco Marmitta da Parma",
+  "artistDisplayBio": "Emilian, 1457–1505",
+  "objectDate": "ca. 1500",
+  "objectName": "Manuscript and illuminations",
+  "medium": "Tempera and gold on parchment",
+  "dimensions": "9 5/8 x 6 in.  (24.4 x 15.2 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975\r\n1975.1.2491",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459208",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT739.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT739.jpg",
+  "localImage": "459208.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Adoration of the Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000229",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1029715"
+    }
+  ]
+}

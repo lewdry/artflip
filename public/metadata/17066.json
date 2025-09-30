@@ -1,0 +1,42 @@
+{
+  "objectID": 17066,
+  "title": "Maternity",
+  "artistDisplayName": "Benjamin West",
+  "artistDisplayBio": "American, Swarthmore, Pennsylvania 1738–1820 London",
+  "objectDate": "1784",
+  "objectName": "Drawing",
+  "medium": "Red chalk on thin off-white laid paper, mounted on off-white laid paper",
+  "dimensions": "14 5/16 x 11 9/16 in. (36.4 x 29.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Morris K. Jesup Fund, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/17066",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT5361.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5361.jpg",
+  "localImage": "17066.jpg",
+  "tags": [
+    {
+      "term": "Children",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025945",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7569"
+    },
+    {
+      "term": "Mothers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025932",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7560"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectID": 255949,
+  "title": "Terracotta lekythos (oil flask)",
+  "artistDisplayName": "Achilles Painter",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 440 BCE",
+  "objectName": "Lekythos",
+  "medium": "Terracotta",
+  "dimensions": "H. 14 3/4 in. (37.39 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Greek, Attic",
+  "period": "Classical",
+  "dynasty": "",
+  "creditLine": "Gift of Norbert Schimmel Trust, 1989",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/255949",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DT6206.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DT6206.jpg",
+  "localImage": "255949.jpg",
+  "tags": [
+    {
+      "term": "Tombs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300005926",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q381885"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "objectID": 438817,
+  "title": "The Dance Class",
+  "artistDisplayName": "Edgar Degas",
+  "artistDisplayBio": "French, Paris 1834–1917 Paris",
+  "objectDate": "1874",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "32 7/8 x 30 3/8 in. (83.5 x 77.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Mrs. Harry Payne Bingham, 1986",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438817",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20101-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+  "localImage": "438817.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Students",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025909",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q48282"
+    },
+    {
+      "term": "Dancers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025653",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5716684"
+    },
+    {
+      "term": "Ballet",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054145",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41425"
+    }
+  ]
+}

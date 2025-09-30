@@ -1,0 +1,42 @@
+{
+  "objectID": 12019,
+  "title": "Victory",
+  "artistDisplayName": "Augustus Saint-Gaudens",
+  "artistDisplayBio": "American, Dublin 1848–1907 Cornish, New Hampshire",
+  "objectDate": "1892–1903; this cast, 1914 or after (by 1916)",
+  "objectName": "Sculpture",
+  "medium": "Bronze, gilt",
+  "dimensions": "38 x 9 1/2 x 18 1/2 in., (96.5 x 24.1 x 47 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12019",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2570.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2570.jpg",
+  "localImage": "12019.jpg",
+  "tags": [
+    {
+      "term": "Eagles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250049",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2092297"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Victory",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000289",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q308902"
+    },
+    {
+      "term": "Palms",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q14080"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "objectID": 437955,
+  "title": "The Golden Age",
+  "artistDisplayName": "Joachim Wtewael",
+  "artistDisplayBio": "Netherlandish, Utrecht 1566–1638 Utrecht",
+  "objectDate": "1605",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "8 7/8 x 12 in. (22.5 x 30.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, The Edward Joseph Gallagher III Memorial Collection, Edward J. Gallagher Jr. Bequest; Lila Acheson Wallace Gift; special funds; and Gift of George Blumenthal, Bequest of Lillian S. Timken, The Collection of Giovanni P. Morosini, presented by his daughter Giulia, Gift of Mr. and Mrs. Nathaniel Spear Jr., Gift of Mrs. William M. Haupt, from the collection of Mrs. James B. Haggin, special funds, gifts, and bequests, by exchange, 1993",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437955",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP145413.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145413.jpg",
+  "localImage": "437955.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Cats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265960",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q146"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Sheep",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250284",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7368"
+    }
+  ]
+}

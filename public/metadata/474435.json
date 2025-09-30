@@ -1,0 +1,47 @@
+{
+  "objectID": 474435,
+  "title": "Chalice",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1230–50",
+  "objectName": "Chalice",
+  "medium": "Silver, gilded silver, niello, and jewels",
+  "dimensions": "Overall: 8 x 6 7/8 in. (20.3 x 17.5 cm)",
+  "department": "The Cloisters",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1947",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/474435",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP366852.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP366852.jpg",
+  "localImage": "474435.jpg",
+  "tags": [
+    {
+      "term": "Apostles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343837",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43412"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    },
+    {
+      "term": "Baptism of Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001066",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q217048"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    },
+    {
+      "term": "Nativity",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000124",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51628"
+    }
+  ]
+}

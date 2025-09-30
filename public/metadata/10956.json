@@ -1,0 +1,32 @@
+{
+  "objectID": 10956,
+  "title": "Gilbert Stuart",
+  "artistDisplayName": "Sarah Goodridge",
+  "artistDisplayBio": "1788–1853",
+  "objectDate": "ca. 1825",
+  "objectName": "Painting, miniature",
+  "medium": "Watercolor on ivory",
+  "dimensions": "3 21/32 x 2 3/4 in. (9.3 x 7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Moses Lazarus Collection, Gift of Josephine and Sarah Lazarus, in memory of their father, 1888-95",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10956",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP162116.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP162116.jpg",
+  "localImage": "10956.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

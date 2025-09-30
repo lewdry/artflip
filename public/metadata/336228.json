@@ -1,0 +1,42 @@
+{
+  "objectID": 336228,
+  "title": "Melencolia I",
+  "artistDisplayName": "Albrecht Dürer",
+  "artistDisplayBio": "German, Nuremberg 1471–1528 Nuremberg",
+  "objectDate": "1514",
+  "objectName": "Print",
+  "medium": "Engraving",
+  "dimensions": "Plate: 9 7/16 × 7 5/16 in. (24 × 18.5 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Harris Brisbane Dick Fund, 1943",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/336228",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP820348.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820348.jpg",
+  "localImage": "336228.jpg",
+  "tags": [
+    {
+      "term": "Contemplation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300264547",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1123855"
+    },
+    {
+      "term": "Putti",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250465",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q284865"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Geometry",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054529",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8087"
+    }
+  ]
+}

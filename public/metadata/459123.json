@@ -1,0 +1,42 @@
+{
+  "objectID": 459123,
+  "title": "Madame Roulin and Her Baby",
+  "artistDisplayName": "Vincent van Gogh",
+  "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+  "objectDate": "1888",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 × 20 in. (63.5 × 50.8 cm)\r\nFramed: 37 3/8 × 32 in. (94.9 × 81.3 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459123",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT3154.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT3154.jpg",
+  "localImage": "459123.jpg",
+  "tags": [
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Mothers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025932",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7560"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectID": 10464,
+  "title": "At the Seaside",
+  "artistDisplayName": "William Merritt Chase",
+  "artistDisplayBio": "American, Williamsburg, Indiana 1849–1916 New York",
+  "objectDate": "ca. 1892",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "20 × 34 in. (50.8 × 86.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Miss Adelaide Milton de Groot (1876-1967), 1967",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10464",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT95.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT95.jpg",
+  "localImage": "10464.jpg",
+  "tags": [
+    {
+      "term": "Beaches",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008816",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40080"
+    },
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Summer",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300133099",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1313"
+    }
+  ]
+}

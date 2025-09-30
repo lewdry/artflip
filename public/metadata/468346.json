@@ -1,0 +1,42 @@
+{
+  "objectID": 468346,
+  "title": "The Antioch \"Chalice\"",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "500–550",
+  "objectName": "Chalice",
+  "medium": "Silver, silver-gilt",
+  "dimensions": "Overall: 7 11/16 x 7 1/16 x 6 in. (19.6 x 18 x 15.2 cm)\r\nfoot: 2 15/16 in. (7.4 cm)",
+  "department": "The Cloisters",
+  "culture": "Byzantine",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/468346",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DT113.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DT113.jpg",
+  "localImage": "468346.jpg",
+  "tags": [
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Grapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379338",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10978"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    }
+  ]
+}

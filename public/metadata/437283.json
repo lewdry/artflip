@@ -1,0 +1,67 @@
+{
+  "objectID": 437283,
+  "title": "A Hunting Scene",
+  "artistDisplayName": "Piero di Cosimo (Piero di Lorenzo di Piero d'Antonio)",
+  "artistDisplayBio": "Italian, Florence 1462–1522 Florence",
+  "objectDate": "ca. 1494–1500",
+  "objectName": "Painting",
+  "medium": "Tempera and oil transferred to Masonite",
+  "dimensions": "27 3/4 x 66 3/4 in. (70.5 x 169.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Robert Gordon, 1875",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437283",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19296-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19296-001.jpg",
+  "localImage": "437283.jpg",
+  "tags": [
+    {
+      "term": "Bears",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266516",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q30090244"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Hunting",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300239666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q36963"
+    },
+    {
+      "term": "Centaurs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379740",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q83203"
+    },
+    {
+      "term": "Satyrs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379732",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q163709"
+    },
+    {
+      "term": "Deer",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250308",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q685795"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Lions",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310388",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q140"
+    },
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    }
+  ]
+}

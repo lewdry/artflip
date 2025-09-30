@@ -1,0 +1,32 @@
+{
+  "objectID": 483438,
+  "title": "Self-Portrait",
+  "artistDisplayName": "Egon Schiele",
+  "artistDisplayBio": "Austrian, Tulln 1890–1918 Vienna",
+  "objectDate": "1911",
+  "objectName": "Drawing",
+  "medium": "Watercolor, graphite, and opaque watercolor on paper",
+  "dimensions": "20 1/4 x 13 3/4 in. (51.4 x 34.9 cm)",
+  "department": "Modern and Contemporary Art",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Scofield Thayer, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/483438",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ma/original/DP279450.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ma/web-large/DP279450.jpg",
+  "localImage": "483438.jpg",
+  "tags": [
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Self-portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300124534",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192110"
+    }
+  ]
+}

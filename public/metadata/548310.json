@@ -1,0 +1,37 @@
+{
+  "objectID": 548310,
+  "title": "Statuette of Isis with the infant Horus",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "332–30 BCE",
+  "objectName": "Statuette of Isis with the Horus child",
+  "medium": "Faience",
+  "dimensions": "H. 17 × W. 5.1 × D. 7.7 cm (6 11/16 × 2 × 3 1/16 in.)",
+  "department": "Egyptian Art",
+  "culture": "",
+  "period": "Ptolemaic Period",
+  "dynasty": "",
+  "creditLine": "Purchase, Joseph Pulitzer Bequest Fund, 1955",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/548310",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/eg/original/DP241036.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/eg/web-large/DP241036.jpg",
+  "localImage": "548310.jpg",
+  "tags": [
+    {
+      "term": "Horus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001076",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q84122"
+    },
+    {
+      "term": "Isis",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000704",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q79876"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

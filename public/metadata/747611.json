@@ -1,0 +1,47 @@
+{
+  "objectID": 747611,
+  "title": "Sabrina",
+  "artistDisplayName": "Samuel Palmer",
+  "artistDisplayBio": "British, London 1805–1881 Redhill, Surrey",
+  "objectDate": "1856",
+  "objectName": "Drawing",
+  "medium": "Watercolor and gouache (bodycolor) over graphite, with reductive techniques, shell gold and gum arabic",
+  "dimensions": "Sheet: 21 15/16 × 30 1/8 in. (55.7 × 76.5 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Acquisitions Fund and David T. Schiff Gift, 2017",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/747611",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP-13136-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-13136-001.jpg",
+  "localImage": "747611.jpg",
+  "tags": [
+    {
+      "term": "Human Figures",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404114",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5937779"
+    },
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "Hills",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008777",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q54050"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

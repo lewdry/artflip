@@ -1,0 +1,52 @@
+{
+  "objectID": 437372,
+  "title": "Madonna and Child Enthroned with Saints",
+  "artistDisplayName": "Raphael (Raffaello Sanzio or Santi)",
+  "artistDisplayBio": "Italian, Urbino 1483–1520 Rome",
+  "objectDate": "ca. 1504",
+  "objectName": "Painting, altarpiece",
+  "medium": "Oil and gold on wood",
+  "dimensions": "Main panel, overall 67 7/8 x 67 7/8 in. (172.4 x 172.4 cm), painted surface 66 3/4 x 66 1/2 in. (169.5 x 168.9 cm); lunette, overall 29 1/2 x 70 7/8 in. (74.9 x 180 cm), painted surface 25 1/2 x 67 1/2 in. (64.8 x 171.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Pierpont Morgan, 1916",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437372",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT13.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT13.jpg",
+  "localImage": "437372.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint Catherine",
+      "AAT_URL": null,
+      "Wikidata_URL": null
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+      "term": "Saint Paul",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001058",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9200"
+    },
+    {
+      "term": "Saint Peter",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33923"
+    }
+  ]
+}

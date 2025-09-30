@@ -1,0 +1,47 @@
+{
+  "objectID": 437880,
+  "title": "Young Woman with a Lute",
+  "artistDisplayName": "Johannes Vermeer",
+  "artistDisplayBio": "Dutch, Delft 1632–1675 Delft",
+  "objectDate": "ca. 1662–63",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "20 1/4 x 18 in. (51.4 x 45.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Collis P. Huntington, 1900",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437880",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP354965.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP354965.jpg",
+  "localImage": "437880.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Music",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435214",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q638"
+    },
+    {
+      "term": "Lutes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042101",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q180733"
+    },
+    {
+      "term": "Maps",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028094",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4006"
+    }
+  ]
+}

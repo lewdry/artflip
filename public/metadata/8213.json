@@ -1,0 +1,32 @@
+{
+  "objectID": 8213,
+  "title": "Tankard",
+  "artistDisplayName": "Gerrit Onckelbag",
+  "artistDisplayBio": "baptized 1670–1732",
+  "objectDate": "1700–1710",
+  "objectName": "Tankard",
+  "medium": "Silver",
+  "dimensions": "Overall: 7 1/2 x 9 1/8 in. (19.1 x 23.2 cm); 38 oz. 17 dwt. (1208.2 g)\r\nLip: Diam. 5 3/16 in. (13.2 cm)\r\nBase: Diam. 5 3/4 in. (14.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Alphonso T. Clearwater, 1933",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/8213",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP104506.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP104506.jpg",
+  "localImage": "8213.jpg",
+  "tags": [
+    {
+      "term": "Coat of Arms",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300126352",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q14659"
+    },
+    {
+      "term": "Ships",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300082981",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11446"
+    }
+  ]
+}

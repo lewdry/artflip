@@ -1,0 +1,42 @@
+{
+  "objectID": 204758,
+  "title": "Perseus with the Head of Medusa",
+  "artistDisplayName": "Antonio Canova",
+  "artistDisplayBio": "Italian, Possagno 1757–1822 Venice",
+  "objectDate": "1804–6",
+  "objectName": "Statue",
+  "medium": "Marble",
+  "dimensions": "Overall (confirmed): H. 95 1/2 x W. 75 1/2 x D. 40 1/2 in. (242.6 x 191.8 x 102.9 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1967",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/204758",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP249451.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP249451.jpg",
+  "localImage": "204758.jpg",
+  "tags": [
+    {
+      "term": "Swords",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300037048",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12791"
+    },
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Medusa",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000543",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q160730"
+    },
+    {
+      "term": "Perseus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000628",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q130832"
+    }
+  ]
+}

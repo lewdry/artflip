@@ -1,0 +1,47 @@
+{
+  "objectID": 10813,
+  "title": "The Chess Players",
+  "artistDisplayName": "Thomas Eakins",
+  "artistDisplayBio": "American, Philadelphia, Pennsylvania 1844–1916 Philadelphia, Pennsylvania",
+  "objectDate": "1876",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "11 3/4 x 16 3/4 in. (29.8 x 42.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of the artist, 1881",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10813",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-18074-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18074-001.jpg",
+  "localImage": "10813.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Chess",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300222748",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q718"
+    },
+    {
+      "term": "Playing",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1150958"
+    },
+    {
+      "term": "Cats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265960",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q146"
+    }
+  ]
+}

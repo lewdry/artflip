@@ -1,0 +1,42 @@
+{
+  "objectID": 209279,
+  "title": "The Institution of the Eucharist at the Last Supper with St. Peter and St. Paul",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "mid-16th century",
+  "objectName": "Altar card, triptych",
+  "medium": "Feathers and colored paper on wood, gilt wood frame",
+  "dimensions": "Wings 19 x 6-1/4 in. (48.3 x 15.9 cm)\r\nCenter 19 x 12-1/2 in. (48.3 x 31.8 cm)",
+  "department": "The American Wing",
+  "culture": "Mexican",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Coudert Brothers, 1888",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/209279",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP211990.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP211990.jpg",
+  "localImage": "209279.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Saint Paul",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001058",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9200"
+    },
+    {
+      "term": "Saint Peter",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33923"
+    },
+    {
+      "term": "Last Supper",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000357",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51633"
+    }
+  ]
+}

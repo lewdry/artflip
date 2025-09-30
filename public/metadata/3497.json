@@ -1,0 +1,52 @@
+{
+  "objectID": 3497,
+  "title": "Easy Chair",
+  "artistDisplayName": "Caleb Gardner Jr.",
+  "artistDisplayBio": "American, 1729–1801",
+  "objectDate": "1758",
+  "objectName": "Easy chair",
+  "medium": "Walnut, maple; wool on linen ground (front panel), wool and silk on linen ground (back panel), silk and cotton tape, silk and wool tape",
+  "dimensions": "46 3/8 x 32 3/8 x 25 7/8 in. (117.8 x 82.2 x 65.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. J. Insley Blair, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/3497",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP108634.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP108634.jpg",
+  "localImage": "3497.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Strawberries",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375414",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q745"
+    },
+    {
+      "term": "Deer",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250308",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q685795"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

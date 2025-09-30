@@ -1,0 +1,32 @@
+{
+  "objectID": 14521,
+  "title": "Beauty Revealed",
+  "artistDisplayName": "Sarah Goodridge",
+  "artistDisplayBio": "1788–1853",
+  "objectDate": "1828",
+  "objectName": "Painting, miniature",
+  "medium": "Watercolor on ivory",
+  "dimensions": "2 5/8 x 3 1/8 in. (6.7 x 8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Gloria Manney, 2006",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/14521",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP141201.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP141201.jpg",
+  "localImage": "14521.jpg",
+  "tags": [
+    {
+      "term": "Self-portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300124534",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192110"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    }
+  ]
+}

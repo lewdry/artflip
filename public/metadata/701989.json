@@ -1,0 +1,42 @@
+{
+  "objectID": 701989,
+  "title": "Emma Van Name",
+  "artistDisplayName": "Joshua Johnson",
+  "artistDisplayBio": "American, ca. 1763–ca. 1824",
+  "objectDate": "ca. 1805",
+  "objectName": "Painting",
+  "medium": "Oil on canvasPainting",
+  "dimensions": "29 × 23 in. (73.7 × 58.4 cm)",
+  "department": "The American Wing",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Nancy Dunn Revocable Trust Gift, 2016",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/701989",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-952-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-952-001.jpg",
+  "localImage": "701989.jpg",
+  "tags": [
+    {
+      "term": "Strawberries",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375414",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q745"
+    },
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Goblets",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300043236",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q18451251"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 824771,
+  "title": "Marie Antoinette in a Park",
+  "artistDisplayName": "Elisabeth Louise Vigée Le Brun",
+  "artistDisplayBio": "French, Paris 1755–1842 Paris",
+  "objectDate": "ca. 1780–81",
+  "objectName": "Drawing",
+  "medium": "Black chalk, stumped, and white chalk; framing lines in black chalk",
+  "dimensions": "Sheet: 23 3/16 × 15 7/8 in. (58.9 × 40.4 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Mrs. Charles Wrightsman, 2019",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/824771",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP-18368-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-18368-001.jpg",
+  "localImage": "824771.jpg",
+  "tags": [
+    {
+      "term": "Marie Antoinette",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500122363",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q47365"
+    },
+    {
+      "term": "Queens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025483",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16511993"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

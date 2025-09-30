@@ -1,0 +1,42 @@
+{
+  "objectID": 437881,
+  "title": "Young Woman with a Water Pitcher",
+  "artistDisplayName": "Johannes Vermeer",
+  "artistDisplayBio": "Dutch, Delft 1632–1675 Delft",
+  "objectDate": "ca. 1662",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 x 16 in. (45.7 x 40.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Marquand Collection, Gift of Henry G. Marquand, 1889",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437881",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+  "localImage": "437881.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Maps",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028094",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4006"
+    },
+    {
+      "term": "Pitchers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300194765",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q132397"
+    }
+  ]
+}

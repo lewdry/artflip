@@ -1,0 +1,37 @@
+{
+  "objectID": 470311,
+  "title": "Enthroned Virgin and Child",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1130–1140",
+  "objectName": "Sculpture",
+  "medium": "Birch with paint and glass",
+  "dimensions": "40 1/2 in. × 13 in. × 11 1/4 in. (102.9 cm, 28.5 cm)",
+  "department": "The Cloisters",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1947",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470311",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP167494.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP167494.jpg",
+  "localImage": "470311.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

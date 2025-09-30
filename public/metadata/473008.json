@@ -1,0 +1,37 @@
+{
+  "objectID": 473008,
+  "title": "Crucifix",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1150–1200",
+  "objectName": "Crucifix",
+  "medium": "White oak with paint, gold leaf, and tin leaf (corpus); softwood with paint and tin leaf (cross)",
+  "dimensions": "Overall (cross): 102 1/2 x 81 3/4 in. (260.4 x 207.6 cm)\r\nHead: 10 1/4 x 4 in. (26 x 10.2 cm)\r\nSpan of right arm: 25 3/8 in. (64.4 cm)\r\nSpan of left arm: 26 5/16 in. (66.8 cm)\r\nRight foot–heel to small toe: 3 3/4 in. (9.5 cm)\r\nRight foot–heel to big toe: 9 1/8 in. (23.2 cm)\r\nLeft foot–heel to small toe: 3 1/4 in. (8.3 cm)\r\nLeft foot–heel to big toe: 9 in. (22.8 cm)",
+  "department": "The Cloisters",
+  "culture": "Spanish",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Samuel D. Lee Fund, 1935",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/473008",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP102847.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP102847.jpg",
+  "localImage": "473008.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300235443",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40843"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    }
+  ]
+}

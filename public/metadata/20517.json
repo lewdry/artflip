@@ -1,0 +1,37 @@
+{
+  "objectID": 20517,
+  "title": "Portrait of William Duguid",
+  "artistDisplayName": "Prince Demah Barnes",
+  "artistDisplayBio": "American, ca. 1745–1778",
+  "objectDate": "1773",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "Canvas: 20 3/4 × 15 3/4 × 1 1/8 in. (52.7 × 40 × 2.9 cm)\r\nFramed: 22 1/2 × 17 1/2 × 1 1/2 in. (57.2 × 44.5 × 3.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Friends of the American Wing Fund, 2010",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/20517",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP232807.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP232807.jpg",
+  "localImage": "20517.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

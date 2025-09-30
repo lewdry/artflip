@@ -1,0 +1,32 @@
+{
+  "objectID": 436084,
+  "title": "Boats on the Seacoast at Etaples",
+  "artistDisplayName": "Charles-François Daubigny",
+  "artistDisplayBio": "French, Paris 1817–1878 Paris",
+  "objectDate": "1871",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "13 1/2 x 22 7/8 in. (34.3 x 58.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Catharine Lorillard Wolfe Collection, Wolfe Fund, 1903",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436084",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1981.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1981.jpg",
+  "localImage": "436084.jpg",
+  "tags": [
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

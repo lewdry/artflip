@@ -1,0 +1,42 @@
+{
+  "objectID": 10819,
+  "title": "The Champion Single Sculls (Max Schmitt in a Single Scull)",
+  "artistDisplayName": "Thomas Eakins",
+  "artistDisplayBio": "American, Philadelphia, Pennsylvania 1844–1916 Philadelphia, Pennsylvania",
+  "objectDate": "1871",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "32 1/4 x 46 1/4 in. (81.9 x 117.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, The Alfred N. Punnett Endowment Fund and George D. Pratt Gift, 1934",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10819",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT86.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
+  "localImage": "10819.jpg",
+  "tags": [
+    {
+      "term": "Bridges",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Rowing",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7371749"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    }
+  ]
+}

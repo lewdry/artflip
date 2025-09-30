@@ -1,0 +1,42 @@
+{
+  "objectID": 464377,
+  "title": "Plate with the Battle of David and Goliath",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "629–30",
+  "objectName": "Plate",
+  "medium": "Silver",
+  "dimensions": "Overall: 19 7/16 x 2 5/8 in., 203.9oz. (49.4 x 6.6 cm, 5780g)\r\nfoot: 8 1/8 x 3/4 in. (20.6 x 1.9 cm)",
+  "department": "Medieval Art",
+  "culture": "Byzantine",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/464377",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/md/original/DT118.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/md/web-large/DT118.jpg",
+  "localImage": "464377.jpg",
+  "tags": [
+    {
+      "term": "Battles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185692",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178561"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "David",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001014",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41370"
+    },
+    {
+      "term": "Goliath",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000579",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192785"
+    }
+  ]
+}

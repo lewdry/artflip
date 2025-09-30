@@ -1,0 +1,32 @@
+{
+  "objectID": 436575,
+  "title": "View of Toledo",
+  "artistDisplayName": "El Greco (Domenikos Theotokopoulos)",
+  "artistDisplayBio": "Greek, Iráklion (Candia) 1541–1614 Toledo",
+  "objectDate": "ca. 1599–1600",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "47 3/4 x 42 3/4 in. (121.3 x 108.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436575",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP349564.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP349564.jpg",
+  "localImage": "436575.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Cities",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008389",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q515"
+    }
+  ]
+}

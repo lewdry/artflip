@@ -1,0 +1,47 @@
+{
+  "objectID": 382608,
+  "title": "Still Life with Flowers, a Snail and Insects",
+  "artistDisplayName": "Joris Hoefnagel",
+  "artistDisplayBio": "Netherlandish, Antwerp 1542–1600 Vienna",
+  "objectDate": "1589",
+  "objectName": "Drawing",
+  "medium": "Watercolor, gouache, and shell gold on vellum",
+  "dimensions": "Sheet: 4 5/8 x 3 11/16 in. (11.7 x 9.3 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Charles and Jessie Price, Jean A. Bonna, and Annette de la Renta Gifts, and The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 2008",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/382608",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP158476.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP158476.jpg",
+  "localImage": "382608.jpg",
+  "tags": [
+    {
+      "term": "Insects",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1390"
+    },
+    {
+      "term": "Butterflies",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300417320",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11946202"
+    },
+    {
+      "term": "Snails",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249702",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q308841"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

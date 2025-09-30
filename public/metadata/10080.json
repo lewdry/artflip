@@ -1,0 +1,47 @@
+{
+  "objectID": 10080,
+  "title": "The Way They Live",
+  "artistDisplayName": "Thomas Anshutz",
+  "artistDisplayBio": "American, Newport, Kentucky 1851–1912 Fort Washington, Pennsylvania",
+  "objectDate": "1879",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 x 17 in. (61 x 43.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Morris K. Jesup Fund, 1940",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10080",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT105.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT105.jpg",
+  "localImage": "10080.jpg",
+  "tags": [
+    {
+      "term": "Houses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300005433",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3947"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Working",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412186",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q6958747"
+    }
+  ]
+}

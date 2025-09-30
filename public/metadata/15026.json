@@ -1,0 +1,32 @@
+{
+  "objectID": 15026,
+  "title": "Self-portrait",
+  "artistDisplayName": "John Singleton Copley",
+  "artistDisplayBio": "American, Boston, Massachusetts 1738–1815 London",
+  "objectDate": "1769",
+  "objectName": "Painting, miniature",
+  "medium": "Watercolor on ivory",
+  "dimensions": "1 3/8 x 1 1/8 in. (3.3 x 2.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Harris Brisbane Dick Fund, by exchange, Anonymous Gift, and Virginia Marvin Stoughton Bequest, 2006",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/15026",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP161508.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP161508.jpg",
+  "localImage": "15026.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Self-portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300124534",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192110"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 436101,
+  "title": "The Rest on the Flight into Egypt",
+  "artistDisplayName": "Gerard David",
+  "artistDisplayBio": "Netherlandish, Oudewater ca. 1455–1523 Bruges",
+  "objectDate": "ca. 1512–15",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "21 in. × 15 11/16 in. (53.3 × 39.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Jules Bache Collection, 1949",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436101",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-023.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-023.jpg",
+  "localImage": "436101.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "objectID": 437455,
+  "title": "The Holy Family with Saints Anne and Catherine of Alexandria",
+  "artistDisplayName": "Jusepe de Ribera (called Lo Spagnoletto)",
+  "artistDisplayBio": "Spanish, Játiva 1591–1652 Naples",
+  "objectDate": "1648",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "82 1/2 x 60 3/4 in. (209.6 x 154.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Samuel D. Lee Fund, 1934",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437455",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT16.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
+  "localImage": "437455.jpg",
+  "tags": [
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Saint Anne",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001010",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q164294"
+    },
+    {
+      "term": "Saint Catherine",
+      "AAT_URL": null,
+      "Wikidata_URL": null
+    },
+    {
+      "term": "Saint Joseph",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

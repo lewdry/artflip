@@ -1,0 +1,42 @@
+{
+  "objectID": 10186,
+  "title": "The Ameya",
+  "artistDisplayName": "Robert Frederick Blum",
+  "artistDisplayBio": "American, Cincinnati, Ohio 1857–1903 New York",
+  "objectDate": "by 1893",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 1/16 x 31 1/16 in. (63.7 x 78.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Estate of Alfred Corning Clark, 1904",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10186",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT222052.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT222052.jpg",
+  "localImage": "10186.jpg",
+  "tags": [
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Street Scene",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386103",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7766995"
+    },
+    {
+      "term": "Working",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412186",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q6958747"
+    }
+  ]
+}

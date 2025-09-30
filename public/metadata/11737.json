@@ -1,0 +1,47 @@
+{
+  "objectID": 11737,
+  "title": "Still Life with Cake",
+  "artistDisplayName": "Raphaelle Peale",
+  "artistDisplayBio": "1774–1825",
+  "objectDate": "1818",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "10 3/4 x 15 1/4 in. (27.3 x 38.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Maria DeWitt Jesup Fund, 1959",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11737",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT64.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT64.jpg",
+  "localImage": "11737.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Grapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379338",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10978"
+    },
+    {
+      "term": "Wine",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379442",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q282"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    },
+    {
+      "term": "Cakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300255019",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q13276"
+    }
+  ]
+}

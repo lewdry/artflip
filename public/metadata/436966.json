@@ -1,0 +1,37 @@
+{
+  "objectID": 436966,
+  "title": "The Adoration of the Shepherds",
+  "artistDisplayName": "Andrea Mantegna",
+  "artistDisplayBio": "Italian, Isola di Carturo 1430/31–1506 Mantua",
+  "objectDate": "shortly after 1450",
+  "objectName": "Painting",
+  "medium": "Tempera on canvas, transferred from wood",
+  "dimensions": "Overall 15 3/4 x 21 7/8 in. (40 x 55.6 cm); painted surface 14 7/8 x 21 in. (37.8 x 53.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Anonymous Gift, 1932",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436966",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213831.jpg",
+  "localImage": "436966.jpg",
+  "tags": [
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000229",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1029715"
+    }
+  ]
+}

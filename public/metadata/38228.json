@@ -1,0 +1,42 @@
+{
+  "objectID": 38228,
+  "title": "Head of Buddha",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "5th–6th century",
+  "objectName": "Head",
+  "medium": "Stucco with traces of paint",
+  "dimensions": "H. 7 1/2 in. (19.1 cm); W. 4 3/4 in. (12.1 cm); D. 4 1/2 in. (11.4 cm)",
+  "department": "Asian Art",
+  "culture": "Afghanistan (probably Hadda)",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1930",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/38228",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP264118.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP264118.jpg",
+  "localImage": "38228.jpg",
+  "tags": [
+    {
+      "term": "Gandharan",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300018889",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q213651"
+    },
+    {
+      "term": "Heads",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375054",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3409626"
+    },
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ]
+}

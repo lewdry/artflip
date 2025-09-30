@@ -1,0 +1,42 @@
+{
+  "objectID": 438112,
+  "title": "Queen Henrietta Maria",
+  "artistDisplayName": "Anthony van Dyck",
+  "artistDisplayBio": "Flemish, Antwerp 1599–1641 London",
+  "objectDate": "1636",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "41 5/8 × 33 1/4 in. (105.7 × 84.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Mrs. Charles Wrightsman in honor of Annette de la Renta, 2019",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438112",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-18371-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18371-001.jpg",
+  "localImage": "438112.jpg",
+  "tags": [
+    {
+      "term": "Queens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025483",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16511993"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Crowns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300046020",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170984"
+    }
+  ]
+}

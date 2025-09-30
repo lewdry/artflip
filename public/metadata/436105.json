@@ -1,0 +1,37 @@
+{
+  "objectID": 436105,
+  "title": "The Death of Socrates",
+  "artistDisplayName": "Jacques Louis David",
+  "artistDisplayBio": "French, Paris 1748–1825 Brussels",
+  "objectDate": "1787",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "51 x 77 1/4 in. (129.5 x 196.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Catharine Lorillard Wolfe Collection, Wolfe Fund, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436105",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+  "localImage": "436105.jpg",
+  "tags": [
+    {
+      "term": "Socrates",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500260248",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q913"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Lyres",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042114",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q201129"
+    }
+  ]
+}

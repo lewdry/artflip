@@ -1,0 +1,42 @@
+{
+  "objectID": 436932,
+  "title": "The Lacemaker",
+  "artistDisplayName": "Nicolaes Maes",
+  "artistDisplayBio": "Dutch, Dordrecht 1634–1693 Amsterdam",
+  "objectDate": "ca. 1656",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "17 3/4 x 20 3/4 in. (45.1 x 52.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436932",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP145402.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145402.jpg",
+  "localImage": "436932.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Needlework",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300053652",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q28966125"
+    }
+  ]
+}

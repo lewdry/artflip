@@ -1,0 +1,32 @@
+{
+  "objectID": 63532,
+  "title": "Seated Buddha",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "15th century",
+  "objectName": "Figure",
+  "medium": "Bronze",
+  "dimensions": "H. 27 in. (68.6 cm); W. 19 1/4 in. (48.9 cm)",
+  "department": "Asian Art",
+  "culture": "Thailand",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, The J. H. W. Thompson Foundation Gift and Gifts of friends of Jim Thompson, in his memory, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/63532",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-15581-052.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15581-052.jpg",
+  "localImage": "63532.jpg",
+  "tags": [
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ]
+}

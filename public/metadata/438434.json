@@ -1,0 +1,42 @@
+{
+  "objectID": 438434,
+  "title": "The Virgin Adoring the Host",
+  "artistDisplayName": "Jean Auguste Dominique Ingres",
+  "artistDisplayBio": "French, Montauban 1780–1867 Paris",
+  "objectDate": "1852",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "15 7/8 x 12 7/8 in. (40.3 x 32.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Lila and Herman Shickman, 2005",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438434",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP136074.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136074.jpg",
+  "localImage": "438434.jpg",
+  "tags": [
+    {
+      "term": "Altars",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300003725",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q101687"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "objectID": 436282,
+  "title": "The Crucifixion; The Last Judgment",
+  "artistDisplayName": "Jan van Eyck",
+  "artistDisplayBio": "Netherlandish, Maaseik ca. 1390–1441 Bruges",
+  "objectDate": "ca. 1436–38",
+  "objectName": "Painting, diptych",
+  "medium": "Oil on canvas, transferred from wood",
+  "dimensions": "Each 22 1/4 x 7 2/3 in. (56.5 x 19.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1933",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436282",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/LC-33_92ab-Primary_Temp.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+  "localImage": "436282.jpg",
+  "tags": [
+    {
+      "term": "Skeletons",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300191778",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7881"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    },
+    {
+      "term": "Last Judgement",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001027",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1821239"
+    }
+  ]
+}

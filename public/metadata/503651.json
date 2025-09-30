@@ -1,0 +1,42 @@
+{
+  "objectID": 503651,
+  "title": "Pipa (琵琶 )",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "late 16th–early 17th century",
+  "objectName": "Pipa",
+  "medium": "Wood, ivory, bone, silk",
+  "dimensions": "L. 37 × W. 9 15/16 × D. 1 1/8 in. (94 × 25.3 × 2.9 cm)\r\nsee measurements drawing",
+  "department": "Musical Instruments",
+  "culture": "Chinese",
+  "period": "Ming dynasty (1368-1644)",
+  "dynasty": "",
+  "creditLine": "Bequest of Mary Stillman Harkness, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/503651",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/mi/original/DP319739.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/mi/web-large/DP319739.jpg",
+  "localImage": "503651.jpg",
+  "tags": [
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectID": 470310,
+  "title": "Reliquary Shrine",
+  "artistDisplayName": "Jean de Touyl",
+  "artistDisplayBio": "French, died 1349/50",
+  "objectDate": "ca. 1325–50",
+  "objectName": "Reliquary",
+  "medium": "Gilded silver, translucent enamel, paint",
+  "dimensions": "open: 10 × 16 × 3 5/8 in. (25.4 × 40.6 × 9.2 cm)\r\nclosed: 10 × 6 9/16 × 3 5/8 in. (25.4 × 16.7 × 9.2 cm)",
+  "department": "The Cloisters",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1962",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470310",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP102915.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP102915.jpg",
+  "localImage": "470310.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

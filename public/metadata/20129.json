@@ -1,0 +1,42 @@
+{
+  "objectID": 20129,
+  "title": "Story of Golden Locks",
+  "artistDisplayName": "Seymour Joseph Guy",
+  "artistDisplayBio": "American (born England), London 1824–1910 New York",
+  "objectDate": "ca. 1870",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "34 x 28 in. (86.4 x 71.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Daniel Wolf and Mathew Wolf, in memory of their sister, the Honorable Diane R. Wolf, 2013",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/20129",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP219245.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP219245.jpg",
+  "localImage": "20129.jpg",
+  "tags": [
+    {
+      "term": "Bedrooms",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004364",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q193837"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Reading",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300248178",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q199657"
+    }
+  ]
+}

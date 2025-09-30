@@ -1,0 +1,42 @@
+{
+  "objectID": 38146,
+  "title": "Vishnu",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "10th–11th century",
+  "objectName": "Stele",
+  "medium": "Sandstone",
+  "dimensions": "H. 43 1/2 in. (110.5 cm); W. 25 5/8 in. (65.1 cm); D. 10 in. (25.4 cm)",
+  "department": "Asian Art",
+  "culture": "India (Punjab)",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1968",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/38146",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT5052.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DT5052.jpg",
+  "localImage": "38146.jpg",
+  "tags": [
+    {
+      "term": "Elephants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250160",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7378"
+    },
+    {
+      "term": "Brahma",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000856",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11389"
+    },
+    {
+      "term": "Shiva",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000021",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11378"
+    },
+    {
+      "term": "Vishnu",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000395",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11380"
+    }
+  ]
+}

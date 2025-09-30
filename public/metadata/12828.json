@@ -1,0 +1,37 @@
+{
+  "objectID": 12828,
+  "title": "The Sortie Made by the Garrison of Gibraltar",
+  "artistDisplayName": "John Trumbull",
+  "artistDisplayBio": "American, Lebanon, Connecticut 1756–1843 New York",
+  "objectDate": "1789",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "71 x 107 in. (180.3 x 271.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Pauline V. Fullerton Bequest; Mr. and Mrs. James Walter Carter and Mr. and Mrs. Raymond J. Horowitz Gifts; Erving Wolf Foundation and Vain and Harry Fish Foundation Inc. Gifts; Gift of Hanson K. Corning, by exchange; and Maria DeWitt Jesup and Morris K. Jesup Funds, 1976",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12828",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT61.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT61.jpg",
+  "localImage": "12828.jpg",
+  "tags": [
+    {
+      "term": "Battles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185692",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178561"
+    },
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

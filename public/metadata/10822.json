@@ -1,0 +1,42 @@
+{
+  "objectID": 10822,
+  "title": "The Pathetic Song",
+  "artistDisplayName": "Thomas Eakins",
+  "artistDisplayBio": "American, Philadelphia, Pennsylvania 1844–1916 Philadelphia, Pennsylvania",
+  "objectDate": "1881",
+  "objectName": "Watercolor",
+  "medium": "Watercolor on off-white wove paper",
+  "dimensions": "16 3/4 x 11 3/16 in. (42.5 x 28.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Joan Whitney Payson, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10822",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1976.201.1.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap1976.201.1.jpg",
+  "localImage": "10822.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Singing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300264372",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q27939"
+    },
+    {
+      "term": "Pianos",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042909",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5994"
+    }
+  ]
+}

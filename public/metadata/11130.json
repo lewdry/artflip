@@ -1,0 +1,37 @@
+{
+  "objectID": 11130,
+  "title": "Northeaster",
+  "artistDisplayName": "Winslow Homer",
+  "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+  "objectDate": "1895; reworked by 1901",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "34 1/2 x 50 in. (87.6 x 127 cm)\r\nFramed: 48 13/16 x 64 3/4 x 5 7/8 in. (124 x 164.5 x 15 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of George A. Hearn, 1910",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11130",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT1545.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1545.jpg",
+  "localImage": "11130.jpg",
+  "tags": [
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Waves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343616",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q165848"
+    },
+    {
+      "term": "Storms",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054734",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81054"
+    }
+  ]
+}

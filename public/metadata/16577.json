@@ -1,0 +1,42 @@
+{
+  "objectID": 16577,
+  "title": "Winter Scene in Moonlight",
+  "artistDisplayName": "Henry Farrer",
+  "artistDisplayBio": "American, London 1844–1903 New York",
+  "objectDate": "1869",
+  "objectName": "Watercolor",
+  "medium": "Watercolor and gouache on white wove paper",
+  "dimensions": "11 7/8 x 15 3/16 in. (30.2 x 38.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Morris K. Jesup Fund, Martha and Barbara Fleischman, and Katherine and Frank Martucci Gifts, 1999",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/16577",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT1541.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1541.jpg",
+  "localImage": "16577.jpg",
+  "tags": [
+    {
+      "term": "Moon",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386951",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q405"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    },
+    {
+      "term": "Winter",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300133101",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1311"
+    }
+  ]
+}

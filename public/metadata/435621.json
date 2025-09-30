@@ -1,0 +1,32 @@
+{
+  "objectID": 435621,
+  "title": "Joan of Arc",
+  "artistDisplayName": "Jules Bastien-Lepage",
+  "artistDisplayBio": "French, Damvillers 1848–1884 Paris",
+  "objectDate": "1879",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "100 x 110 in. (254 x 279.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Erwin Davis, 1889",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435621",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-049.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+  "localImage": "435621.jpg",
+  "tags": [
+    {
+      "term": "Gardens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+    },
+    {
+      "term": "Joan of Arc",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500343198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7226"
+    }
+  ]
+}

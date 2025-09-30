@@ -1,0 +1,37 @@
+{
+  "objectID": 11999,
+  "title": "Diana",
+  "artistDisplayName": "Augustus Saint-Gaudens",
+  "artistDisplayBio": "American, Dublin 1848–1907 Cornish, New Hampshire",
+  "objectDate": "1893–94, cast 1894 or after",
+  "objectName": "Sculpture",
+  "medium": "Bronze",
+  "dimensions": "28 1/4 x 16 1/4 x 14 in. (71.8 x 41.3 x 35.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Lincoln Kirstein, 1985",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11999",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT8214.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT8214.jpg",
+  "localImage": "11999.jpg",
+  "tags": [
+    {
+      "term": "Bow and Arrow",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q19827042"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Diana",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000118",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q132543"
+    }
+  ]
+}

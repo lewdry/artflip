@@ -1,0 +1,42 @@
+{
+  "objectID": 254473,
+  "title": "Sardonyx cameo portrait of the Emperor Augustus",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 41–54 CE",
+  "objectName": "Cameo, portrait of Augustus",
+  "medium": "Sardonyx",
+  "dimensions": "1 7/16 × 1 1/8 × 5/16 in. (3.7 × 2.9 × 0.8 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Roman",
+  "period": "Early Imperial, Claudian",
+  "dynasty": "",
+  "creditLine": "Purchase, Joseph Pulitzer Bequest, 1942",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/254473",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP155547.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP155547.jpg",
+  "localImage": "254473.jpg",
+  "tags": [
+    {
+      "term": "Emperor Augustus",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500058949",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1405"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Profiles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "objectID": 82433,
+  "title": "Corset",
+  "artistDisplayName": "Maison Léoty",
+  "artistDisplayBio": "French",
+  "objectDate": "1891",
+  "objectName": "Corset",
+  "medium": "silk",
+  "dimensions": "",
+  "department": "Costume Institute",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Miss Marion Hague, 1945",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/82433",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ci/web-large/DT200606.jpg",
+  "localImage": "82433.jpg",
+  "tags": [
+    {
+      "term": "Roses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266246",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q102231"
+    }
+  ]
+}

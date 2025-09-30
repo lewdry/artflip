@@ -1,0 +1,32 @@
+{
+  "objectID": 12600,
+  "title": "Francis Brinley",
+  "artistDisplayName": "John Smibert",
+  "artistDisplayBio": "American, Edinburgh, Scotland 1688–1751 Boston, Massachusetts",
+  "objectDate": "1729",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "50 x 39 1/4 in. (127 x 99.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1962",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12600",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT53.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT53.jpg",
+  "localImage": "12600.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

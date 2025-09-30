@@ -1,0 +1,47 @@
+{
+  "objectID": 254843,
+  "title": "Terracotta lekythos (oil flask)",
+  "artistDisplayName": "Amasis Painter",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 550–530 BCE",
+  "objectName": "Lekythos",
+  "medium": "Terracotta",
+  "dimensions": "H. 6 7/8 in. (17.5 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Greek, Attic",
+  "period": "Archaic",
+  "dynasty": "",
+  "creditLine": "Purchase, Walter C. Baker Gift, 1956",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/254843",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DT5499.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DT5499.jpg",
+  "localImage": "254843.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Donkeys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265959",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3537778"
+    },
+    {
+      "term": "Musicians",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q639669"
+    },
+    {
+      "term": "Carts",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300212695",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q234668"
+    }
+  ]
+}

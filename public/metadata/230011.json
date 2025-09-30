@@ -1,0 +1,52 @@
+{
+  "objectID": 230011,
+  "title": "The Triumph of Fame",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1502–4",
+  "objectName": "Tapestry",
+  "medium": "Wool, silk (6-7 warp threads per cm.)",
+  "dimensions": "Overall: 141 1/2 x 132 in. (359.4 x 335.3 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, The Annenberg Foundation Gift, 1998",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/230011",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DT4292.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DT4292.jpg",
+  "localImage": "230011.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Writing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054698",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q37260"
+    },
+    {
+      "term": "Allegory",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055866",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q18535"
+    }
+  ]
+}

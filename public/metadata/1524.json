@@ -1,0 +1,32 @@
+{
+  "objectID": 1524,
+  "title": "Century Vase",
+  "artistDisplayName": "Karl L. H. Müller",
+  "artistDisplayBio": "1820–1887",
+  "objectDate": "1877",
+  "objectName": "Vase",
+  "medium": "Porcelain",
+  "dimensions": "12 3/4 x 10 1/4 in. (32.4 x 26 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Friends of the American Wing Fund, 1987",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/1524",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP222293.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP222293.jpg",
+  "localImage": "1524.jpg",
+  "tags": [
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    }
+  ]
+}

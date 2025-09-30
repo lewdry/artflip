@@ -1,0 +1,42 @@
+{
+  "objectID": 11133,
+  "title": "Prisoners from the Front",
+  "artistDisplayName": "Winslow Homer",
+  "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+  "objectDate": "1866",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 x 38in. (61 x 96.5cm)\r\nFramed: 36 1/2 × 50 5/8 × 4 1/2 in. (92.7 × 128.6 × 11.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. Frank B. Porter, 1922",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11133",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT83.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT83.jpg",
+  "localImage": "11133.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Prisoners",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1862087"
+    },
+    {
+      "term": "American Civil War",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000030",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8676"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

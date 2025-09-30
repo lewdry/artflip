@@ -1,0 +1,47 @@
+{
+  "objectID": 435868,
+  "title": "The Card Players",
+  "artistDisplayName": "Paul Cézanne",
+  "artistDisplayBio": "French, Aix-en-Provence 1839–1906 Aix-en-Provence",
+  "objectDate": "1890–92",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 3/4 x 32 1/4 in. (65.4 x 81.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Stephen C. Clark, 1960",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435868",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+  "localImage": "435868.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Playing Cards",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300211294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q47883"
+    },
+    {
+      "term": "Smoking",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380156",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q662860"
+    },
+    {
+      "term": "Games",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300069657",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11410"
+    },
+    {
+      "term": "Pipes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300248067",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q104526"
+    }
+  ]
+}

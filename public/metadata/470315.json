@@ -1,0 +1,32 @@
+{
+  "objectID": 470315,
+  "title": "Seated Bishop",
+  "artistDisplayName": "Tilman Riemenschneider",
+  "artistDisplayBio": "German, 1460–1531",
+  "objectDate": "ca. 1495",
+  "objectName": "Statue",
+  "medium": "Limewood and gray-black stain",
+  "dimensions": "35 1/2 x 14 x 5 7/8 in.  (90.2 x 35.6 x 14.9 cm)",
+  "department": "The Cloisters",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1970",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470315",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP366900.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP366900.jpg",
+  "localImage": "470315.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Bishops",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025756",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q29182"
+    }
+  ]
+}

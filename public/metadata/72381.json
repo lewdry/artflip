@@ -1,0 +1,37 @@
+{
+  "objectID": 72381,
+  "title": "Seated Buddha",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "1st to mid-2nd century",
+  "objectName": "Figure",
+  "medium": "Bronze with traces of gold leaf",
+  "dimensions": "H. 6 5/8 in. (16.8 cm); W. 4 1/2 in. (11.4 cm); D. 4 in. (10.2 cm)",
+  "department": "Asian Art",
+  "culture": "Pakistan (ancient region of Gandhara)",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Muneichi Nitta, 2003",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/72381",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP123364.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP123364.jpg",
+  "localImage": "72381.jpg",
+  "tags": [
+    {
+      "term": "Gandhara",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300018889",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q213651"
+    },
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ]
+}

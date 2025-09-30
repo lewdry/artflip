@@ -1,0 +1,42 @@
+{
+  "objectID": 472562,
+  "title": "The Fieschi Morgan Staurotheke",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "early 9th century",
+  "objectName": "Reliquary",
+  "medium": "Gilded silver, gold, enamel worked in cloisonné, and niello",
+  "dimensions": "Overall (with lid): 1 1/16 x 4 1/16 x 2 13/16 in. (2.7 x 10.3 x 7.1 cm)\r\nlid only: 2 13/16 x 3 7/8 x 1/8 in. (7.1 x 9.8 x 0.3 cm)\r\nvessel only: 7/8 x 2 15/16 x 4 in. (2.2 x 7.5 x 10.1 cm)",
+  "department": "Medieval Art",
+  "culture": "Byzantine",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/472562",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/md/original/DT119.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/md/web-large/DT119.jpg",
+  "localImage": "472562.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

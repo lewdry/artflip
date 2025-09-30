@@ -1,0 +1,52 @@
+{
+  "objectID": 12544,
+  "title": "Ocean Life",
+  "artistDisplayName": "James M. Sommerville",
+  "artistDisplayBio": "1825–1899",
+  "objectDate": "",
+  "objectName": "Watercolor",
+  "medium": "Watercolor, gouache, graphite, and gum arabic on off-white wove paper",
+  "dimensions": "19 x 27 7/16 in. (48.3 x 69.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mr. and Mrs. Erving Wolf, in memory of Diane R. Wolf, 1977",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12544",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT4897.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT4897.jpg",
+  "localImage": "12544.jpg",
+  "tags": [
+    {
+      "term": "Crabs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249722",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16033394"
+    },
+    {
+      "term": "Fish",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266085",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q152"
+    },
+    {
+      "term": "Snails",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249702",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q308841"
+    },
+    {
+      "term": "Oceans",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008687",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9430"
+    },
+    {
+      "term": "Shells",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011829",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q213096"
+    },
+    {
+      "term": "Seahorses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300261242",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11709836"
+    }
+  ]
+}

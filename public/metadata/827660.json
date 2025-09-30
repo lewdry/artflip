@@ -1,0 +1,32 @@
+{
+  "objectID": 827660,
+  "title": "A Bouquet of Flowers",
+  "artistDisplayName": "Clara Peeters",
+  "artistDisplayBio": "Flemish, Mechelen ca. 1587–after 1636 Ghent",
+  "objectDate": "ca. 1612",
+  "objectName": "",
+  "medium": "Oil on wood",
+  "dimensions": "18 1/8 × 12 5/8 in. (46 × 32 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Lila Acheson Wallace, Howard S. and Nancy Marks, Friends of European Paintings, and Mr. and Mrs. J. Tomilson Hill Gifts, Gift of Humanities Fund Inc., by exchange, Henry and Lucy Moses Fund Inc. Gift, and funds from various donors, 2020",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/827660",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19451-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19451-001.jpg",
+  "localImage": "827660.jpg",
+  "tags": [
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

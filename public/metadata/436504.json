@@ -1,0 +1,42 @@
+{
+  "objectID": 436504,
+  "title": "The Adoration of the Magi",
+  "artistDisplayName": "Giotto di Bondone",
+  "artistDisplayBio": "Italian, Florentine, 1266/76–1337",
+  "objectDate": "possibly ca. 1320",
+  "objectName": "Painting",
+  "medium": "Tempera on wood, gold ground",
+  "dimensions": "17 3/4 x 17 1/4 in. (45.1 x 43.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "John Stewart Kennedy Fund, 1911",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436504",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-31416-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31416-001.jpg",
+  "localImage": "436504.jpg",
+  "tags": [
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Magi",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+    }
+  ]
+}

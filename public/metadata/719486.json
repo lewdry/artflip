@@ -1,0 +1,37 @@
+{
+  "objectID": 719486,
+  "title": "The Marriage of the Virgin",
+  "artistDisplayName": "José Sánchez",
+  "artistDisplayBio": "Mexican, active 1686–95",
+  "objectDate": "ca. 1690",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "50 1/4 × 72 in. (127.6 × 182.9 cm)",
+  "department": "The American Wing",
+  "culture": "Mexican",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Maria DeWitt Jesup Fund, 2016",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/719486",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-15281-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15281-001.jpg",
+  "localImage": "719486.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+  ]
+}

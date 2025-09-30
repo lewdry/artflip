@@ -1,0 +1,47 @@
+{
+  "objectID": 254923,
+  "title": "Terracotta situla (bucket)",
+  "artistDisplayName": "Lycurgus Painter",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 360–340 BCE",
+  "objectName": "Situla",
+  "medium": "Terracotta",
+  "dimensions": "H. 10 11/16 in. (27.1 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Greek, South Italian, Apulian",
+  "period": "Late Classical",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1956",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/254923",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP111834.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP111834.jpg",
+  "localImage": "254923.jpg",
+  "tags": [
+    {
+      "term": "Dionysus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001029",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41680"
+    },
+    {
+      "term": "Maenads",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q209599"
+    },
+    {
+      "term": "Griffins",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379594",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q130223"
+    },
+    {
+      "term": "Satyrs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379732",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q163709"
+    },
+    {
+      "term": "Chariots",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300212699",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q203788"
+    }
+  ]
+}

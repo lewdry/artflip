@@ -1,0 +1,42 @@
+{
+  "objectID": 243823,
+  "title": "Silver-gilt bowl",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 725–675 BCE",
+  "objectName": "Bowl",
+  "medium": "Gilt silver",
+  "dimensions": "1 × 6 11/16 × 1/8 in. (2.5 × 17 × 0.3 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Cypriot",
+  "period": "Archaic",
+  "dynasty": "",
+  "creditLine": "The Cesnola Collection, Purchased by subscription, 1874–76",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/243823",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP-41984-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP-41984-001.jpg",
+  "localImage": "243823.jpg",
+  "tags": [
+    {
+      "term": "Battles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185692",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178561"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Sphinx",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375739",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q151480"
+    },
+    {
+      "term": "Lions",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310388",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q140"
+    }
+  ]
+}

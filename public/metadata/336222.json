@@ -1,0 +1,57 @@
+{
+  "objectID": 336222,
+  "title": "Adam and Eve",
+  "artistDisplayName": "Albrecht Dürer",
+  "artistDisplayBio": "German, Nuremberg 1471–1528 Nuremberg",
+  "objectDate": "1504",
+  "objectName": "Print",
+  "medium": "Engraving",
+  "dimensions": "9 7/8 x 7 7/8in. (25.1 x 20cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1919",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/336222",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP816026.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816026.jpg",
+  "localImage": "336222.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Cats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265960",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q146"
+    },
+    {
+      "term": "Rabbits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250218",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9394"
+    },
+    {
+      "term": "Snakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250870",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2102"
+    },
+    {
+      "term": "Adam",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000219",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q70899"
+    },
+    {
+      "term": "Eve",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000205",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830183"
+    },
+    {
+      "term": "Ox",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250282",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q473194"
+    }
+  ]
+}

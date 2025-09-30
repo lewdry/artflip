@@ -1,0 +1,32 @@
+{
+  "objectID": 191803,
+  "title": "Adam",
+  "artistDisplayName": "Auguste Rodin",
+  "artistDisplayBio": "French, Paris 1840–1917 Meudon",
+  "objectDate": "modeled 1880 or 1881, cast 1910",
+  "objectName": "Statue",
+  "medium": "Bronze",
+  "dimensions": "Overall (confirmed): 76 3/8 × 30 3/8 × 32 1/2 in., 831 lb. (194 × 77.2 × 82.6 cm, 376.9 kg)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Thomas F. Ryan, 1910",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/191803",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP242352.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP242352.jpg",
+  "localImage": "191803.jpg",
+  "tags": [
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Adam",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000219",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q70899"
+    }
+  ]
+}

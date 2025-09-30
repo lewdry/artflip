@@ -1,0 +1,42 @@
+{
+  "objectID": 337499,
+  "title": "The Lake of Zug",
+  "artistDisplayName": "Joseph Mallord William Turner",
+  "artistDisplayBio": "British, London 1775–1851 London",
+  "objectDate": "1843",
+  "objectName": "Drawing",
+  "medium": "Watercolor and bodycolor (gouache) with reductive techniques over graphite",
+  "dimensions": "11 3/4 × 18 3/8 in. (29.8 × 46.6 cm)\r\nFramed: 21 × 27 in. (53.3 × 68.6 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Marquand Fund, 1959",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/337499",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP821057.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP821057.jpg",
+  "localImage": "337499.jpg",
+  "tags": [
+    {
+      "term": "Lakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008680",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23397"
+    },
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

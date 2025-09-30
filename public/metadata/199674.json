@@ -1,0 +1,42 @@
+{
+  "objectID": 199674,
+  "title": "The Holy Family with Saints Anne and Joachim",
+  "artistDisplayName": "Diego de Pesquera",
+  "artistDisplayBio": "Spanish, Castile (?), ca. 1540–after 1581, Mexico (?), active 1563–80",
+  "objectDate": "1567–68",
+  "objectName": "Relief",
+  "medium": "Wood, painted and gilt",
+  "dimensions": "Overall (confirmed): H. 62 3/8 x W. 41 7/8 x D. 4 in. (158.4 x 106.4 x 10.2 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Helen Hay Whitney, 1944",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/199674",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP220481.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP220481.jpg",
+  "localImage": "199674.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Saint Anne",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001010",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q164294"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+  ]
+}

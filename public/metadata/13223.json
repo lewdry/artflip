@@ -1,0 +1,37 @@
+{
+  "objectID": 13223,
+  "title": "Cremorne Gardens, No. 2",
+  "artistDisplayName": "James McNeill Whistler",
+  "artistDisplayBio": "American, Lowell, Massachusetts 1834–1903 London",
+  "objectDate": "ca. 1870–80",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "27 x 53 1/8 in. (68.6 x 134.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "John Stewart Kennedy Fund, 1912",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13223",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2780.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2780.jpg",
+  "localImage": "13223.jpg",
+  "tags": [
+    {
+      "term": "Parks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008187",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q22698"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

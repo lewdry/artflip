@@ -1,0 +1,52 @@
+{
+  "objectID": 435809,
+  "title": "The Harvesters",
+  "artistDisplayName": "Pieter Bruegel the Elder",
+  "artistDisplayBio": "Netherlandish, Breda (?) ca. 1525–1569 Brussels",
+  "objectDate": "1565",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall, including added strips at top, bottom, and right, 46 7/8 x 63 3/4 in. (119 x 162 cm); original painted surface 45 7/8 x 62 7/8 in. (116.5 x 159.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1919",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435809",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+  "localImage": "435809.jpg",
+  "tags": [
+    {
+      "term": "Food",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300254496",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2095"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Working",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412186",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q6958747"
+    },
+    {
+      "term": "Eating",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q213449"
+    }
+  ]
+}

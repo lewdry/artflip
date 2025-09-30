@@ -1,0 +1,42 @@
+{
+  "objectID": 470305,
+  "title": "The Cloisters Cross",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1150–60",
+  "objectName": "Cross",
+  "medium": "Walrus ivory",
+  "dimensions": "Overall: 22 5/8 x 14 1/4in. (57.5 x 36.2cm)\r\nshaft: 12 3/8 x 1 11/16 in. (31.4 x 4.3cm)\r\nshaft-thickness: 1 1/4in. (3.2cm)\r\ntop piece: 8 1/8in. (20.6cm)\r\nCross piece: 9 3/4in. (24.8cm)\r\nCentral medallion: 2 5/8in. (6.7cm)\r\nTerminal plaque: Mark: 2 1/4 x 2 5/16in. (5.7 x 5.9cm)\r\nTerminal plaque: Luke: 2 5/16 x 2 1/8in. (5.9 x 5.4cm)\r\nTerminal plaque: John: 2 5/16 x 2 1/4in. (5.9 x 5.7cm)\r\nThickness, each: 1 1/2in. (3.8cm)\r\nto: 1 5/8in. (4.1cm)",
+  "department": "The Cloisters",
+  "culture": "British",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1963",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470305",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP102900.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP102900.jpg",
+  "localImage": "470305.jpg",
+  "tags": [
+    {
+      "term": "Eagles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250049",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2092297"
+    },
+    {
+      "term": "Lions",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310388",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q140"
+    },
+    {
+      "term": "Ox",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250282",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q473194"
+    },
+    {
+      "term": "Evangelists",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025762",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43412"
+    }
+  ]
+}

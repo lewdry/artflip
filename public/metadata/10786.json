@@ -1,0 +1,42 @@
+{
+  "objectID": 10786,
+  "title": "The Beeches",
+  "artistDisplayName": "Asher Brown Durand",
+  "artistDisplayBio": "American, Jefferson, New Jersey 1796–1886 Maplewood, New Jersey",
+  "objectDate": "1845",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "60 3/8 x 48 1/8 in. (153.4 x 122.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Maria DeWitt Jesup, from the collection of her husband, Morris K. Jesup, 1914",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10786",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT75.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT75.jpg",
+  "localImage": "10786.jpg",
+  "tags": [
+    {
+      "term": "Sheep",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250284",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7368"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    },
+    {
+      "term": "Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025617",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81710"
+    }
+  ]
+}

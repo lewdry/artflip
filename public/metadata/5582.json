@@ -1,0 +1,32 @@
+{
+  "objectID": 5582,
+  "title": "Peonies Blown in the Wind",
+  "artistDisplayName": "John La Farge",
+  "artistDisplayBio": "American, New York 1835–1910 Providence, Rhode Island",
+  "objectDate": "ca. 1880",
+  "objectName": "Stained glass window",
+  "medium": "Leaded opalescent glass",
+  "dimensions": "75 x 45 in. (190.5 x 114.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Susan Dwight Bliss, 1930",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/5582",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT219912.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT219912.jpg",
+  "localImage": "5582.jpg",
+  "tags": [
+    {
+      "term": "Windows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300002944",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35473"
+    },
+    {
+      "term": "Peonies",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q147105"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectID": 6186,
+  "title": "Plate",
+  "artistDisplayName": "Heinrich Roth",
+  "artistDisplayBio": "active ca. 1790–1810",
+  "objectDate": "1793",
+  "objectName": "Plate",
+  "medium": "Earthenware; Redware with sgraffito decoration",
+  "dimensions": "Diam. 12 1/4 in. (31.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. Robert W. de Forest, 1933",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/6186",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP207701.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP207701.jpg",
+  "localImage": "6186.jpg",
+  "tags": [
+    {
+      "term": "Peacocks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250082",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q201251"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}

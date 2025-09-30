@@ -1,0 +1,32 @@
+{
+  "objectID": 435802,
+  "title": "Portrait of a Young Man",
+  "artistDisplayName": "Bronzino (Agnolo di Cosimo di Mariano)",
+  "artistDisplayBio": "Italian, Monticelli 1503–1572 Florence",
+  "objectDate": "1530s",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "37 5/8 x 29 1/2 in. (95.6 x 74.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435802",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
+  "localImage": "435802.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

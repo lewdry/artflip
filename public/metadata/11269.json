@@ -1,0 +1,42 @@
+{
+  "objectID": 11269,
+  "title": "Edward and Sarah Rutter",
+  "artistDisplayName": "Joshua Johnson",
+  "artistDisplayBio": "American, ca. 1763–ca. 1824",
+  "objectDate": "ca. 1805",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "36 x 32 in. (91.4 x 81.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Edgar William and Bernice Chrysler Garbisch, 1965",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11269",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT5512.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5512.jpg",
+  "localImage": "11269.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Strawberries",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375414",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q745"
+    },
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

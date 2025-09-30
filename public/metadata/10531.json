@@ -1,0 +1,32 @@
+{
+  "objectID": 10531,
+  "title": "Mrs. John Winthrop",
+  "artistDisplayName": "John Singleton Copley",
+  "artistDisplayBio": "American, Boston, Massachusetts 1738–1815 London",
+  "objectDate": "1773",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "35 1/2 x 28 3/4 in. (90.2 x 73 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Morris K. Jesup Fund, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10531",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2031.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2031.jpg",
+  "localImage": "10531.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

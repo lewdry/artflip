@@ -1,0 +1,37 @@
+{
+  "objectID": 459112,
+  "title": "Two Young Girls at the Piano",
+  "artistDisplayName": "Auguste Renoir",
+  "artistDisplayBio": "French, Limoges 1841–1919 Cagnes-sur-Mer",
+  "objectDate": "1892",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "44 × 34 in. (111.8 × 86.4 cm)\r\nFramed: 57 3/8 × 47 in. (145.7 × 119.4 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459112",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DP-34501-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-34501-001.jpg",
+  "localImage": "459112.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Music",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435214",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q638"
+    },
+    {
+      "term": "Pianos",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042909",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5994"
+    }
+  ]
+}

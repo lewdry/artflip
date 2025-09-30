@@ -1,0 +1,37 @@
+{
+  "objectID": 38237,
+  "title": "Buddha",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "3rd century CE",
+  "objectName": "Torso",
+  "medium": "Limestone",
+  "dimensions": "H. 30 in. (76.2 cm); W. 11 in. (27.9 cm); D. 4 1/2 in. (11.4 cm)",
+  "department": "Asian Art",
+  "culture": "India,  Andhra Pradesh",
+  "period": "Ikshvaku period (ca. 225–ca. 320)",
+  "dynasty": "",
+  "creditLine": "Purchase, The Vincent Astor Foundation Gift, Brooke Russell Astor Bequest, The Miriam and Ira D. Wallach Foundation Fund; Fernando Family Trust Gift, in honor of Dr. Quintus and Mrs. Wimala Fernando; Vijay K. Anand, M.D., Nanda Anand, Maya Anand, and Rohit Anand, and The Estate of Mamdouha Bobst Gifts, 2016",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/38237",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP701399.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP701399.jpg",
+  "localImage": "38237.jpg",
+  "tags": [
+    {
+      "term": "Early Andhra",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300106839",
+      "Wikidata_URL": null
+    },
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ]
+}

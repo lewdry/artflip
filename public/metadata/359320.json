@@ -1,0 +1,37 @@
+{
+  "objectID": 359320,
+  "title": "Nocturne: Palaces",
+  "artistDisplayName": "James McNeill Whistler",
+  "artistDisplayBio": "American, Lowell, Massachusetts 1834–1903 London",
+  "objectDate": "1879–80",
+  "objectName": "Print",
+  "medium": "Etching and drypoint; printed in dark brown ink on drum mounted medium weight ivory laid paper.",
+  "dimensions": "Sheet: 11 1/2 × 7 13/16 in. (29.2 × 19.8 cm)\r\nPlate: 11 1/2 × 7 13/16 in. (29.2 × 19.8 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Harold K. Hochschild, 1940",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/359320",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP813628.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP813628.jpg",
+  "localImage": "359320.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Canals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006075",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12284"
+    },
+    {
+      "term": "Venice",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7018159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q641"
+    }
+  ]
+}

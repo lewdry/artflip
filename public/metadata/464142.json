@@ -1,0 +1,47 @@
+{
+  "objectID": 464142,
+  "title": "Shrine of the Virgin",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1300",
+  "objectName": "Shrine",
+  "medium": "Oak, linen covering, polychromy, gilding, gesso",
+  "dimensions": "open: 14 1/2 x 13 5/8 x 5 1/8 in. (36.8 x 34.6 x 13 cm)\r\nOther (closed): 5in. (12.7cm)\r\nOther (figure of Christ): 9 5/8 × 3 13/16 × 1 9/16 in. (24.5 × 9.7 × 3.9 cm)",
+  "department": "Medieval Art",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/464142",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/md/original/DP266473.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/md/web-large/DP266473.jpg",
+  "localImage": "464142.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Adoration of the Magi",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    },
+    {
+      "term": "Nativity",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000124",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51628"
+    }
+  ]
+}

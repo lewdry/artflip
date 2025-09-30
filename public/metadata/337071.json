@@ -1,0 +1,32 @@
+{
+  "objectID": 337071,
+  "title": "Pink and Rose",
+  "artistDisplayName": "William Morris",
+  "artistDisplayBio": "British, Walthamstow, London 1834–1896 Hammersmith, London",
+  "objectDate": "ca. 1890",
+  "objectName": "Wallpaper",
+  "medium": "Block-printed in distemper colors",
+  "dimensions": "Sheet: 27 x 21 1/2 in. (68.6 x 54.6 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Edward C. Moore Jr. Gift, 1923",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/337071",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/dp23.163.4a.R.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/dp23.163.4a.R.jpg",
+  "localImage": "337071.jpg",
+  "tags": [
+    {
+      "term": "Roses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266246",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q102231"
+    },
+    {
+      "term": "Leaves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011892",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33971"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "objectID": 438605,
+  "title": "The Crucifixion",
+  "artistDisplayName": "Pietro Lorenzetti",
+  "artistDisplayBio": "Italian, active Siena 1320–44",
+  "objectDate": "1340s",
+  "objectName": "Painting",
+  "medium": "Tempera and gold leaf on wood",
+  "dimensions": "Overall 16 1/2 x 12 1/2 in. (41.9 x 31.8 cm); painted surface 14 1/8 x 10 1/8 in. (35.9 x 25.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Lila Acheson Wallace Gift and Gwynne Andrews Fund, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438605",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278472.jpg",
+  "localImage": "438605.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 340952,
+  "title": "The Entombment",
+  "artistDisplayName": "Sir Edward Burne-Jones",
+  "artistDisplayBio": "British, Birmingham 1833–1898 Fulham",
+  "objectDate": "1879",
+  "objectName": "Drawing",
+  "medium": "Green, blue, brown and touches of reddish bodycolor, heightened with white  gouache (bodycolor) on green paper",
+  "dimensions": "12 x 18-3/4 in.  (30.5 x 47.6 cm)",
+  "department": "Drawings and Prints",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. Darwin S. Morse, 1963",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/340952",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP805384.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805384.jpg",
+  "localImage": "340952.jpg",
+  "tags": [
+    {
+      "term": "Sadness",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055166",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q169251"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Entombment",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001053",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51637"
+    }
+  ]
+}

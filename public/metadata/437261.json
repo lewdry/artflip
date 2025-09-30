@@ -1,0 +1,47 @@
+{
+  "objectID": 437261,
+  "title": "The Penitence of Saint Jerome",
+  "artistDisplayName": "Joachim Patinir",
+  "artistDisplayBio": "Netherlandish, Dinant or Bouvignes, active by 1515–died 1524 Antwerp",
+  "objectDate": "ca. 1515",
+  "objectName": "Painting, triptych",
+  "medium": "Oil on wood",
+  "dimensions": "Shaped top: central panel, overall, with engaged frame, 46 1/4 x 32 in. (117.5 x 81.3 cm); each wing, overall, with engaged frame, 47 1/2 x 14 in. (120.7 x 35.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1936",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437261",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+  "localImage": "437261.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Saint Jerome",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Baptism of Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001066",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q217048"
+    }
+  ]
+}

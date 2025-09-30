@@ -1,0 +1,47 @@
+{
+  "objectID": 437609,
+  "title": "The Holy Family with the Young Saint John the Baptist",
+  "artistDisplayName": "Andrea del Sarto (Andrea d'Agnolo)",
+  "artistDisplayBio": "Italian, Florence 1486–1530 Florence",
+  "objectDate": "ca. 1528",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "53 1/2 x 39 5/8 in. (135.9 x 100.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Maria DeWitt Jesup Fund, 1922",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437609",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP295025.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP295025.jpg",
+  "localImage": "437609.jpg",
+  "tags": [
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+      "term": "Saint Joseph",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

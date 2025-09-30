@@ -1,0 +1,42 @@
+{
+  "objectID": 3395,
+  "title": "Chest",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1780",
+  "objectName": "Dower chest",
+  "medium": "Yellow pine, tulip poplar",
+  "dimensions": "28 5/8 x 52 1/2 x 23 in. (72.7 x 133.4 x 58.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1923",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/3395",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/23_16_Overall.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/23_16_Overall.jpg",
+  "localImage": "3395.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Unicorns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379595",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7246"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 10815,
+  "title": "The Gross Clinic",
+  "artistDisplayName": "Thomas Eakins",
+  "artistDisplayBio": "American, Philadelphia, Pennsylvania 1844–1916 Philadelphia, Pennsylvania",
+  "objectDate": "1875–76",
+  "objectName": "Watercolor",
+  "medium": "India ink and watercolor on cardboard",
+  "dimensions": "23 3/4 x 19 1/4 in. (60.3 x 48.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1923",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10815",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP219434.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP219434.jpg",
+  "localImage": "10815.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Students",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025909",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q48282"
+    },
+    {
+      "term": "Medicine",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404880",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q55693872"
+    },
+    {
+      "term": "Doctors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025809",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q39631"
+    }
+  ]
+}

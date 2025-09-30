@@ -1,0 +1,37 @@
+{
+  "objectID": 11207,
+  "title": "The Flower Girl",
+  "artistDisplayName": "Charles Cromwell Ingham",
+  "artistDisplayBio": "American (born Ireland), Dublin 1786–1863 New York",
+  "objectDate": "1846",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "36 x 28 3/8 in. (91.4 x 72.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of William Church Osborn, 1902",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11207",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2784.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2784.jpg",
+  "localImage": "11207.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}

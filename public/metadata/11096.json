@@ -1,0 +1,32 @@
+{
+  "objectID": 11096,
+  "title": "Plums",
+  "artistDisplayName": "John William Hill",
+  "artistDisplayBio": "American (born England), London 1812–1879 West Nyack, New York",
+  "objectDate": "1870",
+  "objectName": "Watercolor",
+  "medium": "Watercolor, graphite, and gouache on off-white Bristol board",
+  "dimensions": "7 1/8 x 12 in. (18.1 x 30.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Henry Hill, 1882",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11096",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT202023.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT202023.jpg",
+  "localImage": "11096.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

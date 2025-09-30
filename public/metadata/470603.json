@@ -1,0 +1,32 @@
+{
+  "objectID": 470603,
+  "title": "Pietà (Vesperbild)",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "1375–1400",
+  "objectName": "Statue",
+  "medium": "Poplar, plaster, paint, gilt",
+  "dimensions": "Overall: 52 1/4 x 27 3/8 x 14 1/2 in. (132.7 x 69.5 x 36.8 cm)",
+  "department": "The Cloisters",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1948",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470603",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP360471.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP360471.jpg",
+  "localImage": "470603.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+  ]
+}

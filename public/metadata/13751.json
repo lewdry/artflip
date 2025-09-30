@@ -1,0 +1,47 @@
+{
+  "objectID": 13751,
+  "title": "Memorial Picture",
+  "artistDisplayName": "Folwell School",
+  "artistDisplayBio": "",
+  "objectDate": "1803",
+  "objectName": "Memorial picture",
+  "medium": "Silk with embroidered silk and metallic threads, paper, sequins, and painted",
+  "dimensions": "23 x 29 in. (58.4 x 73.7 cm)\r\nFramed: 1 3/4 x 27 x 33 in. (4.4 x 68.6 x 83.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. L. H. Robertson, 1956",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13751",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/RT621.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/RT621.jpg",
+  "localImage": "13751.jpg",
+  "tags": [
+    {
+      "term": "Monuments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006958",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4989906"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    }
+  ]
+}

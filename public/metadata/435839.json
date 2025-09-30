@@ -1,0 +1,37 @@
+{
+  "objectID": 435839,
+  "title": "Piazza San Marco",
+  "artistDisplayName": "Canaletto (Giovanni Antonio Canal)",
+  "artistDisplayBio": "Italian, Venice 1697–1768 Venice",
+  "objectDate": "late 1720s",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "27 x 44 1/4 in. (68.6 x 112.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Mrs. Charles Wrightsman Gift, 1988",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435839",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-009.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-009.jpg",
+  "localImage": "435839.jpg",
+  "tags": [
+    {
+      "term": "Towers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004847",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12518"
+    },
+    {
+      "term": "Cities",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008389",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q515"
+    },
+    {
+      "term": "Venice",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7018159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q641"
+    }
+  ]
+}

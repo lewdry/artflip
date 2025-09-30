@@ -1,0 +1,47 @@
+{
+  "objectID": 10554,
+  "title": "Watson and the Shark",
+  "artistDisplayName": "John Singleton Copley",
+  "artistDisplayBio": "American, Boston, Massachusetts 1738–1815 London",
+  "objectDate": "ca. 1778",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 7/8 x 30 1/8 in. (63.2 x 76.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. Gordon Dexter, 1942",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10554",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP140862.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP140862.jpg",
+  "localImage": "10554.jpg",
+  "tags": [
+    {
+      "term": "Fear",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055160",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44619"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Fish",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266085",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q152"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

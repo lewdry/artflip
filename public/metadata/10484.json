@@ -1,0 +1,32 @@
+{
+  "objectID": 10484,
+  "title": "Portrait of a Lady",
+  "artistDisplayName": "Alvan Clark",
+  "artistDisplayBio": "1804–1887",
+  "objectDate": "ca. 1835",
+  "objectName": "Painting, miniature",
+  "medium": "Watercolor on ivory",
+  "dimensions": "Sight: 3 7/16 x 2 9/16 in. (8.7 x 6.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Fletcher Fund, 1938",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10484",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP161467.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP161467.jpg",
+  "localImage": "10484.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

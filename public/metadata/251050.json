@@ -1,0 +1,27 @@
+{
+  "objectID": 251050,
+  "title": "Bronze horse",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "8th century BCE",
+  "objectName": "Statuette of a horse",
+  "medium": "Bronze",
+  "dimensions": "H.: 6 15/16 x 5 1/4 x 1 3/8 in. (17.6 x 13.3 x 3.5 cm)",
+  "department": "Greek and Roman Art",
+  "culture": "Greek, Corinthian ?",
+  "period": "Geometric",
+  "dynasty": "",
+  "creditLine": "Rogers Fund, 1921",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/251050",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP102161.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP102161.jpg",
+  "localImage": "251050.jpg",
+  "tags": [
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    }
+  ]
+}

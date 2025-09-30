@@ -1,0 +1,47 @@
+{
+  "objectID": 436951,
+  "title": "Fishing",
+  "artistDisplayName": "Edouard Manet",
+  "artistDisplayBio": "French, Paris 1832–1883 Paris",
+  "objectDate": "ca. 1862–63",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 1/4 x 48 1/2 in. (76.8 x 123.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Mr. and Mrs. Richard J. Bernhard Gift, 1957",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436951",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-25459-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25459-001.jpg",
+  "localImage": "436951.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Fishing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300239470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q14373"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

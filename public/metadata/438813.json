@@ -1,0 +1,37 @@
+{
+  "objectID": 438813,
+  "title": "Saint John the Baptist Bearing Witness",
+  "artistDisplayName": "Annibale Carracci",
+  "artistDisplayBio": "Italian, Bologna 1560–1609 Rome",
+  "objectDate": "ca. 1600",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "21 3/8 x 17 1/8 in. (54.3 x 43.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Fabrizio Moretti and Adam Williams, in honor of Everett Fahy, 2009",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438813",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP220449.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP220449.jpg",
+  "localImage": "438813.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

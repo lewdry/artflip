@@ -1,0 +1,47 @@
+{
+  "objectID": 1029,
+  "title": "The Bryant Vase",
+  "artistDisplayName": "Tiffany & Co.",
+  "artistDisplayBio": "1837–present",
+  "objectDate": "1876",
+  "objectName": "Vase",
+  "medium": "Silver and gold",
+  "dimensions": "33 1/2 x 14 x 11 5/16 in. (85.1 x 35.6 x 28.7 cm); Diam. 11 5/16 in. (28.7cm); 452 oz. 16 dwt. (14084.2 g)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of William Cullen Bryant, 1877",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/1029",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP161659.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP161659.jpg",
+  "localImage": "1029.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}

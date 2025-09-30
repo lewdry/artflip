@@ -1,0 +1,42 @@
+{
+  "objectID": 435853,
+  "title": "The Coronation of the Virgin",
+  "artistDisplayName": "Annibale Carracci",
+  "artistDisplayBio": "Italian, Bologna 1560–1609 Rome",
+  "objectDate": "after 1595",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "46 3/8 x 55 5/8 in. (117.8 x 141.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Purchase, Bequest of Miss Adelaide Milton de Groot (1876-1967), by exchange, and Dr. and Mrs. Manuel Porter and sons Gift, in honor of Mrs. Sarah Porter, 1971",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435853",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-27033-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27033-001.jpg",
+  "localImage": "435853.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Doves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250045",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2984138"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Gods",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343851",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178885"
+    }
+  ]
+}

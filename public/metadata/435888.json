@@ -1,0 +1,37 @@
+{
+  "objectID": 435888,
+  "title": "Soap Bubbles",
+  "artistDisplayName": "Jean Siméon Chardin",
+  "artistDisplayBio": "French, Paris 1699–1779 Paris",
+  "objectDate": "ca. 1733–34",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 x 24 7/8 in. (61 x 63.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Wentworth Fund, 1949",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435888",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
+  "localImage": "435888.jpg",
+  "tags": [
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Bubbles",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q75794"
+    }
+  ]
+}

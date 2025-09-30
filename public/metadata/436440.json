@@ -1,0 +1,37 @@
+{
+  "objectID": 436440,
+  "title": "Cottage Children (The Wood Gatherers)",
+  "artistDisplayName": "Thomas Gainsborough",
+  "artistDisplayBio": "British, Sudbury 1727–1788 London",
+  "objectDate": "1787",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "58 1/8 x 47 3/8 in. (147.6 x 120.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Mary Stillman Harkness, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436440",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP169640.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169640.jpg",
+  "localImage": "436440.jpg",
+  "tags": [
+    {
+      "term": "Children",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025945",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7569"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    }
+  ]
+}

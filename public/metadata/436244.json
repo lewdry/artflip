@@ -1,0 +1,32 @@
+{
+  "objectID": 436244,
+  "title": "Virgin and Child with Saint Anne",
+  "artistDisplayName": "Albrecht Dürer",
+  "artistDisplayBio": "German, Nuremberg 1471–1528 Nuremberg",
+  "objectDate": "probably 1519",
+  "objectName": "Painting",
+  "medium": "Oil on linden",
+  "dimensions": "23 5/8 x 19 5/8 in. (60 x 49.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Benjamin Altman, 1913",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436244",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP280846.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280846.jpg",
+  "localImage": "436244.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint Anne",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001010",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q164294"
+    }
+  ]
+}

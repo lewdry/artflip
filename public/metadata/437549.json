@@ -1,0 +1,32 @@
+{
+  "objectID": 437549,
+  "title": "Wheat Fields",
+  "artistDisplayName": "Jacob van Ruisdael",
+  "artistDisplayBio": "Dutch, Haarlem 1628/29–1682 Amsterdam",
+  "objectDate": "ca. 1670",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "39 3/8 x 51 1/4 in. (100 x 130.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Benjamin Altman, 1913",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437549",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP145911.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
+  "localImage": "437549.jpg",
+  "tags": [
+    {
+      "term": "Roads",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008217",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34442"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

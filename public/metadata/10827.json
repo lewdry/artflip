@@ -1,0 +1,37 @@
+{
+  "objectID": 10827,
+  "title": "The Thinker: Portrait of Louis N. Kenton",
+  "artistDisplayName": "Thomas Eakins",
+  "artistDisplayBio": "American, Philadelphia, Pennsylvania 1844–1916 Philadelphia, Pennsylvania",
+  "objectDate": "1900",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "82 x 42 in. (208.3 x 106.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "John Stewart Kennedy Fund, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10827",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT102.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT102.jpg",
+  "localImage": "10827.jpg",
+  "tags": [
+    {
+      "term": "Contemplation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300264547",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1123855"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectID": 435728,
+  "title": "The Last Communion of Saint Jerome",
+  "artistDisplayName": "Botticelli (Alessandro di Mariano Filipepi)",
+  "artistDisplayBio": "Italian, Florence 1444/45–1510 Florence",
+  "objectDate": "early 1490s",
+  "objectName": "Painting",
+  "medium": "Tempera and gold on wood",
+  "dimensions": "13 1/2 x 10 in. (34.3 x 25.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Bequest of Benjamin Altman, 1913",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435728",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24049-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24049-001.jpg",
+  "localImage": "435728.jpg",
+  "tags": [
+    {
+      "term": "Saint Jerome",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+    },
+    {
+      "term": "Monks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025765",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q733786"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    }
+  ]
+}

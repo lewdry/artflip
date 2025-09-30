@@ -1,0 +1,32 @@
+{
+  "objectID": 13134,
+  "title": "The Freedman",
+  "artistDisplayName": "John Quincy Adams Ward",
+  "artistDisplayBio": "American, Urbana, Ohio 1830–1910 New York",
+  "objectDate": "1863, cast 1891",
+  "objectName": "Sculpture",
+  "medium": "Bronze",
+  "dimensions": "19 1/2 x 14 3/4 x 9 3/4 in. (49.5 x 37.5 x 24.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Charles Anthony Lamb and Barea Lamb Seeley, in memory of their grandfather, Charles Rollinson Lamb, 1979",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13134",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-21439-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21439-001.jpg",
+  "localImage": "13134.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Slavery",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055309",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8463"
+    }
+  ]
+}

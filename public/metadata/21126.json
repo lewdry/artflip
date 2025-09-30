@@ -1,0 +1,42 @@
+{
+  "objectID": 21126,
+  "title": "Young Husband: First Marketing",
+  "artistDisplayName": "Lilly Martin Spencer",
+  "artistDisplayBio": "1822–1902",
+  "objectDate": "1854",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "29 1/2 x 24 3/4 in. (74.9 x 62.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Max N. Berry, 2015",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/21126",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP355340.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP355340.jpg",
+  "localImage": "21126.jpg",
+  "tags": [
+    {
+      "term": "Food",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300254496",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2095"
+    },
+    {
+      "term": "Vegetables",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380162",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11004"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Umbrellas",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300046227",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41607"
+    }
+  ]
+}

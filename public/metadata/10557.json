@@ -1,0 +1,37 @@
+{
+  "objectID": 10557,
+  "title": "Augustus Saint-Gaudens",
+  "artistDisplayName": "Kenyon Cox",
+  "artistDisplayBio": "American, Warren, Ohio 1856–1919 New York",
+  "objectDate": "1887, replica 1908",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "33 1/2 x 47 1/8 in. (85.1 x 119.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of friends of the artist, through August F. Jaccaci, 1908",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10557",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2583.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2583.jpg",
+  "localImage": "10557.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Artists",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025103",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q483501"
+    }
+  ]
+}

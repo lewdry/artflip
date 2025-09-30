@@ -1,0 +1,37 @@
+{
+  "objectID": 13184,
+  "title": "The Red Bridge",
+  "artistDisplayName": "Julian Alden Weir",
+  "artistDisplayBio": "American, West Point, New York 1852–1919 New York",
+  "objectDate": "1895",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 1/4 x 33 3/4 in. (61.6 x 85.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mrs. John A. Rutherfurd, 1914",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13184",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT202891.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT202891.jpg",
+  "localImage": "13184.jpg",
+  "tags": [
+    {
+      "term": "Bridges",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

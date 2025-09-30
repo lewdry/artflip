@@ -1,0 +1,37 @@
+{
+  "objectID": 39345,
+  "title": "Crowned  Buddha",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "9th century",
+  "objectName": "Figure",
+  "medium": "Brass",
+  "dimensions": "H.  20 3/8 in. x W.  9 in.  (51.8cm  x 22.9 cm); D. (from hands) 3 in. (7.6 cm)",
+  "department": "Asian Art",
+  "culture": "India, Ancient kingdom of Kashmir",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Ben Heller, 1970",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/39345",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT229537.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DT229537.jpg",
+  "localImage": "39345.jpg",
+  "tags": [
+    {
+      "term": "Kashmir",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300018817",
+      "Wikidata_URL": null
+    },
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ]
+}

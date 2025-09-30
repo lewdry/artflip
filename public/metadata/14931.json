@@ -1,0 +1,32 @@
+{
+  "objectID": 14931,
+  "title": "A Rose",
+  "artistDisplayName": "Thomas Anshutz",
+  "artistDisplayBio": "American, Newport, Kentucky 1851–1912 Fort Washington, Pennsylvania",
+  "objectDate": "1907",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "58 x 43 7/8 in. (147.3 x 111.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Marguerite and Frank A. Cosgrove Jr. Fund, 1993",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/14931",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT104.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT104.jpg",
+  "localImage": "14931.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

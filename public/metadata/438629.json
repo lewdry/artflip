@@ -1,0 +1,42 @@
+{
+  "objectID": 438629,
+  "title": "First Steps",
+  "artistDisplayName": "Franz Ludwig Catel",
+  "artistDisplayBio": "German, Berlin 1778–1856 Rome",
+  "objectDate": "ca. 1820–25",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 3/4 x 14 3/4 in. (47.6 x 37.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Whitney Collection, Gift of Wheelock Whitney III, and Purchase, Gift of Mr. and Mrs. Charles S. McVeigh, by exchange, 2003",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438629",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP169443.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169443.jpg",
+  "localImage": "438629.jpg",
+  "tags": [
+    {
+      "term": "Vegetables",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380162",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11004"
+    },
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

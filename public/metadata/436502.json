@@ -1,0 +1,47 @@
+{
+  "objectID": 436502,
+  "title": "The Annunciation",
+  "artistDisplayName": "Luca Giordano",
+  "artistDisplayBio": "Italian, Naples 1634–1705 Naples",
+  "objectDate": "1672",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "93 1/8 x 66 7/8 in. (236.5 x 169.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mr. and Mrs. Charles Wrightsman, 1973",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436502",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-22842-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22842-001.jpg",
+  "localImage": "436502.jpg",
+  "tags": [
+    {
+      "term": "Lilies",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375591",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40458125"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Archangel Gabriel",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000493",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81989"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    }
+  ]
+}

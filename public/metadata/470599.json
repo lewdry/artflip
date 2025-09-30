@@ -1,0 +1,42 @@
+{
+  "objectID": 470599,
+  "title": "A Knight of the d'Aluye Family",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "after 1248–by 1267",
+  "objectName": "Tomb effigy",
+  "medium": "Limestone",
+  "dimensions": "13 × 33 1/2 × 83 1/2 in., 1197 lb. (33 × 85.1 × 212.1 cm, 543 kg)",
+  "department": "The Cloisters",
+  "culture": "French",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1925",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470599",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP365741.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP365741.jpg",
+  "localImage": "470599.jpg",
+  "tags": [
+    {
+      "term": "Shields",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300036869",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q131559"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Lions",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310388",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q140"
+    },
+    {
+      "term": "Knights",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300230874",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q102083"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectID": 548344,
+  "title": "Book of the Dead for the Chantress of Amun Nauny",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1050 B.C.",
+  "objectName": "Papyrus, funerary, Book of the Dead, Nauny; Dendur-decoded",
+  "medium": "Papyrus, paint",
+  "dimensions": "L. 521.5 cm (206 5/16 in); H. 35 cm (13 3/4 in)",
+  "department": "Egyptian Art",
+  "culture": "",
+  "period": "Third Intermediate Period",
+  "dynasty": "Dynasty 21",
+  "creditLine": "Rogers Fund, 1930",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/548344",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/eg/original/DT11633.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/eg/web-large/DT11633.jpg",
+  "localImage": "548344.jpg",
+  "tags": [
+    {
+      "term": "Hieroglyphs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028721",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q193762"
+    },
+    {
+      "term": "Anubis",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q47534"
+    },
+    {
+      "term": "Horus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001076",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q84122"
+    },
+    {
+      "term": "Isis",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000704",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q79876"
+    }
+  ]
+}

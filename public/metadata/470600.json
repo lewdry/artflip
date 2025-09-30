@@ -1,0 +1,52 @@
+{
+  "objectID": 470600,
+  "title": "The Adoration of the Shepherds",
+  "artistDisplayName": "Bartolo di Fredi",
+  "artistDisplayBio": "Italian, active by 1353–died 1410 Siena",
+  "objectDate": "1374",
+  "objectName": "Painting",
+  "medium": "Tempera on poplar, gold ground",
+  "dimensions": "Overall: 69 1/8 x 45 1/8 in. (175.6 x 114.6 cm)\r\nPainted surface: 63 1/4 x 45 1/8 in. (160.7 x 114.6 cm)",
+  "department": "The Cloisters",
+  "culture": "Italian",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1925",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470600",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP270224.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP270224.jpg",
+  "localImage": "470600.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Saint Joseph",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000229",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1029715"
+    }
+  ]
+}

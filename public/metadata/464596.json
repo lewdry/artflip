@@ -1,0 +1,37 @@
+{
+  "objectID": 464596,
+  "title": "The Visitation",
+  "artistDisplayName": "Master Heinrich of Constance",
+  "artistDisplayBio": "German, active in Constance, ca. 1300",
+  "objectDate": "ca. 1310–20",
+  "objectName": "Sculpture",
+  "medium": "Walnut, paint, gilding, rock-crystal cabochons inset in gilt-silver mounts",
+  "dimensions": "23 1/4 × 11 7/8 × 7 1/4 in. (59.1 × 30.2 × 18.4 cm)",
+  "department": "Medieval Art",
+  "culture": "German",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/464596",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/md/original/DP344571.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/md/web-large/DP344571.jpg",
+  "localImage": "464596.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Visitation",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000359",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q691810"
+    }
+  ]
+}

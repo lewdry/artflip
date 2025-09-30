@@ -1,0 +1,42 @@
+{
+  "objectID": 458978,
+  "title": "Coronation of the Virgin",
+  "artistDisplayName": "Giovanni di Paolo (Giovanni di Paolo di Grazia)",
+  "artistDisplayBio": "Italian, Siena 1398–1482 Siena",
+  "objectDate": "ca. 1455",
+  "objectName": "Painting",
+  "medium": "Tempera on wood, gold ground",
+  "dimensions": "Overall (shaped top): 70 5/8 × 51 3/4 in. (179.4 × 131.4 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/458978",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT708.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT708.jpg",
+  "localImage": "458978.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Ceremony",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054754",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2627975"
+    }
+  ]
+}

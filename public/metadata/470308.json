@@ -1,0 +1,47 @@
+{
+  "objectID": 470308,
+  "title": "Beaker with Apes",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 1425–50",
+  "objectName": "Beaker",
+  "medium": "Silver, silver gilt, and painted enamel",
+  "dimensions": "Overall: 7 7/8 x 4 5/8 in. (20 x 11.7 cm)",
+  "department": "The Cloisters",
+  "culture": "South Netherlandish",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "The Cloisters Collection, 1952",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/470308",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/cl/original/DP102947.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/cl/web-large/DP102947.jpg",
+  "localImage": "470308.jpg",
+  "tags": [
+    {
+      "term": "Sleeping",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375130",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35831"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Hunting",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300239666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q36963"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Apes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250026",
+      "Wikidata_URL": null
+    }
+  ]
+}

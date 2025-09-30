@@ -1,0 +1,32 @@
+{
+  "objectID": 436963,
+  "title": "Strawberries",
+  "artistDisplayName": "Edouard Manet",
+  "artistDisplayBio": "French, Paris 1832–1883 Paris",
+  "objectDate": "ca. 1882",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "8 3/8 x 10 1/2 in. (21.3 x 26.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Gift of Mr. and Mrs. Nate B. Spingold, 1956",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436963",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/ep56.230.1.R.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep56.230.1.R.jpg",
+  "localImage": "436963.jpg",
+  "tags": [
+    {
+      "term": "Strawberries",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375414",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q745"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

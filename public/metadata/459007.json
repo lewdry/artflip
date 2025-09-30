@@ -1,0 +1,32 @@
+{
+  "objectID": 459007,
+  "title": "The Nativity",
+  "artistDisplayName": "Lorenzo Monaco (Piero di Giovanni)",
+  "artistDisplayBio": "Italian, Florence (?) ca. 1370–1425 Florence (?)",
+  "objectDate": "ca. 1406–10",
+  "objectName": "Painting",
+  "medium": "Tempera on wood, gold ground",
+  "dimensions": "8 3/4 x 12 1/4 in. (22.2 x 31.1 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459007",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT709.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT709.jpg",
+  "localImage": "459007.jpg",
+  "tags": [
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Nativity",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000124",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51628"
+    }
+  ]
+}

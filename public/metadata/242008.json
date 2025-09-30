@@ -1,0 +1,32 @@
+{
+  "objectID": 242008,
+  "title": "Limestone Herakles",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "objectDate": "ca. 530–520 BCE",
+  "objectName": "Statue of Herakles",
+  "medium": "Limestone",
+  "dimensions": "Overall: 78 × 19 × 12 in., 641 lb. (198.1 × 48.3 × 30.5 cm, 290.8 kg)",
+  "department": "Greek and Roman Art",
+  "culture": "Cypriot",
+  "period": "Archaic",
+  "dynasty": "",
+  "creditLine": "The Cesnola Collection, Purchased by subscription, 1874–76",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/242008",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DT257600.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DT257600.jpg",
+  "localImage": "242008.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Herakles",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000042",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q122248"
+    }
+  ]
+}
