@@ -1,1 +1,1 @@
-Random Open Access image from the Metropolitan Museum of Art
+Randomly selected public domain artwork highlights from the Metropolitan Museum of Art and the Art Institute of Chicago.

@@ -1,0 +1,29 @@
+{
+  "objectID": 64001,
+  "title": "Apples",
+  "artistDisplayName": "Henri Matisse\nFrench, 1869–1954",
+  "artistDisplayBio": "",
+  "objectDate": "1916",
+  "objectName": "oil on canvas",
+  "medium": "Oil on canvas",
+  "dimensions": "116.5 × 89.5 cm (45 7/8 × 35 3/16 in.)",
+  "department": "Modern Art",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Florene May Schoenborn and Samuel A. Marx",
+  "objectURL": "https://www.artic.edu/artworks/64001",
+  "isPublicDomain": true,
+  "primaryImage": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/400,/0/default.jpg",
+  "localImage": "64001.jpg",
+  "tags": [
+    "apples",
+    "tables",
+    "food",
+    "fruit",
+    "still life",
+    "yellow (color)"
+  ]
+}

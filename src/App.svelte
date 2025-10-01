@@ -192,7 +192,7 @@
             
             {#if artwork.objectURL}
               <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
-                View on the Met Site →
+                View on Museum Site →
               </a>
             {/if}
           </div>
