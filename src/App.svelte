@@ -206,7 +206,7 @@
     {/if}
     <footer>
       <p class="footer-credit">
-        All artwork displayed is in the public domain, available under Creative Commons Zero.<br>
+        All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
         ArtFlip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
     </footer>
@@ -234,7 +234,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     gap: 1rem;
   }
 
@@ -283,7 +283,7 @@
 
   .refresh-btn:hover:not(:disabled) {
     background: #444;
-    transform: translateY(-2px);
+    transform: scale(1.03);
   }
 
   .refresh-btn:disabled {
@@ -378,17 +378,11 @@
     display: block;
     object-fit: contain;
     background: #fff;
-    max-height: 80vh;
-  }
-
-  @media (min-width: 768px) {
-    .image-container img {
-      max-height: none;
-    }
+    max-height: 70vh;
   }
 
   .metadata {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .title {
@@ -397,16 +391,21 @@
     margin: 0 0 0.5rem 0;
     color: #1a1a1a;
     line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .artist {
     font-size: 1.2rem;
     color: #555;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1rem 0;
   }
 
   .details {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .details p {
@@ -425,16 +424,21 @@
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-top: 1rem !important;
+    margin-top: 0rem !important;
   }
 
   .credit-line {
     font-size: 0.9rem;
     color: #666;
     font-style: italic;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding-top: 1rem;
     border-top: 1px solid #eee;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .museum-link {
@@ -451,11 +455,12 @@
 
   .museum-link:hover {
     background: #005a99;
+    color: white;
     transform: scale(1.03);
   }
 
   footer {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .footer-credit {
