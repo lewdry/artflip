@@ -407,7 +407,6 @@
 
   .details {
     margin-bottom: 1.5rem;
-    padding-left: 1rem;
   }
 
   .details p {
