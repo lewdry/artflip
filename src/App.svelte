@@ -124,7 +124,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random public domain artworks.</h2>
+        <h2>Random public domain artwork</h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
@@ -206,7 +206,7 @@
     {/if}
     <footer>
       <p class="footer-credit">
-        All artwork displayed here is public domain, available under Creative Commons.<br>
+        All artwork displayed is public domain, available under Creative Commons Zero.<br>
         <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
     </footer>
