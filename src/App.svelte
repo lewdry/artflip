@@ -42,6 +42,61 @@
   }
 
   /**
+   * Updates the URL with the current artwork ID
+   */
+  function updateURL(objectID) {
+    if (objectID && window.history && window.history.replaceState) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('id', objectID);
+      window.history.replaceState({}, '', url);
+    }
+  }
+
+  /**
+   * Gets the artwork ID from URL parameters
+   */
+  function getArtworkIDFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('id');
+  }
+
+  /**
+   * Fetches a specific artwork by ID
+   */
+  async function fetchArtworkByID(objectID) {
+    loading = true;
+    error = null;
+    
+    try {
+      console.log(`Fetching specific artwork ${objectID}`);
+      
+      // Fetch metadata from local JSON file
+      const metadataUrl = `metadata/${objectID}.json`;
+      const artworkData = await rateLimitedFetch(metadataUrl);
+      
+      // Validate we got good data
+      if (!artworkData || !artworkData.localImage) {
+        throw new Error('Invalid artwork data');
+      }
+      
+      // Set local image path
+      artworkData.displayImage = `images/${artworkData.localImage}`;
+      
+      artwork = artworkData;
+      console.log('Successfully loaded:', artworkData.title);
+      
+      // Update URL without reload
+      updateURL(objectID);
+      
+    } catch (err) {
+      error = `Unable to load artwork ${objectID}. It may not exist in our collection.`;
+      console.error('Error fetching specific artwork:', err);
+    } finally {
+      loading = false;
+    }
+  }
+
+  /**
    * Fetches a random artwork from local JSON files
    */
   async function fetchRandomArtwork() {
@@ -72,6 +127,10 @@
           
           artwork = artworkData;
           console.log('Successfully loaded:', artworkData.title);
+          
+          // Update URL with the loaded artwork ID
+          updateURL(randomID);
+          
           return; // Success!
           
         } catch (attemptError) {
@@ -100,10 +159,24 @@
   }
 
   onMount(async () => {
-  artworkIDs = await rateLimitedFetch('artworkids.json');
-  fetchRandomArtwork();
+    artworkIDs = await rateLimitedFetch('artworkids.json');
+    
+    // Check if there's an ID in the URL
+    const urlID = getArtworkIDFromURL();
+    
+    if (urlID) {
+      // Try to load the specific artwork
+      await fetchArtworkByID(urlID);
+      
+      // If it failed to load, fall back to random
+      if (error) {
+        fetchRandomArtwork();
+      }
+    } else {
+      // No ID specified, load random artwork
+      fetchRandomArtwork();
+    }
   });
-
 
   // Conditional museum button text
   function getMuseumButtonText(creditLine) {
