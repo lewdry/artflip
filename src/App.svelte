@@ -407,7 +407,6 @@
 
   .details {
     margin-bottom: 1.5rem;
-    border-left: 3px solid #007acc;
     padding-left: 1rem;
   }
 
