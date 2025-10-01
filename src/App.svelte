@@ -124,7 +124,7 @@
     <header>
       <div class="title-group">
         <h1>ArtFlip</h1>
-        <h2>Random art from the public domain.</h2>
+        <h2>Random public domain artworks.</h2>
       </div>
 
       <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
