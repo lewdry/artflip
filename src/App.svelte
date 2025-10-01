@@ -206,8 +206,8 @@
     {/if}
     <footer>
       <p class="footer-credit">
-        All artwork displayed is public domain, available under Creative Commons Zero.<br>
-        <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
+        All artwork displayed is in the public domain, available under Creative Commons Zero.<br>
+        ArtFlip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
     </footer>
   </div>
