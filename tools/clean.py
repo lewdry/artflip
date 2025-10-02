@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime
 
 # File paths
-ids_file = "non_public_domain_ids.json"
+ids_file = "delete.json"
 images_folder = "images"
 metadata_folder = "metadata"
 trash_folder = "trash"

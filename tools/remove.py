@@ -4,7 +4,7 @@ from datetime import datetime
 
 # File paths (same directory as script)
 artwork_file = "artworkids.json"
-non_public_file = "non_public_domain_ids.json"
+non_public_file = "delete.json"
 log_file = "deletion_log.txt"
 
 def load_json(file_path):
