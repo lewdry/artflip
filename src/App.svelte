@@ -298,7 +298,7 @@
   .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
@@ -515,7 +515,9 @@
   }
 
   .museum-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: #007acc;
     color: white;
     text-decoration: none;
