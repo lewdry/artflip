@@ -551,9 +551,9 @@
 
   @media (max-width: 480px) {
     .container { padding: 1rem; }
-    .title-group h1 { font-size: 1.1rem; }
-    .metadata { padding: 1.5rem; }
-    .title { font-size: 1.5rem; }
+    .title-group h1 { font-size: 1.5rem; }
+    .metadata { padding: 1rem; }
+    .title { font-size: 1.2rem; }
     .artist { font-size: 1.1rem; }
     
     header {
