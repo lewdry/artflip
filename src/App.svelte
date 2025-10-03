@@ -461,11 +461,11 @@
   }
 
   .title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin: 0 0 0.5rem 0;
     color: #1a1a1a;
-    line-height: 1.2;
+    line-height: 1.5rem;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     line-clamp: 5;
@@ -474,7 +474,7 @@
   }
 
   .artist {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #555;
     margin: 0 0 1rem 0;
   }
