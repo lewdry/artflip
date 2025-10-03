@@ -178,18 +178,6 @@
     }
   });
 
-  // Conditional museum button text
-  function getMuseumButtonText(creditLine) {
-    if (!creditLine) {
-      return "View on Museum Site →";
-    } else if (creditLine.startsWith("Metropolitan")) {
-      return "View on the Met Site →";
-    } else if (creditLine.startsWith("Art Institute of Chicago")) {
-      return "View on the AIC Site →";
-    } else {
-      return "View on Museum Site →";
-    }
-  }
 </script>
 
 <main>
