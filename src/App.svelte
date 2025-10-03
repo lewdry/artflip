@@ -320,9 +320,11 @@
   }
 
   .title-group h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0 0 0.2rem 0;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Josefin Sans',   sans-serif;
+    color: #333333;
   }
 
   .title-group h2 {
@@ -459,8 +461,8 @@
   }
 
   .title {
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 600;
     margin: 0 0 0.5rem 0;
     color: #1a1a1a;
     line-height: 1.2;
@@ -478,7 +480,7 @@
   }
 
   .details {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .details p {
@@ -505,7 +507,7 @@
     color: #666;
     font-style: italic;
     margin-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     border-top: 1px solid #eee;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -544,6 +546,7 @@
     color: #555;
     text-align: left;
     margin: 1rem 0 0 0;
+    font-weight: 300;
   } 
 
   @media (max-width: 480px) {
