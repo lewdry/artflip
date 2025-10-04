@@ -555,7 +555,7 @@
   } 
 
   @media (max-width: 800px) {
-    .container { padding: 0.5rem; }
+    .container { padding: 1rem; }
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
