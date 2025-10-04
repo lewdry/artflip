@@ -61,6 +61,18 @@
   }
 
   /**
+   * Preloads an image and returns a promise that resolves when loaded
+   */
+  function preloadImage(src) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve();
+      img.onerror = reject;
+      img.src = src;
+    });
+  }
+
+  /**
    * Fetches a specific artwork by ID
    */
   async function fetchArtworkByID(objectID) {
@@ -81,6 +93,9 @@
       
       // Set local image path
       artworkData.displayImage = `images/${artworkData.localImage}`;
+      
+      // Preload the image before updating the artwork
+      await preloadImage(artworkData.displayImage);
       
       artwork = artworkData;
       console.log('Successfully loaded:', artworkData.title);
@@ -124,6 +139,9 @@
           
           // Set local image path
           artworkData.displayImage = `images/${artworkData.localImage}`;
+          
+          // Preload the image before updating the artwork
+          await preloadImage(artworkData.displayImage);
           
           artwork = artworkData;
           console.log('Successfully loaded:', artworkData.title);
@@ -209,7 +227,6 @@
             <img 
               src={artwork.displayImage}
               alt={artwork.title || 'Artwork'}
-              loading="lazy"
               on:error={handleImageError}
             />
           </div>
