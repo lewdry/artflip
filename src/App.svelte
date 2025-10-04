@@ -481,7 +481,7 @@
   .artist {
     font-size: 1rem;
     color: #555;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0 0;
   }
 
   .details {
@@ -555,7 +555,7 @@
   } 
 
   @media (max-width: 799px) {
-    .container { padding: 2rem; }
+    .container { padding: 0.5rem 2rem; }
     .container { max-height: 60vh;}
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
@@ -584,7 +584,7 @@
       align-items: center;
 
       /* Ensure it doesn't shrink too much */
-      min-width: 800px;  /* or whatever max comfortable width */
+      min-width: 800px; 
       width: 100%;
     }
   }
