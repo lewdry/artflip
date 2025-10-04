@@ -301,7 +301,7 @@
   }
 
   .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 1rem;
     box-sizing: border-box;
