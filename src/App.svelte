@@ -312,7 +312,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     gap: 1rem;
   }
 
@@ -458,16 +458,16 @@
     display: block;
     object-fit: contain;
     background: #fff;
-    max-height: 75vh;
+    max-height: 70vh;
   }
 
   .metadata {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .title {
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 0 0.5rem 0;
     color: #1a1a1a;
     line-height: 1.5rem;
@@ -479,13 +479,13 @@
   }
 
   .artist {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #555;
     margin: 0 0 1rem 0;
   }
 
   .details {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
   }
 
   .details p {
@@ -495,7 +495,7 @@
   }
 
   .details p strong {
-    font-weight: 600;
+    font-weight: 500;
     color: #1a1a1a;
   }
 
@@ -542,7 +542,7 @@
   }
 
   footer {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .footer-credit {
@@ -550,7 +550,7 @@
     font-style: italic;
     color: #555;
     text-align: left;
-    margin: 1rem 0 0 0;
+    margin: 0.5rem 0 0 0;
     font-weight: 300;
   } 
 
