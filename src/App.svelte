@@ -556,6 +556,7 @@
 
   @media (max-width: 799px) {
     .container { padding: 2rem; }
+    .container { max-height: 60vh;}
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
