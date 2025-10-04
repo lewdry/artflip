@@ -301,7 +301,7 @@
   }
 
   .container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -572,6 +572,18 @@
     
     .title-group h2 {
       text-align: left;
+      width: 100%;
+    }
+  }
+
+  /* Desktop artwork grid */
+  @media (min-width: 800px) {
+    .artwork {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      /* Ensure it doesn't shrink too much */
+      min-width: 800px;  /* or whatever max comfortable width */
       width: 100%;
     }
   }
