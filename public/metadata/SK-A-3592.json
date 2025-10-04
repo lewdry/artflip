@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-3592",
+  "title": "A Shop Window",
+  "artistDisplayName": "Isaac Israels",
+  "artistDisplayBio": "",
+  "objectDate": "1894",
+  "objectName": "painting",
+  "medium": "oil paint (paint), canvas",
+  "dimensions": "h 59cm × w 64cm",
+  "department": "paintings",
+  "culture": "Amsterdam",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. Mr and Mrs Drucker-Fraser Bequest, Montreux",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3592",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/FP6XlPhhS5EaChWgMMLPRScEOFrY9n11gLrjNk-ayB5BGOiAw9xpQYlFhIiOcnPdLie3oDDTNtwLVGxRXSWOcb22Opy4=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/FP6XlPhhS5EaChWgMMLPRScEOFrY9n11gLrjNk-ayB5BGOiAw9xpQYlFhIiOcnPdLie3oDDTNtwLVGxRXSWOcb22Opy4=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/FP6XlPhhS5EaChWgMMLPRScEOFrY9n11gLrjNk-ayB5BGOiAw9xpQYlFhIiOcnPdLie3oDDTNtwLVGxRXSWOcb22Opy4=s400",
+  "localImage": "SK-A-3592.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109401",
+  "title_source": "api_titles"
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-1610",
+  "title": "The Grey Horse",
+  "artistDisplayName": "Philips Wouwerman",
+  "artistDisplayBio": "",
+  "objectDate": "c. 1646",
+  "objectName": "painting",
+  "medium": "oak (wood), oil paint (paint)",
+  "dimensions": "h 43.9cm × w 37.6cm",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1610",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/F8rQyE1nOY5PVfHFkc8XJP03o7vnhpZnCTHOvUxtJvuQUfwy0nJsvfD7QctAlN-e8RwoSUVZiBnB3dgCYvrnEJuHibVKRFQJrd_OOZg=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/F8rQyE1nOY5PVfHFkc8XJP03o7vnhpZnCTHOvUxtJvuQUfwy0nJsvfD7QctAlN-e8RwoSUVZiBnB3dgCYvrnEJuHibVKRFQJrd_OOZg=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/F8rQyE1nOY5PVfHFkc8XJP03o7vnhpZnCTHOvUxtJvuQUfwy0nJsvfD7QctAlN-e8RwoSUVZiBnB3dgCYvrnEJuHibVKRFQJrd_OOZg=s400",
+  "localImage": "SK-A-1610.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200108409",
+  "title_source": "api_title"
+}

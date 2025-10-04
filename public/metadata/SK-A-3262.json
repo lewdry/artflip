@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-3262",
+  "title": "Self Portrait",
+  "artistDisplayName": "Vincent van Gogh",
+  "artistDisplayBio": "",
+  "objectDate": "1887",
+  "objectName": "painting",
+  "medium": "cardboard, oil paint (paint)",
+  "dimensions": "h 42cm × w 34cm × d 8cm",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. Gift of F.W.M., Baroness Bonger-van der Borch van Verwolde, Almen",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3262",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/Ckjq-HkB2XhEsbuMsei0MR5fLTODfkcXY8qQTG-XLHVxE0jLO9DnSYaVE8n1kCrcm9AMKzoWB2w03LrY0v7eoj5hYw=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/Ckjq-HkB2XhEsbuMsei0MR5fLTODfkcXY8qQTG-XLHVxE0jLO9DnSYaVE8n1kCrcm9AMKzoWB2w03LrY0v7eoj5hYw=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/Ckjq-HkB2XhEsbuMsei0MR5fLTODfkcXY8qQTG-XLHVxE0jLO9DnSYaVE8n1kCrcm9AMKzoWB2w03LrY0v7eoj5hYw=s400",
+  "localImage": "SK-A-3262.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109794",
+  "title_source": "api_titles"
+}

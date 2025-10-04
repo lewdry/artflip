@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-1754",
+  "title": "A Festive Company",
+  "artistDisplayName": "Isack Elyas",
+  "artistDisplayBio": "",
+  "objectDate": "1629",
+  "objectName": "painting",
+  "medium": "panel, oil paint (paint)",
+  "dimensions": "h 47.1cm × w 63.2cm",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. D. Franken Bequest, Le Vésinet",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1754",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/-IiZVIsUs4mYv8SunEcHNUApfRgaSNC3LgDbQafQtes7SrsHfwU3_nJyG9sPsds8KH0WFkf-RIw1jMTEGGeWsAjxwJyFEiwBzEDdYd8=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/-IiZVIsUs4mYv8SunEcHNUApfRgaSNC3LgDbQafQtes7SrsHfwU3_nJyG9sPsds8KH0WFkf-RIw1jMTEGGeWsAjxwJyFEiwBzEDdYd8=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/-IiZVIsUs4mYv8SunEcHNUApfRgaSNC3LgDbQafQtes7SrsHfwU3_nJyG9sPsds8KH0WFkf-RIw1jMTEGGeWsAjxwJyFEiwBzEDdYd8=s400",
+  "localImage": "SK-A-1754.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109275",
+  "title_source": "api_titles"
+}

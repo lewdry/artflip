@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-3401",
+  "title": "The Crucifixion",
+  "artistDisplayName": "Niccolò di Pietro Gerini",
+  "artistDisplayBio": "",
+  "objectDate": "c. 1390",
+  "objectName": "painting",
+  "medium": "panel",
+  "dimensions": "h 70cm × w 43cm",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. J.W.E. vom Rath Bequest, Amsterdam",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3401",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/B0slQzPSyMwijXbd2noqw68DGeW7zS9YGTIIT5d6004Igg3De79OClv1kZHDF4Euiol1SNL3R2GHBPLNzofeBxVdOkk=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/B0slQzPSyMwijXbd2noqw68DGeW7zS9YGTIIT5d6004Igg3De79OClv1kZHDF4Euiol1SNL3R2GHBPLNzofeBxVdOkk=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/B0slQzPSyMwijXbd2noqw68DGeW7zS9YGTIIT5d6004Igg3De79OClv1kZHDF4Euiol1SNL3R2GHBPLNzofeBxVdOkk=s400",
+  "localImage": "SK-A-3401.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109300",
+  "title_source": "api_title"
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-3843",
+  "title": "Portrait of a woman",
+  "artistDisplayName": "Jan Jansz Mostaert",
+  "artistDisplayBio": "",
+  "objectDate": "c. 1520",
+  "objectName": "painting",
+  "medium": "panel, oil paint (paint)",
+  "dimensions": "h 64.3cm × w 49.5cm",
+  "department": "paintings",
+  "culture": "Haarlem",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum.",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3843",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/zuxEPYk1sYRdcSwL36b7tItd_SEBskpGx0Nm9ys4vve64m1Pqmtvj4llh1vHEU0mK7UtM7D-RYdM0ZW6k-AoBKTWJQ=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/zuxEPYk1sYRdcSwL36b7tItd_SEBskpGx0Nm9ys4vve64m1Pqmtvj4llh1vHEU0mK7UtM7D-RYdM0ZW6k-AoBKTWJQ=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/zuxEPYk1sYRdcSwL36b7tItd_SEBskpGx0Nm9ys4vve64m1Pqmtvj4llh1vHEU0mK7UtM7D-RYdM0ZW6k-AoBKTWJQ=s400",
+  "localImage": "SK-A-3843.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200107772",
+  "title_source": "api_titles"
+}

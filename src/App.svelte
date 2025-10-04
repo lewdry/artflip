@@ -235,7 +235,7 @@
             <h2 class="title">{artwork.title || 'Untitled'}</h2>
             
             {#if artwork.artistDisplayName}
-              <p class="artist">{artwork.artistDisplayName}</p>
+              <p class="artist">{artwork.artistDisplayName || 'Artist Unknown'}</p>
             {/if}
             
             <div class="details">

@@ -1,0 +1,27 @@
+{
+  "objectID": "SK-A-3231",
+  "title": "The Summer",
+  "artistDisplayName": "Jacob de Wit",
+  "artistDisplayBio": "",
+  "objectDate": "1740",
+  "objectName": "painting",
+  "medium": "canvas, oil paint (paint)",
+  "dimensions": "h 109cm × w 110.5cm × w 8.6kg",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum. M.C.C. Reynvaan Bequest, Elspeet",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3231",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/2rafFOJeG7UXOySC5Arrt_MsmMRcKhA7p8t7rvKch78nUxumTcI0z-ZmB4xugY3FyyHgdq6-1W8aeQxkZ5IZtRnyjg=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/2rafFOJeG7UXOySC5Arrt_MsmMRcKhA7p8t7rvKch78nUxumTcI0z-ZmB4xugY3FyyHgdq6-1W8aeQxkZ5IZtRnyjg=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/2rafFOJeG7UXOySC5Arrt_MsmMRcKhA7p8t7rvKch78nUxumTcI0z-ZmB4xugY3FyyHgdq6-1W8aeQxkZ5IZtRnyjg=s400",
+  "localImage": "SK-A-3231.jpg",
+  "tags": [
+    "overdoor",
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109786",
+  "title_source": "api_titles"
+}

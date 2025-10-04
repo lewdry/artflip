@@ -1,0 +1,26 @@
+{
+  "objectID": "SK-A-4003",
+  "title": "The Flagellation",
+  "artistDisplayName": "Luca di Tommè",
+  "artistDisplayBio": "",
+  "objectDate": "c. 1365",
+  "objectName": "painting",
+  "medium": "panel",
+  "dimensions": "h 39cm × w 30cm",
+  "department": "paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Rijksmuseum.",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4003",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/tfJuWSAH9gGmv3iBnEfBlCn0qQZvlZF_hxDSOMrx7QMN5Dtbn9XvdUX-WsOOKoA7YRL-Blkdj4B8-vSsbhfN2DIGBoQ=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/tfJuWSAH9gGmv3iBnEfBlCn0qQZvlZF_hxDSOMrx7QMN5Dtbn9XvdUX-WsOOKoA7YRL-Blkdj4B8-vSsbhfN2DIGBoQ=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/tfJuWSAH9gGmv3iBnEfBlCn0qQZvlZF_hxDSOMrx7QMN5Dtbn9XvdUX-WsOOKoA7YRL-Blkdj4B8-vSsbhfN2DIGBoQ=s400",
+  "localImage": "SK-A-4003.jpg",
+  "tags": [
+    "painting"
+  ],
+  "lodId": "https://id.rijksmuseum.nl/200109439",
+  "title_source": "api_title"
+}
