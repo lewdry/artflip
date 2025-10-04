@@ -303,7 +303,7 @@
   .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 1rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
@@ -440,7 +440,7 @@
     max-width: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 800px) {
     .artwork {
       grid-template-columns: 1fr 1fr;
       align-items: center;
@@ -554,8 +554,8 @@
     font-weight: 300;
   } 
 
-  @media (max-width: 800px) {
-    .container { padding: 1rem; }
+  @media (max-width: 799px) {
+    .container { padding: 2rem; }
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
