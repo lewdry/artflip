@@ -303,7 +303,7 @@
   .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
@@ -341,7 +341,7 @@
     text-align: left;
     width: 100%;
     word-wrap: break-word;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   .refresh-btn {
@@ -458,7 +458,7 @@
     display: block;
     object-fit: contain;
     background: #fff;
-    max-height: 70vh;
+    max-height: 75vh;
   }
 
   .metadata {
@@ -554,8 +554,8 @@
     font-weight: 300;
   } 
 
-  @media (max-width: 480px) {
-    .container { padding: 1rem; }
+  @media (max-width: 800px) {
+    .container { padding: 0.5rem; }
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }

@@ -9,7 +9,9 @@ log_file = "deletion_log.txt"
 
 def load_json(file_path):
     with open(file_path, "r") as f:
-        return json.load(f)
+        data = json.load(f)
+    # Normalize all entries: strip whitespace and quotes
+    return [str(item).strip().strip('"').strip("'") for item in data]
 
 def save_json(file_path, data):
     with open(file_path, "w") as f:
