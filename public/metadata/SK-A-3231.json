@@ -2,10 +2,9 @@
   "objectID": "SK-A-3231",
   "title": "The Summer",
   "artistDisplayName": "Jacob de Wit",
-  "artistDisplayBio": "",
   "objectDate": "1740",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 109cm × w 110.5cm × w 8.6kg",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "overdoor",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109786",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109786"
 }

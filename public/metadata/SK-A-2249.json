@@ -2,10 +2,9 @@
   "objectID": "SK-A-2249",
   "title": "Portrait of Magtilda Muilman",
   "artistDisplayName": "Frans van der Mijn",
-  "artistDisplayBio": "",
   "objectDate": "c. 1745 - c. 1747",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 210cm × w 154.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108935",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108935"
 }

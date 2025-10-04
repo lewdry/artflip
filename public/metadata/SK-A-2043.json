@@ -2,10 +2,9 @@
   "objectID": "SK-A-2043",
   "title": "A Greek Priest",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "1700 - 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 39cm × w 31cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108061",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108061"
 }

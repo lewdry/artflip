@@ -2,10 +2,9 @@
   "objectID": "SK-A-3431",
   "title": "Madonna of Humility",
   "artistDisplayName": "Agnolo Gaddi",
-  "artistDisplayBio": "",
   "objectDate": "c. 1390",
-  "objectName": "painting",
-  "medium": "panel, tempera",
+  "objectName": "Painting",
+  "medium": "Panel, tempera",
   "dimensions": "h 76.5cm × w 53.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20027903",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20027903"
 }

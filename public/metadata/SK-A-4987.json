@@ -2,10 +2,9 @@
   "objectID": "SK-A-4987",
   "title": "Oostzijdse Mill along the River Gein by Moonlight",
   "artistDisplayName": "Piet Mondriaan",
-  "artistDisplayBio": "",
   "objectDate": "c. 1903",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 63cm × w 75.4cm",
   "department": "paintings",
   "culture": "Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200471926",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200471926"
 }

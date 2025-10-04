@@ -2,10 +2,9 @@
   "objectID": "SK-A-2848",
   "title": "Visiting the Sick",
   "artistDisplayName": "Michael Sweerts",
-  "artistDisplayBio": "",
   "objectDate": "c. 1646 - c. 1649",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 75cm × w 99cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108004",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108004"
 }

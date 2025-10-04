@@ -2,10 +2,9 @@
   "objectID": "SK-C-230",
   "title": "The Sick Woman",
   "artistDisplayName": "Jan Havicksz. Steen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1663 - c. 1666",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 76cm × w 63.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20015867",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20015867"
 }

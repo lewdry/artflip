@@ -2,10 +2,9 @@
   "objectID": "SK-A-3118",
   "title": "Portrait of Sir Thomas Gresham (1519 - 1579) Merchant and financial agent of the English crown in the Netherlands, founder of the Royal Exchange and of Gresham college, London",
   "artistDisplayName": "Anthonis Mor",
-  "artistDisplayBio": "",
   "objectDate": "c. 1560 - c. 1565",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 90cm × w 75.5cm",
   "department": "paintings",
   "culture": "Antwerp",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107768",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107768"
 }

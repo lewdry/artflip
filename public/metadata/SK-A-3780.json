@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-3780",
   "title": "Portrait of Gustaaf Willem, Baron van Imhoff, Governor-General of the Dutch East India Company",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1745",
-  "objectName": "painting",
-  "medium": "brass (alloy), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Brass (alloy), oil paint (paint)",
   "dimensions": "h 110cm × w 92.5cm",
   "department": "paintings",
   "culture": "Batavia, Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109332",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109332"
 }

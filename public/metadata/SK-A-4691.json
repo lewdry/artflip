@@ -2,10 +2,9 @@
   "objectID": "SK-A-4691",
   "title": "Self-Portrait at an Early Age",
   "artistDisplayName": "Rembrandt van Rijn",
-  "artistDisplayBio": "",
   "objectDate": "c. 1628",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 22.6cm × w 18.7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107941",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107941"
 }

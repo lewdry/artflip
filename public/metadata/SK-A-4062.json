@@ -2,10 +2,9 @@
   "objectID": "SK-A-4062",
   "title": "Pieter Cnoll. Senior Merchant of Batavia, his Wife Cornelia van Nijenroode and their Daughters Catharina (b. 1653) en Hester (b. 1659)",
   "artistDisplayName": "Jacob Coeman",
-  "artistDisplayBio": "",
   "objectDate": "1665",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 132cm × w 190.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109190",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109190"
 }

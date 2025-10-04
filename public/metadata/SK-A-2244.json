@@ -2,10 +2,9 @@
   "objectID": "SK-A-2244",
   "title": "Portrait of Catharina van der Voort",
   "artistDisplayName": "Abraham van den Tempel",
-  "artistDisplayBio": "",
   "objectDate": "1667",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 133cm × w 106cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20026391",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20026391"
 }

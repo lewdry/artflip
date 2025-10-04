@@ -2,10 +2,9 @@
   "objectID": "SK-A-4644",
   "title": "Shipwreck off a Rocky Coast",
   "artistDisplayName": "Wijnand Nuijen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1837",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 154cm × w 206cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107810",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107810"
 }

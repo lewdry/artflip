@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-4482",
   "title": "Bird's-eye View of Ambon, with a Portrait of Frederik Houtman (1571-1627) in a Cartouche",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1617",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 148.8cm × w 268.2cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110536",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200110536"
 }

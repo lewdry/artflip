@@ -2,10 +2,9 @@
   "objectID": "SK-A-1145",
   "title": "The Waterfall at Tivoli",
   "artistDisplayName": "Abraham Teerlink",
-  "artistDisplayBio": "",
   "objectDate": "1824",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 101cm × w 141cm",
   "department": "paintings",
   "culture": "Rome",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108008",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108008"
 }

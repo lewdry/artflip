@@ -2,10 +2,9 @@
   "objectID": "SK-A-1719",
   "title": "Christ Taking Leave of his Mother",
   "artistDisplayName": "Cornelis Engebrechtsz",
-  "artistDisplayBio": "",
   "objectDate": "c. 1515 - c. 1520",
-  "objectName": "painting",
-  "medium": "wood (plant material), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Wood (plant material), oil paint (paint)",
   "dimensions": "h 54.7cm × w 44cm",
   "department": "paintings",
   "culture": "Leiden",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109278",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109278"
 }

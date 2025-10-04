@@ -2,10 +2,9 @@
   "objectID": "SK-A-2963",
   "title": "Portrait of Don Ramón Satué",
   "artistDisplayName": "Francisco de Goya",
-  "artistDisplayBio": "",
   "objectDate": "1823",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 107cm × w 83.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109334",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109334"
 }

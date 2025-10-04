@@ -2,10 +2,9 @@
   "objectID": "SK-A-4977",
   "title": "Harbour at Sunrise",
   "artistDisplayName": "Claude Lorrain",
-  "artistDisplayBio": "",
   "objectDate": "c. 1637 - c. 1638",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 74cm × w 98.3cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200420913",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200420913"
 }

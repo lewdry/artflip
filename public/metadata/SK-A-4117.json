@@ -2,10 +2,9 @@
   "objectID": "SK-A-4117",
   "title": "Exchange of Fire on the Vaartse Rijn near Jutphaas",
   "artistDisplayName": "Jonas Zeuner",
-  "artistDisplayBio": "",
   "objectDate": "1787 - 1788",
-  "objectName": "painting",
-  "medium": "glass",
+  "objectName": "Painting",
+  "medium": "Glass",
   "dimensions": "h 27cm × w 33cm",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "reverse painting on glass",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110497",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110497"
 }

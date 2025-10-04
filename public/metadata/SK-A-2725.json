@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-2725",
   "title": "HMS 'Medusa' Forcing the Passage through Shimonoseki Strait between Kyushu and Honshu, September 1864",
-  "artistDisplayName": "jonkheer Jacob Eduard van Heemskerck van Beest",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Jonkheer Jacob Eduard van Heemskerck van Beest",
   "objectDate": "1864",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 68cm × w 107cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109356",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109356"
 }

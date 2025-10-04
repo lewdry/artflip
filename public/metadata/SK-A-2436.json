@@ -2,10 +2,9 @@
   "objectID": "SK-A-2436",
   "title": "The Studio of the Haarlem Painter Pieter Frederik van Os",
   "artistDisplayName": "Anton Mauve",
-  "artistDisplayBio": "",
   "objectDate": "c. 1856 - c. 1857",
-  "objectName": "painting",
-  "medium": "paper, canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Paper, canvas, oil paint (paint)",
   "dimensions": "h 49cm × w 61cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109455",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109455"
 }

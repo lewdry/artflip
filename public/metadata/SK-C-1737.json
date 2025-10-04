@@ -2,10 +2,9 @@
   "objectID": "SK-C-1737",
   "title": "Battle of Medway",
   "artistDisplayName": "Willem Schellinks",
-  "artistDisplayBio": "",
   "objectDate": "c. 1668",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 153cm × w 209cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200549872",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200549872"
 }

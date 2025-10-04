@@ -2,10 +2,9 @@
   "objectID": "SK-A-3772",
   "title": "Portrait of Christoffel van Swoll (Swol, Zwol), Governor-General of the Dutch East Indies",
   "artistDisplayName": "Hendrik van den Bosch",
-  "artistDisplayBio": "",
   "objectDate": "1713 - 1718",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 99cm × w 77cm",
   "department": "paintings",
   "culture": "Batavia",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109981",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109981"
 }

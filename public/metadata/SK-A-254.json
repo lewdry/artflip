@@ -2,10 +2,9 @@
   "objectID": "SK-A-254",
   "title": "Portrait of Frederik Hendrik (1584-1647), Prince of Orange",
   "artistDisplayName": "Michiel Jansz van Mierevelt",
-  "artistDisplayBio": "",
   "objectDate": "c. 1632",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 111.5cm × w 87.7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109483",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109483"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-5015",
   "title": "Arcadian Landscape with Setting Sun",
   "artistDisplayName": "Daniël Dupré",
-  "artistDisplayBio": "",
   "objectDate": "1792 - 1809",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 54cm × w 70cm × d 5.9cm",
   "department": "paintings",
   "culture": "? Amsterdam, ? Italy",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20078751",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20078751"
 }

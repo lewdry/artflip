@@ -2,10 +2,9 @@
   "objectID": "SK-A-2977",
   "title": "Building Site in Amsterdam",
   "artistDisplayName": "George Hendrik Breitner",
-  "artistDisplayBio": "",
   "objectDate": "c. 1900",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 52cm × w 91cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108316",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108316"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-236",
   "title": "Portrait of Jeanne-Elisabeth Sellon, Lady Tyrell",
   "artistDisplayName": "Jean-Etienne Liotard",
-  "artistDisplayBio": "",
   "objectDate": "c. 1746",
-  "objectName": "pastel",
-  "medium": "parchment (animal material)",
+  "objectName": "Pastel",
+  "medium": "Parchment (animal material)",
   "dimensions": "h 63cm × w 48.5cm × w 8.2kg",
   "department": "",
   "culture": "",
@@ -22,6 +21,5 @@
     "drawing",
     "pastel"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108462",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108462"
 }

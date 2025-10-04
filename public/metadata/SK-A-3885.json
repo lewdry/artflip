@@ -2,10 +2,9 @@
   "objectID": "SK-A-3885",
   "title": "Missing Title",
   "artistDisplayName": "Jacob de Wit",
-  "artistDisplayBio": "",
   "objectDate": "1727",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 240cm × w 205cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110473",
-  "title_source": "web_scraped"
+  "lodId": "https://id.rijksmuseum.nl/200110473"
 }

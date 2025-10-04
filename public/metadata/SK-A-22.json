@@ -2,10 +2,9 @@
   "objectID": "SK-A-22",
   "title": "The Battle of Terheide",
   "artistDisplayName": "Jan Abrahamsz. Beerstraten",
-  "artistDisplayBio": "",
   "objectDate": "1653 - 1666",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 176cm × w 281.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108202",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108202"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-4567",
   "title": "Portrait of Jan Janszoon Starter, Poet in Leeuwarden and Amsterdam",
   "artistDisplayName": "Arnoud van Halen",
-  "artistDisplayBio": "",
   "objectDate": "1700 - 1732",
-  "objectName": "painting",
-  "medium": "tin plate, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Tin plate, oil paint (paint)",
   "dimensions": "h 11cm × w 9.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107838",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107838"
 }

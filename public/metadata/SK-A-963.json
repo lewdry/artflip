@@ -2,10 +2,9 @@
   "objectID": "SK-A-963",
   "title": "Portrait of  Hieronymus van Beverningk (1614-1690). Lord of Teylingen. Government Paymaster",
   "artistDisplayName": "Jan de Baen",
-  "artistDisplayBio": "",
   "objectDate": "1670",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 156cm × w 121.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108173",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108173"
 }

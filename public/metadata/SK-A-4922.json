@@ -2,10 +2,9 @@
   "objectID": "SK-A-4922",
   "title": "Paul Healing the Cripple in Lystra",
   "artistDisplayName": "Karel du Jardin",
-  "artistDisplayBio": "",
   "objectDate": "1663",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 179cm × w 139cm × d 9cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200403743",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200403743"
 }

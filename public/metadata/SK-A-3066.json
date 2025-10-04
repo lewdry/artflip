@@ -2,10 +2,9 @@
   "objectID": "SK-A-3066",
   "title": "An old woman, probably Rembrandt's mother, Neeltgen Willemsdr van Zuydtbroeck (d 1640), apparently in the guise of the prophetess Anna",
   "artistDisplayName": "Rembrandt van Rijn",
-  "artistDisplayBio": "",
   "objectDate": "1631",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 60cm × w 48cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107947",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107947"
 }

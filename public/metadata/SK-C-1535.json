@@ -2,10 +2,9 @@
   "objectID": "SK-C-1535",
   "title": "The Raampoortje in Amsterdam",
   "artistDisplayName": "Wouter Johannes van Troostwijk",
-  "artistDisplayBio": "",
   "objectDate": "1809",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 57cm × w 48cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200106078",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200106078"
 }

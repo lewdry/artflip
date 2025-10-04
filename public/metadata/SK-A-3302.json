@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-3302",
   "title": "Horatius Cocles Defending the Sublician Bridge",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1450",
-  "objectName": "painting",
-  "medium": "panel, tempera",
+  "objectName": "Painting",
+  "medium": "Panel, tempera",
   "dimensions": "h 40cm × w 128cm",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "cassone",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109290",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109290"
 }

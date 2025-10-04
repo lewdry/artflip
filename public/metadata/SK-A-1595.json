@@ -2,10 +2,9 @@
   "objectID": "SK-A-1595",
   "title": "The Love Letter",
   "artistDisplayName": "Johannes Vermeer",
-  "artistDisplayBio": "",
   "objectDate": "c. 1669 - c. 1670",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 44cm × w 38.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108370",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108370"
 }

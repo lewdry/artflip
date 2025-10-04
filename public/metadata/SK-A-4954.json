@@ -2,10 +2,9 @@
   "objectID": "SK-A-4954",
   "title": "Portrait of a Wounded KNIL soldier",
   "artistDisplayName": "Isaac Israels",
-  "artistDisplayBio": "",
   "objectDate": "1882",
-  "objectName": "painting",
-  "medium": "hardboard, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Hardboard, oil paint (paint)",
   "dimensions": "h c.37cm × w c.23cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200412933",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200412933"
 }

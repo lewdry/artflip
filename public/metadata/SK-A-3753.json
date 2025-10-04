@@ -2,10 +2,9 @@
   "objectID": "SK-A-3753",
   "title": "Louis XIV Crossing into the Netherlands at Lobith",
   "artistDisplayName": "Adam Frans van der Meulen",
-  "artistDisplayBio": "",
   "objectDate": "1672 - 1690",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 103cm × w 159cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109482",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109482"
 }

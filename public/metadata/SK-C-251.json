@@ -2,10 +2,9 @@
   "objectID": "SK-C-251",
   "title": "Woman in Blue Reading a Letter",
   "artistDisplayName": "Johannes Vermeer",
-  "artistDisplayBio": "",
   "objectDate": "c. 1663",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 46.5cm × w 39cm × d 6.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108372",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108372"
 }

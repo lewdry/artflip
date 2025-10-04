@@ -2,10 +2,9 @@
   "objectID": "SK-A-44",
   "title": "Portrait of Michiel Adriaenszoon de Ruyter (1607-1676), Vice Admiral",
   "artistDisplayName": "Ferdinand Bol",
-  "artistDisplayBio": "",
   "objectDate": "1667",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 157cm × w 138cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108249",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108249"
 }

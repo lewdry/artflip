@@ -2,10 +2,9 @@
   "objectID": "SK-C-1596",
   "title": "The Crucifixion with Mary, John, Mary Magdalene, St Longinus and the Converted Centurion",
   "artistDisplayName": "Giovanni di Paolo di Grazia",
-  "artistDisplayBio": "",
   "objectDate": "c. 1447",
-  "objectName": "painting",
-  "medium": "panel",
+  "objectName": "Painting",
+  "medium": "Panel",
   "dimensions": "h 29cm × w 62cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109302",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109302"
 }

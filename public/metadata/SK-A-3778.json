@@ -2,10 +2,9 @@
   "objectID": "SK-A-3778",
   "title": "Portrait of Adriaan Valckenier, Governor-General of the Dutch East India Company",
   "artistDisplayName": "Theodorus Justinus Rheen",
-  "artistDisplayBio": "",
   "objectDate": "1737",
-  "objectName": "painting",
-  "medium": "brass (alloy), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Brass (alloy), oil paint (paint)",
   "dimensions": "h 102.5cm × w 85.5cm",
   "department": "paintings",
   "culture": "Batavia",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109333",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109333"
 }

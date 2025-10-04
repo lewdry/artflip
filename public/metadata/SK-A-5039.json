@@ -2,10 +2,9 @@
   "objectID": "SK-A-5039",
   "title": "A Dutch Girl at Breakfast",
   "artistDisplayName": "Jean-Etienne Liotard",
-  "artistDisplayBio": "",
   "objectDate": "c. 1756",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 46.8cm × w 39cm",
   "department": "paintings",
   "culture": "Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20021964",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20021964"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-5032",
   "title": "Monk Meditating near a Ruin by Moonlight",
   "artistDisplayName": "Frederik Marinus Kruseman",
-  "artistDisplayBio": "",
   "objectDate": "1862",
-  "objectName": "painting",
-  "medium": "oil paint (paint), linen (material)",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), linen (material)",
   "dimensions": "h 78cm × w 64cm",
   "department": "paintings",
   "culture": "Brussels",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200609468",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200609468"
 }

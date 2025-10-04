@@ -2,10 +2,9 @@
   "objectID": "SK-C-378",
   "title": "The Company of Captain Dirck Jacobsz Rosecrans and Lieutenant Pauw",
   "artistDisplayName": "Cornelis Ketel",
-  "artistDisplayBio": "",
   "objectDate": "1588",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 208cm × w 410cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109421",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109421"
 }

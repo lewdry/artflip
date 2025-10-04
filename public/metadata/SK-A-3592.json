@@ -2,10 +2,9 @@
   "objectID": "SK-A-3592",
   "title": "A Shop Window",
   "artistDisplayName": "Isaac Israels",
-  "artistDisplayBio": "",
   "objectDate": "1894",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 59cm × w 64cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109401",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109401"
 }

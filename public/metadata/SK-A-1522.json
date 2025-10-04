@@ -2,10 +2,9 @@
   "objectID": "SK-A-1522",
   "title": "Still Life with Flowers in a Wan-Li Vase",
   "artistDisplayName": "Ambrosius Bosschaert",
-  "artistDisplayBio": "",
   "objectDate": "1619",
-  "objectName": "painting",
-  "medium": "copper (metal), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Copper (metal), oil paint (paint)",
   "dimensions": "h 31cm × w 22.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108291",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108291"
 }

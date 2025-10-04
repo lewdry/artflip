@@ -2,10 +2,9 @@
   "objectID": "SK-A-3004",
   "title": "Sheet of Water near Loosdrecht",
   "artistDisplayName": "Willem Roelofs (I)",
-  "artistDisplayBio": "",
   "objectDate": "1887",
-  "objectName": "painting",
-  "medium": "canvas, panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, panel, oil paint (paint)",
   "dimensions": "h 30cm × w 45cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107948",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107948"
 }

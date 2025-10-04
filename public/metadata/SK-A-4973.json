@@ -2,10 +2,9 @@
   "objectID": "SK-A-4973",
   "title": "Portrait of Magdalena de Cuyper",
   "artistDisplayName": "Jacques Jordaens",
-  "artistDisplayBio": "",
   "objectDate": "c. 1635 - c. 1636",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 152cm × w 118cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200416907",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200416907"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-3022",
   "title": "Portrait of Jacoba van Orliens (1643-91)",
   "artistDisplayName": "Jan Mijtens",
-  "artistDisplayBio": "",
   "objectDate": "c. 1660",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 113cm × w 92.2cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20028487",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20028487"
 }

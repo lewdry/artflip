@@ -2,10 +2,9 @@
   "objectID": "SK-C-1120",
   "title": "Portrait of Emperor Napoleon I",
   "artistDisplayName": "François Gérard",
-  "artistDisplayBio": "",
   "objectDate": "c. 1805 - c. 1815",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 226.5cm × w 146cm",
   "department": "paintings",
   "culture": "Paris",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109299",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109299"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-1070",
   "title": "Of One Heart",
   "artistDisplayName": "Cornelis Kruseman",
-  "artistDisplayBio": "",
   "objectDate": "1830",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 102cm × w 120cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200111823",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200111823"
 }

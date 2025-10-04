@@ -2,10 +2,9 @@
   "objectID": "SK-C-1750",
   "title": "Still Life with Fruit in a Terracotta Dish",
   "artistDisplayName": "Anthony Oberman",
-  "artistDisplayBio": "",
   "objectDate": "c. 1830",
-  "objectName": "painting",
-  "medium": "cardboard, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Cardboard, oil paint (paint)",
   "dimensions": "h 49.5cm × w 44cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200593121",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200593121"
 }

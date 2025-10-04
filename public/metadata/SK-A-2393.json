@@ -2,10 +2,9 @@
   "objectID": "SK-A-2393",
   "title": "\"Sea Battle between Cornelis Tromp on the \"\"Gouden Leeuw\"\" and Sir Edward Spragg on the \"\"Royal Prince\"\" during the Battle at Kijkduin (Battle of Texel), 21 August 1673: episode from the Third Anglo-Dutch War\"",
   "artistDisplayName": "Willem van de Velde (II)",
-  "artistDisplayBio": "",
   "objectDate": "c. 1675",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 114cm × w 183cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108357",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108357"
 }

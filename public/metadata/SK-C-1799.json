@@ -2,10 +2,9 @@
   "objectID": "SK-C-1799",
   "title": "Interior of a Gothic Church",
   "artistDisplayName": "Dirck van Delen",
-  "artistDisplayBio": "",
   "objectDate": "1641",
-  "objectName": "painting",
-  "medium": "oil paint (paint), panel",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), panel",
   "dimensions": "h 47.1cm × w 63.7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200729310",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200729310"
 }

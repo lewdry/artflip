@@ -2,10 +2,9 @@
   "objectID": "SK-A-1374",
   "title": "Portrait of Johan Arnold Zoutman",
   "artistDisplayName": "Cornelis van Cuylenburgh (II)",
-  "artistDisplayBio": "",
   "objectDate": "1801",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 113cm × w 86cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110646",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110646"
 }

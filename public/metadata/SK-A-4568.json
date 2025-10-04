@@ -2,10 +2,9 @@
   "objectID": "SK-A-4568",
   "title": "Portrait of Florentius Schoonhoven, Poet in Latin, Burgomaster of Gouda",
   "artistDisplayName": "Arnoud van Halen",
-  "artistDisplayBio": "",
   "objectDate": "1700 - 1732",
-  "objectName": "painting",
-  "medium": "tin plate, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Tin plate, oil paint (paint)",
   "dimensions": "h 11cm × w 9.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107837",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107837"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-4026",
   "title": "The Bookshop and Lottery Agency of Jan de Groot in the Kalverstraat in Amsterdam",
   "artistDisplayName": "Isaac Ouwater",
-  "artistDisplayBio": "",
   "objectDate": "1779",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 38.5cm × w 33.5cm",
   "department": "paintings",
   "culture": "Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110487",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110487"
 }

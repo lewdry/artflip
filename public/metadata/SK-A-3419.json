@@ -2,10 +2,9 @@
   "objectID": "SK-A-3419",
   "title": "The Adoration of the Christ Child",
   "artistDisplayName": "Cosimo Rosselli",
-  "artistDisplayBio": "",
   "objectDate": "c. 1485 - c. 1507",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint), tempera",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint), tempera",
   "dimensions": "d 114.5cm",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "tondi",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107955",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107955"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-4995",
   "title": "The Martyrdom of the Seven Sons of Saint Felicity",
   "artistDisplayName": "Francesco Trevisani",
-  "artistDisplayBio": "",
   "objectDate": "1709",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 75cm × w 62.6cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200478995",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200478995"
 }

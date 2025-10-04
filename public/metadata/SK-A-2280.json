@@ -2,10 +2,9 @@
   "objectID": "SK-A-2280",
   "title": "Lighthouse in Breaking Waves",
   "artistDisplayName": "Hendrik Willem Mesdag",
-  "artistDisplayBio": "",
   "objectDate": "c. 1900 - c. 1907",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 52cm × w 40cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109477",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109477"
 }

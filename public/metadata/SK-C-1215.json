@@ -2,10 +2,9 @@
   "objectID": "SK-C-1215",
   "title": "Portrait of Thomas Hees (b. 1634/35), resident and commissioner of the states general to the governments of Algiers, Tunis and Tripoli, with his nephews Jan (b. 1670/71) and Andries (b. 1662/63) Hees and a servant",
   "artistDisplayName": "Michiel van Musscher",
-  "artistDisplayBio": "",
   "objectDate": "1687",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 76cm × w 63cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107776",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107776"
 }

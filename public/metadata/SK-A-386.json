@@ -2,10 +2,9 @@
   "objectID": "SK-A-386",
   "title": "Interior with a woman feeding a parrot, two men playing backgammon and other figures, known as 'The parrot cage'",
   "artistDisplayName": "Jan Havicksz. Steen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1660 - c. 1670",
-  "objectName": "painting",
-  "medium": "canvas, panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, panel, oil paint (paint)",
   "dimensions": "h 50cm × w 40cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20015865",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/20015865"
 }

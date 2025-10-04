@@ -2,10 +2,9 @@
   "objectID": "SK-C-1586",
   "title": "Portrait of Aernout van Beeftingh, his Wife Jacoba Maria Boon and their Children",
   "artistDisplayName": "Nicolaes Muys",
-  "artistDisplayBio": "",
   "objectDate": "1797",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 107cm × w 84.4cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107779",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107779"
 }

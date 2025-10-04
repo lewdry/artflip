@@ -2,10 +2,9 @@
   "objectID": "SK-C-1705",
   "title": "Enjoying the Ice near a Town",
   "artistDisplayName": "Hendrick Avercamp",
-  "artistDisplayBio": "",
   "objectDate": "c. 1620",
-  "objectName": "painting",
-  "medium": "oil paint (paint), wood (plant material), textile materials",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), wood (plant material), textile materials",
   "dimensions": "h 47cm × w 89cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200529588",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200529588"
 }

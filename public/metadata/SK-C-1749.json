@@ -2,10 +2,9 @@
   "objectID": "SK-C-1749",
   "title": "Still Life with Flowers and Nuts",
   "artistDisplayName": "Anthony Oberman",
-  "artistDisplayBio": "",
   "objectDate": "c. 1830",
-  "objectName": "painting",
-  "medium": "cardboard, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Cardboard, oil paint (paint)",
   "dimensions": "h 50cm × w 44cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200593120",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200593120"
 }

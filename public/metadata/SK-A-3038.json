@@ -2,10 +2,9 @@
   "objectID": "SK-A-3038",
   "title": "Elegant Couples on a Terrace",
   "artistDisplayName": "Willem Pietersz Buytewech",
-  "artistDisplayBio": "",
   "objectDate": "c. 1616 - c. 1620",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 56.3cm × w 70.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109174",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109174"
 }

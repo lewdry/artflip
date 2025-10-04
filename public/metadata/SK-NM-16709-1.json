@@ -2,10 +2,9 @@
   "objectID": "SK-NM-16709-1",
   "title": "Lacquer room",
   "artistDisplayName": "Elias van Nijmegen",
-  "artistDisplayBio": "",
   "objectDate": "1695 - 1755",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "ceiling painting",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200564533",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200564533"
 }

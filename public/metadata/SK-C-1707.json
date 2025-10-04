@@ -2,10 +2,9 @@
   "objectID": "SK-C-1707",
   "title": "Dutch Ships in a Calm Sea",
   "artistDisplayName": "Willem van de Velde (II)",
-  "artistDisplayBio": "",
   "objectDate": "c. 1665",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 86.8cm × w 120cm",
   "department": "paintings",
   "culture": "Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200544233",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200544233"
 }

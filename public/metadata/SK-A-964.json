@@ -2,10 +2,9 @@
   "objectID": "SK-A-964",
   "title": "Portrait of Johanna le Gillon (1635-1706)",
   "artistDisplayName": "Jan de Baen",
-  "artistDisplayBio": "",
   "objectDate": "1670",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 156.5cm × w 121.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108168",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108168"
 }

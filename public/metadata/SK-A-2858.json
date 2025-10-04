@@ -2,10 +2,9 @@
   "objectID": "SK-A-2858",
   "title": "The Return to Amsterdam of the Second Expedition to the East Indies",
   "artistDisplayName": "Hendrick Cornelisz Vroom",
-  "artistDisplayBio": "",
   "objectDate": "1599",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 102.3cm × w 218.4cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109671",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109671"
 }

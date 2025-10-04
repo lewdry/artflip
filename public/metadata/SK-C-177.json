@@ -2,10 +2,9 @@
   "objectID": "SK-C-177",
   "title": "The Hunter’s Present",
   "artistDisplayName": "Gabriël Metsu",
-  "artistDisplayBio": "",
   "objectDate": "c. 1658 - c. 1661",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 51cm × w 48cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109481",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109481"
 }

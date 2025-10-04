@@ -2,10 +2,9 @@
   "objectID": "SK-A-3438",
   "title": "Allegorical Figure of a Woman with a Shield or a Mirror (Prudence?)",
   "artistDisplayName": "Giovanni Battista Tiepolo",
-  "artistDisplayBio": "",
   "objectDate": "c. 1740 - 1750",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 81cm × w 65cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109816",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109816"
 }

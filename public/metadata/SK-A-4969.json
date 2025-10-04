@@ -2,10 +2,9 @@
   "objectID": "SK-A-4969",
   "title": "Portrait of Jan Valckenburgh and an Enslaved Servant",
   "artistDisplayName": "Daniel Vertangen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1660",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "l 128.3cm × w 102cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200415971",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200415971"
 }

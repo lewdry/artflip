@@ -2,10 +2,9 @@
   "objectID": "SK-A-1365",
   "title": "The Battle of Terheide, 10 August 1653: an episode from the First Anglo-Dutch War (1652-54)",
   "artistDisplayName": "Willem van de Velde (I)",
-  "artistDisplayBio": "",
   "objectDate": "1657",
-  "objectName": "painting",
-  "medium": "canvas, ink",
+  "objectName": "Painting",
+  "medium": "Canvas, ink",
   "dimensions": "h 170cm × w 289cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108355",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108355"
 }

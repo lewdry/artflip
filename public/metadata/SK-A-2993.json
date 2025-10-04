@@ -2,10 +2,9 @@
   "objectID": "SK-A-2993",
   "title": "Boat with a Pollard Willow",
   "artistDisplayName": "Matthijs Maris",
-  "artistDisplayBio": "",
   "objectDate": "1863",
-  "objectName": "painting",
-  "medium": "paper, panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Paper, panel, oil paint (paint)",
   "dimensions": "h 23cm × w 30cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109446",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109446"
 }

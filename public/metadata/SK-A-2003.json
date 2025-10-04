@@ -2,10 +2,9 @@
   "objectID": "SK-A-2003",
   "title": "Lying-in Room of a Distinguished Turkish Woman",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1720 - c. 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 55.5cm × w 90cm × w 5.6kg",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108034",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108034"
 }

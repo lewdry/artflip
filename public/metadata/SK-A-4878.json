@@ -2,10 +2,9 @@
   "objectID": "SK-A-4878",
   "title": "A Young Woman Warming her Hands over a Brazier: Allegory of Winter",
   "artistDisplayName": "Caesar van Everdingen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1650",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 97cm × w 81.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200106086",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200106086"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-3097",
   "title": "Portrait of Rutger Jan Schimmelpenninck and Catharina Nahuys with their Children",
   "artistDisplayName": "Pierre Prud'hon",
-  "artistDisplayBio": "",
   "objectDate": "1801 - 1802",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 263.5cm × w 200cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109724",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109724"
 }

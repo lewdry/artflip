@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-2637",
   "title": "Portraits of Surinamese Girls",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1805",
-  "objectName": "miniature (painting)",
-  "medium": "ivory, paint (coating), wood (plant material), metal, gilding (material)",
+  "objectName": "Miniature (painting)",
+  "medium": "Ivory, paint (coating), wood (plant material), metal, gilding (material)",
   "dimensions": "h 5.9cm × w 4.8cm × w 24.9cm",
   "department": "",
   "culture": "? Suriname",
@@ -21,6 +20,5 @@
   "tags": [
     "miniature (painting)"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200105901",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200105901"
 }

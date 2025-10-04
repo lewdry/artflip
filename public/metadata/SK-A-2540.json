@@ -2,10 +2,9 @@
   "objectID": "SK-A-2540",
   "title": "View of Zoutelande on the Island of Walcheren",
   "artistDisplayName": "Ferdinand Hart Nibbrig",
-  "artistDisplayBio": "",
   "objectDate": "1910 - 1912",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 80cm × w 159.5cm × d 7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109353",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109353"
 }

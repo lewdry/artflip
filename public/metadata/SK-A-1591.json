@@ -2,10 +2,9 @@
   "objectID": "SK-A-1591",
   "title": "Portrait of Abraham de Potter, Amsterdam Silk Merchant",
   "artistDisplayName": "Carel Fabritius",
-  "artistDisplayBio": "",
   "objectDate": "1649",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 68.5cm × w 57cm × d 9.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20027868",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20027868"
 }

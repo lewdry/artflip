@@ -2,10 +2,9 @@
   "objectID": "SK-A-4188",
   "title": "The Adoration of the Kings",
   "artistDisplayName": "Hendrick ter Brugghen",
-  "artistDisplayBio": "",
   "objectDate": "1619",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 132.5cm × w 160.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20015924",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20015924"
 }

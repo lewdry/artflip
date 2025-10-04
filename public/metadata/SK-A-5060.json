@@ -2,10 +2,9 @@
   "objectID": "SK-A-5060",
   "title": "Triumph over Death: Samson Carrying the Gate of Gaza | Hercules Slaying the Centaur Nessus",
   "artistDisplayName": "Maarten van Heemskerck",
-  "artistDisplayBio": "",
   "objectDate": "c. 1555",
-  "objectName": "painting",
-  "medium": "oil paint (paint), panel",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), panel",
   "dimensions": "h 46.6cm × w 15.9cm",
   "department": "paintings",
   "culture": "Haarlem",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200749724",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200749724"
 }

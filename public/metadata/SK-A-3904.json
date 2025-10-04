@@ -2,10 +2,9 @@
   "objectID": "SK-A-3904",
   "title": "Portrait of Isaac van Rijneveld",
   "artistDisplayName": "Louis Tocqué",
-  "artistDisplayBio": "",
   "objectDate": "1738",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 92cm × w 73.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110477",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110477"
 }

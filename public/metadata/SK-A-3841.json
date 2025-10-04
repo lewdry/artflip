@@ -2,10 +2,9 @@
   "objectID": "SK-A-3841",
   "title": "Missing Title",
   "artistDisplayName": "Lucas van Leyden",
-  "artistDisplayBio": "",
   "objectDate": "c. 1530",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 93.5cm × w 66.9cm",
   "department": "paintings",
   "culture": "Leiden",
@@ -22,6 +21,5 @@
     "painting",
     "triptych"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109429",
-  "title_source": "web_scraped"
+  "lodId": "https://id.rijksmuseum.nl/200109429"
 }

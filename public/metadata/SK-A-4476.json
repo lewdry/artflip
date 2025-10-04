@@ -2,10 +2,9 @@
   "objectID": "SK-A-4476",
   "title": "Two Views of Dutch East India Company Trading Posts: Lawec in Cambodia and Banda in the Southern Moluccas",
   "artistDisplayName": "Johannes Vinckboons",
-  "artistDisplayBio": "",
   "objectDate": "c. 1662 - c. 1663",
-  "objectName": "painting",
-  "medium": "linen (material), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Linen (material), oil paint (paint)",
   "dimensions": "h 97cm × w 140cm",
   "department": "paintings",
   "culture": "Northern Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110534",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110534"
 }

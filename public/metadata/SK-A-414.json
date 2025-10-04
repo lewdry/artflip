@@ -2,10 +2,9 @@
   "objectID": "SK-A-414",
   "title": "William George Frederick, Prince of Orange-Nassau (Youngest Son of William V)",
   "artistDisplayName": "Johann Friedrich August Tischbein",
-  "artistDisplayBio": "",
   "objectDate": "1788",
-  "objectName": "pastel",
-  "medium": "parchment (animal material), pastel (crayon)",
+  "objectName": "Pastel",
+  "medium": "Parchment (animal material), pastel (crayon)",
   "dimensions": "h 60.5cm × w 49cm × w 9.3kg",
   "department": "",
   "culture": "",
@@ -22,6 +21,5 @@
     "drawing",
     "pastel"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108499",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108499"
 }

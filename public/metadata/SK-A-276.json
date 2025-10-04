@@ -2,10 +2,9 @@
   "objectID": "SK-A-276",
   "title": "A shepherdess, known as the beautiful shepherdess",
   "artistDisplayName": "Paulus Moreelse",
-  "artistDisplayBio": "",
   "objectDate": "1630",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 81.5cm × w 64.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107770",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107770"
 }

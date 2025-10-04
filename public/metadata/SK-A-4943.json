@@ -2,10 +2,9 @@
   "objectID": "SK-A-4943",
   "title": "Portrait of Hortense de Beauharnais",
   "artistDisplayName": "Anne-Louis Girodet-Trioson",
-  "artistDisplayBio": "",
   "objectDate": "c. 1805 - c. 1809",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 60.9cm × w 49.8cm",
   "department": "paintings",
   "culture": "Paris",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200411699",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200411699"
 }

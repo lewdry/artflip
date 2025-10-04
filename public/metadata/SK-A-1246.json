@@ -2,10 +2,9 @@
   "objectID": "SK-A-1246",
   "title": "Portrait of a Man, possibly Nicolaes Hasselaer (1593-1635), Brewer and Captain-major of a Military Body in Amsterdam",
   "artistDisplayName": "Frans Hals",
-  "artistDisplayBio": "",
   "objectDate": "c. 1637",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 79.5cm × w 66.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109344",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109344"
 }

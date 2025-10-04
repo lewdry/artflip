@@ -2,10 +2,9 @@
   "objectID": "SK-A-3257",
   "title": "Fête galante in a Landscape",
   "artistDisplayName": "Jean Baptiste François Pater",
-  "artistDisplayBio": "",
   "objectDate": "c. 1730 - c. 1735",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 50.5cm × w 60.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109791",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109791"
 }

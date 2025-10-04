@@ -2,10 +2,9 @@
   "objectID": "SK-A-123",
   "title": "Missing Title",
   "artistDisplayName": "Jan van Goyen",
-  "artistDisplayBio": "",
   "objectDate": "1641",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 88.5cm × w 110.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109336",
-  "title_source": "web_scraped"
+  "lodId": "https://id.rijksmuseum.nl/200109336"
 }

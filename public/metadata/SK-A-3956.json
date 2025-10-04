@@ -2,10 +2,9 @@
   "objectID": "SK-A-3956",
   "title": "Head of a Young Woman",
   "artistDisplayName": "Frans van der Mijn",
-  "artistDisplayBio": "",
   "objectDate": "1756",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 53.5cm × w 42.2cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110483",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110483"
 }

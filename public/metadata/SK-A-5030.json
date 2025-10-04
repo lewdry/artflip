@@ -2,10 +2,9 @@
   "objectID": "SK-A-5030",
   "title": "The Breach of the Saint Anthony’s Dike near Amsterdam",
   "artistDisplayName": "Jan Asselijn",
-  "artistDisplayBio": "",
   "objectDate": "1651",
-  "objectName": "painting",
-  "medium": "linen (material), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Linen (material), oil paint (paint)",
   "dimensions": "h 85.5cm × w 108.2cm",
   "department": "paintings",
   "culture": "Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200609417",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200609417"
 }

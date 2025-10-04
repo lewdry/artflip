@@ -2,10 +2,9 @@
   "objectID": "SK-A-15",
   "title": "The Corpses of the de Witt Brothers, Jan and Cornelis, Hanging on the Groene Zoodje on the Vijverberg, The Hague, 1672",
   "artistDisplayName": "Jan de Baen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1672 - c. 1675",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 69.5cm × w 56cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108171",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108171"
 }

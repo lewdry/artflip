@@ -2,10 +2,9 @@
   "objectID": "SK-A-3843",
   "title": "Portrait of a woman",
   "artistDisplayName": "Jan Jansz Mostaert",
-  "artistDisplayBio": "",
   "objectDate": "c. 1520",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 64.3cm × w 49.5cm",
   "department": "paintings",
   "culture": "Haarlem",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107772",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107772"
 }

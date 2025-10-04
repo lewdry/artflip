@@ -2,10 +2,9 @@
   "objectID": "SK-C-1759",
   "title": "Satyr and Nymph",
   "artistDisplayName": "Gerard van Honthorst",
-  "artistDisplayBio": "",
   "objectDate": "1623",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 104cm × w 131cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200612824",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200612824"
 }

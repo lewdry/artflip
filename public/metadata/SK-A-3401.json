@@ -2,10 +2,9 @@
   "objectID": "SK-A-3401",
   "title": "The Crucifixion",
   "artistDisplayName": "Niccolò di Pietro Gerini",
-  "artistDisplayBio": "",
   "objectDate": "c. 1390",
-  "objectName": "painting",
-  "medium": "panel",
+  "objectName": "Painting",
+  "medium": "Panel",
   "dimensions": "h 70cm × w 43cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109300",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109300"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-2217",
   "title": "Vertumnus and Pomona",
   "artistDisplayName": "Hendrick Goltzius",
-  "artistDisplayBio": "",
   "objectDate": "1613",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 90cm × w 149.5cm",
   "department": "paintings",
   "culture": "Northern Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20015935",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/20015935"
 }

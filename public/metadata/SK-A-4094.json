@@ -2,10 +2,9 @@
   "objectID": "SK-A-4094",
   "title": "Italianate Landscape with Pines",
   "artistDisplayName": "Hendrik Voogd",
-  "artistDisplayBio": "",
   "objectDate": "1795",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 72.5cm × w 90cm",
   "department": "paintings",
   "culture": "Rome",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108386",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108386"
 }

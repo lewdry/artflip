@@ -2,10 +2,9 @@
   "objectID": "SK-A-4040",
   "title": "Man Smoking in a Tavern",
   "artistDisplayName": "Adriaen Brouwer",
-  "artistDisplayBio": "",
   "objectDate": "c. 1635 - c. 1640",
-  "objectName": "painting",
-  "medium": "oak (wood), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Oak (wood), oil paint (paint)",
   "dimensions": "h 29.7cm × w 21.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110491",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200110491"
 }

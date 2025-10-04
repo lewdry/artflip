@@ -2,10 +2,9 @@
   "objectID": "SK-A-500",
   "title": "The Holy Kinship",
   "artistDisplayName": "Geertgen tot Sint Jans",
-  "artistDisplayBio": "",
   "objectDate": "c. 1495",
-  "objectName": "painting",
-  "medium": "oak (wood), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Oak (wood), oil paint (paint)",
   "dimensions": "h 137.2cm × w 105.8cm",
   "department": "paintings",
   "culture": "Haarlem",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108523",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108523"
 }

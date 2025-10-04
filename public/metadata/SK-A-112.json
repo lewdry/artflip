@@ -2,10 +2,9 @@
   "objectID": "SK-A-112",
   "title": "Allegory on the Abdication of Emperor Charles v in Brussels",
   "artistDisplayName": "Frans Francken (II)",
-  "artistDisplayBio": "",
   "objectDate": "c. 1635 - c. 1640",
-  "objectName": "painting",
-  "medium": "oil paint (paint), panel",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), panel",
   "dimensions": "h 132.6cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108429",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108429"
 }

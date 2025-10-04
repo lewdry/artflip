@@ -2,10 +2,9 @@
   "objectID": "SK-A-646",
   "title": "The Entrance to the Park of Saint-Cloud, Paris",
   "artistDisplayName": "Pieter Rudolph Kleijn",
-  "artistDisplayBio": "",
   "objectDate": "1809",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 100cm × w 130cm",
   "department": "paintings",
   "culture": "Paris",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200111812",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200111812"
 }

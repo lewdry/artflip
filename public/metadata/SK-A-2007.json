@@ -2,10 +2,9 @@
   "objectID": "SK-A-2007",
   "title": "Ladies’ Outing at Hünkâr İskelesi along the Bosporus",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1720 - c. 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 78cm × w 101cm × w 9.6kg",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108081",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108081"
 }

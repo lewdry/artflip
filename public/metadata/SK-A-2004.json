@@ -2,10 +2,9 @@
   "objectID": "SK-A-2004",
   "title": "Maaltijd van voorname Turkse vrouwen",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1720 - c. 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 45cm × w 58.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108049",
-  "title_source": "web_scraped"
+  "lodId": "https://id.rijksmuseum.nl/200108049"
 }

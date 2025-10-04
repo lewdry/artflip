@@ -2,10 +2,9 @@
   "objectID": "SK-A-4934",
   "title": "The Quay de Paris in Rouen",
   "artistDisplayName": "Johannes Bosboom",
-  "artistDisplayBio": "",
   "objectDate": "1839",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 88cm × w 105cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200411630",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200411630"
 }

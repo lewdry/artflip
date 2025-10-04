@@ -2,10 +2,9 @@
   "objectID": "SK-A-142",
   "title": "Portrait of Princess Mary Stuart (1631-1660), Widow of Willem II, Prince of Orange",
   "artistDisplayName": "Bartholomeus van der Helst",
-  "artistDisplayBio": "",
   "objectDate": "1652",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 199.5cm × w 170cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109365",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109365"
 }

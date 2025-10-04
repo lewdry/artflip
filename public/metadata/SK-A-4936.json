@@ -2,10 +2,9 @@
   "objectID": "SK-A-4936",
   "title": "The Drawing Lesson",
   "artistDisplayName": "Louis Moritz",
-  "artistDisplayBio": "",
   "objectDate": "1808",
-  "objectName": "painting",
-  "medium": "oil paint (paint), wood (plant material)",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), wood (plant material)",
   "dimensions": "h 46cm × w 53cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200410811",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200410811"
 }

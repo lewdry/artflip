@@ -2,10 +2,9 @@
   "objectID": "SK-A-2664",
   "title": "The Death of the Pharaoh’s Firstborn Son",
   "artistDisplayName": "Lourens Alma Tadema",
-  "artistDisplayBio": "",
   "objectDate": "1872",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 77cm × w 124.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/2004259",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/2004259"
 }

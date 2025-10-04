@@ -2,10 +2,9 @@
   "objectID": "SK-A-413",
   "title": "Frederica Louise Wilhelmina, Princess of Orange-Nassau (Daughter of William V)",
   "artistDisplayName": "Johann Friedrich August Tischbein",
-  "artistDisplayBio": "",
   "objectDate": "1785 - 1795",
-  "objectName": "pastel",
-  "medium": "parchment (animal material), pastel (crayon)",
+  "objectName": "Pastel",
+  "medium": "Parchment (animal material), pastel (crayon)",
   "dimensions": "h 61.5cm × w 50cm × w 10.1kg",
   "department": "",
   "culture": "",
@@ -22,6 +21,5 @@
     "drawing",
     "pastel"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108498",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108498"
 }

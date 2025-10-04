@@ -2,10 +2,9 @@
   "objectID": "SK-A-614",
   "title": "Aeneas at the Court of Latinus",
   "artistDisplayName": "Ferdinand Bol",
-  "artistDisplayBio": "",
   "objectDate": "c. 1661 - c. 1663",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 218cm × w 232cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108250",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108250"
 }

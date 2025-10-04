@@ -2,10 +2,9 @@
   "objectID": "SK-A-2670",
   "title": "Fishing Pinks in Breaking Waves",
   "artistDisplayName": "Hendrik Willem Mesdag",
-  "artistDisplayBio": "",
   "objectDate": "c. 1875 - c. 1885",
-  "objectName": "painting",
-  "medium": "oil paint (paint), canvas",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), canvas",
   "dimensions": "h 90cm × w 181cm × w 41.8kg",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200105889",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200105889"
 }

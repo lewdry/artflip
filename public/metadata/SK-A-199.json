@@ -2,10 +2,9 @@
   "objectID": "SK-A-199",
   "title": "Still Life with a Silver Jug and a Porcelain Bowl",
   "artistDisplayName": "Willem Kalf",
-  "artistDisplayBio": "",
   "objectDate": "1655 - 1660",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 73.8cm × w 65.2cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109415",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109415"
 }

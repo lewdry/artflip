@@ -2,10 +2,9 @@
   "objectID": "SK-A-4824",
   "title": "Portrait of Diederik, Baron van Leyden van Vlaardingen with his Wife and three Sons",
   "artistDisplayName": "Willem van Mieris",
-  "artistDisplayBio": "",
   "objectDate": "1728",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 88cm × w 95cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/20028350",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/20028350"
 }

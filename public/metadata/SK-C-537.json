@@ -2,10 +2,9 @@
   "objectID": "SK-C-537",
   "title": "The Sculpture Gallery of the Felix Meritis Society in Amsterdam, with Portraits of the Commissioners and Directors of the Drawing, Literature and Commerce Divisions and the Secretaries of the Society",
   "artistDisplayName": "Adriaan de Lelie",
-  "artistDisplayBio": "",
   "objectDate": "1806 - 1809",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 100cm × w 133cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110888",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200110888"
 }

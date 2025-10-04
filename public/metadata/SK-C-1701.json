@@ -2,10 +2,9 @@
   "objectID": "SK-C-1701",
   "title": "The Holy Family",
   "artistDisplayName": "Jan Cornelisz Vermeyen",
-  "artistDisplayBio": "",
   "objectDate": "c. 1528 - c. 1530",
-  "objectName": "painting",
-  "medium": "oil paint (paint), panel",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), panel",
   "dimensions": "h 64.3cm × w 54.5cm",
   "department": "paintings",
   "culture": "? Mechelen",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200498849",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200498849"
 }

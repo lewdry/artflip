@@ -2,10 +2,9 @@
   "objectID": "SK-A-2006",
   "title": "Turkish Women in the Countryside near Istanbul",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1720 - c. 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 44cm × w 58cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108073",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108073"
 }

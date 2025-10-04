@@ -2,10 +2,9 @@
   "objectID": "SK-A-4751-A",
   "title": "Inner Left Wing of a Triptych with the Male Donor and St James the Greater",
   "artistDisplayName": "Aertgen Claesz van Leyden",
-  "artistDisplayBio": "",
   "objectDate": "c. 1530 - c. 1535",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 69.6cm × w 28.1cm",
   "department": "paintings",
   "culture": "Leiden, Leiden",
@@ -22,6 +21,5 @@
     "painting",
     "triptych"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200111847",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200111847"
 }

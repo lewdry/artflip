@@ -2,10 +2,9 @@
   "objectID": "SK-C-101",
   "title": "The Town Hall on Dam Square, Amsterdam",
   "artistDisplayName": "Gerrit Berckheyde",
-  "artistDisplayBio": "",
   "objectDate": "1693",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 53cm × w 63.5cm × d 7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108214",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108214"
 }

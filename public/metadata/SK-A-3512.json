@@ -2,10 +2,9 @@
   "objectID": "SK-A-3512",
   "title": "Triumph over Evil: Samson Rending the Lion | Pluto and Cerberus",
   "artistDisplayName": "Maarten van Heemskerck",
-  "artistDisplayBio": "",
   "objectDate": "c. 1550 - c. 1560",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 46.8cm × w 16cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109360",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109360"
 }

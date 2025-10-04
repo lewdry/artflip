@@ -2,10 +2,9 @@
   "objectID": "SK-A-1362",
   "title": "The Battle of Dunkirk",
   "artistDisplayName": "Willem van de Velde (I)",
-  "artistDisplayBio": "",
   "objectDate": "1659",
-  "objectName": "painting",
-  "medium": "canvas, ink",
+  "objectName": "Painting",
+  "medium": "Canvas, ink",
   "dimensions": "h 123cm × w 185cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108749",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108749"
 }

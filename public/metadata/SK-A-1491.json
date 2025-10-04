@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-1491",
   "title": "Scenes from the life of Christ",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1435",
-  "objectName": "painting",
-  "medium": "canvas, panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, panel, oil paint (paint)",
   "dimensions": "h 110.1cm × w 173.3cm",
   "department": "paintings",
   "culture": "Gelderland",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109298",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109298"
 }

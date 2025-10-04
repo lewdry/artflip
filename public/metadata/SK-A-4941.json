@@ -2,10 +2,9 @@
   "objectID": "SK-A-4941",
   "title": "The Raree-show (’t Fraay Curieus)",
   "artistDisplayName": "Willem van Mieris",
-  "artistDisplayBio": "",
   "objectDate": "1718",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 58cm × w 49cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200411629",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200411629"
 }

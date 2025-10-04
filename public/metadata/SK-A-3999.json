@@ -2,10 +2,9 @@
   "objectID": "SK-A-3999",
   "title": "Darius Marching to the Battle of Issus",
   "artistDisplayName": "Apollonio di Giovanni",
-  "artistDisplayBio": "",
   "objectDate": "c. 1450 - c. 1455",
-  "objectName": "painting",
-  "medium": "panel, tempera",
+  "objectName": "Painting",
+  "medium": "Panel, tempera",
   "dimensions": "h 48.5cm × w 141.5cm",
   "department": "paintings",
   "culture": "",
@@ -22,6 +21,5 @@
     "cassone",
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108134",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108134"
 }

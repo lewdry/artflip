@@ -2,10 +2,9 @@
   "objectID": "SK-A-1364",
   "title": "The Battle of Livorno (Leghorn)",
   "artistDisplayName": "Willem van de Velde (I)",
-  "artistDisplayBio": "",
   "objectDate": "c. 1659 - c. 1699",
-  "objectName": "painting",
-  "medium": "panel, ink",
+  "objectName": "Painting",
+  "medium": "Panel, ink",
   "dimensions": "h 114cm × w 160cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108750",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108750"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-C-1440",
   "title": "Portrait of a Man, Probably from the Pauw Family",
   "artistDisplayName": "Paulus Moreelse",
-  "artistDisplayBio": "",
   "objectDate": "1625",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 127.5cm × w 94cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107771",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107771"
 }

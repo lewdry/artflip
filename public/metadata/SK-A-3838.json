@@ -2,10 +2,9 @@
   "objectID": "SK-A-3838",
   "title": "Jan Gerritsz van Egmond (d 1523). Bailiff of Nieuwburg",
   "artistDisplayName": "Jacob Cornelisz van Oostsanen",
-  "artistDisplayBio": "",
   "objectDate": "after 1507",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 42.4cm × w 32.8cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109199",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109199"
 }

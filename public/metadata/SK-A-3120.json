@@ -2,10 +2,9 @@
   "objectID": "SK-A-3120",
   "title": "Missing Title",
   "artistDisplayName": "Hercules Segers",
-  "artistDisplayBio": "",
   "objectDate": "c. 1626 - c. 1630",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 30cm × w 53.5cm",
   "department": "paintings",
   "culture": "? Amsterdam",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107988",
-  "title_source": "web_scraped"
+  "lodId": "https://id.rijksmuseum.nl/200107988"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-1195",
   "title": "Apollo and Daphne, after Lorenzo Bernini’s Marble Group in the Galleria Borghese, Rome",
   "artistDisplayName": "Jean-Etienne Liotard",
-  "artistDisplayBio": "",
   "objectDate": "1736",
-  "objectName": "pastel",
-  "medium": "paper",
+  "objectName": "Pastel",
+  "medium": "Paper",
   "dimensions": "h 66.2cm × w 51.2cm × w 8.6kg",
   "department": "",
   "culture": "",
@@ -22,6 +21,5 @@
     "drawing",
     "pastel"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108708",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108708"
 }

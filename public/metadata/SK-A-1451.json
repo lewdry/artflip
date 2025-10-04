@@ -2,10 +2,9 @@
   "objectID": "SK-A-1451",
   "title": "The Well-stocked Kitchen, with Jesus in het House of Martha and Mary in the Background",
   "artistDisplayName": "Joachim Bueckelaer",
-  "artistDisplayBio": "",
   "objectDate": "1566",
-  "objectName": "painting",
-  "medium": "panel, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Panel, oil paint (paint)",
   "dimensions": "h 171cm × w 250cm × w 54.5kg",
   "department": "paintings",
   "culture": "Antwerp",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109172",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109172"
 }

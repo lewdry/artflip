@@ -2,10 +2,9 @@
   "objectID": "SK-A-4077",
   "title": "The Meal presented to Ambassador Cornelis Calkoen by the Grand Vizier in the name of Sultan Ahmed III, 14 September 1727",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1727 - c. 1730",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 90cm × w 120cm × w 10kg",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108038",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108038"
 }

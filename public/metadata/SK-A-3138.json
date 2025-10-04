@@ -2,10 +2,9 @@
   "objectID": "SK-A-3138",
   "title": "Rembrandt's son in a monk's habit, possibly in the guise of St Francis of Assisi",
   "artistDisplayName": "Rembrandt van Rijn",
-  "artistDisplayBio": "",
   "objectDate": "1660",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 79.5cm × w 67.7cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107937",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107937"
 }

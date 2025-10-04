@@ -2,10 +2,9 @@
   "objectID": "SK-A-697",
   "title": "Portrait of Pieter Schout (1640-69)",
   "artistDisplayName": "Thomas de Keyser",
-  "artistDisplayBio": "",
   "objectDate": "1660",
-  "objectName": "painting",
-  "medium": "copper (metal), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Copper (metal), oil paint (paint)",
   "dimensions": "h 86.1cm × w 69.6cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109424",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200109424"
 }

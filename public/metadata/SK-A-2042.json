@@ -2,10 +2,9 @@
   "objectID": "SK-A-2042",
   "title": "Turkish Woman at her Embroidery Frame",
   "artistDisplayName": "Jean Baptiste Vanmour",
-  "artistDisplayBio": "",
   "objectDate": "c. 1720 - c. 1737",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 33.5cm × w 26.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108067",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200108067"
 }

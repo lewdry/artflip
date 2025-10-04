@@ -2,10 +2,9 @@
   "objectID": "SK-A-662",
   "title": "The Shop of the Bookdealer Pieter Meijer Warnars on the Vijgendam in Amsterdam",
   "artistDisplayName": "Johannes Jelgerhuis",
-  "artistDisplayBio": "",
   "objectDate": "1820",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 48cm × w 58cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109411",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109411"
 }

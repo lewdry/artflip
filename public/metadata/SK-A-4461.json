@@ -1,11 +1,10 @@
 {
   "objectID": "SK-A-4461",
   "title": "Christ on the Cross with Mary and John",
-  "artistDisplayName": "anonymous",
-  "artistDisplayBio": "",
+  "artistDisplayName": "Anonymous",
   "objectDate": "c. 1250",
-  "objectName": "painting",
-  "medium": "panel",
+  "objectName": "Painting",
+  "medium": "Panel",
   "dimensions": "h 42cm × w 21.5cm",
   "department": "paintings",
   "culture": "Italy",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110529",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200110529"
 }

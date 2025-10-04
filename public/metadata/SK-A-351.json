@@ -2,10 +2,9 @@
   "objectID": "SK-A-351",
   "title": "View of Haarlem from the Northwest, with the Bleaching Fields in the Foreground",
   "artistDisplayName": "Jacob Isaacksz van Ruisdael",
-  "artistDisplayBio": "",
   "objectDate": "c. 1650 - c. 1682",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 43cm × w 38cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107958",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200107958"
 }

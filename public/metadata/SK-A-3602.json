@@ -2,10 +2,9 @@
   "objectID": "SK-A-3602",
   "title": "Morning Ride along the Beach",
   "artistDisplayName": "Anton Mauve",
-  "artistDisplayBio": "",
   "objectDate": "1876",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 43.7cm × w 68.6cm",
   "department": "paintings",
   "culture": "Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200109454",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200109454"
 }

@@ -2,10 +2,9 @@
   "objectID": "SK-A-446",
   "title": "Maurits (1567-1625), Prince of Orange, Lying in State, 1625",
   "artistDisplayName": "Adriaen Pietersz van de Venne",
-  "artistDisplayBio": "",
   "objectDate": "c. 1625",
-  "objectName": "painting",
-  "medium": "copper (metal), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Copper (metal), oil paint (paint)",
   "dimensions": "h 7.3cm × w 12.1cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108366",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108366"
 }

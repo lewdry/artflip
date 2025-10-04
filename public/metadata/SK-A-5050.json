@@ -2,10 +2,9 @@
   "objectID": "SK-A-5050",
   "title": "Anna Leafing Through a Portfolio of Prints",
   "artistDisplayName": "Laura Theresa Alma Tadema (Lady)",
-  "artistDisplayBio": "",
   "objectDate": "1874",
-  "objectName": "painting",
-  "medium": "oil paint (paint), panel",
+  "objectName": "Painting",
+  "medium": "Oil paint (paint), panel",
   "dimensions": "h 11.3cm × w 31.4cm",
   "department": "paintings",
   "culture": "London",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200722927",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200722927"
 }

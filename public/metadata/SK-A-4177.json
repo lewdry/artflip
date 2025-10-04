@@ -2,10 +2,9 @@
   "objectID": "SK-A-4177",
   "title": "Allegory of the Sciences",
   "artistDisplayName": "Gerard de Lairesse",
-  "artistDisplayBio": "",
   "objectDate": "c. 1675 - c. 1683",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 289cm × w 161cm",
   "department": "paintings",
   "culture": "Northern Netherlands",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200111830",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200111830"
 }

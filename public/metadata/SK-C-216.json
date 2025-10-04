@@ -2,10 +2,9 @@
   "objectID": "SK-C-216",
   "title": "Portrait of a couple as figures from the Old Testament, known as 'The Jewish bride'",
   "artistDisplayName": "Rembrandt van Rijn",
-  "artistDisplayBio": "",
   "objectDate": "c. 1665 - c. 1669",
-  "objectName": "painting",
-  "medium": "linen (material), oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Linen (material), oil paint (paint)",
   "dimensions": "h 121.5cm × w 166.5cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200107934",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200107934"
 }

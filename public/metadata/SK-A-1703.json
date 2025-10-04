@@ -2,10 +2,9 @@
   "objectID": "SK-A-1703",
   "title": "Portrait of a young Woman, with 'Puck' the Dog",
   "artistDisplayName": "Thérèse Schwartze",
-  "artistDisplayBio": "",
   "objectDate": "c. 1885 - c. 1886",
-  "objectName": "painting",
-  "medium": "canvas, oil paint (paint)",
+  "objectName": "Painting",
+  "medium": "Canvas, oil paint (paint)",
   "dimensions": "h 144cm × w 103cm",
   "department": "paintings",
   "culture": "",
@@ -21,6 +20,5 @@
   "tags": [
     "painting"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200108843",
-  "title_source": "api_titles"
+  "lodId": "https://id.rijksmuseum.nl/200108843"
 }

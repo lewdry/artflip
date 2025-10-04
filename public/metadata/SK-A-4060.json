@@ -2,10 +2,9 @@
   "objectID": "SK-A-4060",
   "title": "Portrait of Joan Jacob Mauricius, Governor-General of Suriname",
   "artistDisplayName": "Cornelis Troost",
-  "artistDisplayBio": "",
   "objectDate": "1741",
-  "objectName": "pastel",
-  "medium": "paper",
+  "objectName": "Pastel",
+  "medium": "Paper",
   "dimensions": "h 73cm × w 58cm",
   "department": "",
   "culture": "",
@@ -22,6 +21,5 @@
     "drawing",
     "pastel"
   ],
-  "lodId": "https://id.rijksmuseum.nl/200110494",
-  "title_source": "api_title"
+  "lodId": "https://id.rijksmuseum.nl/200110494"
 }
