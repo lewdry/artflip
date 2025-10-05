@@ -1,0 +1,8 @@
+--- Errored File Paths (7 total) ---
+public/metadata/322443.json
+public/metadata/324029.json
+public/metadata/325710.json
+public/metadata/326623.json
+public/metadata/327518.json
+public/metadata/39888.json
+public/metadata/729644.json

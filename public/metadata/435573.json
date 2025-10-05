@@ -1,0 +1,41 @@
+{
+  "objectID": 435573,
+  "title": "Flora and Zephyr",
+  "artistDisplayName": "Jacopo Amigoni",
+  "objectDate": "1730s",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "84 x 58 in. (213.4 x 147.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Rudolph and Lentilhon G. von Fluegge Foundation Inc. Gift, 1985",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435573",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT8028.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8028.jpg",
+  "localImage": "435573.jpg",
+  "tags": [
+    {
+      "term": "Putti",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250465",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q284865"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Goddess",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343852",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q205985"
+    }
+  ]
+}
