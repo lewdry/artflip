@@ -8,6 +8,7 @@ Updates from previous version:
  - Pagination support added to ARTIC search endpoint (fetches pages until exhausted or safe cap reached)
  - Keeps previous behavior: metadata + image saving, blacklist, artworkids update (TEMP), logging, rate limiting
  - Artist name cleaning: removes biographical info in parentheses and after newlines
+ - Metadata-level filtering: filters results based on actual object data (is_on_view, is_boosted, etc.)
 """
 
 import requests
@@ -22,31 +23,32 @@ from datetime import datetime
 # CONFIGURATION - Modify these settings as needed
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 150
+MAX_NEW_ARTWORKS = 110
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 
 # Search parameters: use SEARCH_PARAMS['q'] as the main search term.
+# NOTE: These filters are applied AFTER fetching metadata, not at the API search level
 SEARCH_PARAMS = {
     'q': None,           # main query string (None to use a broad fetch)
     'isPublicDomain': True,         # enforced after fetching metadata
     'hasImages': True,              # enforced after fetching metadata (image_id present)
+    'isOnView': True,               # NEW: filter for artworks currently on display (True/False/None)
+    'isBoosted': None,              # NEW: filter for "highlight" artworks (True/False/None)
     'artistOrCulture': None,
     'medium': None,
     'dateBegin': None,
     'dateEnd': None,
     'objectName': None,
     'department': None,
-    'is_on_view': True,
-    'is_boosted': True,
 }
 
 # File paths (kept same relative layout)
 ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
+METADATA_OUTPUT_DIR = Path("../scripts/metadata")
+IMAGES_OUTPUT_DIR = Path("../scripts/images")
 LOG_FILE = Path("chicfetch.log")
 DONTFETCH_FILE = Path("chicdontfetch.json")   # <-- changed to include .json
-TEMP_NEWIDS_FILE = Path("../public/artworkids.json")  # same temp behaviour as original script
+TEMP_NEWIDS_FILE = Path("../scripts/artworkids.json")  # same temp behaviour as original script
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     # items per page requested from API (ARTIC may cap this)
@@ -274,13 +276,13 @@ class ChicDownloader:
 
     # ---------- Metadata + image fetch ----------
     def fetch_artwork_metadata(self, object_id: int) -> Optional[Dict]:
-        """Fetch detailed artwork metadata from ARTIC and validate public domain + image"""
+        """Fetch detailed artwork metadata from ARTIC and validate against all filters"""
         try:
             fields = [
                 "id","title","image_id","is_public_domain","artist_display","artist_title",
                 "date_display","medium_display","dimensions","credit_line","department_title",
                 "place_of_origin","thumbnail","api_link","artwork_type_title","classification_title",
-                "inscriptions","provenance_text","alt_titles"
+                "inscriptions","provenance_text","alt_titles","is_on_view","is_boosted","gallery_id","gallery_title"
             ]
             url = f"{ARTWORK_ENDPOINT}/{object_id}"
             resp = requests.get(url, params={"fields": ",".join(fields)}, timeout=20)
@@ -289,10 +291,16 @@ class ChicDownloader:
             data = payload.get('data', {})
 
             # Validate public domain if requested
-            if SEARCH_PARAMS.get('isPublicDomain') and not data.get('is_public_domain', False):
-                logging.warning(f"Object {object_id} is not public domain. Blacklisting.")
-                self.add_to_blacklist(object_id, "Not public domain")
-                return None
+            if SEARCH_PARAMS.get('isPublicDomain') is not None:
+                is_public_domain = data.get('is_public_domain', False)
+                if SEARCH_PARAMS.get('isPublicDomain') and not is_public_domain:
+                    logging.warning(f"Object {object_id} is not public domain. Blacklisting.")
+                    self.add_to_blacklist(object_id, "Not public domain")
+                    return None
+                elif not SEARCH_PARAMS.get('isPublicDomain') and is_public_domain:
+                    logging.warning(f"Object {object_id} is public domain (excluded by filter). Blacklisting.")
+                    self.add_to_blacklist(object_id, "Public domain (excluded)")
+                    return None
 
             # Validate image exists (ARTIC uses image_id for IIIF)
             image_id = data.get('image_id')
@@ -300,6 +308,30 @@ class ChicDownloader:
                 logging.warning(f"Object {object_id} has no image_id. Blacklisting.")
                 self.add_to_blacklist(object_id, "No image available (no image_id)")
                 return None
+
+            # NEW: Validate is_on_view if requested
+            if SEARCH_PARAMS.get('isOnView') is not None:
+                is_on_view = data.get('is_on_view', False)
+                if SEARCH_PARAMS.get('isOnView') and not is_on_view:
+                    logging.warning(f"Object {object_id} is not on view. Blacklisting.")
+                    self.add_to_blacklist(object_id, "Not currently on view")
+                    return None
+                elif not SEARCH_PARAMS.get('isOnView') and is_on_view:
+                    logging.warning(f"Object {object_id} is on view (excluded by filter). Blacklisting.")
+                    self.add_to_blacklist(object_id, "On view (excluded)")
+                    return None
+
+            # NEW: Validate is_boosted if requested
+            if SEARCH_PARAMS.get('isBoosted') is not None:
+                is_boosted = data.get('is_boosted', False)
+                if SEARCH_PARAMS.get('isBoosted') and not is_boosted:
+                    logging.warning(f"Object {object_id} is not a highlight/boosted work. Blacklisting.")
+                    self.add_to_blacklist(object_id, "Not a highlight work")
+                    return None
+                elif not SEARCH_PARAMS.get('isBoosted') and is_boosted:
+                    logging.warning(f"Object {object_id} is boosted (excluded by filter). Blacklisting.")
+                    self.add_to_blacklist(object_id, "Boosted (excluded)")
+                    return None
 
             return data
 
@@ -377,6 +409,10 @@ class ChicDownloader:
             'creditLine': 'Art Institute of Chicago. ' + (artwork_data.get('credit_line') or ''),
             'objectURL': artwork_data.get('api_link') or f"https://www.artic.edu/artworks/{artwork_data.get('id')}",
             'isPublicDomain': artwork_data.get('is_public_domain', False),
+            'isOnView': artwork_data.get('is_on_view', False),
+            'isBoosted': artwork_data.get('is_boosted', False),
+            'galleryId': artwork_data.get('gallery_id'),
+            'galleryTitle': artwork_data.get('gallery_title'),
             'image_id': artwork_data.get('image_id', ''),
             'iiifImageURL': self.construct_image_url(artwork_data.get('image_id')),
             'localImage': local_image_filename,
@@ -460,10 +496,27 @@ class ChicDownloader:
         print("="*70)
         print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"Max new artworks to download: {MAX_NEW_ARTWORKS}")
+        
+        # Print active filters
+        active_filters = []
+        if SEARCH_PARAMS.get('isPublicDomain') is not None:
+            active_filters.append(f"Public Domain: {SEARCH_PARAMS['isPublicDomain']}")
+        if SEARCH_PARAMS.get('hasImages'):
+            active_filters.append("Has Images: True")
+        if SEARCH_PARAMS.get('isOnView') is not None:
+            active_filters.append(f"On View: {SEARCH_PARAMS['isOnView']}")
+        if SEARCH_PARAMS.get('isBoosted') is not None:
+            active_filters.append(f"Boosted/Highlight: {SEARCH_PARAMS['isBoosted']}")
+        
+        if active_filters:
+            print(f"Active filters: {', '.join(active_filters)}")
+        
         print("="*70 + "\n")
 
         logging.info("Starting ARTIC download process")
         logging.info(f"Configuration: MAX_NEW_ARTWORKS={MAX_NEW_ARTWORKS}")
+        if active_filters:
+            logging.info(f"Active filters: {', '.join(active_filters)}")
 
         self.existing_ids = self.load_existing_ids()
         self.blacklist_ids = self.load_blacklist()

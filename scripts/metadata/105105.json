@@ -1,0 +1,30 @@
+{
+  "objectID": 105105,
+  "title": "Cabinet",
+  "artistDisplayName": "Herter Brothers",
+  "objectDate": "1878–80",
+  "objectName": "Furniture",
+  "medium": "Rosewood with ebonized cherry, maple, walnut, satinwood, marquetry of various woods, brass, gilding, and paint",
+  "dimensions": "134.6 × 180.3 × 40.6 cm (53 × 71 × 16 in.)",
+  "department": "Arts of the Americas",
+  "culture": "New York City",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by the Antiquarian Society through the Capital Campaign",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/105105",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": true,
+  "galleryId": 21434,
+  "galleryTitle": "Gallery 273",
+  "image_id": "63610c6d-4b70-6623-6069-c86a6eeff766",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/63610c6d-4b70-6623-6069-c86a6eeff766/full/843,/0/default.jpg",
+  "localImage": "105105.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB8QByAQCDIZCDIaCS8eEzIfFDYhFDsjFDIoIkQqGkUrHHFta3dxbnpwanl2dH56d396d4B3cYJ9eoOBgISCgIeEgoiFg5KQj5ORkJaUk5eVlJydnp2enwAAAAAAAAAAACH5BAAAAAAAIf8LSW1hZ2VNYWdpY2sOZ2FtbWE9MC40NTQ1NDUALAAAAAAGAAUAAAUYoGZtW4VFB4IYjRMIArBARaIQjCZNFHSFADs=",
+    "width": 11651,
+    "height": 9424,
+    "alt_text": "Wood cabinet with lighter wood floral design and brass."
+  },
+  "tags": []
+}

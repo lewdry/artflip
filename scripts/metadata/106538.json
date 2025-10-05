@@ -1,0 +1,30 @@
+{
+  "objectID": 106538,
+  "title": "Two-Handled Covered Cup",
+  "artistDisplayName": "Cornelius Kierstede",
+  "objectDate": "1698–1720",
+  "objectName": "Metalwork",
+  "medium": "Silver",
+  "dimensions": "12.7 × 20.3 × 12.7 cm (5 3/8 × 8 5/8 × 5 3/4 in.)",
+  "department": "Arts of the Americas",
+  "culture": "New York",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Mrs. James W. Alsdorf, Pauline Seipp Armstrong, Marshall Field, Charles C. Haffner III, Mrs. Burton W. Hales, Mrs. Harold T. Martin, Mrs. C. Phillip Miller, Mr. and Mrs. Milo M. Naeve, Mrs. Eric Oldberg,  Mrs. Frank L. Sulzberger, and the Ethel T. Scarborough Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/106538",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": true,
+  "galleryId": 2147476040,
+  "galleryTitle": "Gallery 165",
+  "image_id": "a145f14e-2303-ec8c-4a59-1cee25f1832c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/a145f14e-2303-ec8c-4a59-1cee25f1832c/full/843,/0/default.jpg",
+  "localImage": "106538.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAMrGv8zHvszIv87Kws3Lx8/NydDOx9HOx9LPydPRy9bUz9jW0tjX09rY09nY1NnY1dva1tva19/e2+Df2+fm4ujn4+jo5eno5erq5u3s6AAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoPNAkMNETEEskIQMQDJZSiA0F0YZR5WFADs=",
+    "width": 3000,
+    "height": 2398,
+    "alt_text": "Shiny silver cup with lid, two handles with leaf designs"
+  },
+  "tags": []
+}
