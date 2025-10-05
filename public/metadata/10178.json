@@ -1,0 +1,31 @@
+{
+  "objectID": 10178,
+  "title": "The Boulder and the Flume",
+  "artistDisplayName": "Ralph Albert Blakelock",
+  "objectDate": "1878",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "54 x 28 in. (137.2 x 71.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Hugh J. Grant, 1974",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10178",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1974.212.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap1974.212.jpg",
+  "localImage": "10178.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Streams",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008699",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q47521"
+    }
+  ]
+}

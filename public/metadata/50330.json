@@ -1,0 +1,26 @@
+{
+  "objectID": 50330,
+  "title": "Fall-Front Desk",
+  "artistDisplayName": "Vienna, Austria",
+  "objectDate": "c. 1810",
+  "objectName": "Furniture",
+  "medium": "Various woods and gilt-bronze mounts",
+  "dimensions": "141 × 91.4 × 39.4 cm (55 1/2 × 36 × 15 in.)",
+  "department": "Applied Arts of Europe",
+  "culture": "Vienna",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of the Centennial Fund; Mrs. Burton W. Hales, Mrs. William O. Hunt, Jessie Spaulding Landon, Mrs. Harold T. Martin, Adelaide Ryerson, Mrs. E. Hall Taylor, Mrs. Chester D. Tripp, and Mrs. Philip K. Wrigley funds",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/50330",
+  "isPublicDomain": true,
+  "image_id": "02676a81-8689-50ec-7440-162df7b5fc10",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/02676a81-8689-50ec-7440-162df7b5fc10/full/843,/0/default.jpg",
+  "localImage": "50330.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAFMeD0MnFloqGndpZo5oW41oXZJxZZZzZYN6cIZ+dYp8dKmgmayimsK/vsTCwQAAACH5BAAAAAAALAAAAAADAAUAAAQL0I1GQDnCpICYWhEAOw==",
+    "width": 3584,
+    "height": 5517,
+    "alt_text": "Wooden fold-out desk with many drawers, two gryphons perched at bottom."
+  },
+  "tags": []
+}

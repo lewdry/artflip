@@ -1,0 +1,41 @@
+{
+  "objectID": 437476,
+  "title": "The Dance",
+  "artistDisplayName": "Hubert Robert",
+  "objectDate": "1777–79",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "68 1/4 x 33 5/8 in. (173.4 x 85.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437476",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP264494.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP264494.jpg",
+  "localImage": "437476.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Dancing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300389779",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43393537"
+    },
+    {
+      "term": "Waterfalls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008736",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34038"
+    }
+  ]
+}

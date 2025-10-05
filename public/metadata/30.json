@@ -1,0 +1,26 @@
+{
+  "objectID": 30,
+  "title": "The Battle around the Shield and Lance",
+  "artistDisplayName": "Giovanni Jacopo Caraglio",
+  "objectDate": "c. 1527",
+  "objectName": "Print",
+  "medium": "Engraving in black on ivory laid paper",
+  "dimensions": "34.1 × 48.5 cm (13 7/16 × 19 1/8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/30",
+  "isPublicDomain": true,
+  "image_id": "d11c0a27-95f3-92fd-049b-37003e3cdf5a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/d11c0a27-95f3-92fd-049b-37003e3cdf5a/full/843,/0/default.jpg",
+  "localImage": "30.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAJaQhKOdkamjl6qklqqkmK6onK+pn7Gqn7OsobOsorWvoravo7WvpLexpbexp7ixpriyprmzqLy2q8G6r8G6sMG7sMK7scO9scS9s8W/ssbBtMjBts3Iu9LNwdPNwtrVy+Te1e3o3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwFAno+F4QBPIoKBAWB6LBkNQMVAOhAAg4fhsLo2IBBMEADs=",
+    "width": 3000,
+    "height": 2082,
+    "alt_text": "Etching of a dense group of plume-helmeted soldiers on foot and horseback engaged in battle."
+  },
+  "tags": []
+}

@@ -1,0 +1,36 @@
+{
+  "objectID": 438688,
+  "title": "Saint Francis",
+  "artistDisplayName": "Federico Barocci",
+  "objectDate": "ca. 1600–1604",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "35 3/8 x 30 7/8 in. (89.9 x 78.4 cm); with added strips 35 7/8 x 31 3/8 in. (91.1 x 79.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Lila Acheson Wallace Gift and 2002 Benefit Fund, 2003",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438688",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP104367.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP104367.jpg",
+  "localImage": "438688.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Saint Francis",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500349636",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q676555"
+    }
+  ]
+}

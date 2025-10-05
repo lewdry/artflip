@@ -1,0 +1,31 @@
+{
+  "objectID": 10470,
+  "title": "Lady in Black",
+  "artistDisplayName": "William Merritt Chase",
+  "objectDate": "1888",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "74 1/4 x 36 5/16 in. (188.6 x 92.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of William Merritt Chase, 1891",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10470",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap91.11.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap91.11.jpg",
+  "localImage": "10470.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

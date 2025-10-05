@@ -1,0 +1,36 @@
+{
+  "objectID": 459079,
+  "title": "Mary of Burgundy",
+  "artistDisplayName": "Master H.A. or A.H.",
+  "objectDate": "1528",
+  "objectName": "Painting",
+  "medium": "Oil on fir panel",
+  "dimensions": "17 5/8 x 12 3/16 in. (44.8 x 31 cm); painted surface 17 5/16 x 12 in. (43.9 x 30.5 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459079",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DP164856.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DP164856.jpg",
+  "localImage": "459079.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Profiles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

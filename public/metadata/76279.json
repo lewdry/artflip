@@ -1,0 +1,26 @@
+{
+  "objectID": 76279,
+  "title": "Yang Pu Moving His Family",
+  "artistDisplayName": "Artist Unknown",
+  "objectDate": "Yuan dynasty (1279–1368) 元朝",
+  "objectName": "Painting",
+  "medium": "Handscroll; ink and light color on paper",
+  "dimensions": "52.7 × 231.1 cm (20 3/4 × 91 in.)",
+  "department": "Arts of Asia",
+  "culture": "China",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Kate S. Buckingham Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/76279",
+  "isPublicDomain": true,
+  "image_id": "f78addab-4d3a-f87c-4c83-7eae824c7504",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/843,/0/default.jpg",
+  "localImage": "76279.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhEAAFAPYAAHJgTXRgTnVkU3ZlVHlnVHpoWn5rWnxrXIJuW4VvW4FvXYtvWYVxXoVzX4lzXop0Xo14Yo54Yo54ZI55ZId4aot8bZB7ZpB6Z5J8ZZJ8Z5R9ZZN/aZV+aJR/apR/a5eBapaAa5aBa5SAbpiAapmBapqDapqDa5yDa5yEa5uGb5yEbJ2FbZyGb5+GbpCCcpuGcZ2HcZ+JcZ+KcpqIeJqJeqCIcKSLcKSLcqWLcqWOc6OLdKOMdaOMdqSMdKWMdKaMdKWPd6aOdqaOeKePeKiQdqqRdqiReKuTeauUe6yUebSdggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQAAUAAAdSgCIvQT84Nz0sMCATFgYKCDNIRkdFNjlJSUpEDw8EAgAVOhkkLScqDClAGxEcAwkLLjshJSYaKB8xMg0QGBAOARRCQz41KycjEjw8Fx0eBwU0gQA7",
+    "width": 13604,
+    "height": 4080,
+    "alt_text": "Long scroll ink painting depicting people with their animals and belongings crossing a river."
+  },
+  "tags": []
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 11011,
+  "title": "Scene at Napanoch",
+  "artistDisplayName": "William Hart",
+  "objectDate": "1883",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "23 1/2 x 33 3/8 in. (59.7 x 84.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of the descendants of the artist, 1897",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11011",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-15991-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15991-001.jpg",
+  "localImage": "11011.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

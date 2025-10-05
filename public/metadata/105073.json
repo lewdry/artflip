@@ -1,0 +1,26 @@
+{
+  "objectID": 105073,
+  "title": "The Creation of Adam",
+  "artistDisplayName": "Giovanni Benedetto Castiglione",
+  "objectDate": "c. 1645/50",
+  "objectName": "Print",
+  "medium": "Monotype in black ink on ivory laid paper",
+  "dimensions": "30.3 × 20.3 cm (11 15/16 × 8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of an anonymous donor; purchased with funds provided by Dr. William D. and Sara R. Shorey, and Mr. and Mrs. George B. Young",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/105073",
+  "isPublicDomain": true,
+  "image_id": "413a9edf-ee27-ee07-5b51-88712143cb89",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/413a9edf-ee27-ee07-5b51-88712143cb89/full/843,/0/default.jpg",
+  "localImage": "105073.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAD47N0VBPEVBPlJMRVFMRlNNRlROSFhRSVpSSVpSSlpTSlxUS15YT2NcU2VdUgAAACH5BAAAAAAALAAAAAADAAUAAAQKUJBGlGMKVGGWigA7",
+    "width": 6855,
+    "height": 10170,
+    "alt_text": "Drawing of god, radiating light, reaching down from clouds, touching male figure."
+  },
+  "tags": []
+}

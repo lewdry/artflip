@@ -1,0 +1,31 @@
+{
+  "objectID": 435885,
+  "title": "View of the Domaine Saint-Joseph",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "late 1880s",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 5/8 x 32 in. (65.1 x 81.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Catharine Lorillard Wolfe Collection, Wolfe Fund, 1913",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435885",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1937.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1937.jpg",
+  "localImage": "435885.jpg",
+  "tags": [
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 437682,
+  "title": "View of Marly-le-Roi from Coeur-Volant",
+  "artistDisplayName": "Alfred Sisley",
+  "objectDate": "1876",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 3/4 x 36 3/8 in. (65.4 x 92.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Miss Adelaide Milton de Groot (1876-1967), 1967",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437682",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP130325.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130325.jpg",
+  "localImage": "437682.jpg",
+  "tags": [
+    {
+      "term": "Gardens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+    },
+    {
+      "term": "Towns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008375",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3957"
+    }
+  ]
+}

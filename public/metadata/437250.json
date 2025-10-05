@@ -1,0 +1,51 @@
+{
+  "objectID": 437250,
+  "title": "The Annunciation",
+  "artistDisplayName": "Girolamo Mazzola Bedoli",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "33 3/8 x 23 1/8 in. (84.8 x 58.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gwynne Andrews Fund, James S. Deely Gift, special funds, and other gifts and bequests, by exchange, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437250",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-031.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-031.jpg",
+  "localImage": "437250.jpg",
+  "tags": [
+    {
+      "term": "Doves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250045",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2984138"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Archangel Gabriel",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000493",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81989"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    }
+  ]
+}

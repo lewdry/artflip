@@ -1,0 +1,36 @@
+{
+  "objectID": 11315,
+  "title": "Lake George, New York",
+  "artistDisplayName": "John Frederick Kensett",
+  "objectDate": "1872",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "22 1/2 x 36 1/2 in. (57.2 x 92.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Thomas Kensett, 1874",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11315",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap74.7.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap74.7.jpg",
+  "localImage": "11315.jpg",
+  "tags": [
+    {
+      "term": "Lakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008680",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23397"
+    },
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

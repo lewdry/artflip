@@ -1,0 +1,31 @@
+{
+  "objectID": 437061,
+  "title": "Salvator Mundi",
+  "artistDisplayName": "Hans Memling",
+  "objectDate": "1480–85",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall, with integral frame, diameter 10 3/4 in. (27.3 cm); painted surface 8 in. (20.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437061",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19586-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19586-001.jpg",
+  "localImage": "437061.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300235443",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40843"
+    }
+  ]
+}

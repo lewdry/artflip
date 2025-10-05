@@ -1,0 +1,26 @@
+{
+  "objectID": 66434,
+  "title": "Georgia O'Keeffe—Hands and Thimble",
+  "artistDisplayName": "Alfred Stieglitz",
+  "objectDate": "1919",
+  "objectName": "Photograph",
+  "medium": "Palladium print",
+  "dimensions": "Image: 24.4 × 19.4 cm (9 5/8 × 7 11/16 in.); Paper: 25.1 × 20.3 cm (9 15/16 × 8 in.)",
+  "department": "Photography and Media",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Alfred Stieglitz Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/66434",
+  "isPublicDomain": true,
+  "image_id": "62fdbcae-4491-91c3-6fdc-728e1cf4b547",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/62fdbcae-4491-91c3-6fdc-728e1cf4b547/full/843,/0/default.jpg",
+  "localImage": "66434.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADcvHzgwIUI5JkQ6J0U8J0U8LEc+LEpAK09DK0pALEpALk1CLVBGMVBGM1BGNVRIMlVKNFtOM1hNOV9TPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIBMkkgI8UyMsDhQNxYEQRggAOw==",
+    "width": 2962,
+    "height": 3637,
+    "alt_text": "A work made of palladium print."
+  },
+  "tags": []
+}

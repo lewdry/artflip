@@ -1,0 +1,41 @@
+{
+  "objectID": 435972,
+  "title": "Honfleur: Calvary",
+  "artistDisplayName": "Camille Corot",
+  "objectDate": "ca. 1830",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "11 3/4 x 16 1/8 in. (29.8 x 41 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Mr. and Mrs. Richard J. Bernhard Gift, by exchange, 1974",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435972",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT10697.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10697.jpg",
+  "localImage": "435972.jpg",
+  "tags": [
+    {
+      "term": "Human Figures",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404114",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5937779"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300235443",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40843"
+    }
+  ]
+}

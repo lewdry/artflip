@@ -1,0 +1,26 @@
+{
+  "objectID": 95998,
+  "title": "Old Man with a Gold Chain",
+  "artistDisplayName": "Rembrandt van Rijn",
+  "objectDate": "1631",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "83.1 × 75.7 cm (32 3/4 × 29 3/4 in.); Framed: 105.1 × 99.5 cm (41 3/8 × 39 3/16 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Holland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. W. W. Kimball Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/95998",
+  "isPublicDomain": true,
+  "image_id": "3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
+  "localImage": "95998.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAABQSEhcVFRkWFRoZFxoYGR4bGiglISsmIC0oIi4pIjApIjIsJDYwJzgwJzYxKjgxKDkzKj81Kj42K0A0Jko/MUlBM0pCNk5FOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf8LSW1hZ2VNYWdpY2sOZ2FtbWE9MC40NTQ1NDUALAAAAAAFAAUAAAUVIIIMh9JI0/JQlfRY1xEAjEMIQBECADs=",
+    "width": 9859,
+    "height": 10740,
+    "alt_text": "Portrait of man wearing voluminous black cloak, feathered hat, and gold medallion."
+  },
+  "tags": []
+}

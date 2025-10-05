@@ -1,0 +1,41 @@
+{
+  "objectID": 436891,
+  "title": "Tobit Burying the Dead",
+  "artistDisplayName": "Andrea di Lione",
+  "objectDate": "1640s",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "50 1/4 x 68 1/2 in. (127.6 x 174 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gwynne Andrews Fund, 1989",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436891",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT6144.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT6144.jpg",
+  "localImage": "436891.jpg",
+  "tags": [
+    {
+      "term": "Ruins",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008057",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q109607"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Death",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300151836",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4"
+    }
+  ]
+}

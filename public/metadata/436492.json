@@ -1,0 +1,36 @@
+{
+  "objectID": 436492,
+  "title": "Saint Christopher and the Infant Christ",
+  "artistDisplayName": "Domenico Ghirlandaio (Domenico Bigordi)",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Fresco",
+  "dimensions": "112 x 59 in. (284.5 x 149.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Cornelius Vanderbilt, 1880",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436492",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/EP371.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/EP371.jpg",
+  "localImage": "436492.jpg",
+  "tags": [
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Saint Christopher",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000586",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q193507"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 210511,
+  "title": "A Monumental Portrait of a Monkey",
+  "artistDisplayName": "India",
+  "objectDate": "c. 1705–1710",
+  "objectName": "Painting",
+  "medium": "Opaque watercolor and gold on paper",
+  "dimensions": "Outermost border: 48.5 × 58.7 cm (19 × 23 in.); Image: 45 × 56 cm (17 3/4 × 22 in.)",
+  "department": "Arts of Asia",
+  "culture": "India",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Lacy Armour Fund, James and Marilynn Alsdorf Acquisition Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/210511",
+  "isPublicDomain": true,
+  "image_id": "67c7274f-612f-3180-0a12-e2c7ed5a7dd4",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/67c7274f-612f-3180-0a12-e2c7ed5a7dd4/full/843,/0/default.jpg",
+  "localImage": "210511.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGhkT2hvUHFoU3ZzVXZ6VXp7V356V3Z3WH9+WXl6XH19XoJ6WXyKWX+QW46HXoiIXYuPXoKRW4eXXomRX4edX4eGYYWFY4iDZ5mCZI2UY5GUaZqZc6KTfqyofgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4FIgD+QcDSNRUyVgQJdZgcZt0UUkymCEADs=",
+    "width": 5778,
+    "height": 4800,
+    "alt_text": "A work made of opaque watercolor and gold on paper."
+  },
+  "tags": []
+}

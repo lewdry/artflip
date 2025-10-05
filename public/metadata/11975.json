@@ -1,0 +1,31 @@
+{
+  "objectID": 11975,
+  "title": "The Bridge",
+  "artistDisplayName": "Albert Pinkham Ryder",
+  "objectDate": "ca. 1880",
+  "objectName": "Painting",
+  "medium": "Oil on gilt leather",
+  "dimensions": "10 x 26 3/4 in. (25.4 x 67.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George A. Hearn, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11975",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-23325-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-23325-001.jpg",
+  "localImage": "11975.jpg",
+  "tags": [
+    {
+      "term": "Bridges",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

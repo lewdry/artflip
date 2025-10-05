@@ -1,0 +1,31 @@
+{
+  "objectID": 11230,
+  "title": "Evening at Medfield, Massachusetts",
+  "artistDisplayName": "George Inness",
+  "objectDate": "1875",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "38 x 63 1/8 in. (96.5 x 160.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George A. Hearn, 1910",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11230",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT11918.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT11918.jpg",
+  "localImage": "11230.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

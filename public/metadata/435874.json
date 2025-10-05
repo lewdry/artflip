@@ -1,0 +1,31 @@
+{
+  "objectID": 435874,
+  "title": "The House with the Cracked Walls",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "1892–94",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 1/2 x 25 1/4 in. (80 x 64.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435874",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1943.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg",
+  "localImage": "435874.jpg",
+  "tags": [
+    {
+      "term": "Houses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300005433",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3947"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

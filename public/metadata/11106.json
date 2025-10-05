@@ -1,0 +1,26 @@
+{
+  "objectID": 11106,
+  "title": "Bowl of Fruit",
+  "artistDisplayName": "Marsden Hartley",
+  "objectDate": "1923",
+  "objectName": "Print",
+  "medium": "Lithograph on white wove paper",
+  "dimensions": "Image: 31.5 × 31 cm (12 7/16 × 12 1/4 in.); Sheet: 44.5 × 39.2 cm (17 9/16 × 15 7/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Albert H. Wolf Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/11106",
+  "isPublicDomain": true,
+  "image_id": "632a37ca-e571-efb2-f52a-14b5e5e11fa1",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/632a37ca-e571-efb2-f52a-14b5e5e11fa1/full/843,/0/default.jpg",
+  "localImage": "11106.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAJmYkJqZkJyakaGgl7a0q7u5sb+9s9PRxtbUyNfVy9nXzN7c0enn3Oro3Ozp3vDt4PHv5fXz6vr36/z67gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4KMkDjIIhwEEC1MQzRRBUggAOw==",
+    "width": 2648,
+    "height": 3000,
+    "alt_text": "A work made of lithograph on white wove paper."
+  },
+  "tags": []
+}

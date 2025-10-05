@@ -1,0 +1,31 @@
+{
+  "objectID": 435707,
+  "title": "Roadside Halt",
+  "artistDisplayName": "Richard Parkes Bonington",
+  "objectDate": "1826",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 1/4 x 14 7/8 in. (46.4 x 37.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Francis Neilson, 1945",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435707",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP164827.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164827.jpg",
+  "localImage": "435707.jpg",
+  "tags": [
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

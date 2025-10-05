@@ -1,0 +1,41 @@
+{
+  "objectID": 435906,
+  "title": "Pastoral Landscape: The Roman Campagna",
+  "artistDisplayName": "Claude Lorrain (Claude Gellée)",
+  "objectDate": "ca. 1639",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "40 x 53 1/2 in. (101.6 x 135.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Adele L. Lehman, in memory of Arthur Lehman, 1965",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435906",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17628-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17628-001.jpg",
+  "localImage": "435906.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Rome",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7000874",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q220"
+    }
+  ]
+}

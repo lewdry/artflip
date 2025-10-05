@@ -1,0 +1,31 @@
+{
+  "objectID": 435866,
+  "title": "Apples",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "1878–79",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "9 x 13 in. (22.9 x 33 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Mr. and Mrs. Henry Ittleson Jr. Purchase Fund, 1961",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435866",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1940.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1940.jpg",
+  "localImage": "435866.jpg",
+  "tags": [
+    {
+      "term": "Apples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266417",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q89"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

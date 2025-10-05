@@ -1,0 +1,26 @@
+{
+  "objectID": 66,
+  "title": "A Young Man Caressing the Young Hostess",
+  "artistDisplayName": "Cornelis Pietersz Bega",
+  "objectDate": "c. 1650",
+  "objectName": "Print",
+  "medium": "Etching in black on paper",
+  "dimensions": "Image: 19.7 × 16.4 cm (7 13/16 × 6 1/2 in.); Sheet: 20.5 × 16.8 cm (8 1/8 × 6 5/8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Netherlands",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/66",
+  "isPublicDomain": true,
+  "image_id": "ab1dfe48-14e8-b546-7e35-581c401db240",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ab1dfe48-14e8-b546-7e35-581c401db240/full/843,/0/default.jpg",
+  "localImage": "66.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGRbUWZcU4N6b42CdI+CdY+FeJWJepSJfJiNf56Sg5yTiKmdj6idkLaomLaqnLqsmr+zpMCzo8C0psK3qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYAQ5xHAgTcAsD1AkhqBMUggAOw==",
+    "width": 2427,
+    "height": 3000,
+    "alt_text": "A work made of etching in black on paper."
+  },
+  "tags": []
+}

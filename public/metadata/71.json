@@ -1,0 +1,26 @@
+{
+  "objectID": 71,
+  "title": "Old Oaks at Bas Bréau",
+  "artistDisplayName": "Adolphe Martial Potémont",
+  "objectDate": "c. 1865",
+  "objectName": "Print",
+  "medium": "Etching in black ink on cream Asian paper mounted overall to ivory wove paper (chine colle)",
+  "dimensions": "Image: 29.6 × 24.7 cm (11 11/16 × 9 3/4 in.); Plate: 31 × 26 cm (12 1/4 × 10 1/4 in.); Primary support: 30.3 × 25.2 cm (11 15/16 × 9 15/16 in.); Secondary support: 41.8 × 33.4 cm (16 1/2 × 13 3/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/71",
+  "isPublicDomain": true,
+  "image_id": "1ce19018-a280-96de-7f63-6547f8de2395",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/1ce19018-a280-96de-7f63-6547f8de2395/full/843,/0/default.jpg",
+  "localImage": "71.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEVCO0pHQFJPSFRRSVVTTFdTTFpXT1xZTl1ZUV5bU19cUWtnWG1qXG5qXW9rXXFtX3l0ZHZyaYJ+bZGNfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYPIowQAtADFJTeEwRyQYSAgAOw==",
+    "width": 2523,
+    "height": 3000,
+    "alt_text": "Etching of four tall oak trees standing together amid thick, lush ground cover and trees with dense foliage."
+  },
+  "tags": []
+}

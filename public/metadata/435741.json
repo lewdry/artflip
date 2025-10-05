@@ -1,0 +1,41 @@
+{
+  "objectID": 435741,
+  "title": "Allegory of Lyric Poetry",
+  "artistDisplayName": "François Boucher",
+  "objectDate": "1753",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "Irregular, 45 1/4 x 62 3/4 in. (114.9 x 159.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Mr. and Mrs. Charles Wrightsman Gift, 1969",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435741",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP259113.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP259113.jpg",
+  "localImage": "435741.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Doves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250045",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2984138"
+    },
+    {
+      "term": "Putti",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250465",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q284865"
+    },
+    {
+      "term": "Writing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054698",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q37260"
+    }
+  ]
+}

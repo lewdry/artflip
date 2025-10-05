@@ -1,0 +1,26 @@
+{
+  "objectID": 61128,
+  "title": "At the Moulin Rouge",
+  "artistDisplayName": "Henri de Toulouse-Lautrec",
+  "objectDate": "1892–95",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "123 × 141 cm (48 7/16 × 55 1/2 in.); Framed: 136.9 × 154.7 × 8.5 cm (53 7/8 × 60 7/8 × 3 5/16 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Helen Birch Bartlett Memorial Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/61128",
+  "isPublicDomain": true,
+  "image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+  "localImage": "61128.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAC4qHjInHDwpGjYwIDcwIzgzKVg5Cks3HF4/EVg6FkE2Jkk3IUs2JkI7K0Q6KEs7Kko5LFtBFmNDFV5EIVBLLU9NM0hINFhFNk1SOlRQMVdTO1ZTP1hVO2ZOKQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIIVZnFYdj1M0WXIxQrAhHbQQQGRIkzKEADs=",
+    "width": 7788,
+    "height": 6807,
+    "alt_text": "Painting, heavy in tones of blue-green and burnt orange, depicting a bar scene at night. The men wear top hats and many are bearded; the women are dressed in voluminous gowns and decorative hats. Five people converse in the center of the composition and a woman with a green face dominates the right foreground."
+  },
+  "tags": []
+}

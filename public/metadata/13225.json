@@ -1,0 +1,31 @@
+{
+  "objectID": 13225,
+  "title": "Edward Guthrie Kennedy",
+  "artistDisplayName": "James McNeill Whistler",
+  "objectDate": "1893–95",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "11 5/8 x 7 in. (29.4 x 17.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Edward G. Kennedy, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13225",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap09.222.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap09.222.jpg",
+  "localImage": "13225.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 185,
+  "title": "Kylix (Drinking Cup)",
+  "artistDisplayName": "Attributed to the Penthesilea Painter",
+  "objectDate": "about 460 BCE",
+  "objectName": "Vessel",
+  "medium": "terracotta, red-figure",
+  "dimensions": "14.2 × 45 × 37 cm (5 5/8 × 17 3/4 × 14 1/4 in.)",
+  "department": "Arts of Greece, Rome, and Byzantium",
+  "culture": "Ancient Greece",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Philip D. Armour and Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/185",
+  "isPublicDomain": true,
+  "image_id": "9312601d-c20c-289e-c026-eafc676c5116",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/9312601d-c20c-289e-c026-eafc676c5116/full/843,/0/default.jpg",
+  "localImage": "185.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAABQQDhUUEykXCicYCzgpHSgmIzguJTEsKTAtLDUyMDY0Mz08OV86IGc/IVRUVmRkZp+Xl5+bmKOfnaWfnKuln6ekoLazs8C6s8K+u8PBvsfFxtDPyt3b4Onn6gAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4FYpSZRdxyAgGhUwDQBhi0EUU2c9jsSFADs=",
+    "width": 2942,
+    "height": 2250,
+    "alt_text": "A work made of terracotta, red-figure."
+  },
+  "tags": []
+}

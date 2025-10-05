@@ -1,0 +1,41 @@
+{
+  "objectID": 11083,
+  "title": "View of Poestenkill, New York",
+  "artistDisplayName": "Joseph H. Hidley",
+  "objectDate": "ca. 1870",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "19 3/4 x 28 in. (50.2 x 71.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Edgar William and Bernice Chrysler Garbisch, 1963",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11083",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap63.201.5.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap63.201.5.jpg",
+  "localImage": "11083.jpg",
+  "tags": [
+    {
+      "term": "Houses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300005433",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3947"
+    },
+    {
+      "term": "Churches",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007466",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16970"
+    },
+    {
+      "term": "Towns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008375",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3957"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

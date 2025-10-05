@@ -1,0 +1,26 @@
+{
+  "objectID": 11723,
+  "title": "Woman at Her Toilette",
+  "artistDisplayName": "Berthe Morisot",
+  "objectDate": "1875–80",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "60.3 × 80.4 cm (23 3/4 × 31 5/8 in.); Framed: 85.8 × 105.5 × 10.5 cm (33 3/4 × 41 1/2 × 4 1/8 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Stickney Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/11723",
+  "isPublicDomain": true,
+  "image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+  "localImage": "11723.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAE9MQV1XRl5YRmNdT2JgVGplV3RtW3JsX35wXW9rYHl3cX17eYJ4a4+Hd4GBfoaDf4iEfY6JgYmKhZuXjZWSkJaSkJydlpqZmZqamp+dmpqbnamelqCemqShk6Cgm6ujnK6nn7m0rbSzsgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwABDYnBYOgTFAvHAcA6JyIZyyQwAFZHGMykIPiEQpBEEADs=",
+    "width": 4946,
+    "height": 3703,
+    "alt_text": "Painted portrait dominated by loose, large brushstrokes of a woman, seen from the back, wearing a gauzy white off-the-shoulder dress and black choker, blond hair swept up, examining herself in a mirror at left. The background is a feathered swirl suggesting floral pattern in cool pale tones of gray, purple, pink, and blue."
+  },
+  "tags": []
+}

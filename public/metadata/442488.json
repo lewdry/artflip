@@ -1,0 +1,36 @@
+{
+  "objectID": 442488,
+  "title": "The Agony in the Garden",
+  "artistDisplayName": "Nicolas Poussin",
+  "objectDate": "1626–27",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "24 1/8 × 19 1/8 in. (61.3 × 48.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Jon and Barbara Landau, in honor of Keith Christiansen, 2021",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/442488",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-23235-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23235-001.jpg",
+  "localImage": "442488.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Agony in the Garden",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000503",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2467856"
+    }
+  ]
+}

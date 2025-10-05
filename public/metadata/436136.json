@@ -1,0 +1,41 @@
+{
+  "objectID": 436136,
+  "title": "Dancer with a Fan",
+  "artistDisplayName": "Edgar Degas",
+  "objectDate": "ca. 1890–95",
+  "objectName": "Drawing",
+  "medium": "Pastel and charcoal on buff-colored wove tracing paper",
+  "dimensions": "21 7/8 x 19 1/4 in. (55.6 x 48.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436136",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT12066.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT12066.jpg",
+  "localImage": "436136.jpg",
+  "tags": [
+    {
+      "term": "Fans",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300258857",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q193220"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Dancers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025653",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5716684"
+    },
+    {
+      "term": "Ballet",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054145",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41425"
+    }
+  ]
+}

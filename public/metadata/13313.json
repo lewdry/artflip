@@ -1,0 +1,31 @@
+{
+  "objectID": 13313,
+  "title": "Evening in the Woods",
+  "artistDisplayName": "Worthington Whittredge",
+  "objectDate": "1876",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "42 5/16 x 36 1/8 in. (107.5 x 91.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Henry H. Cook, 1905",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13313",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS2208.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS2208.jpg",
+  "localImage": "13313.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

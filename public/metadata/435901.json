@@ -1,0 +1,36 @@
+{
+  "objectID": 435901,
+  "title": "Madonna and Child with Saints Francis and Clare",
+  "artistDisplayName": "Cima da Conegliano (Giovanni Battista Cima)",
+  "objectDate": "ca. 1510",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "8 x 10 1/2 in. (20.3 x 26.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of George Blumenthal, 1941",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435901",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-18296-025.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-025.jpg",
+  "localImage": "435901.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint Francis",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500349636",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q676555"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

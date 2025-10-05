@@ -1,0 +1,31 @@
+{
+  "objectID": 435829,
+  "title": "Echo",
+  "artistDisplayName": "Alexandre Cabanel",
+  "objectDate": "1874",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "38 1/2 x 26 1/4 in. (97.8 x 66.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mary Phelps Smith, in memory of her husband, Howard Caswell Smith, 1965",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435829",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP208016.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP208016.jpg",
+  "localImage": "435829.jpg",
+  "tags": [
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Nymphs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q373916"
+    }
+  ]
+}

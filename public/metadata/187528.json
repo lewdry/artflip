@@ -1,0 +1,26 @@
+{
+  "objectID": 187528,
+  "title": "Head",
+  "artistDisplayName": "Fang",
+  "objectDate": "Mid–late 19th century",
+  "objectName": "Sculpture",
+  "medium": "Wood and copper",
+  "dimensions": "H.: 39.4 cm (15 1/2 in.)",
+  "department": "Arts of Africa",
+  "culture": "Gabon",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Frederick W. Renshaw Acquisition Fund; Robert Allerton and Ada Turnbull Hertle endowments; Robert Allerton Income Fund; Gladys N. Anderson Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/187528",
+  "isPublicDomain": true,
+  "image_id": "73e4f1d9-97a2-1742-5235-72bfcaef9473",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/73e4f1d9-97a2-1742-5235-72bfcaef9473/full/843,/0/default.jpg",
+  "localImage": "187528.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAD47OkE+PUI/PUlFRFxbW19dXV5fYF9fYGFhYWJiYmRlZWVlZWVmZm5ubnNzc5aSj6OgnKyrqbq5uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYFIQyDIIChMAjAE9RyNFTggAOw==",
+    "width": 5136,
+    "height": 7192,
+    "alt_text": "A dark-brown painted sculpture with hints of orange showing through of a slim face with a long neck. The lips are drawn in a pout, the cheeks sunken, the hair pulled back in a swirl pattern and falling down in a slim column."
+  },
+  "tags": []
+}

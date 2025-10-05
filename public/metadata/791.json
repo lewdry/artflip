@@ -1,0 +1,36 @@
+{
+  "objectID": 791,
+  "title": "Bowl",
+  "artistDisplayName": "W. T. Copeland and Sons",
+  "objectDate": "1870–1900",
+  "objectName": "Bowl",
+  "medium": "Porcelain",
+  "dimensions": "H. 3 5/8 in. (9.2 cm); Diam. 6 in. (15.2 cm)",
+  "department": "The American Wing",
+  "culture": "British",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of William H. Huntington, 1883",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/791",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP247750.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP247750.jpg",
+  "localImage": "791.jpg",
+  "tags": [
+    {
+      "term": "Eagles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250049",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2092297"
+    },
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

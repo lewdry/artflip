@@ -1,0 +1,26 @@
+{
+  "objectID": 181,
+  "title": "Amphora (Storage Jar)",
+  "artistDisplayName": "Attributed to the Ixion Painter",
+  "objectDate": "340-330 BCE",
+  "objectName": "Vessel",
+  "medium": "terracotta, red-figure",
+  "dimensions": "86.4 × 36.1 × 26 cm (34 1/2 × 14 1/4 × 10 1/4 in.)",
+  "department": "Arts of Greece, Rome, and Byzantium",
+  "culture": "Campania",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Philip D. Armour and Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/181",
+  "isPublicDomain": true,
+  "image_id": "d8fab7c6-8cc9-1c02-18db-0f198775ccc9",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/d8fab7c6-8cc9-1c02-18db-0f198775ccc9/full/843,/0/default.jpg",
+  "localImage": "181.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEE+OVxXUlhYV2VYTWppaoBya458boJ7d4OFh4+Hg4WGiISHiZuKgo+SlJGRk5yeoqurr6mrsK6usrCytgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf4KQXBwbGVNYXJrCgAsAAAAAAQABQAABREgciRPUzDTMhiRAgSSIxBQCAA7",
+    "width": 1200,
+    "height": 1600,
+    "alt_text": "Terracotta vessel with a narrow neck and small, curved handles, areas of black indicating lost portions of a battle scene."
+  },
+  "tags": []
+}

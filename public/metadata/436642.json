@@ -1,0 +1,46 @@
+{
+  "objectID": 436642,
+  "title": "The Musician",
+  "artistDisplayName": "Bartholomeus van der Helst",
+  "objectDate": "1662",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "54 1/2 x 43 3/4 in. (138.4 x 111.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, 1873",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436642",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-18251-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18251-001.jpg",
+  "localImage": "436642.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Music",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435214",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q638"
+    },
+    {
+      "term": "Lutes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042101",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q180733"
+    },
+    {
+      "term": "Musicians",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q639669"
+    }
+  ]
+}

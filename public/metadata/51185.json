@@ -1,0 +1,26 @@
+{
+  "objectID": 51185,
+  "title": "Storage Jar with Horizontal Bands of Interlocking Scrolls",
+  "artistDisplayName": "Ancestral Pueblo",
+  "objectDate": "875–1130",
+  "objectName": "Ceramics",
+  "medium": "Ceramic and pigment",
+  "dimensions": "43.2 × 45.7 cm (17 × 18 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Southwest",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Tillie C. Cohn Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/51185",
+  "isPublicDomain": true,
+  "image_id": "0fa6a777-48eb-b9a1-89ff-5f4104f2490d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/0fa6a777-48eb-b9a1-89ff-5f4104f2490d/full/843,/0/default.jpg",
+  "localImage": "51185.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADIwLjw0Ljc1NFdJO0dFQk1NTVBQUFBQUVRTUldYWFpbXGBRQmZeVntoVGBhYmFiYmFiY21nYWtpZm5qZmxsbGxtbm1tbnFtaXFxcXp1cYV4aoZ7bYuCepWLf5+Sha2hlsGzpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwEIiw7koDIrJB+SRPCCMTUcTqTwIi8YAYaEcAAGBAxMEADs=",
+    "width": 3000,
+    "height": 2250,
+    "alt_text": "Round ceramic jar with large black S-shaped geometric designs on cream ground."
+  },
+  "tags": []
+}

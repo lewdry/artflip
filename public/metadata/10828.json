@@ -1,0 +1,41 @@
+{
+  "objectID": 10828,
+  "title": "The Writing Master",
+  "artistDisplayName": "Thomas Eakins",
+  "objectDate": "1882",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 x 34 1/4 in. (76.2 x 87 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. John Stewart Kennedy Fund, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10828",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2038.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2038.jpg",
+  "localImage": "10828.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Writing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054698",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q37260"
+    },
+    {
+      "term": "Authors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025492",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q482980"
+    }
+  ]
+}

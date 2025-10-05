@@ -1,0 +1,56 @@
+{
+  "objectID": 435638,
+  "title": "The Cellier Altarpiece",
+  "artistDisplayName": "Jean Bellegambe",
+  "objectDate": "1511–12",
+  "objectName": "Painting, triptych",
+  "medium": "Oil on wood",
+  "dimensions": "Shaped top: central panel 40 x 24 in. (101.6 x 61 cm); left wing 37 3/4 x 10 in. (95.9 x 25.4 cm); right wing 37 1/2 x 9 1/2 in. (95.3 x 24.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435638",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT11782.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11782.jpg",
+  "localImage": "435638.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Bishops",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025756",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q29182"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Monks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025765",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q733786"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

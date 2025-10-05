@@ -1,0 +1,41 @@
+{
+  "objectID": 435725,
+  "title": "Christ's Descent into Hell",
+  "artistDisplayName": "Hieronymus Bosch",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "21 x 46 in. (53.3 x 116.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Harris Brisbane Dick Fund, 1926",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435725",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-1207-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1207-001.jpg",
+  "localImage": "435725.jpg",
+  "tags": [
+    {
+      "term": "Owls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310290",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8021345"
+    },
+    {
+      "term": "Fire",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300417275",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3196"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Hell",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185657",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q564"
+    }
+  ]
+}

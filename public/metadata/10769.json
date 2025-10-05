@@ -1,0 +1,36 @@
+{
+  "objectID": 10769,
+  "title": "A River Glimpse",
+  "artistDisplayName": "Thomas Doughty",
+  "objectDate": "ca. 1843–50",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 1/4 in. × 25 in. (76.8 × 63.5 cm)\r\nFramed: 39 1/8 × 34 1/4 × 2 3/4 in. (99.3 × 87 × 7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Samuel P. Avery, 1895",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10769",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap95.17.2.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap95.17.2.jpg",
+  "localImage": "10769.jpg",
+  "tags": [
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

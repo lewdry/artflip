@@ -1,0 +1,26 @@
+{
+  "objectID": 85533,
+  "title": "Feathered Tunic",
+  "artistDisplayName": "Chimú",
+  "objectDate": "1470-1532",
+  "objectName": "Textile",
+  "medium": "Cotton, plain weave; embellished with feathers knotted and attached with cotton in overcast stitches",
+  "dimensions": "85.1 × 86 cm (33 1/2 × 33 7/8 in.)",
+  "department": "Textiles",
+  "culture": "Peru",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Kate S. Buckingham Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/85533",
+  "isPublicDomain": true,
+  "image_id": "ff7bc41b-f7c6-a8fa-553d-00ea8a70bc91",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ff7bc41b-f7c6-a8fa-553d-00ea8a70bc91/full/843,/0/default.jpg",
+  "localImage": "85533.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAGxiWHJoWnNrXntqXH5uXHRsY3RtZHduaHhwY39yYntyZHVwaYBwY4p7Zoh6bI1/bYB6cJSEbZWGb5iHbZqJbpqLcaGRd6WXgLWihQAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIKQIyPJQjTQk2GU5RDVFDBAYxRECADs=",
+    "width": 2322,
+    "height": 2250,
+    "alt_text": "Cream-colored tunic with stylized birds, cats, and geometric border."
+  },
+  "tags": []
+}

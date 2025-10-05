@@ -1,0 +1,36 @@
+{
+  "objectID": 11136,
+  "title": "Searchlight on Harbor Entrance, Santiago de Cuba",
+  "artistDisplayName": "Winslow Homer",
+  "objectDate": "1902",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 1/2 x 50 1/2 in. (77.5 x 128.3 cm)\r\nFramed: 43 7/8 x 63 5/8 x 6 in. (111.4 x 161.6 x 15.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George A. Hearn, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11136",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-21455-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21455-001.jpg",
+  "localImage": "11136.jpg",
+  "tags": [
+    {
+      "term": "Cannons",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300036936",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81103"
+    },
+    {
+      "term": "Moon",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386951",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q405"
+    },
+    {
+      "term": "Night",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300133095",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q575"
+    }
+  ]
+}

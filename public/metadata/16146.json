@@ -1,0 +1,26 @@
+{
+  "objectID": 16146,
+  "title": "Equestrienne (At the Cirque Fernando)",
+  "artistDisplayName": "Henri de Toulouse-Lautrec",
+  "objectDate": "1887–88",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "100.3 × 161.3 cm (39 1/2 × 63 1/2 in.); Framed: 123.2 × 181 × 8.3 cm (48 1/2 × 71 1/4 × 3 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Joseph Winterbotham Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/16146",
+  "isPublicDomain": true,
+  "image_id": "65db9e21-83c3-1cc6-7240-1e1996d87f52",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/65db9e21-83c3-1cc6-7240-1e1996d87f52/full/843,/0/default.jpg",
+  "localImage": "16146.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAG1pXG5oaXxza350bn53b3RxcYpzaIJ4c4p+coJ+e5p+co2EaYyCeJWCc5iKeoSEgoyIg42Lg4qKiJGMhZCMiZ6QgJiXiZiTjp+XkaKdkaSckaOel6WfmKGfnKujk6uhm7Gqn6uopLmupsW/s8bAuMfBuc7JwdTQyQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQAeiQgAsGAIPR/Q5WBqGSKFzkjwwik2AYgolIBrQYEQqXSaZIAA7",
+    "width": 4984,
+    "height": 3139,
+    "alt_text": "Painting of a performance inside a circus ring. A man wearing a suit holds a whip in his hand and looks towards a woman with red hair riding a gray horse and wearing a green dress. Audience members wearing suits and top hats watch from red and white benches on the side."
+  },
+  "tags": []
+}

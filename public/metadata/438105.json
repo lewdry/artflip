@@ -1,0 +1,36 @@
+{
+  "objectID": 438105,
+  "title": "A Lock, a Column, and a Church beside a Lagoon",
+  "artistDisplayName": "Canaletto (Giovanni Antonio Canal)",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "20 × 26 5/8 in. (50.8 × 67.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mrs. Charles Wrightsman, 2019",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438105",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/Wrightsman20.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/Wrightsman20.jpg",
+  "localImage": "438105.jpg",
+  "tags": [
+    {
+      "term": "Columns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300001571",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4817"
+    },
+    {
+      "term": "Churches",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007466",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16970"
+    },
+    {
+      "term": "Venice",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7018159",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q641"
+    }
+  ]
+}

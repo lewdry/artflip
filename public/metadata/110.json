@@ -1,0 +1,26 @@
+{
+  "objectID": 110,
+  "title": "Hyacinthe Rigaud",
+  "artistDisplayName": "Gérard Edelinck",
+  "objectDate": "1698",
+  "objectName": "Print",
+  "medium": "Engraving and etching on paper",
+  "dimensions": "Image: 47.9 × 36.1 cm (18 7/8 × 14 1/4 in.); Plate: 48.1 × 36.7 cm (18 15/16 × 14 1/2 in.); Sheet: 51 × 40.2 cm (20 1/8 × 15 7/8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/110",
+  "isPublicDomain": true,
+  "image_id": "04026cea-3052-f4ba-d88e-46b1cd006d1a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/04026cea-3052-f4ba-d88e-46b1cd006d1a/full/843,/0/default.jpg",
+  "localImage": "110.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABsaFiIgGywqJDk2Ljs3Lz48M0dEPUlHQFVRRldTSldVS1hUS2BdUGJfU2hlW3dyZZiUh5qViaCbjKqllwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoLMkjzEQiFIIzQEEzBRBUggAOw==",
+    "width": 2365,
+    "height": 3000,
+    "alt_text": "A work made of engraving and etching on paper."
+  },
+  "tags": []
+}

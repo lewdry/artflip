@@ -1,0 +1,36 @@
+{
+  "objectID": 11978,
+  "title": "Landscape",
+  "artistDisplayName": "Albert Pinkham Ryder",
+  "objectDate": "1897–98 (?)",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "9 1/2 x 14 in. (24.1 x 35.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Frederick Kuhne, 1952",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11978",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap52.199.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap52.199.jpg",
+  "localImage": "11978.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

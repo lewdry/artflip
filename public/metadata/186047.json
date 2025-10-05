@@ -1,0 +1,26 @@
+{
+  "objectID": 186047,
+  "title": "Sideboard",
+  "artistDisplayName": "Designed by Edward William Godwin",
+  "objectDate": "Designed 1867, made c. 1876",
+  "objectName": "Furniture",
+  "medium": "Ebonized mahogany with glass and silvered brass",
+  "dimensions": "181.6 × 255.3 × 50.2 cm (71 1/2 × 100 1/2 × 19 3/4 in.) (with leaves e×tended)",
+  "department": "Applied Arts of Europe",
+  "culture": "England",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Robert Allerton, Harry and Maribel G. Blum, Mary and Leigh Block, Mary Waller Langhorne, Mrs. Siegfried G. Schmidt, Tillie C. Cohn, Richard T. Crane, Jr. Memorial, Eugene A. Davidson, Harriott A. Fox, Florence L. Notter, Kay and Frederick Krehbiel endowment funds; European Decorative Arts Purchase Fund;Irving and June Seaman Endowment Fund; through prior acquisition of the Reid Martin Estate",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/186047",
+  "isPublicDomain": true,
+  "image_id": "2bc4d353-e61a-7589-8585-2000a23689bb",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/2bc4d353-e61a-7589-8585-2000a23689bb/full/843,/0/default.jpg",
+  "localImage": "186047.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPQcADY0Mzc0NF9dXV9eXWBdXWRhYHp5eHp5eX58fIeFhIiGhomIiKalpbe2tbi3trq5ubq6ubu6ub28vNPT0tTU1NfW1tjX1+zs7PDw8PPz8/X19f7+/v///wAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAUd4CYZmBFt3CNkQ8NNCrIcCaUVAQMQGlc5F4iFEwIAOw==",
+    "width": 3000,
+    "height": 2141,
+    "alt_text": "Black wood sideboard with skinny poles holding cabinets, brass trim."
+  },
+  "tags": []
+}

@@ -1,0 +1,46 @@
+{
+  "objectID": 436570,
+  "title": "The Adoration of the Shepherds",
+  "artistDisplayName": "El Greco (Domenikos Theotokopoulos)",
+  "objectDate": "ca. 1605–10",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "56 7/8 x 39 7/8 in. (144.5 x 101.3 cm); with added strips 64 1/2 x 42 in. (163.8 x 106.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1905",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436570",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP123919.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123919.jpg",
+  "localImage": "436570.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Lambs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250289",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4575936"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000229",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1029715"
+    }
+  ]
+}

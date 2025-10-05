@@ -1,0 +1,26 @@
+{
+  "objectID": 75644,
+  "title": "Coronation Stone of Moctezuma Xocoyotzin",
+  "artistDisplayName": "Aztec",
+  "objectDate": "1503",
+  "objectName": "Sculpture",
+  "medium": "Basalt",
+  "dimensions": "67.4 × 57.8 × 22.9 cm (26 1/2 × 22 3/4 × 9 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Tenochtitlan",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Major Acquisitions Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/75644",
+  "isPublicDomain": true,
+  "image_id": "ea8c5d62-6ce8-88e8-feb1-e0053cf534c5",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ea8c5d62-6ce8-88e8-feb1-e0053cf534c5/full/843,/0/default.jpg",
+  "localImage": "75644.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACgiHzIrJDMvLDw1L01IQFZUTmZjWm5nXWVpaHFvaH54boF8bYeBcouEdoKEgYGFhIOMj52UhaOdjrSunwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4BAAwhE1hDJJRsIsBfQ4SAgAOw==",
+    "width": 1743,
+    "height": 2250,
+    "alt_text": "Large plaque of stone carved with animal and geometric hieroglyphs."
+  },
+  "tags": []
+}

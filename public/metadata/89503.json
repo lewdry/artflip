@@ -1,0 +1,26 @@
+{
+  "objectID": 89503,
+  "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjurokkei)\"",
+  "artistDisplayName": "Katsushika Hokusai 葛飾 北斎",
+  "objectDate": "1830/33",
+  "objectName": "Print",
+  "medium": "Color woodblock print; oban",
+  "dimensions": "25.4 × 37.6 cm (10 × 14 3/4 in.)",
+  "department": "Arts of Asia",
+  "culture": "Japan",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Clarence Buckingham Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/89503",
+  "isPublicDomain": true,
+  "image_id": "2fa24f36-cc26-41b6-4b49-12bba2a6c1c8",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8/full/843,/0/default.jpg",
+  "localImage": "89503.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAD5QY2Rramhtbn97bGBvdmNveHZ/foJ5Zn+Ac4yHda+efHOAhXmCgnuEg4SMhYyNgYuNhoOMipqWg7enh7mkgLyngbyng7ysjbCpkbKrlriskb6wlcGriMKuicuzjM61jcq1k862kNK7lQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQJBI0/l4QpsMQDKxcBgEgaJCuUAemMEhESk0HAGEYREEADs=",
+    "width": 6645,
+    "height": 4597,
+    "alt_text": "A color woodblock print of a large crashing wave, looms over two narrow boats full of people. Mt Fuji in the background.  There is a faint peach colored sky."
+  },
+  "tags": []
+}

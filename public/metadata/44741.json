@@ -1,0 +1,26 @@
+{
+  "objectID": 44741,
+  "title": "The Annunciation",
+  "artistDisplayName": "Alessandro Vittoria",
+  "objectDate": "c. 1583",
+  "objectName": "Sculpture",
+  "medium": "Bronze",
+  "dimensions": "101.3 × 61.3 × 9.6 cm (39 7/8 × 24 1/8 × 3 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Venice",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Edward E. Ayer Endowment in memory of Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/44741",
+  "isPublicDomain": true,
+  "image_id": "6e6d0abe-9881-627d-86af-98b183500b77",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/6e6d0abe-9881-627d-86af-98b183500b77/full/843,/0/default.jpg",
+  "localImage": "44741.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAGdlXW9uZm5vaGlsbnFwaHZ0bXl4b3t4b3d2cnx7eH1+fYJ9cpKMf4uIhZ+emgAAACH5BAAAAAAALAAAAAADAAUAAAQLMA1VUAvHEbCMYBEAOw==",
+    "width": 4700,
+    "height": 5832,
+    "alt_text": "Relief sculpture of angel confronting Virgin Mary. Cherubs and dove in sky."
+  },
+  "tags": []
+}

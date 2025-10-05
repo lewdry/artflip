@@ -1,0 +1,26 @@
+{
+  "objectID": 27,
+  "title": "Remembrance of Italy",
+  "artistDisplayName": "Jean-Baptiste-Camille Corot",
+  "objectDate": "c. 1866",
+  "objectName": "Print",
+  "medium": "Etching on tan laid paper",
+  "dimensions": "Image: 29.3 × 22 cm (11 9/16 × 8 11/16 in.); Plate: 32 × 24.3 cm (12 5/8 × 9 5/8 in.); Sheet: 42 × 29 cm (16 9/16 × 11 7/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/27",
+  "isPublicDomain": true,
+  "image_id": "ab107179-7106-937e-7676-e0263b02e530",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ab107179-7106-937e-7676-e0263b02e530/full/843,/0/default.jpg",
+  "localImage": "27.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAFxOOYJmPYNvU4ZxUYdyUpt+UqKFXLaTYbWUaMCgc8akcMCheMaqhMqthtG0jQAAACH5BAAAAAAALAAAAAADAAUAAAQLMKF1glGFDCAacxEAOw==",
+    "width": 1558,
+    "height": 2250,
+    "alt_text": "A work made of etching on tan laid paper."
+  },
+  "tags": []
+}

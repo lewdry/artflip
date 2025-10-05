@@ -1,0 +1,46 @@
+{
+  "objectID": 436795,
+  "title": "Virgin and Child",
+  "artistDisplayName": "Joos van Cleve",
+  "objectDate": "ca. 1525",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 28 3/8 x 21 1/4 in. (72.1 x 54 cm); painted surface 27 3/4 x 20 3/4 in. (70.5 x 52.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436795",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT7241.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7241.jpg",
+  "localImage": "436795.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Apples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266417",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q89"
+    },
+    {
+      "term": "Grapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379338",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10978"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "objectID": 436782,
+  "title": "Capriccio with St. Paul's and Old London Bridge",
+  "artistDisplayName": "Antonio Joli",
+  "objectDate": "ca. 1745",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "42 x 47 in. (106.7 x 119.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Alice Bradford Woolsey, 1970",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436782",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP123834.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123834.jpg",
+  "localImage": "436782.jpg",
+  "tags": [
+    {
+      "term": "Balconies",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300002588",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170552"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    },
+    {
+      "term": "London",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7011781",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q84"
+    }
+  ]
+}

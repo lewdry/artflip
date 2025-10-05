@@ -1,0 +1,46 @@
+{
+  "objectID": 435828,
+  "title": "The Presentation in the Temple",
+  "artistDisplayName": "Byzantine Painter",
+  "objectDate": "",
+  "objectName": "Painting, icon",
+  "medium": "Tempera on wood, gold ground",
+  "dimensions": "17 1/2 x 16 5/8 in. (44.5 x 42.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Lillie P. Bliss, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435828",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT242201.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT242201.jpg",
+  "localImage": "435828.jpg",
+  "tags": [
+    {
+      "term": "Temples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007595",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44539"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

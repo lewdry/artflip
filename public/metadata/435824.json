@@ -1,0 +1,41 @@
+{
+  "objectID": 435824,
+  "title": "Madonna and Child Enthroned with Saints Mary Magdalen and John the Baptist",
+  "artistDisplayName": "Giuliano di Piero di Simone Bugiardini",
+  "objectDate": "ca. 1523",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "76 1/4 x 65 1/4 in. (193.7 x 165.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Fletcher Fund, 1930",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435824",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT894.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT894.jpg",
+  "localImage": "435824.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    }
+  ]
+}

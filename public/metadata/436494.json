@@ -1,0 +1,61 @@
+{
+  "objectID": 436494,
+  "title": "The Nativity with Saints",
+  "artistDisplayName": "Ridolfo Ghirlandaio",
+  "objectDate": "",
+  "objectName": "Painting, triptych",
+  "medium": "Oil on wood",
+  "dimensions": "Central panel 14 x 9 in. (35.6 x 22.9 cm); each wing 14 x 4 in. (35.6 x 10.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436494",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24223-007.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24223-007.jpg",
+  "localImage": "436494.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint John the Evangelist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001171",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q328804"
+    },
+    {
+      "term": "Saint Paul",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001058",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9200"
+    },
+    {
+      "term": "Saint Peter",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33923"
+    },
+    {
+      "term": "Nativity",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000124",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51628"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

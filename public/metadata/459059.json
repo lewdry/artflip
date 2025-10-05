@@ -1,0 +1,36 @@
+{
+  "objectID": 459059,
+  "title": "The Holy Family",
+  "artistDisplayName": "Joos van Cleve",
+  "objectDate": "possibly 1527–33",
+  "objectName": "Painting",
+  "medium": "Oil on oak panel",
+  "dimensions": "21 13/16 x 14 9/16 in. (55.4 x 37 cm)",
+  "department": "Robert Lehman Collection",
+  "culture": "Netherlandish",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Robert Lehman Collection, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/459059",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/rl/original/DT3079.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/rl/web-large/DT3079.jpg",
+  "localImage": "459059.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    }
+  ]
+}

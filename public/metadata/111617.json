@@ -1,0 +1,26 @@
+{
+  "objectID": 111617,
+  "title": "Cabin in the Cotton",
+  "artistDisplayName": "Horace Pippin",
+  "objectDate": "c. 1931–37",
+  "objectName": "Painting",
+  "medium": "Oil on cotton, mounted on Masonite",
+  "dimensions": "51 × 85 cm (20 × 33 1/2 in.)",
+  "department": "Arts of the Americas",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Thomas F. Pick and Mary P. Hines in memory of their mother Frances W. Pick",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/111617",
+  "isPublicDomain": true,
+  "image_id": "18dd28cc-ae57-b852-cbc4-d184c6f0555d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/18dd28cc-ae57-b852-cbc4-d184c6f0555d/full/843,/0/default.jpg",
+  "localImage": "111617.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUAABIPERcVFxscGx4cHCQmIScoJCksIigrJCgrJSorKistKi0vKjEzKTAxKjAxLDM0LjM1LjU0MDQ1MDU2MSRAWiRBXSZCXChGZS5LZTNNZDNPazZSbzlUbUpHQ0xNREBFSERISUNKTVdVUlBVWFxbWWZjXlFjdImFfG14gHF9hoSKjpCYnbaxpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYqwMtGU6lkOBjKChQyoT4jVYo06LBEAUDpJEhMPI6JYsIoLBAGxuNxIAQBADs=",
+    "width": 8964,
+    "height": 5305,
+    "alt_text": "Painting of a cabin set below a dark blue sky and fluffy white clouds. Behind it is a field of many small white dots. In front, a dark-skinned woman sits and a dark-skinned child plays among roaming chickens and dogs in a fenced-in yard."
+  },
+  "tags": []
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 435878,
+  "title": "Mont Sainte-Victoire",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "ca. 1902–6",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "22 1/2 x 38 1/4 in. (57.2 x 97.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1994, Bequest of Walter H. Annenberg, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435878",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/77J_045R2M.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/77J_045R2M.jpg",
+  "localImage": "435878.jpg",
+  "tags": [
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

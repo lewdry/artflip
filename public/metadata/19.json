@@ -1,0 +1,26 @@
+{
+  "objectID": 19,
+  "title": "View of Ponte Lugano on the Anio, from Views of Rome",
+  "artistDisplayName": "Giovanni Battista Piranesi",
+  "objectDate": "1763, published 1800–07",
+  "objectName": "Print",
+  "medium": "Etching on heavy ivory laid paper",
+  "dimensions": "Image: 45.2 × 66.1 cm (17 13/16 × 26 1/16 in.); Plate: 46.1 × 66.9 cm (18 3/16 × 26 3/8 in.); Sheet: 49.8 × 72.9 cm (19 5/8 × 28 3/4 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/19",
+  "isPublicDomain": true,
+  "image_id": "7f5429b5-a966-ccbe-1ce3-7f131e96bf87",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/7f5429b5-a966-ccbe-1ce3-7f131e96bf87/full/843,/0/default.jpg",
+  "localImage": "19.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAD84MkdAOldPR19WTWVcU2ZdU3NqX3VrYXRsYnhvY3tyZ4h+c5aLfZiOgJiOgaSZi6+klLGmlritn7+yor+zo8G2pdPHtdXJud3Rv+HTv+TYx+fbyencyureyuvey+zfy/Dk0fPl0vvu2wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwJAIxOl4MhPJRbPBfBSAgeHAsCACBEEhEXksGg4IpRIEADs=",
+    "width": 3000,
+    "height": 2056,
+    "alt_text": "A work made of etching on heavy ivory laid paper."
+  },
+  "tags": []
+}

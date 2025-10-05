@@ -1,0 +1,41 @@
+{
+  "objectID": 436041,
+  "title": "Samson and Delilah",
+  "artistDisplayName": "Lucas Cranach the Elder",
+  "objectDate": "ca. 1528–30",
+  "objectName": "Painting",
+  "medium": "Oil on beech",
+  "dimensions": "22 1/2 x 14 7/8 in. (57.2 x 37.8cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Joan Whitney Payson, 1975",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436041",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP159774.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159774.jpg",
+  "localImage": "436041.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Samson",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000362",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q214648"
+    },
+    {
+      "term": "Delilah",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000361",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q937827"
+    }
+  ]
+}

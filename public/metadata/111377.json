@@ -1,0 +1,26 @@
+{
+  "objectID": 111377,
+  "title": "For Sunday's Dinner",
+  "artistDisplayName": "William Michael Harnett",
+  "objectDate": "1888",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "94.3 × 53.6 cm (37 1/8 × 21 1/8 in.)",
+  "department": "Arts of the Americas",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Wilson L. Mead Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/111377",
+  "isPublicDomain": true,
+  "image_id": "3cea045a-92d6-36cf-1508-2c99ea740218",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
+  "localImage": "111377.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABoYGR0bGywnIiglJCwoJS4oJC8qKDEsKDMuKDoxKTsyKTw1L01CNFRJPHBgSAAAACH5BAAAAAAALAAAAAADAAUAAAQLkIij0mgOLBZMQREAOw==",
+    "width": 1269,
+    "height": 2250,
+    "alt_text": "A plucked chicken, a few stray feathers remaining, hangs upside-down by one foot, illuminated. Behind it the metal hinges and wood panels of a door are visible."
+  },
+  "tags": []
+}

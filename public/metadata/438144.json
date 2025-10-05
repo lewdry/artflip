@@ -1,0 +1,31 @@
+{
+  "objectID": 438144,
+  "title": "The \"Kearsarge\" at Boulogne",
+  "artistDisplayName": "Edouard Manet",
+  "objectDate": "1864",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "32 1/8 x 39 3/8 in. (81.6 x 100 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Peter H. B. Frelinghuysen, and Purchase, Mr. and Mrs. Richard J. Bernhard Gift, by exchange, Gifts of Mr. and Mrs. Richard Rodgers and Joanne Toor Cummings, by exchange, and Drue Heinz Trust, The Dillon Fund, The Vincent Astor Foundation, Mr. and Mrs. Henry R. Kravis, The Charles Engelhard Foundation, and Florence and Herbert Irving Gifts, 1999",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438144",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-25464-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25464-001.jpg",
+  "localImage": "438144.jpg",
+  "tags": [
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    },
+    {
+      "term": "Ships",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300082981",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11446"
+    }
+  ]
+}

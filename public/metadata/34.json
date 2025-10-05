@@ -1,0 +1,26 @@
+{
+  "objectID": 34,
+  "title": "Joseph Sold by his Brothers",
+  "artistDisplayName": "Master of the Die",
+  "objectDate": "1533",
+  "objectName": "Print",
+  "medium": "Engraving, printed in black, on paper",
+  "dimensions": "Sheet: 21.2 × 28.6 cm (8 3/8 × 11 5/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/34",
+  "isPublicDomain": true,
+  "image_id": "2238572f-ad2a-110e-0eda-78dc50b8e13d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/2238572f-ad2a-110e-0eda-78dc50b8e13d/full/843,/0/default.jpg",
+  "localImage": "34.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAHx5bIJ/cIWBc4yJepCNfpOQgZWRg5aThJmThJmVhZuXiZ2Zi56Zi5+aiqGcjqejlKqllqunmrCsnbCsnrWworaxpLeypLezpry4qb25q7+6rcK+sMO/scjDt8nEuMvGuc7KvtPOwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwJCFguF8Op7JQ5KAVCKGA2FAcFwWBUBAgABtMooGQxMEADs=",
+    "width": 3000,
+    "height": 2223,
+    "alt_text": "A work made of engraving, printed in black, on paper."
+  },
+  "tags": []
+}

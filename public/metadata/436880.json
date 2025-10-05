@@ -1,0 +1,41 @@
+{
+  "objectID": 436880,
+  "title": "The Organ Rehearsal",
+  "artistDisplayName": "Henry Lerolle",
+  "objectDate": "1885",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "93 1/4 x 142 3/4 in. (236.9 x 362.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George I. Seney, 1887",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436880",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP160223.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP160223.jpg",
+  "localImage": "436880.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Musicians",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q639669"
+    },
+    {
+      "term": "Singers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025684",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q177220"
+    }
+  ]
+}

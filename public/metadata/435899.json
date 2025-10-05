@@ -1,0 +1,46 @@
+{
+  "objectID": 435899,
+  "title": "The Annunciation",
+  "artistDisplayName": "Petrus Christus",
+  "objectDate": "ca. 1445",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 31 x 25 7/8 in. (78.7 x 65.7 cm); painted surface 30 1/2 x 25 1/4 in. (77.5 x 64.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435899",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1479.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1479.jpg",
+  "localImage": "435899.jpg",
+  "tags": [
+    {
+      "term": "Doves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250045",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2984138"
+    },
+    {
+      "term": "Lilies",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300375591",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40458125"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Archangel Gabriel",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000493",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81989"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 16568,
+  "title": "Water Lilies",
+  "artistDisplayName": "Claude Monet",
+  "objectDate": "1906",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "89.9 × 94.1 cm (35 3/8 × 37 1/16 in.); Framed: 103.2 × 107 × 5.8 cm (40 5/8 × 42 1/8 × 2 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/16568",
+  "isPublicDomain": true,
+  "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+  "localImage": "16568.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAEZcaFFfdVtqbk9ldFBlcVFocllrcFlrd11rdl9sdFZtf15wcWV0d2R2eGByfmd6eGl6e2t9elZxiGF4kWB4kmJ9kGJ8lWeCkWSAnQAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVoJBADXI4TLRMWHU9hmRRCjAURBACADs=",
+    "width": 8808,
+    "height": 8460,
+    "alt_text": "Painting of a pond seen up close spotted with thickly painted pink and white water lilies and a shadow across the top third of the picture."
+  },
+  "tags": []
+}

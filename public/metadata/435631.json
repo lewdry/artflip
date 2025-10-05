@@ -1,0 +1,36 @@
+{
+  "objectID": 435631,
+  "title": "George IV (1762–1830), When Prince of Wales",
+  "artistDisplayName": "Sir William Beechey",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "56 1/4 x 44 1/2 in. (142.9 x 113 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Heathcote Art Foundation, 1986",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435631",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-16453-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16453-001.jpg",
+  "localImage": "435631.jpg",
+  "tags": [
+    {
+      "term": "Princes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025482",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2747456"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

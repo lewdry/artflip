@@ -1,0 +1,31 @@
+{
+  "objectID": 13181,
+  "title": "Fruit",
+  "artistDisplayName": "Julian Alden Weir",
+  "objectDate": "ca. 1888",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "21 1/8 x 17 3/16 in. (53.7 x 43.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of Robert E. Tod, by exchange, 1980",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13181",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT9010.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT9010.jpg",
+  "localImage": "13181.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

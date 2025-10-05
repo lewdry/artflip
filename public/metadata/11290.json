@@ -1,0 +1,36 @@
+{
+  "objectID": 11290,
+  "title": "Yosemite Falls, from Glacier Point",
+  "artistDisplayName": "William Keith",
+  "objectDate": "1879",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "26 x 13in. (66 x 33cm)\r\nFramed: 38 3/4 x 25 11/16 x 5 1/2 in. (98.5 x 65.3 x 14 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Scott Scammell, 1952",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11290",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP348979.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP348979.jpg",
+  "localImage": "11290.jpg",
+  "tags": [
+    {
+      "term": "Waterfalls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008736",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34038"
+    },
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

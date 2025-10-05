@@ -1,0 +1,41 @@
+{
+  "objectID": 437607,
+  "title": "Paradise",
+  "artistDisplayName": "Carlo Saraceni",
+  "objectDate": "ca. 1598",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "Overall 21 3/8 x 18 7/8 in. (54.3 x 47.9 cm); painted surface 20 7/8 x 18 3/8 in. (53 x 46.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Theodore M. Davis Collection, Bequest of Theodore M. Davis, by exchange, 1971",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437607",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24115-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24115-001.jpg",
+  "localImage": "437607.jpg",
+  "tags": [
+    {
+      "term": "Saint George",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000509",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q48438"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    }
+  ]
+}

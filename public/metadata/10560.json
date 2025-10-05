@@ -1,0 +1,26 @@
+{
+  "objectID": 10560,
+  "title": "Landscape",
+  "artistDisplayName": "Kenyon Cox",
+  "objectDate": "1883",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "16 x 30 in. (40.6 x 76.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Leonard Opdycke, 1964",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10560",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap64.221.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap64.221.jpg",
+  "localImage": "10560.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

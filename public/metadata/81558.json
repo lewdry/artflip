@@ -1,0 +1,26 @@
+{
+  "objectID": 81558,
+  "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+  "artistDisplayName": "Pierre-Auguste Renoir",
+  "objectDate": "1879",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "131.2 × 99.2 cm (51 1/2 × 39 1/16 in.); Framed: 160.1 × 129 × 10.2 cm (63 × 50 3/4 × 4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Potter Palmer Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/81558",
+  "isPublicDomain": true,
+  "image_id": "321c45f5-22a3-84a2-44cc-cf66642d4cf2",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
+  "localImage": "81558.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAH57b6aXXKyWWq2bX4+Fda+UYcOrfcCxf5GOh52Vh7KggLqvi7ivkse5j8i2lsa9lMi5nszBodDFo9HGqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIEAkiDI5zBNJzWJARyAUQwgAOw==",
+    "width": 24170,
+    "height": 32315,
+    "alt_text": "Two girls in acrobatic uniforms stand in an arena, one holds oranges."
+  },
+  "tags": []
+}

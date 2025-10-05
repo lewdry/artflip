@@ -1,0 +1,26 @@
+{
+  "objectID": 25853,
+  "title": "Wine Cistern",
+  "artistDisplayName": "Francesco Durantino",
+  "objectDate": "1553",
+  "objectName": "Ceramics",
+  "medium": "Tin-glazed earthenware (maiolica)",
+  "dimensions": "53.3 × 26.7 cm (21 × 10 1/2 in.)",
+  "department": "Applied Arts of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mary Waller Langhorne Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/25853",
+  "isPublicDomain": true,
+  "image_id": "a69557c8-2883-6634-5cf0-93f060ec280a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/a69557c8-2883-6634-5cf0-93f060ec280a/full/843,/0/default.jpg",
+  "localImage": "25853.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAI19Q41+SoR7apWFSZaBU5mHVp+OU5aFWKeRS7KcU4yGY4+Fb4eDdIiDfI6IfqOWY5GNgZaShZ2aj5CRlpiZnKSekKaggaeghqigiqqji7Grg6Wjnp2eop6fpKOkp6mopKurr7y8vcDAwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwMkGc8l8OJJBQAEwVCCIh0WTiFAWB0KB0Ql5GgIHSBQEADs=",
+    "width": 3000,
+    "height": 2250,
+    "alt_text": "Large bowl completely covered in scenes of battles on land and sea."
+  },
+  "tags": []
+}

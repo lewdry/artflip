@@ -1,0 +1,31 @@
+{
+  "objectID": 437509,
+  "title": "Madonna and Child with Two Angels",
+  "artistDisplayName": "Cosimo Rosselli",
+  "objectDate": "early 1480s",
+  "objectName": "Painting",
+  "medium": "Tempera and gold on wood",
+  "dimensions": "33 1/2 x 23 in. (85.1 x 58.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437509",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-25979-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25979-001.jpg",
+  "localImage": "437509.jpg",
+  "tags": [
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    }
+  ]
+}

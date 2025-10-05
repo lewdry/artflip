@@ -1,0 +1,26 @@
+{
+  "objectID": 4081,
+  "title": "Gian Lodovico Madruzzo",
+  "artistDisplayName": "Giovanni Battista Moroni",
+  "objectDate": "1551/52",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "199.8 × 116 cm (78 5/8 × 45 5/8 in.); Framed: 237.5 × 152.4 × 7.6 cm (93 1/2 × 60 × 3 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/4081",
+  "isPublicDomain": true,
+  "image_id": "bc24fe7f-4171-c785-bff2-b2ed3777a47d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/bc24fe7f-4171-c785-bff2-b2ed3777a47d/full/843,/0/default.jpg",
+  "localImage": "4081.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABUVFiEeHCMjIjMvKTAwKjo4Mzo5Mz87NUNBPFNIOE9LQV5cUGRVQmBaTm9sXgAAACH5BAAAAAAALAAAAAADAAUAAAQLkDRnxEJBHVDYSBEAOw==",
+    "width": 6748,
+    "height": 11727,
+    "alt_text": "A man with sparse brown facial hair stands in a full-length black robe on a multicolored tiled floor, a white and brown dog behind him."
+  },
+  "tags": []
+}

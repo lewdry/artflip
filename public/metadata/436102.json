@@ -1,0 +1,41 @@
+{
+  "objectID": 436102,
+  "title": "Virgin and Child with Four Angels",
+  "artistDisplayName": "Gerard David",
+  "objectDate": "ca. 1510–15",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "24 7/8 x 15 3/8 in. (63.2 x 39.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Charles Wrightsman, 1977",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436102",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-1410-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1410-001.jpg",
+  "localImage": "436102.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Harps",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042047",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q47369"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    }
+  ]
+}

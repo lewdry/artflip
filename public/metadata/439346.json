@@ -1,0 +1,31 @@
+{
+  "objectID": 439346,
+  "title": "At the Edge of the Forest",
+  "artistDisplayName": "August Heinrich",
+  "objectDate": "ca. 1820",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "10 3/4 x 12 3/4 in. (27.3 x 32.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Catharine Lorillard Wolfe Collection, Wolfe Fund; and Wolfe Fund and Gift of Frederick Loeser, by exchange, 2008",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/439346",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-34307-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34307-001.jpg",
+  "localImage": "439346.jpg",
+  "tags": [
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

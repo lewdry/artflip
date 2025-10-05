@@ -1,0 +1,26 @@
+{
+  "objectID": 36132,
+  "title": "Cope",
+  "artistDisplayName": "England",
+  "objectDate": "1490-1525, with later restoration",
+  "objectName": "Religious/Ritual Object",
+  "medium": "Silk cut and voided velvet, linen appliqué, silk and gilt metallic thread embroidery, and metal spangles",
+  "dimensions": "160.7 × 291.2 cm (64 1/4 × 114 5/8 in.)",
+  "department": "Textiles",
+  "culture": "England",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Grace R. Smith Textile Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/36132",
+  "isPublicDomain": true,
+  "image_id": "a80e815d-aebd-a6cc-49c4-8741734ba640",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/a80e815d-aebd-a6cc-49c4-8741734ba640/full/843,/0/default.jpg",
+  "localImage": "36132.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAF03FF49G1w7HVs9HGE7F2tIH19OOGhIIHVQKHdSKmFPOHdaNndeOnhdOHpeOU5OTVZNQlROR1VPR1hNQVFOSlJOSlJRT1JST01PUU5PUVVUUlZWUldWUlZWU19bUmBWR2JXR2BcUolvR410SwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYkQMuGowl5OpdPYyEaORggigCASBAEFQwkUDgMJphHJqIwSMJBADs=",
+    "width": 3000,
+    "height": 1806,
+    "alt_text": "Half circle of fabric, embroidered with Virgin Mary, saints, prophets, and plant motif."
+  },
+  "tags": []
+}

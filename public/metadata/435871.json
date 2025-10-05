@@ -1,0 +1,31 @@
+{
+  "objectID": 435871,
+  "title": "Gardanne",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "1885–86",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 1/2 x 25 1/4 in. (80 x 64.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Dr. and Mrs. Franz H. Hirschland, 1957",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435871",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-047.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-047.jpg",
+  "localImage": "435871.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Towns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008375",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3957"
+    }
+  ]
+}

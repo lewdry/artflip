@@ -1,0 +1,31 @@
+{
+  "objectID": 435837,
+  "title": "Man in Prayer",
+  "artistDisplayName": "Rogier van der Weyden",
+  "objectDate": "ca. 1440",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 12 1/2 x 9 1/8 in. (31.8 x 23.2 cm); painted surface 12 1/2 x 9 in. (31.8 x 23 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mary Stillman Harkness, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435837",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP347297.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP347297.jpg",
+  "localImage": "435837.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

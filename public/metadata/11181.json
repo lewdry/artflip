@@ -1,0 +1,36 @@
+{
+  "objectID": 11181,
+  "title": "Landscape",
+  "artistDisplayName": "William Morris Hunt",
+  "objectDate": "ca. 1852–53",
+  "objectName": "Painting",
+  "medium": "Oil on pressboard mounted on wood",
+  "dimensions": "12 1/2 × 19 1/2 in. (31.8 × 49.5 cm)\r\nFramed: 20 1/2 × 27 3/16 × 3 1/8 in. (52 × 69 × 8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11181",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/06.170.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/06.170.jpg",
+  "localImage": "11181.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

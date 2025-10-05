@@ -1,0 +1,46 @@
+{
+  "objectID": 13018,
+  "title": "View of the Battery, New York",
+  "artistDisplayName": "",
+  "objectDate": "1800–1850",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "10 3/4 x 16 3/4 in. (26.2 x 41.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Edward W. C. Arnold Collection of New York Prints, Maps, and Pictures, Bequest of Edward W. C. Arnold, 1954",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13018",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ADA3627.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ADA3627.jpg",
+  "localImage": "13018.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    },
+    {
+      "term": "Ships",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300082981",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11446"
+    },
+    {
+      "term": "Harbors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q283202"
+    },
+    {
+      "term": "New York City",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7007567",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q60"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectID": 438761,
+  "title": "The Annunciation",
+  "artistDisplayName": "South German (Bavarian?) Painter",
+  "objectDate": "1440–50",
+  "objectName": "Painting",
+  "medium": "Oil and gold on linden",
+  "dimensions": "6 5/16 x 4 1/8 in. (16 x 10.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Julie and Lawrence Salander, in honor of Keith Christiansen, 2005",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438761",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP262812.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP262812.jpg",
+  "localImage": "438761.jpg",
+  "tags": [
+    {
+      "term": "Bedrooms",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004364",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q193837"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Archangel Gabriel",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000493",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q81989"
+    },
+    {
+      "term": "Annunciation",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300412102",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q154326"
+    }
+  ]
+}

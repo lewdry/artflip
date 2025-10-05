@@ -1,0 +1,26 @@
+{
+  "objectID": 9,
+  "title": "Interior of St. Mark's, Venice",
+  "artistDisplayName": "David Dalhoff Neal",
+  "objectDate": "1869",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "184.2 × 148.9 cm (72 1/2 × 58 1/2 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Munich",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Samuel M. Nickerson Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/9",
+  "isPublicDomain": true,
+  "image_id": "b55d836c-ee20-59f8-1f0c-a95e09905361",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+  "localImage": "9.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABoTDS0dECweEDAjFU03JlxCI15FJmlPLmpQKmVRNG1VM2tWOXdaNXhdOHtdQHZiRoFlPoFkP4dqRoxwTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoGIUSBIAxyMM00I4UsNEUAgAOw==",
+    "width": 1938,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

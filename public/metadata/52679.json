@@ -1,0 +1,26 @@
+{
+  "objectID": 52679,
+  "title": "The Pheasants from the \"Verdures of the Vatican\" Series",
+  "artistDisplayName": "Designed by Jean Démosthène Dugourc",
+  "objectDate": "c. 1799",
+  "objectName": "Textile",
+  "medium": "Silk, satin weave with plain interlacings of secondary binding warps and brocading wefts; embroidered with silk in chain (tambour work) and satin stitches",
+  "dimensions": "242.5 × 44.5 cm (95 1/4 × 17 1/2 in.)",
+  "department": "Textiles",
+  "culture": "Lyon",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Mrs. Chauncey B. Borland",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/52679",
+  "isPublicDomain": true,
+  "image_id": "02738f67-3be4-4a69-0d80-ec33b7e6429c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/02738f67-3be4-4a69-0d80-ec33b7e6429c/full/843,/0/default.jpg",
+  "localImage": "52679.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAKmVdaiZdqyZd6aXeKeYeauceKyceq2derqphrqoiAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIsAQBUDqGjAgAOw==",
+    "width": 3308,
+    "height": 9442,
+    "alt_text": "A textile featuring two pheasants in the upper portion facing one another, strands of golden beads held between them in their beaks, symmetrical garlands above and below them, a golden structure near the middle, and curled ribbons embroidered near the bottom."
+  },
+  "tags": []
+}

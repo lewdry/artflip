@@ -1,0 +1,31 @@
+{
+  "objectID": 437521,
+  "title": "A Village in a Valley",
+  "artistDisplayName": "Théodore Rousseau",
+  "objectDate": "late 1820s",
+  "objectName": "Drawing",
+  "medium": "Oil on paper, mounted on canvas",
+  "dimensions": "9 1/8 x 16 in. (23.2 x 40.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437521",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT313144.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT313144.jpg",
+  "localImage": "437521.jpg",
+  "tags": [
+    {
+      "term": "Villages",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008372",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q532"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

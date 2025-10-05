@@ -1,0 +1,41 @@
+{
+  "objectID": 436180,
+  "title": "The Natchez",
+  "artistDisplayName": "Eugène Delacroix",
+  "objectDate": "1823–24 and 1835",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "35 1/2 x 46 in. (90.2 x 116.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gifts of George N. and Helen M. Richard and Mr. and Mrs. Charles S. McVeigh and Bequest of Emma A. Sheafer, by exchange, 1989",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436180",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14345-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14345-001.jpg",
+  "localImage": "436180.jpg",
+  "tags": [
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Fathers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025931",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7565"
+    },
+    {
+      "term": "Mothers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025932",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7560"
+    },
+    {
+      "term": "Family",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435378",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8436"
+    }
+  ]
+}

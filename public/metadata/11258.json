@@ -1,0 +1,51 @@
+{
+  "objectID": 11258,
+  "title": "Christmas-Time, The Blodgett Family",
+  "artistDisplayName": "Eastman Johnson",
+  "objectDate": "1864",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 x 25in. (76.2 x 63.5cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Stephen Whitney Blodgett, 1983",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11258",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-18073-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18073-001.jpg",
+  "localImage": "11258.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Children",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025945",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7569"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Genre Scene",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300139140",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q214127"
+    },
+    {
+      "term": "Family",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435378",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8436"
+    }
+  ]
+}

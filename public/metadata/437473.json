@@ -1,0 +1,46 @@
+{
+  "objectID": 437473,
+  "title": "The Bathing Pool",
+  "artistDisplayName": "Hubert Robert",
+  "objectDate": "1777–79",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "68 3/4 x 48 3/4 in. (174.6 x 123.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437473",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP264496.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP264496.jpg",
+  "localImage": "437473.jpg",
+  "tags": [
+    {
+      "term": "Fountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006179",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q483453"
+    },
+    {
+      "term": "Gardens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+    },
+    {
+      "term": "Temples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007595",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44539"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Bathing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343854",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q327651"
+    }
+  ]
+}

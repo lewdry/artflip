@@ -1,0 +1,31 @@
+{
+  "objectID": 11383,
+  "title": "Portrait of the Painter",
+  "artistDisplayName": "John La Farge",
+  "objectDate": "1859",
+  "objectName": "Painting",
+  "medium": "Oil on wood panel",
+  "dimensions": "16 1/16 x 11 1/2 in. (40.8 x 29.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Samuel D. Lee Fund, 1934",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11383",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT80.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT80.jpg",
+  "localImage": "11383.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Self-portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300124534",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192110"
+    }
+  ]
+}

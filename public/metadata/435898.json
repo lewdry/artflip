@@ -1,0 +1,61 @@
+{
+  "objectID": 435898,
+  "title": "The Lamentation",
+  "artistDisplayName": "Petrus Christus",
+  "objectDate": "ca. 1450",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 10 1/8 x 14 in. (25.7 x 35.6 cm); painted surface 10 x 13 3/4 in. (25.4 x 34.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Marquand Collection, Gift of Henry G. Marquand, 1890",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435898",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20594-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20594-001.jpg",
+  "localImage": "435898.jpg",
+  "tags": [
+    {
+      "term": "Sadness",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055166",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q169251"
+    },
+    {
+      "term": "Suffering",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055184",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5780945"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Saint John the Evangelist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001171",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q328804"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Lamentation",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001196",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3155356"
+    },
+    {
+      "term": "Death",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300151836",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4"
+    }
+  ]
+}

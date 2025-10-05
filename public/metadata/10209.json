@@ -1,0 +1,36 @@
+{
+  "objectID": 10209,
+  "title": "Shipwreck off Nantucket (Wreck off Nantucket after a Storm)",
+  "artistDisplayName": "William Bradford",
+  "objectDate": "ca. 1860–61",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "40 × 64 in. (101.6 × 162.6 cm)\r\nFramed: 55 7/8 × 79 1/2 × 6 1/4 in. (141.9 × 201.9 × 15.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, John Osgood and Elizabeth Amis Cameron Blanchard Memorial Fund, Fosburgh Fund Inc. Gift, and Maria DeWitt Jesup Fund, 1971",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10209",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1971.192.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap1971.192.jpg",
+  "localImage": "10209.jpg",
+  "tags": [
+    {
+      "term": "Shipwrecks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300188746",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q852190"
+    },
+    {
+      "term": "Waves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343616",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q165848"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

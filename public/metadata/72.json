@@ -1,0 +1,26 @@
+{
+  "objectID": 72,
+  "title": "The Bull",
+  "artistDisplayName": "Paulus Potter",
+  "objectDate": "1650",
+  "objectName": "Print",
+  "medium": "Etching on cream laid paper",
+  "dimensions": "Plate: 10.8 × 14.7 cm (4 5/16 × 5 13/16 in.); Sheet: 11.5 × 15.2 cm (4 9/16 × 6 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Holland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/72",
+  "isPublicDomain": true,
+  "image_id": "ded2fc0d-564a-670a-178e-5acc0af5d823",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ded2fc0d-564a-670a-178e-5acc0af5d823/full/843,/0/default.jpg",
+  "localImage": "72.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAEY/MEU/M01HPVNLPFVPQ2FaTWlgUGlhU2xkVnRrXIt+aJCDbpGEb5WHbZqLdJmNeJ2QeJ+Re5+SfKOVfKKUfaOVfqaWfqGVgqWZh7Kkjreok7Kol7mqk8e4oNPDrNfIs97Qu+XWwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwMoj0vGAPgxLA5LAhBCBAUCwAR0IhsKFo1EsJhKKIxMEADs=",
+    "width": 3000,
+    "height": 2271,
+    "alt_text": "Etching of a large bull in profile, looking toward the viewer, with two additional cows and a milkmaid in the background."
+  },
+  "tags": []
+}

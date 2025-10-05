@@ -1,0 +1,36 @@
+{
+  "objectID": 10810,
+  "title": "Arcadia",
+  "artistDisplayName": "Thomas Eakins",
+  "objectDate": "ca. 1883",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "38 5/8 x 45 in. (98.1 x 114.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Miss Adelaide Milton de Groot (1876-1967), 1967",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10810",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT221513.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT221513.jpg",
+  "localImage": "10810.jpg",
+  "tags": [
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Flutes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042513",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11405"
+    }
+  ]
+}

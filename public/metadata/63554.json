@@ -1,0 +1,26 @@
+{
+  "objectID": 63554,
+  "title": "Big River, from the Rancherie, Mendocino, California",
+  "artistDisplayName": "Carleton E. Watkins",
+  "objectDate": "1863",
+  "objectName": "Photograph",
+  "medium": "Albumen print",
+  "dimensions": "40 × 52.5 cm (15 3/4 × 20 11/16 in.); Mount: 55 × 68.4 cm (21 11/16 × 26 15/16 in.); Image/paper: 40.1 × 52.6 cm (15 3/4 × 20 11/16 in.)",
+  "department": "Photography and Media",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of the Auxiliary Board",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/63554",
+  "isPublicDomain": true,
+  "image_id": "0ac9663b-e17e-471d-e4e3-6c60fc800704",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/0ac9663b-e17e-471d-e4e3-6c60fc800704/full/843,/0/default.jpg",
+  "localImage": "63554.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACsYFSgZFykZFyscGioeGy4dGy8iHzAhHjwlHzolITssKEAmH0EsKEItKEExLUczLUw1LkI0MEk2MWJQSW5hWnJiW4JvZIBya4l5cpeIfqeZj7muosa7sM3Ct93Sxd7Ux+Pazubd0Onf0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwEVG9PFsLIBLCMShTAQFTEfzQAwMh0hF0kg4FIQAAxIEADs=",
+    "width": 2954,
+    "height": 2250,
+    "alt_text": "Black and white photograph of river seen through pine tree forest."
+  },
+  "tags": []
+}

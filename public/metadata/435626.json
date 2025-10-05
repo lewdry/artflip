@@ -1,0 +1,31 @@
+{
+  "objectID": 435626,
+  "title": "Porte de la Reine at Aigues-Mortes",
+  "artistDisplayName": "Jean-Frédéric Bazille",
+  "objectDate": "1867",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 3/4 x 39 1/4 in. (80.6 x 99.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of Raymonde Paul, in memory of her brother, C. Michael Paul, by exchange, 1988",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435626",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17243-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17243-001.jpg",
+  "localImage": "435626.jpg",
+  "tags": [
+    {
+      "term": "Gates",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300002916",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q53060"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    }
+  ]
+}

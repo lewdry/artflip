@@ -1,0 +1,51 @@
+{
+  "objectID": 436104,
+  "title": "The Adoration of the Magi",
+  "artistDisplayName": "Gerard David",
+  "objectDate": "ca. 1520",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 27 3/4 x 28 7/8 in. (70.5 x 73.3 cm); painted surface 27 1/2 x 28 3/8 in. (69.2 x 72.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436104",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20588-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20588-001.jpg",
+  "localImage": "436104.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Magi",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000083",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q488841"
+    },
+    {
+      "term": "Joseph",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectID": 435618,
+  "title": "The Trinity",
+  "artistDisplayName": "Bartolomeo di Giovanni",
+  "objectDate": "",
+  "objectName": "Painting, lunette",
+  "medium": "Tempera on wood",
+  "dimensions": "Painted surface 5 1/8 x 10 1/4 in. (13 x 26 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Daniel Wildenstein, 1989",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435618",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24090-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24090-001.jpg",
+  "localImage": "435618.jpg",
+  "tags": [
+    {
+      "term": "Doves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250045",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2984138"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    },
+    {
+      "term": "God the Father",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000593",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q186350"
+    }
+  ]
+}

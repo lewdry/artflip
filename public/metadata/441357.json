@@ -1,0 +1,31 @@
+{
+  "objectID": 441357,
+  "title": "The Great Pyramid, Giza",
+  "artistDisplayName": "Adrien Dauzats",
+  "objectDate": "1830 or later",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "16 7/8 × 13 in. (42.9 × 33 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Kenneth Jay Lane, 2015",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/441357",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP354137.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP354137.jpg",
+  "localImage": "441357.jpg",
+  "tags": [
+    {
+      "term": "Pyramids",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300163119",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12516"
+    },
+    {
+      "term": "Orientalist",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055784",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q765606"
+    }
+  ]
+}

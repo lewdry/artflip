@@ -1,0 +1,26 @@
+{
+  "objectID": 145681,
+  "title": "Frederick Douglass",
+  "artistDisplayName": "Samuel J. Miller",
+  "objectDate": "1847-52",
+  "objectName": "Photograph",
+  "medium": "Daguerreotype",
+  "dimensions": "14 × 10.6 cm (5 1/2 × 4 1/8 in., plate); 12.1 × 8.8 cm (4 3/4 × 3 1/2 in., mat opening); 15.2 × 12 × 1.4 cm (6 × 4 3/4 × 1/2 in., plate in closed case); 15.2 × 24 × 2 cm (6 × 9 1/2 × 3/4 in., plate in open case)",
+  "department": "Photography and Media",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Major Acquisitions Centennial Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/145681",
+  "isPublicDomain": true,
+  "image_id": "68597cf9-01aa-7c1f-1179-d4b8811e1c05",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/68597cf9-01aa-7c1f-1179-d4b8811e1c05/full/843,/0/default.jpg",
+  "localImage": "145681.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAGVVQGpbRWxeSG5fSG5qYXFuY4pZO6ZfQpdmQpZwVZFzWqVmRalnQaZjSapqSKltTZV5Y5d7ZZ93aph6aZ14b5mDcKSEZqKGbKSJb6SHcq6Hc6iJcqqMdrGLdKeVhrSUgLGaj7GdjLmmlwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf8LSW1hZ2VNYWdpY2sOZ2FtbWE9MC40NTQ1NDUALAAAAAAHAAUAAAYhQNGGk8FcQh3GAhEQWD6OR4JQqGgODYMAoABJKJMIxBMEADs=",
+    "width": 9960,
+    "height": 6710,
+    "alt_text": "Historical black and white photographical portrait of Black man in a suit, gold frame."
+  },
+  "tags": []
+}

@@ -1,0 +1,51 @@
+{
+  "objectID": 437480,
+  "title": "The Swing",
+  "artistDisplayName": "Hubert Robert",
+  "objectDate": "1777–79",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "68 1/4 x 34 5/8 in. (173.4 x 87.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437480",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP164797.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164797.jpg",
+  "localImage": "437480.jpg",
+  "tags": [
+    {
+      "term": "Sculpture",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300047090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q860861"
+    },
+    {
+      "term": "Gardens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+    },
+    {
+      "term": "Children",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025945",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7569"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Playing",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1150958"
+    }
+  ]
+}

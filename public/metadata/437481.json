@@ -1,0 +1,36 @@
+{
+  "objectID": 437481,
+  "title": "Wandering Minstrels",
+  "artistDisplayName": "Hubert Robert",
+  "objectDate": "1777–79",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "68 3/4 x 48 1/4 in. (174.6 x 122.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1917",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437481",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP264499.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP264499.jpg",
+  "localImage": "437481.jpg",
+  "tags": [
+    {
+      "term": "Fountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006179",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q483453"
+    },
+    {
+      "term": "Obelisks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007021",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170980"
+    },
+    {
+      "term": "Musicians",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q639669"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "objectID": 12856,
+  "title": "Autumn Meadows",
+  "artistDisplayName": "Albert Pinkham Ryder",
+  "objectDate": "1912–17",
+  "objectName": "Painting",
+  "medium": "Oil on canvas mounted on wood",
+  "dimensions": "21 x 17 1/4 in. (53.3 x 43.8 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Morris K. Jesup Fund, 1932",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12856",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap32.67.1.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap32.67.1.jpg",
+  "localImage": "12856.jpg",
+  "tags": [
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

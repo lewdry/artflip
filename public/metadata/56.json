@@ -1,0 +1,26 @@
+{
+  "objectID": 56,
+  "title": "Anne of Austria, Queen of France",
+  "artistDisplayName": "Robert Nanteuil",
+  "objectDate": "1660",
+  "objectName": "Print",
+  "medium": "Engraving on paper",
+  "dimensions": "Plate: 32.7 × 25 cm (12 7/8 × 9 7/8 in.); Sheet: 38.2 × 30.2 cm (15 1/16 × 11 15/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/56",
+  "isPublicDomain": true,
+  "image_id": "862d8842-708f-ebff-1f4c-e49a8ef51283",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/862d8842-708f-ebff-1f4c-e49a8ef51283/full/843,/0/default.jpg",
+  "localImage": "56.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGhjWHBqYHp1aYmEdp+Yh5qViqGcj6ijlq2nmLOunbSunbKtobSvosO+r8nEtcrFt8vGt8vHuszHugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4MMsEQIEhzEIhUIQCdQ4UggAOw==",
+    "width": 2372,
+    "height": 3000,
+    "alt_text": "A work made of engraving on paper."
+  },
+  "tags": []
+}

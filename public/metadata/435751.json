@@ -1,0 +1,36 @@
+{
+  "objectID": 435751,
+  "title": "Village by a River",
+  "artistDisplayName": "Eugène Boudin",
+  "objectDate": "probably 1867",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "14 x 23 in. (35.6 x 58.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Arthur J. Neumark, 1959",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435751",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-23422-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23422-001.jpg",
+  "localImage": "435751.jpg",
+  "tags": [
+    {
+      "term": "Villages",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008372",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q532"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

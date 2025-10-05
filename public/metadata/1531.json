@@ -1,0 +1,36 @@
+{
+  "objectID": 1531,
+  "title": "Century Vase",
+  "artistDisplayName": "Karl L. H. Müller",
+  "objectDate": "ca. 1876",
+  "objectName": "Vase",
+  "medium": "Porcelain",
+  "dimensions": "H. 12 3/4 in. (32.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Franklin Chace, 1969",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/1531",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT236683.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT236683.jpg",
+  "localImage": "1531.jpg",
+  "tags": [
+    {
+      "term": "Animals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300249525",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q729"
+    },
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

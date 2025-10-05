@@ -1,0 +1,36 @@
+{
+  "objectID": 436536,
+  "title": "Women Picking Olives",
+  "artistDisplayName": "Vincent van Gogh",
+  "objectDate": "1889",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "28 5/8 x 36 in. (72.7 x 91.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1995, Bequest of Walter H. Annenberg, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436536",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17161-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17161-001.jpg",
+  "localImage": "436536.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Olive Trees",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35417711"
+    },
+    {
+      "term": "Ladders",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300022376",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q168639"
+    }
+  ]
+}

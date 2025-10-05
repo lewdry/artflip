@@ -1,0 +1,26 @@
+{
+  "objectID": 11308,
+  "title": "A Foggy Sky",
+  "artistDisplayName": "John Frederick Kensett",
+  "objectDate": "1872",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 1/2 x 45 3/4 in. (77.5 x 116.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Thomas Kensett, 1874",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11308",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS530.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS530.jpg",
+  "localImage": "11308.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

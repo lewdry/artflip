@@ -1,0 +1,26 @@
+{
+  "objectID": 48,
+  "title": "Mower Honing a Scythe",
+  "artistDisplayName": "Jules Bastien-Lepage",
+  "objectDate": "1878",
+  "objectName": "Print",
+  "medium": "Etching on ivory China paper laid down on white wove paper (China paper collé)",
+  "dimensions": "Plate: 19.7 × 25.8 cm (7 13/16 × 10 3/16 in.); Sheet: 25.6 × 35.4 cm (10 1/8 × 13 15/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/48",
+  "isPublicDomain": true,
+  "image_id": "a302e9f4-7c4b-86c5-524f-594a42b7b182",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/a302e9f4-7c4b-86c5-524f-594a42b7b182/full/843,/0/default.jpg",
+  "localImage": "48.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAJSIdJ+TfrGlkrarmritmruvm7yxoMa7qMK7rci+q8nBs8rCtc7FttHIt9LIt9DHuNPMwdTNwtjQwdvSw+Da0OHb0eDb0uHb0uDc0+Pe1uTe1+Xg2eXh2ubj2+fj2+bj3Ojk3QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQNCFUrFgNh5HwtB4cDIHwWAi4WgIgECB0fFAEIpF5BMEADs=",
+    "width": 3000,
+    "height": 2165,
+    "alt_text": "A work made of etching on ivory china paper laid down on white wove paper (china paper collé)."
+  },
+  "tags": []
+}

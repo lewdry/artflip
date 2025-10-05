@@ -1,0 +1,26 @@
+{
+  "objectID": 20432,
+  "title": "The Old Savoyard",
+  "artistDisplayName": "Jean Antoine Watteau",
+  "objectDate": "c. 1715",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Red and black chalk on cream laid paper",
+  "dimensions": "35.9 × 22.1 cm (14 3/16 × 8 3/4 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Helen Regenstein Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/20432",
+  "isPublicDomain": true,
+  "image_id": "19ccb5bc-1bee-e0d0-f5cc-9e7cd4134af4",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/19ccb5bc-1bee-e0d0-f5cc-9e7cd4134af4/full/843,/0/default.jpg",
+  "localImage": "20432.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAJ6FdKGCb6uGcqqOe7CNd6mQfLOVf66Zhbach7ugir+kjLekkMGqlMCslMSslQAAACH5BAAAAAAALAAAAAADAAUAAAQL8IBWAkrEOKHYWBEAOw==",
+    "width": 6765,
+    "height": 11099,
+    "alt_text": "Chalk drawing with red and black shading of man carrying crate and pack."
+  },
+  "tags": []
+}

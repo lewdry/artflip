@@ -1,0 +1,26 @@
+{
+  "objectID": 89,
+  "title": "Rest on the Flight into Egypt",
+  "artistDisplayName": "Bartolomeo Biscaino",
+  "objectDate": "n.d.",
+  "objectName": "Print",
+  "medium": "Etching printed in reddish brown on paper",
+  "dimensions": "18.7 × 24.7 cm (7 3/8 × 9 3/4 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/89",
+  "isPublicDomain": true,
+  "image_id": "7120b4c6-fbd6-ea4e-f346-0b696596a6c5",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/7120b4c6-fbd6-ea4e-f346-0b696596a6c5/full/843,/0/default.jpg",
+  "localImage": "89.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAJl2SZx7T5p7UZx9VKGBV6KEWaCEXKaKX6iKX6mMXqmPaKuSaamRaqyTaayWd66afK+bfa6cfrCbfLemhrimhrimh7emiLqpib2xmcS0msO0nMK1nsW6ose6osK6pce7pMe8qMnBrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwNCkYrlQPpzDYdFIZDYEhkGB6GAAhYEgoPFEJI4HBBQEADs=",
+    "width": 3000,
+    "height": 2283,
+    "alt_text": "A work made of etching printed in reddish brown on paper."
+  },
+  "tags": []
+}

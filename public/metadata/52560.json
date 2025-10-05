@@ -1,0 +1,26 @@
+{
+  "objectID": 52560,
+  "title": "Corpus of Christ, from the Altarpiece of the Crucifixion",
+  "artistDisplayName": "Jacques de Baerze",
+  "objectDate": "1391–99",
+  "objectName": "Sculpture",
+  "medium": "Wood with gilding and traces of polychromy",
+  "dimensions": "27.7 × 18.3 × 5.2 cm (11 × 6 1/4 × 2 1/16 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Flanders",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Honoré Palmer",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/52560",
+  "isPublicDomain": true,
+  "image_id": "d1666499-6fde-bb14-1b47-7e86209d3b58",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/d1666499-6fde-bb14-1b47-7e86209d3b58/full/843,/0/default.jpg",
+  "localImage": "52560.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAExCNz9AQEVDQEZEQU9LREhISElJSExKSFFLQlhSSk1OUE1OUU9SVlRWWFVWWFlbX2BRQGFVRWVZRmBWSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4JEQgyNFyjNBTIMAS2EIQQgAOw==",
+    "width": 1800,
+    "height": 2250,
+    "alt_text": "Brown and gold sculpture of crucified Jesus without the cross."
+  },
+  "tags": []
+}

@@ -1,0 +1,36 @@
+{
+  "objectID": 436143,
+  "title": "Fan Mount: The Ballet",
+  "artistDisplayName": "Edgar Degas",
+  "objectDate": "1879",
+  "objectName": "Drawing",
+  "medium": "Watercolor and metallic paint on silk",
+  "dimensions": "6 1/8 x 21 1/4 in. (15.6 x 54 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436143",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT241540.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT241540.jpg",
+  "localImage": "436143.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Dancing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300389779",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43393537"
+    },
+    {
+      "term": "Ballet",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300054145",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41425"
+    }
+  ]
+}

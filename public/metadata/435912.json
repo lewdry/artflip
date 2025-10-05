@@ -1,0 +1,41 @@
+{
+  "objectID": 435912,
+  "title": "Charles IX (1550–1574), King of France",
+  "artistDisplayName": "François Clouet",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "12 3/8 x 9 in. (31.4 x 22.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435912",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19300-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19300-001.jpg",
+  "localImage": "435912.jpg",
+  "tags": [
+    {
+      "term": "Charles IX",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500241470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134309"
+    },
+    {
+      "term": "Kings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025481",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12097"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

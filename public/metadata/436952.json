@@ -1,0 +1,36 @@
+{
+  "objectID": 436952,
+  "title": "The Funeral",
+  "artistDisplayName": "Edouard Manet",
+  "objectDate": "ca. 1867",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "28 5/8 x 35 5/8 in. (72.7 x 90.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Catharine Lorillard Wolfe Collection, Wolfe Fund, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436952",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1931.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1931.jpg",
+  "localImage": "436952.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Funerals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300069162",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q201676"
+    },
+    {
+      "term": "Paris",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7008038",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q90"
+    }
+  ]
+}

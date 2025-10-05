@@ -1,0 +1,26 @@
+{
+  "objectID": 153,
+  "title": "The Lost Pleiade",
+  "artistDisplayName": "Randolph Rogers",
+  "objectDate": "1874–75",
+  "objectName": "Sculpture",
+  "medium": "Marble",
+  "dimensions": "H.: 129.5 cm (51 in.)",
+  "department": "Arts of the Americas",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mrs. E. S. Stickney",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/153",
+  "isPublicDomain": true,
+  "image_id": "f9549068-ad7e-c9ce-6fed-5c7a429024fb",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f9549068-ad7e-c9ce-6fed-5c7a429024fb/full/843,/0/default.jpg",
+  "localImage": "153.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADY2Njc3Nzw8PEVFRUZGRkpKSlBQUFdXV11dXWFhYWtra29vb3Jyco6Ojo+Pj5WVlZaWlpmZmbS0tMHBwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf8LSW1hZ2VNYWdpY2sOZ2FtbWE9MC40NTQ1NDUALAAAAAAEAAUAAAURoMAgACElQfFEgwFNh9I4SwgAOw==",
+    "width": 1782,
+    "height": 2250,
+    "alt_text": "Marble sculpture of a partially clothed young woman on clouds looking to her left, her hand raised to her forehead."
+  },
+  "tags": []
+}

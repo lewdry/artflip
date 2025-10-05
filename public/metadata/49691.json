@@ -1,0 +1,26 @@
+{
+  "objectID": 49691,
+  "title": "Bed Rug",
+  "artistDisplayName": "Hannah Johnson",
+  "objectDate": "1796",
+  "objectName": "Textile",
+  "medium": "Wool, plain weave; with cut pile formed by wool yarns embroidered in looped running stitches",
+  "dimensions": "249.4 × 246.1 cm (98 1/4 × 97 in.)",
+  "department": "Textiles",
+  "culture": "United States",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by the Needlework and Textile Guild",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/49691",
+  "isPublicDomain": true,
+  "image_id": "b8c8710c-ba52-dcdd-9674-49fd5095f4f2",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/b8c8710c-ba52-dcdd-9674-49fd5095f4f2/full/843,/0/default.jpg",
+  "localImage": "49691.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAEpALlJHM2pcQG1fRHRkRnhnRnloSn5rSn5sS3tqTX1sTX5tToBtTIJvTYRxToZyT4hzToVyUI55VJN8VJyCWZyFXaKKYaGLYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUV4KA4hZBcU8Us1kUdkfRATYAYBBACADs=",
+    "width": 6322,
+    "height": 6573,
+    "alt_text": "Large tan rug with black and brown floral motif."
+  },
+  "tags": []
+}

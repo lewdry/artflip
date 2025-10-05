@@ -1,0 +1,36 @@
+{
+  "objectID": 788905,
+  "title": "Schloss Milkel in Moonlight",
+  "artistDisplayName": "Carl Gustav Carus",
+  "objectDate": "ca. 1833–35",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "11 1/4 × 8 1/2 in. (28.5 × 21.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Fern and George Wachter Gift, 2018",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/788905",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-16387-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16387-001.jpg",
+  "localImage": "788905.jpg",
+  "tags": [
+    {
+      "term": "Houses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300005433",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3947"
+    },
+    {
+      "term": "Gardens",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1107656"
+    },
+    {
+      "term": "Night",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300133095",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q575"
+    }
+  ]
+}

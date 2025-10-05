@@ -1,0 +1,41 @@
+{
+  "objectID": 437526,
+  "title": "A Forest at Dawn with a Deer Hunt",
+  "artistDisplayName": "Peter Paul Rubens",
+  "objectDate": "ca. 1635",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "24 1/4 x 35 1/2 in. (61.5 x 90.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, The Annenberg Foundation, Mrs. Charles Wrightsman, Michel David-Weill, The Dillon Fund, Henry J. and Drue Heinz Foundation, Lola Kramarsky, Annette de la Renta, Mr. and Mrs. Arthur Ochs Sulzberger, The Vincent Astor Foundation, and Peter J. Sharp Gifts; special funds, gifts, and other gifts and bequests, by exchange, 1990",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437526",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-25739-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25739-001.jpg",
+  "localImage": "437526.jpg",
+  "tags": [
+    {
+      "term": "Hunting",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300239666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q36963"
+    },
+    {
+      "term": "Deer",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250308",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q685795"
+    },
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    },
+    {
+      "term": "Dawn",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343621",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11326182"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 58,
+  "title": "Portrait of a Sixty-year-old Woman, from Recueil d'estampes d'après les plus célèbres tableaux de la Galerie Royale de Dresde",
+  "artistDisplayName": "Pieter Tanjé",
+  "objectDate": "c. 1757",
+  "objectName": "Print",
+  "medium": "Engraving in black on ivory laid paper",
+  "dimensions": "38.9 × 20.3 cm (15 3/8 × 8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Netherlands",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/58",
+  "isPublicDomain": true,
+  "image_id": "529f40db-cec2-b3a4-e955-432bb39372ba",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/529f40db-cec2-b3a4-e955-432bb39372ba/full/843,/0/default.jpg",
+  "localImage": "58.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADUzLUhGPUtJQVJPR1VSSWVhVWtmWnNtYXVwY3VxZIF7bYyIdry4qMjDstDKuQAAACH5BAAAAAAALAAAAAADAAUAAAQLUKWDlhGhDEAcaxEAOw==",
+    "width": 2106,
+    "height": 3000,
+    "alt_text": "Engraving of a seated woman wearing a period fabric ruff collar that extends outward beyond her ears."
+  },
+  "tags": []
+}

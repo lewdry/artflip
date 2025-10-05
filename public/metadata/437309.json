@@ -1,0 +1,31 @@
+{
+  "objectID": 437309,
+  "title": "Steamboats in the Port of Rouen",
+  "artistDisplayName": "Camille Pissarro",
+  "objectDate": "1896",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 x 21 1/2 in. (45.7 x 54.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Arthur J. Neumark, 1958",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437309",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1864.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1864.jpg",
+  "localImage": "437309.jpg",
+  "tags": [
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

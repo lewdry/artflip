@@ -1,0 +1,51 @@
+{
+  "objectID": 769294,
+  "title": "The Adoration of the Shepherds",
+  "artistDisplayName": "Girolamo da Carpi (Girolamo Sellari)",
+  "objectDate": "ca. 1535–40",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "12 3/8 × 16 1/8 in. (31.4 × 41 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Maurizio and Dominique Canesso, in honor of Keith Christiansen, 2017",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/769294",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14870-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14870-001.jpg",
+  "localImage": "769294.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Donkeys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265959",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3537778"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Jesus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+    },
+    {
+      "term": "Adoration of the Shepherds",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000229",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1029715"
+    },
+    {
+      "term": "Joseph",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000953",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q128267"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "objectID": 435756,
+  "title": "A Classical Landscape",
+  "artistDisplayName": "Sébastien Bourdon",
+  "objectDate": "probably 1660s",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "27 1/2 x 36 1/4 in. (69.9 x 92.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Atwood A. Allaire, Pamela Askew, and Phoebe A. DesMarais, in memory of their mother, Constance Askew, 1985",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435756",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP123839.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123839.jpg",
+  "localImage": "435756.jpg",
+  "tags": [
+    {
+      "term": "Human Figures",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404114",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5937779"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

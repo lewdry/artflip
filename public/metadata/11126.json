@@ -1,0 +1,31 @@
+{
+  "objectID": 11126,
+  "title": "Maine Coast",
+  "artistDisplayName": "Winslow Homer",
+  "objectDate": "1896",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 x 40 in. (76.2 x 101.6 cm)\r\nFramed: 43 11/16 x 57 3/4 x 5 1/2 in. (111 x 146.7 x 14 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George A. Hearn, in memory of Arthur Hoppock Hearn, 1911",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11126",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-21454-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21454-001.jpg",
+  "localImage": "11126.jpg",
+  "tags": [
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Waves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343616",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q165848"
+    }
+  ]
+}

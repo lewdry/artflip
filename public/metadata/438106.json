@@ -1,0 +1,41 @@
+{
+  "objectID": 438106,
+  "title": "Warwick Castle",
+  "artistDisplayName": "Canaletto (Giovanni Antonio Canal)",
+  "objectDate": "1748",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "16 7/8 × 28 1/4 in. (42.9 × 71.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mrs. Charles Wrightsman, 2019",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438106",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/Wrightsman21.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/Wrightsman21.jpg",
+  "localImage": "438106.jpg",
+  "tags": [
+    {
+      "term": "Castles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006891",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23413"
+    },
+    {
+      "term": "Bridges",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+    },
+    {
+      "term": "Fishing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300239470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q14373"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 435944,
+  "title": "Portrait of a Man with Gloves",
+  "artistDisplayName": "Corneille de Lyon",
+  "objectDate": "ca. 1535",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "8 3/8 x 6 1/2 in. (21.3 x 16.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Theodore M. Davis Collection, Bequest of Theodore M. Davis, 1915",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435944",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-13588-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13588-001.jpg",
+  "localImage": "435944.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

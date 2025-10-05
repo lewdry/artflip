@@ -1,0 +1,31 @@
+{
+  "objectID": 11853,
+  "title": "Spring Woods",
+  "artistDisplayName": "Henry Ward Ranger",
+  "objectDate": "ca. 1895–1900",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "28 1/4 x 36 in. (71.8 x 91.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George A. Hearn, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11853",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap06.1293.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap06.1293.jpg",
+  "localImage": "11853.jpg",
+  "tags": [
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 566,
+  "title": "Life Cast of the Hands and Face of Abraham Lincoln",
+  "artistDisplayName": "Leonard Wells Volk",
+  "objectDate": "Cast in plaster 1860; cast in bronze by 1888",
+  "objectName": "Sculpture",
+  "medium": "Bronze",
+  "dimensions": "Life Mask: 24.1 × 21 × 14 cm (9 1/2 × 8 1/4 × 5 7/8 in.); Right hand: 14.6 × 13 × 8.9 cm (5 3/4 × 5 1/8 × 3 1/2 in.); Left hand: 16.5 × 10.8 × 7.5 cm (6 1/2 × 4 1/4 × 2 7/8 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Chicago",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of the artist",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/566",
+  "isPublicDomain": true,
+  "image_id": "8ad03fff-be28-ab22-689c-8f022b5e181c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/8ad03fff-be28-ab22-689c-8f022b5e181c/full/843,/0/default.jpg",
+  "localImage": "566.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADwjEUsvGltHN2xONWNYT29aSoRxY4+GfpaFdpSOh5+VjaOShaGViqKalLGrpsu/tce/ucfAucnKxs/PzNLKxM/QzdjU0NrV0NjY1djZ1tza19rb2d/g3ujm5O7s6u7t7PHv7O/w7/3//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwA0H46hIJiHRApDIaCgNQ4CAgDwEh4JiwPhcPB1QxBIEADs=",
+    "width": 5618,
+    "height": 3840,
+    "alt_text": "Three-part bronze sculpture set of two clenched hands and a man's face with closed eyes and mouth, an object in one hand."
+  },
+  "tags": []
+}

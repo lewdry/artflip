@@ -1,0 +1,26 @@
+{
+  "objectID": 44,
+  "title": "The Prophet Amos",
+  "artistDisplayName": "Attributed to Baccio Baldini",
+  "objectDate": "c. 1470",
+  "objectName": "Print",
+  "medium": "Engraving in gray-black on paper",
+  "dimensions": "Plate: 14.1 × 10.6 cm (5 9/16 × 4 3/16 in.); Sheet: 14.2 × 10.8 cm (5 5/8 × 4 5/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/44",
+  "isPublicDomain": true,
+  "image_id": "64e623da-4205-4719-6812-4a9dc6e697e8",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/64e623da-4205-4719-6812-4a9dc6e697e8/full/843,/0/default.jpg",
+  "localImage": "44.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAJeLd5+UgKGVgaabiaufiaidiqyfiaqeja6ijrOnkrOnlLOolrWpl72zoL+1ocC0nsm+rM7Cq9HGsNPIswAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIAFEkyE8EpIEjlIMDbQcTAgAOw==",
+    "width": 2195,
+    "height": 2921,
+    "alt_text": "A work made of engraving in gray-black on paper."
+  },
+  "tags": []
+}

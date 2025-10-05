@@ -1,0 +1,26 @@
+{
+  "objectID": 151358,
+  "title": "Male Figure (Nkisi Nkondi)",
+  "artistDisplayName": "Kongo: Vili",
+  "objectDate": "Probably early to mid-19th century",
+  "objectName": "Sculpture",
+  "medium": "Wood, metal, glass, fabric, fiber, cowrie shells, bone, leather, gourd, and feathers",
+  "dimensions": "73.7 × 33.1 × 28 cm (29 × 13 × 11 in.)",
+  "department": "Arts of Africa",
+  "culture": "Republic of the Congo",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Ada Turnbull Hertle Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/151358",
+  "isPublicDomain": true,
+  "image_id": "c3f36398-eee0-77a9-17f4-204f3252f6f9",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/c3f36398-eee0-77a9-17f4-204f3252f6f9/full/843,/0/default.jpg",
+  "localImage": "151358.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAEs+NFhLQFxPQWhgWIeDfYuFgI2Jg4mIhJGPipKQi5WUkpmWkZiYlKGhn6eopgAAACH5BAAAAAAALAAAAAADAAUAAAQL0JW2gkmAMIHUOBEAOw==",
+    "width": 3476,
+    "height": 6179,
+    "alt_text": "A wooden carving of a male figure. The figure has a distinctive face, with oval-shaped eyes and mouth, and wears a cap on his head. His body is covered in various shells, bones, feathers, fabric, and metal nails, and he holds a mirror-sealed resin packet over his stomach."
+  },
+  "tags": []
+}

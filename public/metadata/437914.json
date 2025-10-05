@@ -1,0 +1,31 @@
+{
+  "objectID": 437914,
+  "title": "Calm Sea",
+  "artistDisplayName": "Simon de Vlieger",
+  "objectDate": "after 1640",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "14 3/4 x 17 1/2 in. (37.5 x 44.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437914",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP147592.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147592.jpg",
+  "localImage": "437914.jpg",
+  "tags": [
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

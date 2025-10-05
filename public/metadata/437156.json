@@ -1,0 +1,46 @@
+{
+  "objectID": 437156,
+  "title": "The Entombment",
+  "artistDisplayName": "Moretto da Brescia (Alessandro Bonvicino)",
+  "objectDate": "1554",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "94 1/2 x 74 1/2 in. (240 x 189.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. John Stewart Kennedy Fund, 1912",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437156",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-15282-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15282-001.jpg",
+  "localImage": "437156.jpg",
+  "tags": [
+    {
+      "term": "Sadness",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055166",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q169251"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Entombment",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001053",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51637"
+    }
+  ]
+}

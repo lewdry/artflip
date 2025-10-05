@@ -1,0 +1,31 @@
+{
+  "objectID": 435952,
+  "title": "Portrait of a Man",
+  "artistDisplayName": "Corneille de Lyon",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "7 x 5 1/2 in. (17.8 x 14 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435952",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/ep32.100.121.bw.R.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep32.100.121.bw.R.jpg",
+  "localImage": "435952.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

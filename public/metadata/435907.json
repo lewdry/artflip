@@ -1,0 +1,41 @@
+{
+  "objectID": 435907,
+  "title": "Sunrise",
+  "artistDisplayName": "Claude Lorrain (Claude Gellée)",
+  "objectDate": "possibly 1646–47",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "40 1/2 x 52 3/4 in. (102.9 x 134 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Fletcher Fund, 1947",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435907",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-013.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-013.jpg",
+  "localImage": "435907.jpg",
+  "tags": [
+    {
+      "term": "Human Figures",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404114",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5937779"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Dawn",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343621",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11326182"
+    }
+  ]
+}

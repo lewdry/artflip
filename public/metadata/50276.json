@@ -1,0 +1,26 @@
+{
+  "objectID": 50276,
+  "title": "Statue of the Madonna in the Mountains",
+  "artistDisplayName": "Caspar David Friedrich",
+  "objectDate": "1804",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Brush and black ink and gray wash, with graphite, on cream wove paper",
+  "dimensions": "24.4 × 38.2 cm (9 5/8 × 15 1/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Margaret Day Blake Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/50276",
+  "isPublicDomain": true,
+  "image_id": "444f3e95-b21f-c821-e6af-00fe9560fb95",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/444f3e95-b21f-c821-e6af-00fe9560fb95/full/843,/0/default.jpg",
+  "localImage": "50276.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAFJKLlRMLlZPMlhSNFtUN11XOHBrSn96WYN9XYaBX5+beqKefa2qh7Cti7Wzkbm2ldjWtdrYt9/cueHcuuDdvuTevuTgvuPhwObjwufjw+fkwejlxOjlxenlxenlxurmxuvnx+zox+zoyO/qyvDsy/HszfPvz/jz1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQMiF4+l8MJJIBjQqhTYWisg0qZxIGkdDkUA8FgxDIQAgCAaHIAA7",
+    "width": 12369,
+    "height": 8001,
+    "alt_text": "Black ink drawing of forested landscape, statue of woman holding child at pinnacle of mountain."
+  },
+  "tags": []
+}

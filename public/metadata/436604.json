@@ -1,0 +1,51 @@
+{
+  "objectID": 436604,
+  "title": "The Vocation of Saint Aloysius (Luigi) Gonzaga",
+  "artistDisplayName": "Guercino (Giovanni Francesco Barbieri)",
+  "objectDate": "ca. 1650",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "140 x 106 in. (355.6 x 269.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Charles Wrightsman, 1973",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436604",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1956.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1956.jpg",
+  "localImage": "436604.jpg",
+  "tags": [
+    {
+      "term": "Altars",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300003725",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q101687"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300235443",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40843"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

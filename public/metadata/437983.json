@@ -1,0 +1,36 @@
+{
+  "objectID": 437983,
+  "title": "A Roman Landscape with Figures",
+  "artistDisplayName": "Goffredo Wals",
+  "objectDate": "probably 1630s",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "Diameter 16 in. (40.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Wrightsman Fund, 1997",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437983",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP293064.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP293064.jpg",
+  "localImage": "437983.jpg",
+  "tags": [
+    {
+      "term": "Ruins",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008057",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q109607"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Rome",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7000874",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q220"
+    }
+  ]
+}

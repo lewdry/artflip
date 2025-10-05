@@ -1,0 +1,31 @@
+{
+  "objectID": 437095,
+  "title": "Calling the Cows Home",
+  "artistDisplayName": "Jean-François Millet",
+  "objectDate": "ca. 1872",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "37 1/4 x 25 1/2 in. (94.6 x 64.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Arthur Whitney, 1950",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437095",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP345570.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP345570.jpg",
+  "localImage": "437095.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    }
+  ]
+}

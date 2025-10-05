@@ -1,0 +1,26 @@
+{
+  "objectID": 127644,
+  "title": "Autumn Maples with Poem Slips",
+  "artistDisplayName": "Tosa Mitsuoki",
+  "objectDate": "c. 1675",
+  "objectName": "Painting",
+  "medium": "Six-panel screen (one of pair); Ink, colors, gold leaf, and gold powder on silk",
+  "dimensions": "144 × 286 cm (56 3/4 × 112 5/8 in.)",
+  "department": "Arts of Asia",
+  "culture": "Japan",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Kate S. Buckingham Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/127644",
+  "isPublicDomain": true,
+  "image_id": "86e919b9-d366-b3ca-d26f-4c16880474a3",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/86e919b9-d366-b3ca-d26f-4c16880474a3/full/843,/0/default.jpg",
+  "localImage": "127644.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCgAFAPUAAH1yW4tlQI5nQoRyTJdwSJ50T41yUJx2UJx2U5J9Vp57U5F7WKJ3VqN9UaJ9U5KAXZqEXqWGVaCCWaGDX6uCXKyHXaaJWq2IXriSWr+XXoeAY5OCYpmCZJuFZZ+EaZyMaKeLYKaNYayLZKuKarONZa6VbbSUZLuaZ7KWbbCWb7eba7Kab7OacLabcLacdrmfdcCgbNCsfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQASjECAcBIqGZOThGCiiCcmViqEWjksF1HqVNg8AZKWKnGCszkczSIQsmIwpCAA7",
+    "width": 10760,
+    "height": 5337,
+    "alt_text": "Papers with Japanese text hang from a tree bearing red and gold leaves."
+  },
+  "tags": []
+}

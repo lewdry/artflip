@@ -1,0 +1,36 @@
+{
+  "objectID": 465,
+  "title": "Figure of Benjamin Franklin",
+  "artistDisplayName": "",
+  "objectDate": "1835–45",
+  "objectName": "Figure",
+  "medium": "Earthenware, transfer-printed",
+  "dimensions": "H. 14 3/4 in. (37.5 cm)",
+  "department": "The American Wing",
+  "culture": "British (American market)",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of William H. Huntington, 1883",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/465",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP248287.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP248287.jpg",
+  "localImage": "465.jpg",
+  "tags": [
+    {
+      "term": "Benjamin Franklin",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500331804",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34969"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

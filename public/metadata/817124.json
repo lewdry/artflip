@@ -1,0 +1,31 @@
+{
+  "objectID": 817124,
+  "title": "Cain Slaying Abel",
+  "artistDisplayName": "Pier Francesco Mola",
+  "objectDate": "ca. 1650–52",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "54 3/4 × 35 7/16 in. (139 × 90 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Alan M. May, in memory of his wife, Marcia W. May, and in celebration of the Museum's 150th Anniversary, 2020",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/817124",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19625-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19625-001.jpg",
+  "localImage": "817124.jpg",
+  "tags": [
+    {
+      "term": "Abel",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000498",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q313421"
+    },
+    {
+      "term": "Cain",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000499",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q205365"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 435963,
+  "title": "Bacchante by the Sea",
+  "artistDisplayName": "Camille Corot",
+  "objectDate": "1865",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "15 1/4 x 23 3/8 in. (38.7 x 59.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435963",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-16590-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16590-001.jpg",
+  "localImage": "435963.jpg",
+  "tags": [
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Bacchantes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379712",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q209599"
+    }
+  ]
+}

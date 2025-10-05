@@ -1,0 +1,41 @@
+{
+  "objectID": 438659,
+  "title": "Monks in the Cloister of the Church of Gesù e Maria, Rome",
+  "artistDisplayName": "François Marius Granet",
+  "objectDate": "1808",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "19 1/2 x 15 3/8 in. (49.5 x 39.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Whitney Collection, Gift of Wheelock Whitney III, and Purchase, Gift of Mr. and Mrs. Charles S. McVeigh, by exchange, 2003",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438659",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP274955.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP274955.jpg",
+  "localImage": "438659.jpg",
+  "tags": [
+    {
+      "term": "Cloisters",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007423",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1430154"
+    },
+    {
+      "term": "Churches",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300007466",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q16970"
+    },
+    {
+      "term": "Monks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025765",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q733786"
+    },
+    {
+      "term": "Rome",
+      "AAT_URL": "http://vocab.getty.edu/page/tgn/7000874",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q220"
+    }
+  ]
+}

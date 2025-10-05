@@ -1,0 +1,31 @@
+{
+  "objectID": 13360,
+  "title": "Sunset",
+  "artistDisplayName": "Harvey O. Young",
+  "objectDate": "ca. 1870–80",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "20 × 30 in. (50.8 × 76.2 cm)\r\nFramed: 26 3/8 in. × 36 7/16 in. × 4 in. (67 × 92.5 × 10.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Emily Buch, 1963",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13360",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap64.198.7.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap64.198.7.jpg",
+  "localImage": "13360.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

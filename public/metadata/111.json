@@ -1,0 +1,26 @@
+{
+  "objectID": 111,
+  "title": "Martin Vanden Bogaert Desjardins",
+  "artistDisplayName": "Gérard Edelinck",
+  "objectDate": "1698",
+  "objectName": "Print",
+  "medium": "Engraving and etching on paper",
+  "dimensions": "Plate: 57.4 × 36.3 cm (22 5/8 × 14 5/16 in.); Sheet: 49 × 37.4 cm (19 5/16 × 14 3/4 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/111",
+  "isPublicDomain": true,
+  "image_id": "13bb7117-5115-b409-1dbb-1d9c1d70a5c9",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/13bb7117-5115-b409-1dbb-1d9c1d70a5c9/full/843,/0/default.jpg",
+  "localImage": "111.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACAfGiopIkE+NUJANkdEPElFO0lGO0lGPE1JPk1KQU9LQE9MQlVRSVdTSnJuYXdxZHlyY4F7a4J8bQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINQwT4EYxDIIyREASuQ4UggAOw==",
+    "width": 2312,
+    "height": 3000,
+    "alt_text": "A work made of engraving and etching on paper."
+  },
+  "tags": []
+}

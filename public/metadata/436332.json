@@ -1,0 +1,36 @@
+{
+  "objectID": 436332,
+  "title": "Saint Roch",
+  "artistDisplayName": "Francesco Francia",
+  "objectDate": "1502",
+  "objectName": "Painting, altarpiece",
+  "medium": "Tempera on wood",
+  "dimensions": "85 1/4 x 59 3/8 in. (216.5 x 150.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George R. Hann, 1965",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436332",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24672-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24672-001.jpg",
+  "localImage": "436332.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    },
+    {
+      "term": "God the Father",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000593",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q186350"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectID": 436030,
+  "title": "Soap Bubbles",
+  "artistDisplayName": "Thomas Couture",
+  "objectDate": "ca. 1859",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "51 1/2 x 38 5/8 in. (130.8 x 98.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Catharine Lorillard Wolfe Collection, Bequest of Catharine Lorillard Wolfe, 1887",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436030",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24386-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24386-001.jpg",
+  "localImage": "436030.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Bubbles",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q75794"
+    }
+  ]
+}

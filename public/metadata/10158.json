@@ -1,0 +1,36 @@
+{
+  "objectID": 10158,
+  "title": "Sunrise on the Matterhorn",
+  "artistDisplayName": "Albert Bierstadt",
+  "objectDate": "after 1875",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "58 1/2 x 42 5/8 in. (148.6 x 108.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Karl W. Koeniger, 1966",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10158",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT218107.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218107.jpg",
+  "localImage": "10158.jpg",
+  "tags": [
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Dawn",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343621",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11326182"
+    }
+  ]
+}

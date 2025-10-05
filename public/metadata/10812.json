@@ -1,0 +1,31 @@
+{
+  "objectID": 10812,
+  "title": "Carmelita Requena",
+  "artistDisplayName": "Thomas Eakins",
+  "objectDate": "1869",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "21 x 17 in. (53.3 x 43.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mary Cushing Fosburgh, 1978",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10812",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT9827.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT9827.jpg",
+  "localImage": "10812.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

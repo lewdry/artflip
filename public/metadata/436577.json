@@ -1,0 +1,31 @@
+{
+  "objectID": 436577,
+  "title": "Saint Andrew",
+  "artistDisplayName": "El Greco (Domenikos Theotokopoulos)",
+  "objectDate": "ca. 1610",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "43 1/4 x 25 1/4 in. (109.9 x 64.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Stephen C. Clark, 1960",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436577",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20335-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20335-001.jpg",
+  "localImage": "436577.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

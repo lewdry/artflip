@@ -1,0 +1,26 @@
+{
+  "objectID": 145,
+  "title": "Louis Phélypeaux de la Vrillière",
+  "artistDisplayName": "Robert Nanteuil",
+  "objectDate": "1662",
+  "objectName": "Print",
+  "medium": "Engraving in black on paper",
+  "dimensions": "Image: 32.6 × 25.9 cm (12 7/8 × 10 1/4 in.); Plate: 32.9 × 26.2 cm (13 × 10 3/8 in.); Sheet: 33.2 × 26.4 cm (13 1/8 × 10 7/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/145",
+  "isPublicDomain": true,
+  "image_id": "7fe1cf87-87d0-70b6-af43-c105da516ebf",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/7fe1cf87-87d0-70b6-af43-c105da516ebf/full/843,/0/default.jpg",
+  "localImage": "145.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGJeWHdyaoB7coSAd4eCeIqFfIuGfpGMg5aRhp2XjaOdka6omrCqnbizpb65q7+6rsC6q8O+sMS/scnEtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoJMYD0MAhyIExTIgDSRNUQgAOw==",
+    "width": 2363,
+    "height": 3000,
+    "alt_text": "A work made of engraving in black on paper."
+  },
+  "tags": []
+}

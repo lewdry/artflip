@@ -1,0 +1,26 @@
+{
+  "objectID": 46,
+  "title": "Portrait Bust of a Woman with a Large Collar, from Perfect School to Learn How to Draw the Entire Human Body (English translation)",
+  "artistDisplayName": "Luca Ciamberlano",
+  "objectDate": "n.d.",
+  "objectName": "Print",
+  "medium": "Engraving in black on ivory laid paper",
+  "dimensions": "Image/sheet, cut within platemark: 17.4 × 12 cm (6 7/8 × 4 3/4 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/46",
+  "isPublicDomain": true,
+  "image_id": "7e00ffbc-16a9-96b9-3da2-f38174cccb5f",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/7e00ffbc-16a9-96b9-3da2-f38174cccb5f/full/843,/0/default.jpg",
+  "localImage": "46.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAIiBc5qSgaSdjKWejquika+ol7KqmLCpmrGrm7OsmrWunbavnsC4psW+rsnCsQAAACH5BAAAAAAALAAAAAADAAUAAAQL0JWGwFFjMZEMCREAOw==",
+    "width": 1840,
+    "height": 2643,
+    "alt_text": "Engraving of a woman with a wide collar and an intricately braided hairstyle, curls framing her face."
+  },
+  "tags": []
+}

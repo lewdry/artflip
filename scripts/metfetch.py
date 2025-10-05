@@ -11,14 +11,14 @@ from datetime import datetime
 # ============================================================================
 
 # Number of new artworks to download per run
-MAX_NEW_ARTWORKS = 30
+MAX_NEW_ARTWORKS = 10
 
 # Rate limiting (seconds between API calls)
 RATE_LIMIT_DELAY = 1.0
 
 # API Search Parameters - Set to None to ignore, or provide value to filter
 SEARCH_PARAMS = {
-    'isHighlight': None,          # True = only highlights, False = non-highlights, None = all
+    'isHighlight': True,          # True = only highlights, False = non-highlights, None = all
     'isPublicDomain': True,       # True = public domain only, False = non-public, None = all
     'isOnView': True,          # True = on view only, False = not on view, None = all
     'hasImages': True,            # True = only with images, False = no images, None = all    
@@ -35,7 +35,7 @@ SEARCH_PARAMS = {
     # "Greek and Roman Art", "Islamic Art", "The Robert Lehman Collection",
     # "The Libraries", "Medieval Art", "Musical Instruments", "Photographs",
     # "Modern Art", "The American Wing"
-    'departmentId': 11,         # Example: 11 (for European Paintings) or None
+    'departmentId': None,         # Example: 11 (for European Paintings) or None
     
     # Artist/Maker filter
     'artistOrCulture': None,      # Example: "Rembrandt" or None
@@ -60,7 +60,7 @@ METADATA_OUTPUT_DIR = Path("../public/metadata")
 IMAGES_OUTPUT_DIR = Path("../public/images")
 LOG_FILE = Path("metfetch.log")
 DONTFETCH_FILE = Path("metdontfetch.json")  # Blacklist for problematic IDs
-TEMP_NEWIDS_FILE = Path("../public/newartworkids.json")  # Temporary file for new IDs
+TEMP_NEWIDS_FILE = Path("../public/artworkids.json")  # File for new IDs
 
 # ============================================================================
 # SETUP
@@ -357,8 +357,8 @@ class MetDownloader:
             return False
     
     def append_to_artworkids(self, object_id: int) -> bool:
-        """Append new object ID to temporary newartworkids.json file"""
-        # TEMPORARY: Writing to newartworkids.json for testing
+        """Append new object ID to artworkids.json file"""
+        # Writing to artworkids.json for testing
         # TODO: Switch back to ARTWORKIDS_FILE once confirmed working
         try:
             # Load current IDs from temp file
@@ -375,11 +375,11 @@ class MetDownloader:
             with open(TEMP_NEWIDS_FILE, 'w') as f:
                 json.dump(ids, f, indent=2)
             
-            logging.info(f"Added {object_id} to newartworkids.json (temp file)")
+            logging.info(f"Added {object_id} to artworkids.json")
             return True
             
         except Exception as e:
-            logging.error(f"Failed to update newartworkids.json: {e}")
+            logging.error(f"Failed to update artworkids.json: {e}")
             return False
     
     # def append_to_artworkids(self, object_id: int) -> bool:

@@ -1,0 +1,26 @@
+{
+  "objectID": 23506,
+  "title": "Young Bull",
+  "artistDisplayName": "Albrecht Dürer",
+  "objectDate": "c. 1496, erroneously inscribed in another hand 1508",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Pen and black ink on ivory laid paper",
+  "dimensions": "17.5 × 14 cm (6 15/16 × 5 9/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Clarence Buckingham Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/23506",
+  "isPublicDomain": true,
+  "image_id": "d2529576-bbf0-c631-6f8c-659e825c552d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/d2529576-bbf0-c631-6f8c-659e825c552d/full/843,/0/default.jpg",
+  "localImage": "23506.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAJiXibi3p7q5qby7q8PCsMnIt9DPvtPSwNTTwdXUwdfWwtrYxdnYxtrZx9vbx97dyd7ey+Pi0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoPIsiRNFEFEITRAAA8IYRwgAOw==",
+    "width": 5257,
+    "height": 6464,
+    "alt_text": "A work made of pen and black ink on ivory laid paper."
+  },
+  "tags": []
+}

@@ -1,0 +1,41 @@
+{
+  "objectID": 436205,
+  "title": "Landscape with Moses and the Burning Bush",
+  "artistDisplayName": "Domenichino (Domenico Zampieri)",
+  "objectDate": "1610–16",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "17 3/4 x 13 3/8 in. (45.1 x 34 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Charles Wrightsman, 1976",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436205",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-26973-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26973-001.jpg",
+  "localImage": "436205.jpg",
+  "tags": [
+    {
+      "term": "Sheep",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250284",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7368"
+    },
+    {
+      "term": "Fire",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300417275",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3196"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Moses",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000167",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9077"
+    }
+  ]
+}

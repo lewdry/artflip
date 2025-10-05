@@ -1,0 +1,31 @@
+{
+  "objectID": 437057,
+  "title": "Virgin and Child",
+  "artistDisplayName": "Hans Memling",
+  "objectDate": "1480–85",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall, with integral frame, diameter 9 3/4 in. (24.8 cm); painted surface diameter 6 7/8 in. (17.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437057",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19587-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19587-001.jpg",
+  "localImage": "437057.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}

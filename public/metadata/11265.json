@@ -1,0 +1,41 @@
+{
+  "objectID": 11265,
+  "title": "The New Bonnet",
+  "artistDisplayName": "Eastman Johnson",
+  "objectDate": "1876",
+  "objectName": "Painting",
+  "medium": "Oil on academy board",
+  "dimensions": "20 3/4 x 27 in. (52.7 x 68.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Collis P. Huntington, 1900",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11265",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2783.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2783.jpg",
+  "localImage": "11265.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Genre Scene",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300139140",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q214127"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 184324,
+  "title": "Saint Michael and the Devil",
+  "artistDisplayName": "Spanish",
+  "objectDate": "1475/1500",
+  "objectName": "Sculpture",
+  "medium": "Poplar, formerly polychromed and gilded",
+  "dimensions": "52.4 × 22.9 × 21.3 cm (20 5/8 × 9 × 8 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Seville",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Chester D. Tripp Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/184324",
+  "isPublicDomain": true,
+  "image_id": "b82fd3da-48ef-ca2d-4ab2-13342c765c12",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/b82fd3da-48ef-ca2d-4ab2-13342c765c12/full/843,/0/default.jpg",
+  "localImage": "184324.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABwcHC4pJjQuKzQwLjw3NUA3Mkg5MUo8NU0/NUE8OU5DPGtTRoZhSZNoTppuUwAAACH5BAAAAAAALAAAAAADAAUAAAQLMCBg2jhOCVbIShEAOw==",
+    "width": 2779,
+    "height": 4062,
+    "alt_text": "Light wood sculpture of angel with shield looking towards devil at feet."
+  },
+  "tags": []
+}

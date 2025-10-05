@@ -1,0 +1,26 @@
+{
+  "objectID": 52736,
+  "title": "The Letter, or The Spanish Conversation",
+  "artistDisplayName": "Jean-Honoré Fragonard",
+  "objectDate": "c. 1778",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Brush and brown ink and brush and brown wash, with graphite, on ivory laid paper",
+  "dimensions": "39.9 × 29 cm (15 3/4 × 11 7/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Margaret Day Blake Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/52736",
+  "isPublicDomain": true,
+  "image_id": "e1cd114a-18c7-f501-af90-4852b47facf1",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/e1cd114a-18c7-f501-af90-4852b47facf1/full/843,/0/default.jpg",
+  "localImage": "52736.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGNNN4NrT4ZtTopyVYhxVot0V493Wph+WpJ+ZJyGaaGKaKGLbqCMcKWQc6mWfK+afrKcfK+ehLimjMe4oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4CEEgFIkBPQ4xjJJAxM1SAgAOw==",
+    "width": 1626,
+    "height": 2250,
+    "alt_text": "Brown toned drawing and wash, servant delivers letter to woman in dress."
+  },
+  "tags": []
+}

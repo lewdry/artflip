@@ -1,0 +1,36 @@
+{
+  "objectID": 11313,
+  "title": "Lake George, A Reminiscence",
+  "artistDisplayName": "John Frederick Kensett",
+  "objectDate": "1872",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "11 x 17 1/2 in. (27.9 x 44.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Thomas Kensett, 1874",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11313",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap74.11.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap74.11.jpg",
+  "localImage": "11313.jpg",
+  "tags": [
+    {
+      "term": "Lakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008680",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23397"
+    },
+    {
+      "term": "Hills",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008777",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q54050"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

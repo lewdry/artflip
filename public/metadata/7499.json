@@ -1,0 +1,31 @@
+{
+  "objectID": 7499,
+  "title": "Janet Halleck Drake",
+  "artistDisplayName": "Henry Inman",
+  "objectDate": "1825",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "29 3/4 x 24 3/4 in. (75.6 x 62.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of Edgar William and Bernice Chrylser Garbisch, by exchange, 1996",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/7499",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1996.348.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap1996.348.jpg",
+  "localImage": "7499.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

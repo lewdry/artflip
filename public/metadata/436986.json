@@ -1,0 +1,36 @@
+{
+  "objectID": 436986,
+  "title": "Portrait of a Woman",
+  "artistDisplayName": "Quinten Massys",
+  "objectDate": "ca. 1520",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "19 x 17 in. (48.3 x 43.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436986",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1461.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1461.jpg",
+  "localImage": "436986.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

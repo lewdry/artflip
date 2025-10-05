@@ -1,0 +1,51 @@
+{
+  "objectID": 437525,
+  "title": "The Feast of Acheloüs",
+  "artistDisplayName": "Peter Paul Rubens",
+  "objectDate": "ca. 1615",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "42 1/2 x 64 1/2 in. (108 x 163.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Alvin and Irwin Untermyer, in memory of their parents, 1945",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437525",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1581.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1581.jpg",
+  "localImage": "437525.jpg",
+  "tags": [
+    {
+      "term": "Food",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300254496",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2095"
+    },
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Theseus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001063",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1320718"
+    },
+    {
+      "term": "Dining",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q661199"
+    },
+    {
+      "term": "Banquets",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247614",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q626066"
+    }
+  ]
+}

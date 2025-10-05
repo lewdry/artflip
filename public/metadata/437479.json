@@ -1,0 +1,46 @@
+{
+  "objectID": 437479,
+  "title": "The Return of the Cattle",
+  "artistDisplayName": "Hubert Robert",
+  "objectDate": "ca. 1773–75",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "80 3/4 x 48 in. (205.1 x 121.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Lucy Work Hewitt, 1934",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437479",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP264408.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP264408.jpg",
+  "localImage": "437479.jpg",
+  "tags": [
+    {
+      "term": "Farms",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300000206",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q131596"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    }
+  ]
+}

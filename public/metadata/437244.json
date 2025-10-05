@@ -1,0 +1,41 @@
+{
+  "objectID": 437244,
+  "title": "Ancient Rome",
+  "artistDisplayName": "Giovanni Paolo Panini",
+  "objectDate": "1757",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "67 3/4 x 90 1/2 in. (172.1 x 229.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gwynne Andrews Fund, 1952",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437244",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1418.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1418.jpg",
+  "localImage": "437244.jpg",
+  "tags": [
+    {
+      "term": "Sculpture",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300047090",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q860861"
+    },
+    {
+      "term": "Monuments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006958",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4989906"
+    },
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    }
+  ]
+}

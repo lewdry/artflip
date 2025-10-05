@@ -1,0 +1,31 @@
+{
+  "objectID": 435614,
+  "title": "Madonna and Child with the Young Saint John the Baptist",
+  "artistDisplayName": "Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)",
+  "objectDate": "ca. 1497",
+  "objectName": "Painting",
+  "medium": "Oil and gold on wood",
+  "dimensions": "23 x 17 1/4 in. (58.4 x 43.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435614",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17017-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17017-001.jpg",
+  "localImage": "435614.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    }
+  ]
+}

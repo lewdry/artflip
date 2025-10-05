@@ -1,0 +1,41 @@
+{
+  "objectID": 437852,
+  "title": "Saltash with the Water Ferry, Cornwall",
+  "artistDisplayName": "Joseph Mallord William Turner",
+  "objectDate": "1811",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "35 3/8 x 47 1/2 in. (89.9 x 120.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Marquand Collection, Gift of Henry G. Marquand, 1889",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437852",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP169566.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169566.jpg",
+  "localImage": "437852.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

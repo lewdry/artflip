@@ -1,0 +1,46 @@
+{
+  "objectID": 436554,
+  "title": "Bullfight in a Divided Ring",
+  "artistDisplayName": "Goya (Francisco de Goya y Lucientes)",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "38 3/4 x 49 3/4 in. (98.4 x 126.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Catharine Lorillard Wolfe Collection, Wolfe Fund, 1922",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436554",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-22552-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22552-001.jpg",
+  "localImage": "436554.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Spectators",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189768",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63443976"
+    },
+    {
+      "term": "Sports",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300222725",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q349"
+    },
+    {
+      "term": "Bulls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250117",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q693690"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    }
+  ]
+}

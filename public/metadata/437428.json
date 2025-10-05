@@ -1,0 +1,36 @@
+{
+  "objectID": 437428,
+  "title": "Still Life with Peaches and Grapes",
+  "artistDisplayName": "Auguste Renoir",
+  "objectDate": "1881",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "21 1/4 x 25 5/8 in. (54 x 65.1 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Mr. and Mrs. Henry Ittleson Jr. Purchase Fund, 1956",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437428",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-23203-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23203-001.jpg",
+  "localImage": "437428.jpg",
+  "tags": [
+    {
+      "term": "Grapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379338",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10978"
+    },
+    {
+      "term": "Peaches",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266272",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q13202263"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

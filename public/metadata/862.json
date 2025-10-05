@@ -1,0 +1,26 @@
+{
+  "objectID": 862,
+  "title": "Portrait of an Artist",
+  "artistDisplayName": "Follower of Frans Hals",
+  "objectDate": "1644",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "82.6 × 64.8 cm (32 1/2 × 25 1/2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Holland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Hutchinson Colln. Gift of Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/862",
+  "isPublicDomain": true,
+  "image_id": "c95d58bf-fe9e-e5bb-2c71-ab8bad984759",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
+  "localImage": "862.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAkLCBAPCRAQCxMRChMRCxQRDBQSDBcTDRoXDxwYDxYWEB8bERwbEyEdEyQgFScjFjcqFjUsGjowHVM7HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURILM4jzJBDSJFiQAQhzEERQgAOw==",
+    "width": 1783,
+    "height": 2250,
+    "alt_text": "Painting of a mustached man with a wide-brimmed black hat and white flat collar seen from the waist up, turned to the viewer."
+  },
+  "tags": []
+}

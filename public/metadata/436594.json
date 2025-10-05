@@ -1,0 +1,31 @@
+{
+  "objectID": 436594,
+  "title": "Fantastic Landscape",
+  "artistDisplayName": "Francesco Guardi",
+  "objectDate": "ca. 1765",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "Irregular, 61 1/4 x 74 1/2 in. (155.6 x 189.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Julia A. Berwind, 1953",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436594",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT4562.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT4562.jpg",
+  "localImage": "436594.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

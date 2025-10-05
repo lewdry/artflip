@@ -1,0 +1,51 @@
+{
+  "objectID": 439553,
+  "title": "The Lamentation",
+  "artistDisplayName": "Domenichino (Domenico Zampieri)",
+  "objectDate": "1603",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "20 7/8 x 14 3/4 in. (53 x 37.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Walter and Leonore Annenberg Acquisitions Endowment Fund, European Paintings Funds and funds from various donors; Mark Fisch and Rachel Davidson, and The Reed Foundation Gifts; Gwynne Andrews Fund; Elaine Rosenberg Gift; The Edward Joseph Gallagher III Memorial Collection, Edward J. Gallagher Jr. Bequest; Marquand Fund; Museum Purchase Fund; Peter Tcherepnine Gift; The Camille M. Lownds Fund; Stephenson Family Foundation Gift; Ruth and Victoria Blumka Fund; Earl Kiely Bequest; and The Morse G. Dial Foundation, 2005 CINOA Prize and Diane Carol Brandt Gifts, 2008",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/439553",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP159526.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159526.jpg",
+  "localImage": "439553.jpg",
+  "tags": [
+    {
+      "term": "Sadness",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300055166",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q169251"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Lamentation",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001196",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3155356"
+    }
+  ]
+}

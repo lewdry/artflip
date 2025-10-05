@@ -1,0 +1,26 @@
+{
+  "objectID": 100,
+  "title": "Simon Vouet",
+  "artistDisplayName": "Robert van Voerst",
+  "objectDate": "1630/36",
+  "objectName": "Print",
+  "medium": "Engraving in black on cream laid paper",
+  "dimensions": "Trimmed to platemark: 24.3 × 17.7 cm (9 5/8 × 7 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Flanders",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of John E. Irwin",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/100",
+  "isPublicDomain": true,
+  "image_id": "03c0fd45-3690-5fae-8023-4a3c16d3bfad",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/03c0fd45-3690-5fae-8023-4a3c16d3bfad/full/843,/0/default.jpg",
+  "localImage": "100.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAE5KQlVRSVtXTmVhV3FsY3VwZoaAdIuFeaSekKagkrSun7WvoLiyosK7rMS+sMrDtNHIudPLutTMvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYLQoUoMUTHIIg0EAQeM8UAgAOw==",
+    "width": 2215,
+    "height": 3000,
+    "alt_text": "A work made of engraving in black on cream laid paper."
+  },
+  "tags": []
+}

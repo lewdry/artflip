@@ -1,0 +1,26 @@
+{
+  "objectID": 874,
+  "title": "Landscape",
+  "artistDisplayName": "Jean Charles Cazin",
+  "objectDate": "c. 1895",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "32.4 × 41 cm (12 3/4 × 16 1/8 in.); Framed: 46.4 × 55.9 × 5.8 cm (18 1/4 × 22 × 2 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Henry Field Memorial Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/874",
+  "isPublicDomain": true,
+  "image_id": "3a34f988-f779-2e96-1786-8945b6b9c87d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/843,/0/default.jpg",
+  "localImage": "874.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADovDTgwD0c9F0g8F0E5HE1GH1JCH09GIU9EKFRFI1VGJFFJJlVJJVpIJGBRLmlYNnhkRXFkUnVnVHhqV39xXIduTIBuWIFwWYZxWYFzXoZ4Y4d4ZJGAbZ6NdwAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoJZFW8dRk2RhF0I4jXE8AxAISQUpBbOEADs=",
+    "width": 2829,
+    "height": 2250,
+    "alt_text": "Painting of linens drying on a fence in a field under a dark, overcast sky, a dirt road at left leading to a small village."
+  },
+  "tags": []
+}

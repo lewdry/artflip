@@ -1,0 +1,31 @@
+{
+  "objectID": 437182,
+  "title": "Portrait of a Woman",
+  "artistDisplayName": "Jean Marc Nattier",
+  "objectDate": "1753",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 1/2 x 25 1/4 in. (80 x 64.1 cm), with later additions of 1 1/4 in. (3.2 cm) at bottom, 1 in. (2.5 cm) at left, and 1/2 in. (1.3 cm) at right",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437182",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT8872.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8872.jpg",
+  "localImage": "437182.jpg",
+  "tags": [
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

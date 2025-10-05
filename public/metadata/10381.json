@@ -1,0 +1,36 @@
+{
+  "objectID": 10381,
+  "title": "Mountain Lake Scene",
+  "artistDisplayName": "John William Casilear",
+  "objectDate": "1883",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "12 1/8 x 20 1/16 in. (30.8 x 51 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Wendell S. Arrington, in honor of his parents, J. Earl Arrington and Genevieve T. Arrington, 1979",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10381",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS1620.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS1620.jpg",
+  "localImage": "10381.jpg",
+  "tags": [
+    {
+      "term": "Lakes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008680",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23397"
+    },
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

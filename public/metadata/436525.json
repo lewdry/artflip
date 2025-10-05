@@ -1,0 +1,31 @@
+{
+  "objectID": 436525,
+  "title": "Bouquet of Flowers in a Vase",
+  "artistDisplayName": "Vincent van Gogh",
+  "objectDate": "1890",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "25 5/8 x 21 1/4 in. (65.1 x 54 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436525",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT7098.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
+  "localImage": "436525.jpg",
+  "tags": [
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectID": 437202,
+  "title": "Christ Bearing the Cross",
+  "artistDisplayName": "North Netherlandish (Bruges) Painter",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "42 3/8 x 32 3/8 in. (107.6 x 82.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of George D. Pratt, 1935",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437202",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20751-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20751-001.jpg",
+  "localImage": "437202.jpg",
+  "tags": [
+    {
+      "term": "Towns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008375",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3957"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Bearing the Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001193",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3399226"
+    },
+    {
+      "term": "Crowd",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q13430821"
+    }
+  ]
+}

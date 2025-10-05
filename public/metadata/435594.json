@@ -1,0 +1,46 @@
+{
+  "objectID": 435594,
+  "title": "Leda and the Swan",
+  "artistDisplayName": "Bachiacca (Francesco d'Ubertino Verdi)",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 16 7/8 x 12 1/2 in. (42.9 x 31.8 cm); painted surface 16 1/2 x 12 1/2 in. (41.9 x 31.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435594",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT5181.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5181.jpg",
+  "localImage": "435594.jpg",
+  "tags": [
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Leda",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001941",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q182019"
+    },
+    {
+      "term": "Swans",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250103",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34384"
+    },
+    {
+      "term": "Eggs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300395680",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q93189"
+    }
+  ]
+}

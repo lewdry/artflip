@@ -1,0 +1,31 @@
+{
+  "objectID": 437587,
+  "title": "Marine",
+  "artistDisplayName": "Salomon van Ruysdael",
+  "objectDate": "1650",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "13 5/8 x 17 1/8 in. (34.6 x 43.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, 1871",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437587",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP145942.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145942.jpg",
+  "localImage": "437587.jpg",
+  "tags": [
+    {
+      "term": "Seascapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+    },
+    {
+      "term": "Ships",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300082981",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11446"
+    }
+  ]
+}

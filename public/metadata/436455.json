@@ -1,0 +1,46 @@
+{
+  "objectID": 436455,
+  "title": "Evening: Landscape with an Aqueduct",
+  "artistDisplayName": "Théodore Gericault",
+  "objectDate": "1818",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "98 1/2 x 86 1/2 in. (250.2 x 219.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of James A. Moffett 2nd, in memory of George M. Moffett, by exchange, 1989",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436455",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT2138.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2138.jpg",
+  "localImage": "436455.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Evening",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343633",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7725"
+    },
+    {
+      "term": "Aqueducts",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300006165",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q474"
+    }
+  ]
+}

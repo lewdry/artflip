@@ -1,0 +1,41 @@
+{
+  "objectID": 438025,
+  "title": "The Holy Family with Saint John the Baptist",
+  "artistDisplayName": "Nicolas Poussin",
+  "objectDate": "ca. 1627",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 x 25 in. (76.2 x 63.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Lore Heinemann, in memory of her husband, Dr. Rudolf J. Heinemann, 1996",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438025",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20213-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20213-001.jpg",
+  "localImage": "438025.jpg",
+  "tags": [
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Holy Family",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001175",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q618057"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Saint John the Baptist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+    }
+  ]
+}

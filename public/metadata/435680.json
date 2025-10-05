@@ -1,0 +1,51 @@
+{
+  "objectID": 435680,
+  "title": "Moses Striking the Rock",
+  "artistDisplayName": "Abraham Bloemaert",
+  "objectDate": "1596",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 3/8 x 42 1/2 in. (79.7 x 108 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of Mary V. T. Eberstadt, by exchange, 1972",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435680",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP145411.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145411.jpg",
+  "localImage": "435680.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Moses",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000167",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9077"
+    }
+  ]
+}

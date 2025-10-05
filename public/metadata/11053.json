@@ -1,0 +1,31 @@
+{
+  "objectID": 11053,
+  "title": "Newburyport Meadows",
+  "artistDisplayName": "Martin Johnson Heade",
+  "objectDate": "ca. 1876–81",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "10 1/2 x 22 in. (26.7 x 55.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Mrs. Samuel P. Reed Gift, Morris K. Jesup Fund, Maria DeWitt Jesup Fund, John Osgood and Elizabeth Amis Cameron Blanchard Memorial Fund and Gifts of Robert E. Tod and William Gedney Bunce, by exchange, 1985",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11053",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2050.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2050.jpg",
+  "localImage": "11053.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Haystacks",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300435325",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q62577"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "objectID": 21693,
+  "title": "Clouds",
+  "artistDisplayName": "Thomas Cole",
+  "objectDate": "ca. 1838",
+  "objectName": "Painting",
+  "medium": "Oil on paper laid down on canvas",
+  "dimensions": "8 3/4 × 10 7/8 in. (22.2 × 27.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Morris K. Jesup Fund, 2013",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/21693",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP300700.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP300700.jpg",
+  "localImage": "21693.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Clouds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300343840",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8074"
+    }
+  ]
+}

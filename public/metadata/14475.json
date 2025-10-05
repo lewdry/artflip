@@ -1,0 +1,41 @@
+{
+  "objectID": 14475,
+  "title": "The Fable of the Miller, His Son, and the Donkey No. 2",
+  "artistDisplayName": "Elihu Vedder",
+  "objectDate": "ca. 1867–68",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "6 1/2 x 10 3/4 in. (16.5 x 27.3 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of John V. and Enza Tomassi Kiskis, 1992",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/14475",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP105666.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP105666.jpg",
+  "localImage": "14475.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Donkeys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265959",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3537778"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

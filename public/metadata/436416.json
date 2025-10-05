@@ -1,0 +1,41 @@
+{
+  "objectID": 436416,
+  "title": "The Resurrection",
+  "artistDisplayName": "Spanish (Aragonese) Painter",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil and silver on wood, gold ground",
+  "dimensions": "31 x 24 7/8 in. (78.7 x 63.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436416",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT8870.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8870.jpg",
+  "localImage": "436416.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Shields",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300036869",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q131559"
+    },
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Resurrection",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404323",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q51624"
+    }
+  ]
+}

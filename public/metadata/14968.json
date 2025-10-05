@@ -1,0 +1,26 @@
+{
+  "objectID": 14968,
+  "title": "Mural Fragment Depicting a Maguey Bloodletting Ritual",
+  "artistDisplayName": "Teotihuacan",
+  "objectDate": "500–600 CE",
+  "objectName": "Architectural fragment",
+  "medium": "Lime plaster with mineral pigment",
+  "dimensions": "63.8 × 95 cm (25 × 37 1/2 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Valley of Mexico",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. African and Amerindian Art Purchase Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/14968",
+  "isPublicDomain": true,
+  "image_id": "09d2b000-8e44-c735-5099-126d6453aaaa",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/09d2b000-8e44-c735-5099-126d6453aaaa/full/843,/0/default.jpg",
+  "localImage": "14968.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAHpHPHtNQ4A+MIRIOYVLQYFMQoBMQ4dOQIhQRodRSIdXS4tXS4xWSo1gVIdmXq2ioLalobCnpLCopreqp7mrp7OrqbirqLmrqLu0sru4t7+4tr+9vMC6ucTCwcTDwsbEw8jIyMnLy8rKywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQNAFQrFMPh2CYHAAYDgJxIIR2GgMhYbCEfI8IhVJRhQEADs=",
+    "width": 7899,
+    "height": 5571,
+    "alt_text": "Fragment of a mural from the city of Teotihuacan mural painted in red and white tones that depicts a ritual figure with speach scroll and scatting sacred bjects."
+  },
+  "tags": []
+}

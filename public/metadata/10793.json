@@ -1,0 +1,31 @@
+{
+  "objectID": 10793,
+  "title": "Landscape—Scene from \"Thanatopsis\"",
+  "artistDisplayName": "Asher Brown Durand",
+  "objectDate": "1850",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "39 1/2 x 61 in. (100.3 x 154.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1911",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10793",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT1539.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1539.jpg",
+  "localImage": "10793.jpg",
+  "tags": [
+    {
+      "term": "Mountains",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008795",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8502"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

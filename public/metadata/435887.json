@@ -1,0 +1,51 @@
+{
+  "objectID": 435887,
+  "title": "The Silver Tureen",
+  "artistDisplayName": "Jean Siméon Chardin",
+  "objectDate": "ca. 1728–30",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "30 x 42 1/2 in. (76.2 x 108 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Fletcher Fund, 1959",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435887",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP356136.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356136.jpg",
+  "localImage": "435887.jpg",
+  "tags": [
+    {
+      "term": "Birds",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+    },
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Apples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266417",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q89"
+    },
+    {
+      "term": "Cats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265960",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q146"
+    },
+    {
+      "term": "Rabbits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250218",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9394"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

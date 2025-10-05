@@ -1,0 +1,31 @@
+{
+  "objectID": 11233,
+  "title": "Pine Grove of the Barberini Villa",
+  "artistDisplayName": "George Inness",
+  "objectDate": "1876",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "78 3/4 x 118 1/2 in. (200 x 301 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Lyman G. Bloomingdale, 1898",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11233",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap98.16.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap98.16.jpg",
+  "localImage": "11233.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

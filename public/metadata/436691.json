@@ -1,0 +1,41 @@
+{
+  "objectID": 436691,
+  "title": "Richard Humphreys, the Boxer",
+  "artistDisplayName": "John Hoppner",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "55 3/4 x 44 1/4 in. (141.6 x 112.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Alfred N. Punnett Endowment Fund, 1953",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436691",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP167133.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP167133.jpg",
+  "localImage": "436691.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Boxing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300374825",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q32112"
+    },
+    {
+      "term": "Athletes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300236025",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2066131"
+    }
+  ]
+}

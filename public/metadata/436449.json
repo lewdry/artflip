@@ -1,0 +1,36 @@
+{
+  "objectID": 436449,
+  "title": "The Siesta",
+  "artistDisplayName": "Paul Gauguin",
+  "objectDate": "ca. 1892–94",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "35 x 45 3/4 in. (88.9 x 116.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436449",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1952.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1952.jpg",
+  "localImage": "436449.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Baskets",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300194498",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q201097"
+    },
+    {
+      "term": "Irons",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185311",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q483634"
+    }
+  ]
+}

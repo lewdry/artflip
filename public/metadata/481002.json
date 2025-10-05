@@ -1,0 +1,26 @@
+{
+  "objectID": 481002,
+  "title": "Cup",
+  "artistDisplayName": "Emile Gallé",
+  "objectDate": "1889",
+  "objectName": "Cup",
+  "medium": "Glass",
+  "dimensions": "H. 4-7/8 in. (12.4 cm.)",
+  "department": "Modern and Contemporary Art",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Gertrude Moira Flanagan, 1972",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/481002",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ma/original/sf1972.170.1.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ma/web-large/sf1972.170.1.jpg",
+  "localImage": "481002.jpg",
+  "tags": [
+    {
+      "term": "Insects",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300310470",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1390"
+    }
+  ]
+}

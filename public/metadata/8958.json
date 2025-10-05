@@ -1,0 +1,26 @@
+{
+  "objectID": 8958,
+  "title": "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy",
+  "artistDisplayName": "James McNeill Whistler",
+  "objectDate": "1894",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "210.7 × 93.3 cm (82 15/16 × 36 3/4 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Paris",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Arthur Jerome Eddy Memorial Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/8958",
+  "isPublicDomain": true,
+  "image_id": "43165650-0212-8897-0605-dc3fdda88c13",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/843,/0/default.jpg",
+  "localImage": "8958.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAACclICooIiooIyopIy0qIzIuJTEuJzs1KkI7LgAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQI8CBRRhDAkAgAOw==",
+    "width": 6473,
+    "height": 14715,
+    "alt_text": "Very dark painting of a light-skinned, mostly clean-shaven young man in dark suit and dark full-length coat, holding a rolled-up paper and gloves."
+  },
+  "tags": []
+}

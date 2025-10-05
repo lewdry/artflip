@@ -1,0 +1,51 @@
+{
+  "objectID": 436098,
+  "title": "The Crucifixion",
+  "artistDisplayName": "Gerard David",
+  "objectDate": "ca. 1495",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 21 x 15 in. (53.3 x 38.1 cm); painted surface 20 5/8 x 14 3/4 in. (52.5 x 37.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436098",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17230-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17230-001.jpg",
+  "localImage": "436098.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Mary Magdalene",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000161",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q63070"
+    },
+    {
+      "term": "Saint Jerome",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+    },
+    {
+      "term": "Saint John the Evangelist",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001171",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q328804"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Crucifixion",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404300",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3235597"
+    }
+  ]
+}

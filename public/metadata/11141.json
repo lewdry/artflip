@@ -1,0 +1,41 @@
+{
+  "objectID": 11141,
+  "title": "The Studio",
+  "artistDisplayName": "Winslow Homer",
+  "objectDate": "1867",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 x 15 in. (45.7 x 38.1 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Samuel D. Lee Fund, 1939",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11141",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP118427.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP118427.jpg",
+  "localImage": "11141.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Cellos",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300209202",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8371"
+    },
+    {
+      "term": "Violins",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042215",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8355"
+    },
+    {
+      "term": "Musicians",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025666",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q639669"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 454,
+  "title": "Statuette of a Seated Girl",
+  "artistDisplayName": "Greek; Athens",
+  "objectDate": "330-320 BCE",
+  "objectName": "Sculpture",
+  "medium": "terracotta",
+  "dimensions": "10.5 × 5.2 × 6.2 cm (4 1/8 × 2 1/16 × 2 7/16 in.)",
+  "department": "Arts of Greece, Rome, and Byzantium",
+  "culture": "Athens",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Museum Purchase Fund",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/454",
+  "isPublicDomain": true,
+  "image_id": "38ea638d-c8f7-f916-da08-ac7730b6ed5a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/38ea638d-c8f7-f916-da08-ac7730b6ed5a/full/843,/0/default.jpg",
+  "localImage": "454.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAAEBAQQEBAkICAwKCRIPDhgUEhoVEi8oJTAvLjc0M0I5NVVMSGtXTKOIerOOfQAAACH5BAAAAAAALAAAAAADAAUAAAQLMBgwmCCtKHfSQhEAOw==",
+    "width": 1545,
+    "height": 2250,
+    "alt_text": "A work made of terracotta."
+  },
+  "tags": []
+}

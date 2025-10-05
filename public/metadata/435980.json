@@ -1,0 +1,31 @@
+{
+  "objectID": 435980,
+  "title": "Portrait of a Child",
+  "artistDisplayName": "Camille Corot",
+  "objectDate": "ca. 1835",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "12 5/8 x 9 1/4 in. (32.1 x 23.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435980",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT872.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT872.jpg",
+  "localImage": "435980.jpg",
+  "tags": [
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

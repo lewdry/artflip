@@ -1,0 +1,41 @@
+{
+  "objectID": 10480,
+  "title": "The Aegean Sea",
+  "artistDisplayName": "Frederic Edwin Church",
+  "objectDate": "ca. 1877",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "54 in. × 84 1/4 in. (137.2 × 214 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mrs. William H. Osborn, 1902",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10480",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap02.23.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap02.23.jpg",
+  "localImage": "10480.jpg",
+  "tags": [
+    {
+      "term": "Seas",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008694",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q165"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    },
+    {
+      "term": "Rainbows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379215",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1052"
+    }
+  ]
+}

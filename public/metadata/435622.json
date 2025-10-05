@@ -1,0 +1,41 @@
+{
+  "objectID": 435622,
+  "title": "Diana and Cupid",
+  "artistDisplayName": "Pompeo Batoni",
+  "objectDate": "1761",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "49 x 68 in. (124.5 x 172.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, The Charles Engelhard Foundation, Robert Lehman Foundation Inc., Mrs. Haebler Frantz, April R. Axton, L. H. P. Klotz, and David Mortimer Gifts; and Gifts of Mr. and Mrs. Charles Wrightsman, George Blumenthal, and J. Pierpont Morgan, Bequests of Millie Bruhl Fredrick and Mary Clark Thompson, and Rogers Fund, by exchange, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435622",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24221-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24221-001.jpg",
+  "localImage": "435622.jpg",
+  "tags": [
+    {
+      "term": "Bow and Arrow",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q19827042"
+    },
+    {
+      "term": "Cupid",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380105",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5011"
+    },
+    {
+      "term": "Diana",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000118",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q132543"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    }
+  ]
+}

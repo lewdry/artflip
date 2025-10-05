@@ -1,0 +1,41 @@
+{
+  "objectID": 679686,
+  "title": "Hortensia",
+  "artistDisplayName": "Fernand Khnopff",
+  "objectDate": "1884",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 13/16 × 23 1/2 in. (47.8 × 59.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Bequest of Julia W. Emmons, by exchange, and Catharine Lorillard Wolfe Collection, Wolfe Fund, and Gift of Charles Hack and the Hearn Family Trust, 2015",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/679686",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP354135.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP354135.jpg",
+  "localImage": "679686.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Reading",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300248178",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q199657"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

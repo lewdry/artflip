@@ -1,0 +1,31 @@
+{
+  "objectID": 10796,
+  "title": "River Scene",
+  "artistDisplayName": "Asher Brown Durand",
+  "objectDate": "1854",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "24 x 34 1/8 in. (61 x 86.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Mary Starr Van Winkle, 1970",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10796",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap1970.58.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap1970.58.jpg",
+  "localImage": "10796.jpg",
+  "tags": [
+    {
+      "term": "Cows",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250120",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q830"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

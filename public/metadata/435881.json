@@ -1,0 +1,36 @@
+{
+  "objectID": 435881,
+  "title": "Still Life with a Ginger Jar and Eggplants",
+  "artistDisplayName": "Paul Cézanne",
+  "objectDate": "1893–94",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "28 1/2 x 36 in. (72.4 x 91.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Stephen C. Clark, 1960",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435881",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20100-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
+  "localImage": "435881.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Eggplants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300311491",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12533094"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "objectID": 439977,
+  "title": "Christ Carrying the Cross",
+  "artistDisplayName": "Jan Gossart (called Mabuse)",
+  "objectDate": "ca. 1520–25",
+  "objectName": "Painting",
+  "medium": "Oil on oak",
+  "dimensions": "9 7/8 × 7 1/2 in. (25.1 × 19 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Honorable J. William Middendorf II, and Purchase, Walter and Leonore Annenberg and The Annenberg Foundation Gift, Director's Fund, Gift of George A. Hearn, by exchange, and Marquand and The Alfred N. Punnett Endowment Funds, 2016",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/439977",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP368972.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP368972.jpg",
+  "localImage": "439977.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    },
+    {
+      "term": "Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300235443",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40843"
+    },
+    {
+      "term": "Bearing the Cross",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001193",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3399226"
+    }
+  ]
+}

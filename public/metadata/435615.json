@@ -1,0 +1,31 @@
+{
+  "objectID": 435615,
+  "title": "Portrait of a Man",
+  "artistDisplayName": "Fra Bartolomeo (Bartolomeo di Paolo del Fattorino)",
+  "objectDate": "shortly after 1497",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall 15 5/8 x 12 1/8 in. (39.7 x 30.8 cm); painted surface 15 1/2 x 11 3/4 in. (39.4 x 29.8 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435615",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT8842.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8842.jpg",
+  "localImage": "435615.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

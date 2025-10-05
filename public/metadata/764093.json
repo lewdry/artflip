@@ -1,0 +1,31 @@
+{
+  "objectID": 764093,
+  "title": "Saint Barbara",
+  "artistDisplayName": "Unknown",
+  "objectDate": "last quarter 18th century",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "41 1/4 × 35 in. (104.8 × 88.9 cm)",
+  "department": "The American Wing",
+  "culture": "Ecuador (Quito)",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Warren Ming Tao Li, in honor of James Kung Wei Li and Julie Chu Lu Li, 2018",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/764093",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-011.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-011.jpg",
+  "localImage": "764093.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Saint Barbara",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000589",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q25212897"
+    }
+  ]
+}

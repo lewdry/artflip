@@ -1,0 +1,36 @@
+{
+  "objectID": 436948,
+  "title": "Boy with a Sword",
+  "artistDisplayName": "Edouard Manet",
+  "objectDate": "1861",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "51 5/8 x 36 3/4 in. (131.1 x 93.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Erwin Davis, 1889",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436948",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-027.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-027.jpg",
+  "localImage": "436948.jpg",
+  "tags": [
+    {
+      "term": "Swords",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300037048",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12791"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

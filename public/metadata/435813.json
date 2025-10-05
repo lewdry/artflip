@@ -1,0 +1,41 @@
+{
+  "objectID": 435813,
+  "title": "Aeneas and the Sibyl in the Underworld",
+  "artistDisplayName": "Jan Brueghel the Younger",
+  "objectDate": "1630s",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "10 1/2 x 14 1/8 in. (26.7 x 35.9 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Erna S. Blade, in memory of her uncle, Sigmund Herrmann, 1991",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435813",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP234687.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP234687.jpg",
+  "localImage": "435813.jpg",
+  "tags": [
+    {
+      "term": "Male Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Aeneas",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000142",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q82732"
+    },
+    {
+      "term": "Sibyl",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q273320"
+    }
+  ]
+}

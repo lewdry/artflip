@@ -1,0 +1,36 @@
+{
+  "objectID": 11583,
+  "title": "A Cosey Corner",
+  "artistDisplayName": "Frank Millet",
+  "objectDate": "1884",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "36 1/4 x 24 1/4 in. (92.1 x 61.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of George I. Seney, 1887",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11583",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT218488.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT218488.jpg",
+  "localImage": "11583.jpg",
+  "tags": [
+    {
+      "term": "Fireplaces",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300052267",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q188669"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Reading",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300248178",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q199657"
+    }
+  ]
+}

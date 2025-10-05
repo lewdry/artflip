@@ -1,0 +1,26 @@
+{
+  "objectID": 436243,
+  "title": "Salvator Mundi",
+  "artistDisplayName": "Albrecht Dürer",
+  "objectDate": "ca. 1505",
+  "objectName": "Painting",
+  "medium": "Oil on linden",
+  "dimensions": "22 7/8 x 18 1/2in. (58.1 x 47cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436243",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+  "localImage": "436243.jpg",
+  "tags": [
+    {
+      "term": "Christ",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q642420"
+    }
+  ]
+}

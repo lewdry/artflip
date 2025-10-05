@@ -1,0 +1,26 @@
+{
+  "objectID": 11272,
+  "title": "Maize and Cockscombs",
+  "artistDisplayName": "Artist unknown",
+  "objectDate": "mid 17th century",
+  "objectName": "Painting",
+  "medium": "Six-panel screen; ink, color, and gold on paper",
+  "dimensions": "170.2 × 357 cm (67 × 140 1/2 in.)",
+  "department": "Arts of Asia",
+  "culture": "Japan",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Kate S. Buckingham Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/11272",
+  "isPublicDomain": true,
+  "image_id": "1914a6cb-8ec7-064e-4c99-de41637f889c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/1914a6cb-8ec7-064e-4c99-de41637f889c/full/843,/0/default.jpg",
+  "localImage": "11272.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUAAHdZJ3dcKn1sToxrNIBlOIloOpduM51zMJ10MphxNJ9yNJ93PqlyMa1/N6R8O6d/P7N6NLF3ObR/PoJzV4x6W5F7WKF6QLmCQJaCYpmDYp6HYpaHapeJcZeKdKCJY6WOZ6qSaLSYabObb62Sc66XdK+YcKGQeqqZfbGUcLOZdLaYds2XRaWWgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYqQE5IAyqJMp+OZ9WIOB6GBAVzkSwIBctgUoEwFIAA4iBgqUao04aUMgUBADs=",
+    "width": 3000,
+    "height": 1680,
+    "alt_text": "Gold folded tall screen with red flowers, green maize plants."
+  },
+  "tags": []
+}

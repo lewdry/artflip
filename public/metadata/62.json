@@ -1,0 +1,26 @@
+{
+  "objectID": 62,
+  "title": "Head of Executioner, from John Evelyn's Sculptura",
+  "artistDisplayName": "Richard Houston",
+  "objectDate": "1755",
+  "objectName": "Print",
+  "medium": "Mezzotint in black on ivory laid paper",
+  "dimensions": "Image/plate: 13 × 16.3 cm (5 1/8 × 6 7/16 in.); Sheet: 17.8 × 17.8 cm (7 1/16 × 7 1/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Ireland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Elizabeth Hammond Stickney Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/62",
+  "isPublicDomain": true,
+  "image_id": "8317e653-b0eb-3ba3-1886-3141db56f529",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/8317e653-b0eb-3ba3-1886-3141db56f529/full/843,/0/default.jpg",
+  "localImage": "62.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAD03LVZOQV1URllSSGNaTGRdUWRdUmliVG9mV25lWHFoWXFpW4J4ZpSJdq2jlK+llbGmk7CmlbGomLOqmbOqmrarmretnrmuneDVwAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUV4FVhE4Uw0DE0hLIYiRAAhfREjhUCADs=",
+    "width": 3000,
+    "height": 2957,
+    "alt_text": "Mezzotint of a light-skinned bearded man in left profile wearing a twisted band of fabric wrapped around his head."
+  },
+  "tags": []
+}

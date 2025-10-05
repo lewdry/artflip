@@ -1,0 +1,41 @@
+{
+  "objectID": 442761,
+  "title": "The Sacrifice of Polyxena",
+  "artistDisplayName": "Charles Le Brun",
+  "objectDate": "1647",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "66 1/2 × 51 3/4 in. (168.9 × 131.4 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, 2012 Benefit Fund, and Bequest of Grace Wilkes and Fletcher Fund, by exchange, 2013",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/442761",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP317722.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317722.jpg",
+  "localImage": "442761.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Children",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025945",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7569"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ]
+}

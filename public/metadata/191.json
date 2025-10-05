@@ -1,0 +1,26 @@
+{
+  "objectID": 191,
+  "title": "Mug",
+  "artistDisplayName": "Greek; Athens",
+  "objectDate": "about 460 BCE",
+  "objectName": "Vessel",
+  "medium": "terracotta, black-glaze",
+  "dimensions": "9.2 × 11.7 × 10.2 cm (3 5/8 × 4 5/8 × 4 in.)",
+  "department": "Arts of Greece, Rome, and Byzantium",
+  "culture": "Greece",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Philip D. Armour and Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/191",
+  "isPublicDomain": true,
+  "image_id": "e47ce711-82da-5bfa-21e6-37b65b7170df",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/e47ce711-82da-5bfa-21e6-37b65b7170df/full/843,/0/default.jpg",
+  "localImage": "191.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABgYGR4cHTQ0NTg1NVpaWX17e5OQkJiTlKmkpampqMG/v8HBv8PBwMrGxcrIxszIyeXk4ujm5e/t7fHv7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDRJ0UIUTgIIjBEMjXIgTwgAOw==",
+    "width": 3024,
+    "height": 4032,
+    "alt_text": "Black glazed terracotta vessel with a short, curved handle on one side. Visible cracks indicate fragmentary repair."
+  },
+  "tags": []
+}

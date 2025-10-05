@@ -1,0 +1,36 @@
+{
+  "objectID": 10247,
+  "title": "Portrait of a Young Woman",
+  "artistDisplayName": "Mather Brown",
+  "objectDate": "1801",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "50 x 40 1/4 in. (127 x 102.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Caroline Newhouse, 1965",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10247",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap65.235.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap65.235.jpg",
+  "localImage": "10247.jpg",
+  "tags": [
+    {
+      "term": "Girls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247581",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3031"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Pianos",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300042909",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5994"
+    }
+  ]
+}

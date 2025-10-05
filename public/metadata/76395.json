@@ -1,0 +1,26 @@
+{
+  "objectID": 76395,
+  "title": "Flower Clouds",
+  "artistDisplayName": "Odilon Redon",
+  "objectDate": "c. 1903",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Pastel, with touches of stumping, incising, and brushwork, on blue-gray wove paper with multi-colored fibers altered to tan, perimeter mounted to cardboard",
+  "dimensions": "44.5 × 54.2 cm (17 9/16 × 21 3/8 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Through prior bequest of Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/76395",
+  "isPublicDomain": true,
+  "image_id": "fb2077d9-82cc-ca7e-f450-5471d7f78c9a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/fb2077d9-82cc-ca7e-f450-5471d7f78c9a/full/843,/0/default.jpg",
+  "localImage": "76395.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAEtIRkdESEBBT1JNTlJOTltSUFlZXmxXR29YT2VTUnRfU3BfVH1gT39jTnlhVnZhWHJrX3VsZXhqZHFqa3xubH11a49mVYRnWYZnWYBzZoVxZoB1d4V4cYh3eAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoBAgx3IRUNNclpQljsZNVaRQmwEQxdOFADs=",
+    "width": 6618,
+    "height": 5491,
+    "alt_text": "Pastel drawing of two figures in a sailboat, bright multi-colored clouds."
+  },
+  "tags": []
+}

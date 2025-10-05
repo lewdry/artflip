@@ -1,0 +1,31 @@
+{
+  "objectID": 436052,
+  "title": "Madonna and Child",
+  "artistDisplayName": "Carlo Crivelli",
+  "objectDate": "ca. 1480",
+  "objectName": "Painting",
+  "medium": "Tempera and gold on wood",
+  "dimensions": "Overall 14 7/8 x 10 in. (37.8 x 25.4 cm); painted surface 14 3/8 x 9 1/4 in. (36.5 x 23.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jules Bache Collection, 1949",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436052",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-19298-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19298-001.jpg",
+  "localImage": "436052.jpg",
+  "tags": [
+    {
+      "term": "Apples",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266417",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q89"
+    },
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    }
+  ]
+}

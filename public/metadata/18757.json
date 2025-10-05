@@ -1,0 +1,26 @@
+{
+  "objectID": 18757,
+  "title": "Ceremonial Knife (Tumi)",
+  "artistDisplayName": "Chimú",
+  "objectDate": "1100–1470",
+  "objectName": "Religious/Ritual Object",
+  "medium": "Gold with turquoise inlay",
+  "dimensions": "34 × 12.7 cm (13 3/8 × 5 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Peruvian North Coast",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Ada Turnbull Hertle Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/18757",
+  "isPublicDomain": true,
+  "image_id": "801ac46f-ead4-a77a-8523-34dfade43877",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/801ac46f-ead4-a77a-8523-34dfade43877/full/843,/0/default.jpg",
+  "localImage": "18757.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADo4Mz89N1dPP0VEQk5MSFFNRlxXTGFYRWRaRWJeVmxmVpd8SaSLVKaOWLebXgAAACH5BAAAAAAALAAAAAADAAUAAAQLEKAg3BmrkGYSUxEAOw==",
+    "width": 1266,
+    "height": 2250,
+    "alt_text": "Gold knife with figure on handle, round turquoise inlays on crown."
+  },
+  "tags": []
+}

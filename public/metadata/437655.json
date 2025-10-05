@@ -1,0 +1,31 @@
+{
+  "objectID": 437655,
+  "title": "The Forest at Pontaubert",
+  "artistDisplayName": "Georges Seurat",
+  "objectDate": "1881",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "31 1/8 x 24 5/8 in. (79.1 x 62.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Purchase, Gift of Raymonde Paul, in memory of her brother, C. Michael Paul, by exchange, 1985",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437655",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT2165.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2165.jpg",
+  "localImage": "437655.jpg",
+  "tags": [
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}

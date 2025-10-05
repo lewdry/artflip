@@ -1,0 +1,26 @@
+{
+  "objectID": 55249,
+  "title": "Ritual Cache",
+  "artistDisplayName": "Salado branch of the Mogollon",
+  "objectDate": "1300–1400",
+  "objectName": "Religious/Ritual Object",
+  "medium": "Wood, stone, plant fibers, cotton, feathers, hide, and pigment",
+  "dimensions": "Male figure: H.: 64 cm (25 1/4 in.); Female figure: H.: 36 cm (14 3/16 in.)",
+  "department": "Arts of the Americas",
+  "culture": "New Mexico",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Major Acquisitions Centennial Endowment",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/55249",
+  "isPublicDomain": true,
+  "image_id": "6e181602-53e1-26c5-d830-7cdd9f91356a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/6e181602-53e1-26c5-d830-7cdd9f91356a/full/843,/0/default.jpg",
+  "localImage": "55249.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAABoZGRoaGhsbGxwbGyIhHykpKSoqKysrKy0tLS4xND08OVtRQVdXWFlZWllaWlxcXWhYSmteSG1hTnRiSn95dIJsU4xwUZJ8X5WJfImGgpuPg5+fnqKblaKhoKiloquno6impAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQEGAMAAIBAfDQpFAFBiOiGTSeGQ0lYsFQtlwMB+QpxMEADs=",
+    "width": 6269,
+    "height": 4591,
+    "alt_text": "Carved ceremonial objects colored with orange and blue of a man, woman, snake, curved sticks, and cougar."
+  },
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 11976,
+  "title": "Curfew Hour",
+  "artistDisplayName": "Albert Pinkham Ryder",
+  "objectDate": "by 1882",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "7 1/2 x 10 in. (19.1 x 25.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Rogers Fund, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11976",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2945.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2945.jpg",
+  "localImage": "11976.jpg",
+  "tags": [
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

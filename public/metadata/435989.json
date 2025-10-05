@@ -1,0 +1,36 @@
+{
+  "objectID": 435989,
+  "title": "The Banks of the Seine at Conflans",
+  "artistDisplayName": "Camille Corot",
+  "objectDate": "ca. 1865–70",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "18 1/4 x 21 7/8 in. (46.4 x 55.6 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Eloise Lawrence Breese Norrie, 1921",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435989",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/ep21.70.4.R.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/ep21.70.4.R.jpg",
+  "localImage": "435989.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Forests",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300387598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4421"
+    }
+  ]
+}

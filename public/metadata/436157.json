@@ -1,0 +1,36 @@
+{
+  "objectID": 436157,
+  "title": "Dancer in Ukrainian Dress",
+  "artistDisplayName": "Edgar Degas",
+  "objectDate": "1899",
+  "objectName": "Drawing",
+  "medium": "Pastel over charcoal on tracing paper",
+  "dimensions": "24 3/8 x 18 in. (61.9 x 45.7 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436157",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/77I_052R2M.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/77I_052R2M.jpg",
+  "localImage": "436157.jpg",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Dancing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300389779",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43393537"
+    },
+    {
+      "term": "Dancers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025653",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5716684"
+    }
+  ]
+}

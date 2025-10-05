@@ -1,0 +1,26 @@
+{
+  "objectID": 61603,
+  "title": "Ballet at the Paris Opéra",
+  "artistDisplayName": "Edgar Degas",
+  "objectDate": "1877",
+  "objectName": "Drawing and Watercolor",
+  "medium": "Pastel over monotype on cream laid paper",
+  "dimensions": "Plate: 35.2 × 70.6 cm (13 7/8 × 27 13/16 in.); Sheet: 35.9 × 71.9 cm (14 3/16 × 28 5/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mary and Leigh Block",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/61603",
+  "isPublicDomain": true,
+  "image_id": "cb34b0a8-bc51-d063-aab1-47c7debf3a7b",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/cb34b0a8-bc51-d063-aab1-47c7debf3a7b/full/843,/0/default.jpg",
+  "localImage": "61603.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCgAFAPUAADtMRVJPRFlOQlBNSFFNSEVURU1USldSS1dSTVRXTV9ZTldVUl1ZU2hbTVdkU19kVV5tX2FkUGFjVWVoVGhoVGZhW29lXGVtXG1rWmlpXW5tXmZxX3VxX1toZG5oYG5uZ3ZsY3BqZGN1a3RxYnFyZXRxZntxan19bnl9cnh7dX57doJ/dpGEeJKOhaCUjKebk6yflsGupQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQIjoQuGQTqhOyrEZYSQJA6AweURYrxIoxAhoMp9VywWLmRYqj6BxQFQshIEiCAA7",
+    "width": 8382,
+    "height": 4197,
+    "alt_text": "Color pastel drawing of ballerinas in tutus on stage, watched by audience."
+  },
+  "tags": []
+}

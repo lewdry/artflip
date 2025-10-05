@@ -1,0 +1,56 @@
+{
+  "objectID": 438387,
+  "title": "The Virgin Adored by Saints",
+  "artistDisplayName": "Scarsellino (Ippolito Scarsella)",
+  "objectDate": "ca. 1609",
+  "objectName": "Painting",
+  "medium": "Oil on copper",
+  "dimensions": "19 1/4 x 29 1/4 in. (48.9 x 74.3 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mary Jane Harris, in memory of Morton B. Harris and in honor of Keith Christiansen, 2001",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/438387",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-24114-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24114-001.jpg",
+  "localImage": "438387.jpg",
+  "tags": [
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Saint Anthony",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001255",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170547"
+    },
+    {
+      "term": "Saint Catherine",
+      "AAT_URL": null,
+      "Wikidata_URL": null
+    },
+    {
+      "term": "Saint Francis",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500349636",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q676555"
+    },
+    {
+      "term": "Virgin Mary",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000032",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q345"
+    },
+    {
+      "term": "Saints",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300150555",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q43115"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 183077,
+  "title": "Chair (Kiti Cha Enzi)",
+  "artistDisplayName": "Swahili",
+  "objectDate": "19th century",
+  "objectName": "Furniture",
+  "medium": "Wood, ivory, and cotton fiber",
+  "dimensions": "125.7 × 75.6 × 72.4 cm (49 1/2 × 29 3/4 × 28 1/2 in.)",
+  "department": "Arts of Africa",
+  "culture": "Kenya",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Marshall Field V",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/183077",
+  "isPublicDomain": true,
+  "image_id": "6f071f3a-a59e-ee80-6528-ed1fa8670090",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/6f071f3a-a59e-ee80-6528-ed1fa8670090/full/843,/0/default.jpg",
+  "localImage": "183077.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAHNgSIZ1XpSIdpKIeJmSiqOglqeglqykmK6qobSvqK2vsLS1tb28ub68uMjGxAAAACH5BAAAAAAALAAAAAADAAUAAAQLUKGyxDCAnMBcahEAOw==",
+    "width": 1489,
+    "height": 2250,
+    "alt_text": "Wooden chair with woven cotton seat, back, footrest."
+  },
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "objectID": 38930,
+  "title": "Two Plant Specimens",
+  "artistDisplayName": "William Henry Fox Talbot",
+  "objectDate": "1839",
+  "objectName": "Photograph",
+  "medium": "Photogenic drawing",
+  "dimensions": "22.1 × 18 cm (8 3/4 × 7 1/8 in.); Mount: 29 × 21.5 cm (11 7/16 × 8 1/2 in.); Image/paper: 22.1 × 18.1 cm (8 11/16 × 7 1/8 in.)",
+  "department": "Photography and Media",
+  "culture": "England",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Edward E. Ayer Endowment in memory of Charles L. Hutchinson",
+  "objectURL": "https://api.artic.edu/api/v1/artworks/38930",
+  "isPublicDomain": true,
+  "image_id": "f4b72c7b-83e4-3008-d66f-46d87c30ca96",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f4b72c7b-83e4-3008-d66f-46d87c30ca96/full/843,/0/default.jpg",
+  "localImage": "38930.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAH5fXIBeW4FhYYdkYoRnZYhoY4htbY9zdpV0dZd1eJR3eJZ4eZ2Dg5yChqKFiaKHiKGHi6OJiqOKj6OLkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDMERaNMB7IYBCQBwuMkUQgAOw==",
+    "width": 5772,
+    "height": 7039,
+    "alt_text": "Pale silhouettes of two flowering branches."
+  },
+  "tags": []
+}

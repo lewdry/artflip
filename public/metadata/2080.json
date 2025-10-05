@@ -1,0 +1,31 @@
+{
+  "objectID": 2080,
+  "title": "Cloak Pin",
+  "artistDisplayName": "",
+  "objectDate": "1770–1800",
+  "objectName": "Pin",
+  "medium": "Enamel and gilt brass",
+  "dimensions": "1 3/4 x 1 3/8 x 2 1/2 in. (4.4 x 3.5 x 6.4 cm)",
+  "department": "The American Wing",
+  "culture": "British",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of William H. Huntington, 1883",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/2080",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/25451.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/25451.jpg",
+  "localImage": "2080.jpg",
+  "tags": [
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Profiles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    }
+  ]
+}

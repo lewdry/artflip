@@ -1,0 +1,41 @@
+{
+  "objectID": 437925,
+  "title": "The French Comedians",
+  "artistDisplayName": "Antoine Watteau",
+  "objectDate": "ca. 1720",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "22 1/2 x 28 3/4 in. (57.2 x 73 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jules Bache Collection, 1949",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/437925",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP120381.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120381.jpg",
+  "localImage": "437925.jpg",
+  "tags": [
+    {
+      "term": "Theatre",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300417582",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q11635"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Actors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025658",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33999"
+    }
+  ]
+}

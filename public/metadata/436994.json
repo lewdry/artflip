@@ -1,0 +1,56 @@
+{
+  "objectID": 436994,
+  "title": "Scenes from the Story of the Argonauts",
+  "artistDisplayName": "Jacopo di Arcangelo (called Jacopo del Sellaio)",
+  "objectDate": "ca. 1465",
+  "objectName": "Painting",
+  "medium": "Tempera on wood, gilt ornaments",
+  "dimensions": "Overall 24 1/8 x 60 1/8 in. (61.3 x 152.7 cm); painted surface 19 5/8 x 56 in. (49.8 x 142.2 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1909",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436994",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP164779.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164779.jpg",
+  "localImage": "436994.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "Argonauts",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000151",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q165510"
+    },
+    {
+      "term": "Hercules",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000042",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q122248"
+    },
+    {
+      "term": "Centaurs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379740",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q83203"
+    },
+    {
+      "term": "Dogs",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300265714",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q144"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    },
+    {
+      "term": "Boats",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+    }
+  ]
+}

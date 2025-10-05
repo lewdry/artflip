@@ -1,0 +1,31 @@
+{
+  "objectID": 435940,
+  "title": "Madonna and Child",
+  "artistDisplayName": "Bernardino dei Conti",
+  "objectDate": "",
+  "objectName": "Painting",
+  "medium": "Oil on wood",
+  "dimensions": "Overall, with additions, 15 7/8 x 12 in. (40.3 x 30.5 cm); painted surface 15 5/8 x 11 5/8 in. (39.7 x 29.5 cm)",
+  "department": "European Paintings",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Metropolitan Museum of Art. The Jack and Belle Linsky Collection, 1982",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/435940",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT8841.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8841.jpg",
+  "localImage": "435940.jpg",
+  "tags": [
+    {
+      "term": "Madonna and Child",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000052",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9309699"
+    },
+    {
+      "term": "Nursing",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379905",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q174876"
+    }
+  ]
+}
