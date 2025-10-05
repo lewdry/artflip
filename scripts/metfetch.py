@@ -11,21 +11,22 @@ from datetime import datetime
 # ============================================================================
 
 # Number of new artworks to download per run
-MAX_NEW_ARTWORKS = 2000
+MAX_NEW_ARTWORKS = 30
 
 # Rate limiting (seconds between API calls)
 RATE_LIMIT_DELAY = 1.0
 
 # API Search Parameters - Set to None to ignore, or provide value to filter
 SEARCH_PARAMS = {
-    'isHighlight': True,          # True = only highlights, False = non-highlights, None = all
+    'isHighlight': None,          # True = only highlights, False = non-highlights, None = all
     'isPublicDomain': True,       # True = public domain only, False = non-public, None = all
-    'isOnView': None,          # True = on view only, False = not on view, None = all
+    'isOnView': True,          # True = on view only, False = not on view, None = all
+    'hasImages': True,            # True = only with images, False = no images, None = all    
     
     # Object type filter - examples: "Paintings", "Sculpture", "Drawings", "Prints", 
     # "Photographs", "Textiles", "Ceramics", "Furniture", "Jewelry", "Vessels", etc.
     # Leave as None to get all types
-    'objectName': None,           # Example: "Paintings" or None
+    'objectName': None,
     
     # Department filter - examples: "American Decorative Arts", "Ancient Near Eastern Art",
     # "Arms and Armor", "Arts of Africa, Oceania, and the Americas", "Asian Art",
@@ -34,7 +35,7 @@ SEARCH_PARAMS = {
     # "Greek and Roman Art", "Islamic Art", "The Robert Lehman Collection",
     # "The Libraries", "Medieval Art", "Musical Instruments", "Photographs",
     # "Modern Art", "The American Wing"
-    'departmentId': None,         # Example: 11 (for European Paintings) or None
+    'departmentId': 11,         # Example: 11 (for European Paintings) or None
     
     # Artist/Maker filter
     'artistOrCulture': None,      # Example: "Rembrandt" or None
@@ -55,11 +56,11 @@ SEARCH_PARAMS = {
 
 # File paths (relative to script location in /scripts/)
 ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../scripts/metadata/new")
-IMAGES_OUTPUT_DIR = Path("../scripts/images/new")
+METADATA_OUTPUT_DIR = Path("../public/metadata")
+IMAGES_OUTPUT_DIR = Path("../public/images")
 LOG_FILE = Path("metfetch.log")
 DONTFETCH_FILE = Path("metdontfetch.json")  # Blacklist for problematic IDs
-TEMP_NEWIDS_FILE = Path("newartworkids.json")  # Temporary file for new IDs
+TEMP_NEWIDS_FILE = Path("../public/newartworkids.json")  # Temporary file for new IDs
 
 # ============================================================================
 # SETUP
