@@ -11,7 +11,7 @@ from datetime import datetime
 # ============================================================================
 
 # Number of new artworks to download per run
-MAX_NEW_ARTWORKS = 5
+MAX_NEW_ARTWORKS = 2000
 
 # Rate limiting (seconds between API calls)
 RATE_LIMIT_DELAY = 1.0
@@ -20,6 +20,7 @@ RATE_LIMIT_DELAY = 1.0
 SEARCH_PARAMS = {
     'isHighlight': True,          # True = only highlights, False = non-highlights, None = all
     'isPublicDomain': True,       # True = public domain only, False = non-public, None = all
+    'isOnView': None,          # True = on view only, False = not on view, None = all
     
     # Object type filter - examples: "Paintings", "Sculpture", "Drawings", "Prints", 
     # "Photographs", "Textiles", "Ceramics", "Furniture", "Jewelry", "Vessels", etc.
@@ -33,7 +34,7 @@ SEARCH_PARAMS = {
     # "Greek and Roman Art", "Islamic Art", "The Robert Lehman Collection",
     # "The Libraries", "Medieval Art", "Musical Instruments", "Photographs",
     # "Modern Art", "The American Wing"
-    'departmentId': 9,         # Example: 11 (for European Paintings) or None
+    'departmentId': None,         # Example: 11 (for European Paintings) or None
     
     # Artist/Maker filter
     'artistOrCulture': None,      # Example: "Rembrandt" or None
@@ -54,10 +55,11 @@ SEARCH_PARAMS = {
 
 # File paths (relative to script location in /scripts/)
 ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata/new")
-IMAGES_OUTPUT_DIR = Path("../public/images/new")
+METADATA_OUTPUT_DIR = Path("../scripts/metadata/new")
+IMAGES_OUTPUT_DIR = Path("../scripts/images/new")
 LOG_FILE = Path("metfetch.log")
 DONTFETCH_FILE = Path("metdontfetch.json")  # Blacklist for problematic IDs
+TEMP_NEWIDS_FILE = Path("newartworkids.json")  # Temporary file for new IDs
 
 # ============================================================================
 # SETUP
@@ -254,25 +256,37 @@ class MetDownloader:
         try:
             url = f"{self.base_object_url}/{object_id}"
             response = requests.get(url, timeout=15)
-            response.raise_for_status()
+            response.raise_for_status() # Raises HTTPError for 4xx/5xx responses
             data = response.json()
             
             # Verify it's public domain and has an image
             if not data.get('isPublicDomain'):
-                logging.warning(f"Object {object_id} is not public domain")
+                logging.warning(f"Object {object_id} is not public domain. Blacklisting.")
                 self.add_to_blacklist(object_id, "Not public domain")
                 return None
             
             if not data.get('primaryImageSmall'):
-                logging.warning(f"Object {object_id} has no primaryImageSmall")
+                logging.warning(f"Object {object_id} has no primaryImageSmall. Blacklisting.")
                 self.add_to_blacklist(object_id, "No image available")
                 return None
             
             return data
             
+        except requests.exceptions.HTTPError as e:
+            # Specifically handle 404 and 502 errors by blacklisting the ID
+            if e.response.status_code in [404, 502]:
+                reason = f"HTTP {e.response.status_code} Error on fetch"
+                logging.warning(f"Object {object_id} returned {e.response.status_code}. Blacklisting.")
+                self.add_to_blacklist(object_id, reason)
+            else:
+                # Log other HTTP errors without blacklisting
+                logging.error(f"HTTP Error for {object_id}: {e}")
+            return None # Fail this download
+        
         except requests.exceptions.RequestException as e:
-            logging.error(f"Failed to fetch metadata for {object_id}: {e}")
-            return None
+            # Handle other network issues (timeouts, connection errors) without blacklisting
+            logging.error(f"Network error fetching metadata for {object_id}: {e}")
+            return None # Fail this download
     
     def download_image(self, image_url: str, object_id: int) -> Optional[str]:
         """Download image from primaryImageSmall URL and save to images directory"""
@@ -342,11 +356,13 @@ class MetDownloader:
             return False
     
     def append_to_artworkids(self, object_id: int) -> bool:
-        """Append new object ID to artworkids.json"""
+        """Append new object ID to temporary newartworkids.json file"""
+        # TEMPORARY: Writing to newartworkids.json for testing
+        # TODO: Switch back to ARTWORKIDS_FILE once confirmed working
         try:
-            # Load current IDs
-            if ARTWORKIDS_FILE.exists():
-                with open(ARTWORKIDS_FILE, 'r') as f:
+            # Load current IDs from temp file
+            if TEMP_NEWIDS_FILE.exists():
+                with open(TEMP_NEWIDS_FILE, 'r') as f:
                     ids = json.load(f)
             else:
                 ids = []
@@ -354,16 +370,41 @@ class MetDownloader:
             # Add new ID as string (to match existing format)
             ids.append(str(object_id))
             
-            # Save back
-            with open(ARTWORKIDS_FILE, 'w') as f:
+            # Save to temp file
+            with open(TEMP_NEWIDS_FILE, 'w') as f:
                 json.dump(ids, f, indent=2)
             
-            logging.info(f"Added {object_id} to artworkids.json")
+            logging.info(f"Added {object_id} to newartworkids.json (temp file)")
             return True
             
         except Exception as e:
-            logging.error(f"Failed to update artworkids.json: {e}")
+            logging.error(f"Failed to update newartworkids.json: {e}")
             return False
+    
+    # def append_to_artworkids(self, object_id: int) -> bool:
+    #     """Append new object ID to artworkids.json"""
+    #     # PRODUCTION VERSION: Uncomment this when ready to write to main file
+    #     try:
+    #         # Load current IDs
+    #         if ARTWORKIDS_FILE.exists():
+    #             with open(ARTWORKIDS_FILE, 'r') as f:
+    #                 ids = json.load(f)
+    #         else:
+    #             ids = []
+    #         
+    #         # Add new ID as string (to match existing format)
+    #         ids.append(str(object_id))
+    #         
+    #         # Save back
+    #         with open(ARTWORKIDS_FILE, 'w') as f:
+    #             json.dump(ids, f, indent=2)
+    #         
+    #         logging.info(f"Added {object_id} to artworkids.json")
+    #         return True
+    #         
+    #     except Exception as e:
+    #         logging.error(f"Failed to update artworkids.json: {e}")
+    #         return False
     
     def process_artwork(self, object_id: int) -> bool:
         """Process a single artwork: fetch metadata, download image, save both"""
@@ -372,7 +413,8 @@ class MetDownloader:
         # Fetch metadata
         artwork_data = self.fetch_artwork_metadata(object_id)
         if not artwork_data:
-            self.failed_downloads.append({'objectID': object_id, 'reason': 'Failed to fetch metadata'})
+            # The reason for failure (including blacklisting) is logged inside fetch_artwork_metadata
+            self.failed_downloads.append({'objectID': object_id, 'reason': 'Failed to fetch or process metadata'})
             return False
         
         time.sleep(RATE_LIMIT_DELAY)  # Rate limiting
@@ -491,7 +533,7 @@ class MetDownloader:
         print(f"  - Metadata: {METADATA_OUTPUT_DIR}/")
         print(f"  - Images:   {IMAGES_OUTPUT_DIR}/")
         print(f"  - Log file: /scripts/{LOG_FILE}")
-        print(f"  - Updated:  {ARTWORKIDS_FILE}")
+        print(f"  - New IDs:  /scripts/{TEMP_NEWIDS_FILE} (TEMP)")
         if self.newly_blacklisted:
             print(f"  - Blacklist: /scripts/{DONTFETCH_FILE}")
         
