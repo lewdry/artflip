@@ -3,7 +3,7 @@
   import { fade } from 'svelte/transition';
 
   // Configuration
-  const MAX_HISTORY = 13; // 9 back + 1 current + 3 forward
+  const MAX_HISTORY = 24; // 20 back + 1 current + 3 forward
   const PRELOAD_COUNT = 3; // Number of artworks to keep preloaded ahead
   const COOLDOWN_DURATION = 750; // ms
   const PRELOAD_DELAY = 200; // ms between preload requests
