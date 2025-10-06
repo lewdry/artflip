@@ -8,7 +8,7 @@ Updates from previous version:
  - Pagination support added to ARTIC search endpoint (fetches pages until exhausted or safe cap reached)
  - Keeps previous behavior: metadata + image saving, blacklist, artworkids update (TEMP), logging, rate limiting
  - Artist name cleaning: removes biographical info in parentheses and after newlines
- - Metadata-level filtering: filters results based on actual object data (is_on_view, is_boosted, etc.)
+ - Elasticsearch filtering: filters at API search level for much faster results
 """
 
 import requests
@@ -23,23 +23,24 @@ from datetime import datetime
 # CONFIGURATION - Modify these settings as needed
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 110
+MAX_NEW_ARTWORKS = 150
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 
 # Search parameters: use SEARCH_PARAMS['q'] as the main search term.
-# NOTE: These filters are applied AFTER fetching metadata, not at the API search level
+# NOTE: These filters are now applied at the API search level using Elasticsearch!
 SEARCH_PARAMS = {
-    'q': None,           # main query string (None to use a broad fetch)
-    'isPublicDomain': True,         # enforced after fetching metadata
-    'hasImages': True,              # enforced after fetching metadata (image_id present)
-    'isOnView': True,               # NEW: filter for artworks currently on display (True/False/None)
-    'isBoosted': None,              # NEW: filter for "highlight" artworks (True/False/None)
+    'q': None,                      # main query string (None to use a broad fetch)
+    'isPublicDomain': True,         # filter at API level for public domain works
+    'hasImages': True,              # filter at API level for works with images
+    'isOnView': True,               # filter at API level for artworks currently on display (True/False/None)
+    'isBoosted': True,              # filter at API level for "highlight" artworks (True/False/None)
     'artistOrCulture': None,
     'medium': None,
     'dateBegin': None,
     'dateEnd': None,
     'objectName': None,
     'department': None,
+    'classification': "Painting",
 }
 
 # File paths (kept same relative layout)
@@ -47,8 +48,8 @@ ARTWORKIDS_FILE = Path("../public/artworkids.json")
 METADATA_OUTPUT_DIR = Path("../scripts/metadata")
 IMAGES_OUTPUT_DIR = Path("../scripts/images")
 LOG_FILE = Path("chicfetch.log")
-DONTFETCH_FILE = Path("chicdontfetch.json")   # <-- changed to include .json
-TEMP_NEWIDS_FILE = Path("../scripts/artworkids.json")  # same temp behaviour as original script
+DONTFETCH_FILE = Path("chicdontfetch.json")
+TEMP_NEWIDS_FILE = Path("../scripts/artworkids.json")
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     # items per page requested from API (ARTIC may cap this)
@@ -155,21 +156,44 @@ class ChicDownloader:
 
     # ---------- Search / compare ----------
     def build_search_params(self, page: int = 1) -> Dict:
-        """Construct parameters for the ARTIC search endpoint for a given page"""
+        """Construct parameters for the ARTIC search endpoint with Elasticsearch filtering"""
         params = {
             "limit": SEARCH_PAGE_LIMIT,
             "page": page,
-            "fields": "id"  # we only need IDs from search
+            "fields": "id"
         }
+        
+        # Add text search query if provided
         q = SEARCH_PARAMS.get('q')
         if q:
             params['q'] = q
+        
+        # Build Elasticsearch query filters
+        query_filters = []
+        
+        if SEARCH_PARAMS.get('isPublicDomain') is not None:
+            query_filters.append({"term": {"is_public_domain": SEARCH_PARAMS.get('isPublicDomain')}})
+        
+        if SEARCH_PARAMS.get('hasImages'):
+            # Filter for artworks that have an image_id field
+            query_filters.append({"exists": {"field": "image_id"}})
+        
+        if SEARCH_PARAMS.get('isOnView') is not None:
+            query_filters.append({"term": {"is_on_view": SEARCH_PARAMS.get('isOnView')}})
+        
+        if SEARCH_PARAMS.get('isBoosted') is not None:
+            query_filters.append({"term": {"is_boosted": SEARCH_PARAMS.get('isBoosted')}})
+        
+        # Add the query filters if any exist
+        if query_filters:
+            params['query'] = json.dumps({"bool": {"must": query_filters}})
+        
         return params
 
     def fetch_available_artworks(self) -> List[int]:
         """
-        Call ARTIC /artworks/search with pagination and return list of artwork ids found.
-        This function will page through results until exhausted or safety caps reached.
+        Call ARTIC /artworks/search with Elasticsearch filtering and pagination.
+        Returns list of artwork IDs that match the filters.
         """
         all_ids: List[int] = []
         page = 1
@@ -179,7 +203,9 @@ class ChicDownloader:
             while True:
                 params = self.build_search_params(page=page)
                 logging.info(f"ARTIC search page {page} with params: {params}")
-                resp = requests.get(SEARCH_ENDPOINT, params=params, timeout=30)
+                
+                # Use POST for complex Elasticsearch queries
+                resp = requests.post(SEARCH_ENDPOINT, json=params, timeout=30)
 
                 if resp.status_code == 502:
                     logging.error("ARTIC API returned 502 Bad Gateway")
@@ -209,7 +235,8 @@ class ChicDownloader:
                 if pagination:
                     current_page = int(pagination.get('current_page', page))
                     total_pages = int(pagination.get('total_pages', current_page))
-                    logging.info(f"Pagination: current_page={current_page}, total_pages={total_pages}")
+                    total_results = int(pagination.get('total', 0))
+                    logging.info(f"Pagination: current_page={current_page}, total_pages={total_pages}, total_results={total_results}")
                     if current_page >= total_pages:
                         break
                 else:
@@ -276,7 +303,7 @@ class ChicDownloader:
 
     # ---------- Metadata + image fetch ----------
     def fetch_artwork_metadata(self, object_id: int) -> Optional[Dict]:
-        """Fetch detailed artwork metadata from ARTIC and validate against all filters"""
+        """Fetch detailed artwork metadata from ARTIC. Validation already done by search filters."""
         try:
             fields = [
                 "id","title","image_id","is_public_domain","artist_display","artist_title",
@@ -290,48 +317,13 @@ class ChicDownloader:
             payload = resp.json()
             data = payload.get('data', {})
 
-            # Validate public domain if requested
-            if SEARCH_PARAMS.get('isPublicDomain') is not None:
-                is_public_domain = data.get('is_public_domain', False)
-                if SEARCH_PARAMS.get('isPublicDomain') and not is_public_domain:
-                    logging.warning(f"Object {object_id} is not public domain. Blacklisting.")
-                    self.add_to_blacklist(object_id, "Not public domain")
-                    return None
-                elif not SEARCH_PARAMS.get('isPublicDomain') and is_public_domain:
-                    logging.warning(f"Object {object_id} is public domain (excluded by filter). Blacklisting.")
-                    self.add_to_blacklist(object_id, "Public domain (excluded)")
-                    return None
-
-            # Validate image exists (ARTIC uses image_id for IIIF)
+            # Basic validation (most filtering already done by Elasticsearch)
+            # Only check for critical issues that would prevent download
             image_id = data.get('image_id')
-            if SEARCH_PARAMS.get('hasImages') and not image_id:
-                logging.warning(f"Object {object_id} has no image_id. Blacklisting.")
-                self.add_to_blacklist(object_id, "No image available (no image_id)")
+            if not image_id:
+                logging.warning(f"Object {object_id} has no image_id despite search filter. Blacklisting.")
+                self.add_to_blacklist(object_id, "No image_id (search filter mismatch)")
                 return None
-
-            # NEW: Validate is_on_view if requested
-            if SEARCH_PARAMS.get('isOnView') is not None:
-                is_on_view = data.get('is_on_view', False)
-                if SEARCH_PARAMS.get('isOnView') and not is_on_view:
-                    logging.warning(f"Object {object_id} is not on view. Blacklisting.")
-                    self.add_to_blacklist(object_id, "Not currently on view")
-                    return None
-                elif not SEARCH_PARAMS.get('isOnView') and is_on_view:
-                    logging.warning(f"Object {object_id} is on view (excluded by filter). Blacklisting.")
-                    self.add_to_blacklist(object_id, "On view (excluded)")
-                    return None
-
-            # NEW: Validate is_boosted if requested
-            if SEARCH_PARAMS.get('isBoosted') is not None:
-                is_boosted = data.get('is_boosted', False)
-                if SEARCH_PARAMS.get('isBoosted') and not is_boosted:
-                    logging.warning(f"Object {object_id} is not a highlight/boosted work. Blacklisting.")
-                    self.add_to_blacklist(object_id, "Not a highlight work")
-                    return None
-                elif not SEARCH_PARAMS.get('isBoosted') and is_boosted:
-                    logging.warning(f"Object {object_id} is boosted (excluded by filter). Blacklisting.")
-                    self.add_to_blacklist(object_id, "Boosted (excluded)")
-                    return None
 
             return data
 
@@ -509,14 +501,14 @@ class ChicDownloader:
             active_filters.append(f"Boosted/Highlight: {SEARCH_PARAMS['isBoosted']}")
         
         if active_filters:
-            print(f"Active filters: {', '.join(active_filters)}")
+            print(f"Active filters (Elasticsearch): {', '.join(active_filters)}")
         
         print("="*70 + "\n")
 
         logging.info("Starting ARTIC download process")
         logging.info(f"Configuration: MAX_NEW_ARTWORKS={MAX_NEW_ARTWORKS}")
         if active_filters:
-            logging.info(f"Active filters: {', '.join(active_filters)}")
+            logging.info(f"Active Elasticsearch filters: {', '.join(active_filters)}")
 
         self.existing_ids = self.load_existing_ids()
         self.blacklist_ids = self.load_blacklist()

@@ -1,15 +1,27 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import { fade } from 'svelte/transition';
 
-  let artwork = null;
+  // Configuration
+  const MAX_HISTORY = 24; // 20 back + 1 current + 3 forward
+  const PRELOAD_COUNT = 3; // Number of artworks to keep preloaded ahead
+  const COOLDOWN_DURATION = 750; // ms
+  const PRELOAD_DELAY = 200; // ms between preload requests
+  const NAVIGATION_ZONE_THRESHOLD = 0.33; // Configurable thirds (0.33 = 1/3)
+
+  // State
+  let artworks = [];
+  let currentIndex = 0;
   let loading = true;
   let error = null;
   let artworkIDs = [];
+  let seenIDs = new Set(); // Track artworks shown this session
+  let isCoolingDown = false;
+  let isPreloading = false;
 
-  // Rate limiting to be respectful to GitHub/Cloudflare 
+  // Rate limiting
   let lastRequestTime = 0;
-  const MIN_REQUEST_INTERVAL = 100; // 100ms between requests
+  const MIN_REQUEST_INTERVAL = 100;
 
   async function rateLimitedFetch(url) {
     const now = Date.now();
@@ -24,7 +36,7 @@
     lastRequestTime = Date.now();
     
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     
     try {
       const response = await fetch(url, { signal: controller.signal });
@@ -41,28 +53,19 @@
     }
   }
 
-  /**
-   * Updates the URL with the current artwork ID
-   */
   function updateURL(objectID) {
-    if (objectID && window.history && window.history.replaceState) {
+    if (objectID && window.history && window.history.pushState) {
       const url = new URL(window.location.href);
       url.searchParams.set('id', objectID);
-      window.history.replaceState({}, '', url);
+      window.history.pushState({ artworkID: objectID }, '', url);
     }
   }
 
-  /**
-   * Gets the artwork ID from URL parameters
-   */
   function getArtworkIDFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get('id');
   }
 
-  /**
-   * Preloads an image and returns a promise that resolves when loaded
-   */
   function preloadImage(src) {
     return new Promise((resolve, reject) => {
       const img = new Image();
@@ -72,130 +75,250 @@
     });
   }
 
-  /**
-   * Fetches a specific artwork by ID
-   */
-  async function fetchArtworkByID(objectID) {
-    loading = true;
-    error = null;
-    
+  async function fetchSingleArtwork(objectID = null) {
     try {
-      console.log(`Fetching specific artwork ${objectID}`);
+      // If no ID provided, get a random one that hasn't been seen
+      if (!objectID) {
+        const availableIDs = artworkIDs.filter(id => !seenIDs.has(id));
+        if (availableIDs.length === 0) {
+          // If all seen, reset and start over
+          seenIDs.clear();
+          artworkIDs.forEach(id => seenIDs.delete(id));
+        }
+        const unseenIDs = artworkIDs.filter(id => !seenIDs.has(id));
+        objectID = unseenIDs[Math.floor(Math.random() * unseenIDs.length)];
+      }
       
-      // Fetch metadata from local JSON file
+      console.log(`Fetching artwork ${objectID}`);
+      
       const metadataUrl = `metadata/${objectID}.json`;
       const artworkData = await rateLimitedFetch(metadataUrl);
       
-      // Validate we got good data
       if (!artworkData || !artworkData.localImage) {
         throw new Error('Invalid artwork data');
       }
       
-      // Set local image path
       artworkData.displayImage = `images/${artworkData.localImage}`;
-      
-      // Preload the image before updating the artwork
       await preloadImage(artworkData.displayImage);
       
-      artwork = artworkData;
+      seenIDs.add(objectID);
       console.log('Successfully loaded:', artworkData.title);
       
-      // Update URL without reload
-      updateURL(objectID);
+      return artworkData;
       
     } catch (err) {
-      error = `Unable to load artwork ${objectID}. It may not exist in our collection.`;
-      console.error('Error fetching specific artwork:', err);
-    } finally {
-      loading = false;
+      console.error('Error fetching artwork:', err);
+      throw err;
     }
   }
 
-  /**
-   * Fetches a random artwork from local JSON files
-   */
-  async function fetchRandomArtwork() {
-    loading = true;
-    error = null;
-    
+  async function preloadNextArtworks() {
+    if (isPreloading) return;
+    isPreloading = true;
+
     try {
-      let attempts = 0;
-      const maxAttempts = 3;
+      const neededCount = PRELOAD_COUNT - (artworks.length - currentIndex - 1);
       
-      while (attempts < maxAttempts) {
+      for (let i = 0; i < neededCount; i++) {
         try {
-          // Select a random ID from our curated list
-          const randomID = artworkIDs[Math.floor(Math.random() * artworkIDs.length)];
-          console.log(`Fetching artwork ${randomID} (attempt ${attempts + 1})`);
-          
-          // Fetch metadata from local JSON file
-          const metadataUrl = `metadata/${randomID}.json`;
-          const artworkData = await rateLimitedFetch(metadataUrl);
-          
-          // Validate we got good data
-          if (!artworkData || !artworkData.localImage) {
-            throw new Error('Invalid artwork data');
-          }
-          
-          // Set local image path
-          artworkData.displayImage = `images/${artworkData.localImage}`;
-          
-          // Preload the image before updating the artwork
-          await preloadImage(artworkData.displayImage);
-          
-          artwork = artworkData;
-          console.log('Successfully loaded:', artworkData.title);
-          
-          // Update URL with the loaded artwork ID
-          updateURL(randomID);
-          
-          return; // Success!
-          
-        } catch (attemptError) {
-          console.warn(`Attempt ${attempts + 1} failed:`, attemptError);
-          attempts++;
-          
-          // If this was the last attempt, throw the error
-          if (attempts >= maxAttempts) {
-            throw new Error('Unable to load artwork after multiple attempts');
-          }
+          await new Promise(resolve => setTimeout(resolve, PRELOAD_DELAY));
+          const newArtwork = await fetchSingleArtwork();
+          artworks = [...artworks, newArtwork];
+          trimHistory(); // Trim after each addition
+          console.log(`Preloaded artwork. Array size: ${artworks.length}, Current index: ${currentIndex}`);
+        } catch (err) {
+          console.warn('Failed to preload, trying another:', err);
+          i--; // Retry with a different artwork
         }
       }
-      
-    } catch (err) {
-      error = err.message;
-      console.error('Error fetching artwork:', err);
     } finally {
-      loading = false;
+      isPreloading = false;
     }
   }
 
-  // Handle image loading errors (fallback in case image file is missing)
-  function handleImageError(event) {
-    console.error('Image failed to load:', artwork?.localImage);
-    error = 'Image failed to load. Please try another artwork.';
+  function trimHistory() {
+    if (artworks.length > MAX_HISTORY) {
+      const excess = artworks.length - MAX_HISTORY;
+      artworks = artworks.slice(excess);
+      currentIndex = currentIndex - excess;
+      console.log(`Trimmed ${excess} old artworks. Now at index ${currentIndex}/${artworks.length}`);
+    }
   }
 
-  onMount(async () => {
-    artworkIDs = await rateLimitedFetch('artworkids.json');
+  async function nextArtwork() {
+    if (isCoolingDown) return;
     
-    // Check if there's an ID in the URL
-    const urlID = getArtworkIDFromURL();
-    
-    if (urlID) {
-      // Try to load the specific artwork
-      await fetchArtworkByID(urlID);
-      
-      // If it failed to load, fall back to random
-      if (error) {
-        fetchRandomArtwork();
-      }
+    if (currentIndex < artworks.length - 1) {
+      // Move to next existing artwork
+      currentIndex++;
+      updateURL(artworks[currentIndex].objectID);
+      startCooldown();
+      preloadNextArtworks(); // Ensure we have enough preloaded
     } else {
-      // No ID specified, load random artwork
-      fetchRandomArtwork();
+      // Need to fetch a new one
+      loading = true;
+      try {
+        const newArtwork = await fetchSingleArtwork();
+        artworks = [...artworks, newArtwork];
+        currentIndex = artworks.length - 1;
+        
+        trimHistory();
+        updateURL(newArtwork.objectID);
+        startCooldown();
+        preloadNextArtworks();
+      } catch (err) {
+        error = 'Unable to load next artwork';
+        setTimeout(() => error = null, 3000);
+      } finally {
+        loading = false;
+      }
     }
+  }
+
+  function prevArtwork() {
+    if (isCoolingDown || currentIndex <= 0) return;
+    
+    currentIndex--;
+    updateURL(artworks[currentIndex].objectID);
+    startCooldown();
+  }
+
+  function startCooldown() {
+    isCoolingDown = true;
+    setTimeout(() => {
+      isCoolingDown = false;
+    }, COOLDOWN_DURATION);
+  }
+
+  function handleImageClick(event) {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const clickX = event.clientX - rect.left;
+    const clickedThird = clickX / rect.width;
+
+    if (clickedThird < NAVIGATION_ZONE_THRESHOLD) {
+      prevArtwork();
+    } else if (clickedThird > (1 - NAVIGATION_ZONE_THRESHOLD)) {
+      nextArtwork();
+    }
+  }
+
+  function handleImageMouseMove(event) {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const moveX = event.clientX - rect.left;
+    const zone = moveX / rect.width;
+
+    if (zone < NAVIGATION_ZONE_THRESHOLD && currentIndex > 0) {
+      event.currentTarget.style.cursor = 'w-resize';
+    } else if (zone > (1 - NAVIGATION_ZONE_THRESHOLD)) {
+      event.currentTarget.style.cursor = 'e-resize';
+    } else {
+      event.currentTarget.style.cursor = 'default';
+    }
+  }
+
+  function handleKeydown(event) {
+    if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
+    
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      prevArtwork();
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      nextArtwork();
+    }
+  }
+
+  function handlePopState(event) {
+    const urlID = getArtworkIDFromURL();
+    if (urlID) {
+      // Find this artwork in our history
+      const index = artworks.findIndex(a => a.objectID === urlID);
+      if (index !== -1) {
+        currentIndex = index;
+      }
+    }
+  }
+
+  function handleImageError(event) {
+    console.error('Image failed to load');
+    error = 'Image failed to load. Please try another artwork.';
+    setTimeout(() => error = null, 3000);
+  }
+
+  // Touch/swipe support
+  let touchStartX = 0;
+  let touchEndX = 0;
+  const SWIPE_THRESHOLD = 60;
+
+  function handleTouchStart(event) {
+    touchStartX = event.changedTouches[0].screenX;
+  }
+
+  function handleTouchEnd(event) {
+    touchEndX = event.changedTouches[0].screenX;
+    handleSwipe();
+  }
+
+  function handleSwipe() {
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > SWIPE_THRESHOLD) {
+      if (diff > 0) {
+        // Swiped left - next artwork
+        nextArtwork();
+      } else {
+        // Swiped right - previous artwork
+        prevArtwork();
+      }
+    }
+  }
+
+  onMount(() => {
+    // Add keyboard listener
+    window.addEventListener('keydown', handleKeydown);
+    window.addEventListener('popstate', handlePopState);
+
+    // Load initial artwork
+    (async () => {
+      artworkIDs = await rateLimitedFetch('artworkids.json');
+      
+      const urlID = getArtworkIDFromURL();
+      
+      try {
+        if (urlID) {
+          // Load specific artwork from URL
+          const artwork = await fetchSingleArtwork(urlID);
+          artworks = [artwork];
+          currentIndex = 0;
+        } else {
+          // Load random initial artwork
+          const artwork = await fetchSingleArtwork();
+          artworks = [artwork];
+          currentIndex = 0;
+          updateURL(artwork.objectID);
+        }
+        
+        // Preload next artworks
+        preloadNextArtworks();
+      } catch (err) {
+        error = 'Unable to load artwork';
+      } finally {
+        loading = false;
+      }
+    })();
+
+    return () => {
+      window.removeEventListener('keydown', handleKeydown);
+      window.removeEventListener('popstate', handlePopState);
+    };
   });
 
+  onDestroy(() => {
+    window.removeEventListener('keydown', handleKeydown);
+    window.removeEventListener('popstate', handlePopState);
+  });
+
+  $: artwork = artworks[currentIndex];
 </script>
 
 <main>
@@ -206,7 +329,7 @@
         <h2>Public domain art</h2>
       </div>
 
-      <button on:click={fetchRandomArtwork} disabled={loading} class="refresh-btn">
+      <button on:click={nextArtwork} disabled={isCoolingDown || loading} class="refresh-btn">
         {#if loading && artwork} 
           <span class="spinner"></span>
         {:else}
@@ -217,13 +340,22 @@
 
     {#if error}
       <div class="error">
-        <p>Sorry, something went wrong: {error}</p>
-        <button on:click={fetchRandomArtwork} class="retry-btn">Try Again</button>
+        <p>{error}</p>
       </div>
     {:else if artwork}
       {#key artwork.objectID}
         <article class="artwork" in:fade={{ duration: 400, delay: 100 }}>
-          <div class="image-container">
+          <div 
+            class="image-container"
+            role="button"
+            tabindex="0"
+            aria-label="Click left or right to navigate artworks"
+            on:click={handleImageClick}
+            on:keydown={handleImageClick}
+            on:mousemove={handleImageMouseMove}
+            on:touchstart={handleTouchStart}
+            on:touchend={handleTouchEnd}
+          >
             <img 
               src={artwork.displayImage}
               alt={artwork.title || 'Artwork'}
@@ -328,7 +460,7 @@
     font-size: 1.4rem;
     margin: 0 0 0.2rem 0;
     font-weight: 500;
-    font-family: 'Josefin Sans',   sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #333333;
   }
 
@@ -415,20 +547,10 @@
     font-size: 1.1rem;
   }
 
-  .retry-btn {
-    background: #dc3545;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 0.6rem 1.2rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    font-weight: 500;
-  }
-
-  .retry-btn:hover { 
-    background: #c82333; 
+  .error {
+    padding: 1rem 2rem;
+    background: #fee;
+    color: #c00;
   }
 
   .artwork {
@@ -450,6 +572,8 @@
   .image-container {
     width: 100%;
     background: #f8f9fa;
+    cursor: pointer;
+    user-select: none;
   }
 
   .image-container img {
@@ -459,6 +583,7 @@
     object-fit: contain;
     background: #fff;
     max-height: 70vh;
+    pointer-events: none;
   }
 
   .metadata {
@@ -556,7 +681,6 @@
 
   @media (max-width: 799px) {
     .container { padding: 0.5rem 2rem; }
-    .container { max-height: 60vh;}
     .title-group h1 { font-size: 1.2rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
@@ -577,13 +701,10 @@
     }
   }
 
-  /* Desktop artwork grid */
   @media (min-width: 800px) {
     .artwork {
       grid-template-columns: 1fr 1fr;
       align-items: center;
-
-      /* Ensure it doesn't shrink too much */
       min-width: 800px; 
       width: 100%;
     }
