@@ -40,7 +40,7 @@ SEARCH_PARAMS = {
     'dateEnd': None,
     'objectName': None,
     'department': None,
-    'classification': "Painting",
+    'classification': None,
 }
 
 # File paths (kept same relative layout)
@@ -399,7 +399,7 @@ class ChicDownloader:
             'period': '',
             'dynasty': '',
             'creditLine': 'Art Institute of Chicago. ' + (artwork_data.get('credit_line') or ''),
-            'objectURL': f"https://www.artic.edu/artworks/{artwork_data.get('id')}",
+            'objectURL':  f"https://www.artic.edu/artworks/{artwork_data.get('id')}",
             'isPublicDomain': artwork_data.get('is_public_domain', False),
             'isOnView': artwork_data.get('is_on_view', False),
             'isBoosted': artwork_data.get('is_boosted', False),
