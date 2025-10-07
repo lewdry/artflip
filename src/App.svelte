@@ -432,13 +432,13 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f5;
+    background: linear-gradient(180deg, #fff 0%, #f9f9fb 100%); /* softer gradient background */
   }
 
   .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
@@ -447,7 +447,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem; /* slightly more breathing room */
     gap: 1rem;
   }
 
@@ -460,23 +460,23 @@
   }
 
   .title-group h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem; /* slightly larger for stronger identity */
     margin: 0 0 0.2rem 0;
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
-    color: #333333;
+    color: #222;
+    letter-spacing: -0.25px;
   }
 
   .title-group h2 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin: 0;
     font-style: italic;
     color: #555;
     font-weight: 400;
     text-align: left;
     width: 100%;
-    word-wrap: break-word;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .refresh-btn {
@@ -484,11 +484,11 @@
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 0.6rem 1.2rem;
+    padding: 0.7rem 1.4rem; /* slightly more substantial */
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease; /* smoother animation */
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -497,8 +497,9 @@
   }
 
   .refresh-btn:hover:not(:disabled) {
-    background: #444;
-    transform: scale(1.03);
+    background: #333;
+    transform: scale(1.04);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   }
 
   .refresh-btn:disabled {
@@ -514,22 +515,6 @@
     border-radius: 50%;
     animation: spin 0.8s linear infinite;
   }
-  
-  header .spinner {
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-top-color: white;
-  }
-
-  .initial-loader .spinner {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    border: 3px solid rgba(0,0,0,0.1);
-    border-top-color: #333;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-    vertical-align: middle;
-  }
 
   @keyframes spin {
     to { transform: rotate(360deg); }
@@ -544,31 +529,25 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   }
 
-  .initial-loader p {
-    margin-top: 1rem;
-    color: #666;
-    font-size: 1.1rem;
-  }
-
-  .error {
-    padding: 1rem 2rem;
-    background: #fee;
-    color: #c00;
-  }
-
   .artwork {
     background: white;
-    border-radius: 16px;
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     display: grid;
-    max-width: 100%;
+    transition: box-shadow 0.2s ease;
+    vertical-align: center;
+  }
+
+  .artwork:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
   }
 
   @media (min-width: 800px) {
     .artwork {
       grid-template-columns: 1fr 1fr;
-      align-items: center;
+      min-width: 800px;
+      width: 100%;
     }
   }
 
@@ -577,6 +556,8 @@
     background: #f8f9fa;
     cursor: pointer;
     user-select: none;
+    object-fit:contain;
+    box-shadow: inset 0 0 0 1px #eee; /* faint frame */
   }
 
   .image-container img {
@@ -589,63 +570,51 @@
   }
 
   .metadata {
-    padding: 0.5rem;
+    padding: 1.25rem 1rem;
+    min-height: 200px; /* prevents collapse on short data */
+    align-items: start;
   }
 
   .title {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin: 0 0 0.5rem 0;
-    color: #1a1a1a;
-    line-height: 1.5rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .artist {
-    font-size: 1rem;
-    color: #555;
-    margin: 0 0 0 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 0.8rem 0;
+    color: #111;
+    line-height: 1.4;
   }
 
   .details {
-    margin-bottom: 0rem;
+    margin-bottom: 0.75rem; /* more consistent rhythm */
   }
 
   .details p {
-    margin: 0.5rem 0;
-    font-size: 0.95rem;
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
     color: #444;
+    line-height: 1.5;
   }
 
   .details p strong {
-    font-weight: 500;
-    color: #1a1a1a;
+    font-weight: 600;
+    color: #222;
   }
 
   .department {
-    color: #888;
+    color: #777;
     font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: 0rem !important;
+    letter-spacing: 0.6px;
+    margin-top: 0.5rem !important;
   }
 
   .credit-line {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #666;
     font-style: italic;
-    margin-bottom: 1rem;
-    padding-top: 0.5rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
     border-top: 1px solid #eee;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
   }
 
   .museum-link {
@@ -655,60 +624,38 @@
     background: #007acc;
     color: white;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-    transition: all 0.2s ease;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,122,204,0.2);
   }
 
   .museum-link:hover {
-    background: #005a99;
-    color: white;
-    transform: scale(1.03);
+    background: #005fa3;
+    transform: scale(1.04);
+    box-shadow: 0 5px 12px rgba(0,122,204,0.3);
   }
 
   footer {
-    margin-top: 0.5rem;
+    margin-top: 1.25rem;
   }
 
   .footer-credit {
     font-size: 0.8rem;
     font-style: italic;
-    color: #555;
+    color: #666;
     text-align: left;
-    margin: 0.5rem 0 0 0;
+    margin: 0.75rem 0 0 0;
     font-weight: 300;
-  } 
-
-  @media (max-width: 799px) {
-    .container { padding: 0.5rem 2rem; }
-    .title-group h1 { font-size: 1.2rem; }
-    .metadata { padding: 1rem; }
-    .title { font-size: 1.2rem; }
-    .artist { font-size: 1.1rem; }
-    
-    header {
-      align-items: center;
-    }
-    
-    .title-group {
-      flex: 1;
-      min-width: 0;
-    }
-    
-    .title-group h2 {
-      text-align: left;
-      width: 100%;
-    }
   }
 
-  @media (min-width: 800px) {
-    .artwork {
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      min-width: 800px; 
-      width: 100%;
-    }
+  @media (max-width: 799px) {
+    .container { padding: 0.5rem 1.5rem; }
+    .title-group h1 { font-size: 1.3rem; }
+    .metadata { padding: 1rem; }
+    .title { font-size: 1.2rem; }
+    .museum-link {text-align: center;}
   }
 </style>
