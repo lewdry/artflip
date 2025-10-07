@@ -1,4 +1,4 @@
-name: Data Update
+name: metfetch
 
 on:
   schedule:
