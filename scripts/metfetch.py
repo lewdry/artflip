@@ -54,13 +54,12 @@ SEARCH_PARAMS = {
     'q': "*",                    # Example: "landscape" or None
 }
 
-# File paths (relative to script location in /scripts/)
-ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
-LOG_FILE = Path("metfetch.log")
-DONTFETCH_FILE = Path("metdontfetch.json")  # Blacklist for problematic IDs
-TEMP_NEWIDS_FILE = Path("../public/artworkids.json")  # File for new IDs
+ARTWORKIDS_FILE = Path("public/artworkids.json")
+METADATA_OUTPUT_DIR = Path("public/metadata")
+IMAGES_OUTPUT_DIR = Path("public/images")
+LOG_FILE = Path("scripts/metfetch.log")
+DONTFETCH_FILE = Path("scripts/metdontfetch.json")
+TEMP_NEWIDS_FILE = Path("public/artworkids.json")
 
 # ============================================================================
 # SETUP
