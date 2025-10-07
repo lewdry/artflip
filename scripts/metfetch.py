@@ -11,7 +11,7 @@ from datetime import datetime
 # ============================================================================
 
 # Number of new artworks to download per run
-MAX_NEW_ARTWORKS = 10
+MAX_NEW_ARTWORKS = 1
 
 # Rate limiting (seconds between API calls)
 RATE_LIMIT_DELAY = 1.0
