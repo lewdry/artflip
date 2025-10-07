@@ -39,6 +39,8 @@ MAX_SEARCH_RESULTS_CAP = 5000
 SEARCH_PARAMS = {
     "imgonly": True,                # only artworks with images
     "rightsType": "Public Domain",  # public domain only
+    "toppieces": True, 
+    "ondisplay": True,          # only top pieces (True/False)
     "involvedMaker": None,
     "type": None,
     "material": None,
@@ -46,9 +48,9 @@ SEARCH_PARAMS = {
 }
 
 # Paths - match your other scripts' layout
-ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
+ARTWORKIDS_FILE = Path("../scripts/artworkids.json")
+METADATA_OUTPUT_DIR = Path("../scripts/metadata")
+IMAGES_OUTPUT_DIR = Path("../scripts/images")
 LOG_FILE = Path("rijksfetch.log")
 DONTFETCH_FILE = Path("rijksdontfetch.json")
 TEMP_NEWIDS_FILE = ARTWORKIDS_FILE  # TEMP behavior matches chicfetch/metfetch
