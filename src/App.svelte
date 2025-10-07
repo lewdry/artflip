@@ -652,7 +652,7 @@
   }
 
   @media (max-width: 799px) {
-    .container { padding: 0.5rem 1.5rem; }
+    .container { padding: 1rem 1rem; }
     .title-group h1 { font-size: 1.3rem; }
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
@@ -662,7 +662,7 @@
   @media (orientation: landscape) and (max-width: 799px) {
     .details p,
     .footer-credit {
-      font-size: 0.8rem; 
+      font-size: 0.6rem; 
       }
   }
 
