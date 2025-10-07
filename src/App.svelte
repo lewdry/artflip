@@ -663,7 +663,9 @@
     .details p,
     .footer-credit {
       font-size: 0.6rem; 
-      }
+  } 
+    .department {
+    font-size: 0.6rem;
   }
-
+  }
 </style>
