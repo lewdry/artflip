@@ -1,0 +1,30 @@
+{
+  "objectID": 79346,
+  "title": "Anxiety",
+  "artistDisplayName": "Edvard Munch",
+  "objectDate": "1896",
+  "objectName": "Print",
+  "medium": "Woodcut in black ink on lightweight ivory laid proofing paper",
+  "dimensions": "Image: 46.3 × 37.5 cm (18 1/4 × 14 13/16 in.); Sheet: 49.1 × 39.2 cm (19 3/8 × 15 7/16 in.)",
+  "department": "Prints and Drawings",
+  "culture": "Norway",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of the Print and Drawing Club",
+  "objectURL": "https://www.artic.edu/artworks/79346",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 25084,
+  "galleryTitle": "Gallery 125",
+  "image_id": "790a35a3-ccf8-fd35-b78b-beb2957a1ebd",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/790a35a3-ccf8-fd35-b78b-beb2957a1ebd/full/843,/0/default.jpg",
+  "localImage": "79346.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADg3NDk6ODs6OD0+PUA/O0VFQElKRkxLR05NSFNSTFJSTVNTTlRUTldWUFtcV11dV15cVmJjXGhnX2dmYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYFIwkQJNznIIQwM8gUQgRggAOw==",
+    "width": 1804,
+    "height": 2250,
+    "alt_text": "A work made of woodcut in black ink on lightweight ivory laid proofing paper."
+  },
+  "tags": []
+}

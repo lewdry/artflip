@@ -23,37 +23,40 @@ from datetime import datetime
 # CONFIGURATION - Modify these settings as needed
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 150
+MAX_NEW_ARTWORKS = 100
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 
 # Search parameters: use SEARCH_PARAMS['q'] as the main search term.
 # NOTE: These filters are now applied at the API search level using Elasticsearch!
 SEARCH_PARAMS = {
-    'q': None,                      # main query string (None to use a broad fetch)
-    'isPublicDomain': True,         # filter at API level for public domain works
-    'hasImages': True,              # filter at API level for works with images
-    'isOnView': True,               # filter at API level for artworks currently on display (True/False/None)
-    'isBoosted': True,              # filter at API level for "highlight" artworks (True/False/None)
+    'q': None,
+    'isPublicDomain': True,
+    'hasImages': True,
+    'isOnView': True,
     'artistOrCulture': None,
     'medium': None,
     'dateBegin': None,
     'dateEnd': None,
     'objectName': None,
     'department': None,
-    'classification': None,
+
+    'classification_filter': {
+        "type": "match",          # Options: "match", "match_phrase", "wildcard"
+        "value": ["photograph"]  # ✨ Use a list for multiple values
+    },
 }
 
 # File paths (kept same relative layout)
 ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../scripts/metadata")
-IMAGES_OUTPUT_DIR = Path("../scripts/images")
+METADATA_OUTPUT_DIR = Path("../public/metadata")
+IMAGES_OUTPUT_DIR = Path("../public/images")
 LOG_FILE = Path("chicfetch.log")
 DONTFETCH_FILE = Path("chicdontfetch.json")
-TEMP_NEWIDS_FILE = Path("../scripts/artworkids.json")
+TEMP_NEWIDS_FILE = Path("../public/artworkids.json")
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     # items per page requested from API (ARTIC may cap this)
-MAX_SEARCH_PAGES = 50       # don't fetch more than this many pages (safety)
+MAX_SEARCH_PAGES = 10       # don't fetch more than this many pages (safety)
 MAX_SEARCH_RESULTS_CAP = 5000  # absolute cap on total IDs fetched to avoid runaway queries
 
 # ============================================================================
@@ -164,29 +167,52 @@ class ChicDownloader:
         }
         
         # Add text search query if provided
-        q = SEARCH_PARAMS.get('q')
-        if q:
-            params['q'] = q
+    def build_search_params(self, page: int = 1) -> Dict:
+        """Construct parameters for the ARTIC search endpoint with Elasticsearch filtering"""
+        params = {
+            "limit": SEARCH_PAGE_LIMIT,
+            "page": page,
+            "fields": "id"
+        }
         
-        # Build Elasticsearch query filters
+        # ... (the 'q' and other filters remain the same) ...
         query_filters = []
         
         if SEARCH_PARAMS.get('isPublicDomain') is not None:
             query_filters.append({"term": {"is_public_domain": SEARCH_PARAMS.get('isPublicDomain')}})
         
         if SEARCH_PARAMS.get('hasImages'):
-            # Filter for artworks that have an image_id field
             query_filters.append({"exists": {"field": "image_id"}})
         
         if SEARCH_PARAMS.get('isOnView') is not None:
             query_filters.append({"term": {"is_on_view": SEARCH_PARAMS.get('isOnView')}})
-        
-        if SEARCH_PARAMS.get('isBoosted') is not None:
-            query_filters.append({"term": {"is_boosted": SEARCH_PARAMS.get('isBoosted')}})
+
+        # ✨ UPDATED LOGIC TO HANDLE A LIST OF CLASSIFICATIONS ✨
+        classification_filter = SEARCH_PARAMS.get('classification_filter')
+        if classification_filter:
+            query_type = classification_filter.get("type", "match")
+            query_value = classification_filter.get("value")
+            
+            if query_value:
+                # Check if the value is a list (for an OR search)
+                if isinstance(query_value, list):
+                    should_queries = []
+                    for item in query_value:
+                        should_queries.append({query_type: {"classification_titles": item}})
+                    
+                    query_filters.append({
+                        "bool": {
+                            "should": should_queries,
+                            "minimum_should_match": 1
+                        }
+                    })
+                else:
+                    # If it's just a string, handle it the old way
+                    query_filters.append({query_type: {"classification_titles": query_value}})
         
         # Add the query filters if any exist
         if query_filters:
-            params['query'] = json.dumps({"bool": {"must": query_filters}})
+            params['query'] = {"bool": {"must": query_filters}}
         
         return params
 
@@ -202,7 +228,8 @@ class ChicDownloader:
         try:
             while True:
                 params = self.build_search_params(page=page)
-                logging.info(f"ARTIC search page {page} with params: {params}")
+                # Log the params payload to help with debugging
+                logging.info(f"ARTIC search page {page} with payload: {json.dumps(params)}")
                 
                 # Use POST for complex Elasticsearch queries
                 resp = requests.post(SEARCH_ENDPOINT, json=params, timeout=30)
@@ -251,9 +278,9 @@ class ChicDownloader:
 
                 # Early exit optimization: if we've already found enough potential new IDs to satisfy download need,
                 # we can stop paging to save API calls (we look for at least MAX_NEW_ARTWORKS * 3 to have buffer)
-                if len(all_ids) >= MAX_NEW_ARTWORKS * 3:
-                    logging.info("Collected sufficient IDs for potential downloads; stopping early.")
-                    break
+              #  if len(all_ids) >= MAX_NEW_ARTWORKS * 3:
+                #    logging.info("Collected sufficient IDs for potential downloads; stopping early.")
+               #     break
 
                 page += 1
                 time.sleep(RATE_LIMIT_DELAY)  # polite pause between pages
@@ -497,8 +524,11 @@ class ChicDownloader:
             active_filters.append("Has Images: True")
         if SEARCH_PARAMS.get('isOnView') is not None:
             active_filters.append(f"On View: {SEARCH_PARAMS['isOnView']}")
-        if SEARCH_PARAMS.get('isBoosted') is not None:
-            active_filters.append(f"Boosted/Highlight: {SEARCH_PARAMS['isBoosted']}")
+        
+        # ✨ ADDED: Log the classification filter
+        classification = SEARCH_PARAMS.get('classification_titles')
+        if classification:
+            active_filters.append(f"Classification: {classification}")
         
         if active_filters:
             print(f"Active filters (Elasticsearch): {', '.join(active_filters)}")

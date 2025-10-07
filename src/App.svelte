@@ -658,4 +658,12 @@
     .title { font-size: 1.2rem; }
     .museum-link {text-align: center;}
   }
+
+  @media (orientation: landscape) and (max-width: 799px) {
+    .details p,
+    .footer-credit {
+      font-size: 0.8rem; 
+      }
+  }
+
 </style>

@@ -1,0 +1,30 @@
+{
+  "objectID": 16600,
+  "title": "Lucie Berard (Child in White)",
+  "artistDisplayName": "Pierre-Auguste Renoir",
+  "objectDate": "1883",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "61.3 × 49.8 cm (24 3/8 × 19 5/8 in.); Framed: 84.2 × 73.1 × 9.6 cm (33 1/8 × 28 3/4 × 3 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://www.artic.edu/artworks/16600",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483643,
+  "galleryTitle": "Gallery 201",
+  "image_id": "0e94a829-b3b7-8317-b609-d1826f0369f0",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/0e94a829-b3b7-8317-b609-d1826f0369f0/full/843,/0/default.jpg",
+  "localImage": "16600.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAABSeANVeyRmdD57eEl2dlh6fQdhiSN6iTd+mUOAh1qOgVuPinKfmqCdg42rq6y2qLPBrL3KuMPOvcDOwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoCEQCVA0Q+BECiJNzAE9SwgAOw==",
+    "width": 1802,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}
