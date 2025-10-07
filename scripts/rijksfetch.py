@@ -29,7 +29,7 @@ API_KEY = os.getenv("RIJKS_API_KEY")
 if not API_KEY:
     raise EnvironmentError("❌ Missing Rijksmuseum API key. Please set RIJKS_API_KEY environment variable.")
 
-MAX_NEW_ARTWORKS = 100
+MAX_NEW_ARTWORKS = 20
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 SEARCH_PAGE_LIMIT = 100  # items per page (Rijks uses 'ps')
 MAX_SEARCH_PAGES = 10

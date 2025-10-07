@@ -23,7 +23,7 @@ from datetime import datetime
 # CONFIGURATION - Modify these settings as needed
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 100
+MAX_NEW_ARTWORKS = 20
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 
 # Search parameters: use SEARCH_PARAMS['q'] as the main search term.
