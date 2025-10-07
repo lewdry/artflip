@@ -31,7 +31,7 @@ jobs:
 
       # 4️⃣ Run Python updater
       - name: Run Python script
-        run: python scripts/update_data.py
+        run: python scripts/metfetch.py
 
       # 5️⃣ Commit & push only JSON metadata/artwork IDs
       - name: Commit updated data
