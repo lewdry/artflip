@@ -1,33 +1,43 @@
-name: metfetch
+name: MetFetch
 
 on:
   schedule:
-     - cron: '12 0 * * 5'   # Friday 1200 UTC, 11/12 pm Syd
+    # Friday 11 PM Sydney time ≈ 12:00 UTC (AEDT/AEST shifts ±1h with daylight savings)
+    - cron: '0 12 * * 5'
   workflow_dispatch:
+
+permissions:
+  contents: write   # Required to push updated JSON
+  pages: write
+  id-token: write
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      # 1️⃣ Checkout repo
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
+      # 2️⃣ Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      # 3️⃣ Install dependencies
+      - name: Install requests
         run: pip install requests
 
-      - name: Run data update script
-        run: python scripts/metfetch.py
+      # 4️⃣ Run Python updater
+      - name: Run Python script
+        run: python scripts/update_data.py
 
+      # 5️⃣ Commit & push only JSON metadata/artwork IDs
       - name: Commit updated data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/artworkids.json public/metadata public/images
-          git diff --quiet || git commit -m "Automated data update"
-          git push
+          git config user.name "ArtFlip Data Bot"
+          git config user.email "hello@artflip.me"
+          git add public/artworkids.json public/metadata/
+          git diff --quiet || git commit -m "Automated data update $(date +'%Y-%m-%d')"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
