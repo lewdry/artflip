@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # Required to push updated JSON
+  contents: write   # Required to push updated JSON, metadata, images
   pages: write
   id-token: write
 
@@ -33,11 +33,17 @@ jobs:
       - name: Run Python script
         run: python scripts/metfetch.py
 
-      # 5️⃣ Commit & push only JSON metadata/artwork IDs
+      # 5️⃣ Commit & push updated data
       - name: Commit updated data
         run: |
           git config user.name "ArtFlip Data Bot"
           git config user.email "hello@artflip.me"
-          git add public/artworkids.json public/metadata/
-          git diff --quiet || git commit -m "Automated data update $(date +'%Y-%m-%d')"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          # Stage all new and changed files in JSON, metadata, and images
+          git add -A public/artworkids.json public/metadata/ public/images/
+          # Only commit if there are staged changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Automated data update $(date +'%Y-%m-%d')"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          else
+            echo "No changes to commit"
+          fi
