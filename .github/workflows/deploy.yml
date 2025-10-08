@@ -12,8 +12,16 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
+    environment:
+      name: github-pages    # 👈 REQUIRED or you'll get “Missing environment”
+      url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
 
     steps:
@@ -35,7 +43,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: /artflip/   # <-- ensures correct asset paths for GitHub Pages
+          BASE_PATH: /artflip/   # ensures correct asset paths for GitHub Pages
           
       # 5. Setup Pages
       - name: Setup Pages

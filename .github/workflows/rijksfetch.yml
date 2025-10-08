@@ -2,7 +2,7 @@ name: RijksFetch
 
 on:
   schedule:
-    # Friday 19 PM Sydney time ≈ 10:00 UTC (adjusts with daylight savings)
+    # Friday 9 PM Sydney time ≈ 10:00 UTC (adjusts with daylight savings)
     - cron: '0 10 * * 5'
   workflow_dispatch:
 
