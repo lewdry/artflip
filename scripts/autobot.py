@@ -134,32 +134,54 @@ def main():
         print("Error: ACCESS_TOKEN or IG_USER_ID not found in environment variables.")
         return
 
-    try:
-        object_id = pick_random_artwork()
-        metadata = get_metadata(object_id)
-    except Exception as e:
-        print("Error picking artwork or loading metadata:", e)
-        return
+    MAX_RETRIES = 3
+    retry_count = 0
+    successful_post = False
+    
+    while retry_count < MAX_RETRIES and not successful_post:
+        print(f"\nAttempting to post artwork (Attempt {retry_count + 1}/{MAX_RETRIES})...")
+        try:
+            # 1. Pick a random artwork
+            object_id = pick_random_artwork()
+            metadata = get_metadata(object_id)
+            caption = format_caption(metadata)
+            image_url = f"{BASE_RAW_URL}/{IMAGES_DIR}/{object_id}.jpg"
 
-    caption = format_caption(metadata)
-    image_url = f"{BASE_RAW_URL}/{IMAGES_DIR}/{object_id}.jpg"
+            print(f"-> Selected artwork {object_id} with caption: {caption.splitlines()[0]}...")
 
-    print(f"Posting artwork {object_id} with caption:\n{caption}")
+            # 2. Create and publish
+            creation_id = create_media_container(image_url, caption)
+            
+            # Wait for media to be ready before publishing
+            if check_media_status(creation_id):
+                result = publish_media(creation_id)
+                print("✅ Post published successfully:", result)
+                successful_post = True  # Exit the loop on success
+            else:
+                print("❌ Failed to publish media because it was not ready.")
+                retry_count += 1 # Treat as a failed attempt to proceed to the next retry
+                # No need to raise an exception here, just let the loop continue if not successful_post
 
-    try:
-        creation_id = create_media_container(image_url, caption)
+        except requests.HTTPError as e:
+            error_message_text = e.response.text
+            
+            # Check for the specific aspect ratio error
+            if "The aspect ratio is not supported." in error_message_text:
+                print(f"⚠️ Aspect ratio error for artwork {object_id}. Retrying...")
+                retry_count += 1
+                time.sleep(2) # Brief pause before retrying
+            else:
+                # Handle all other HTTP errors
+                print("❌ Error posting to Instagram:", error_message_text)
+                successful_post = True # Stop retrying on non-aspect ratio errors
         
-        # NEW: Wait for media to be ready before publishing
-        if check_media_status(creation_id):
-            result = publish_media(creation_id)
-            print("Post published successfully:", result)
-        else:
-            print("Failed to publish media because it was not ready.")
+        except Exception as e:
+            print(f"❌ Unexpected error during posting attempt: {e}")
+            successful_post = True # Stop retrying on non-HTTP/unexpected errors
 
-    except requests.HTTPError as e:
-        print("Error posting to Instagram:", e.response.text)
-    except Exception as e:
-        print("Unexpected error:", e)
+    if not successful_post:
+        print(f"\n🛑 All {MAX_RETRIES} attempts failed. Could not publish an artwork.")
+
 
 if __name__ == "__main__":
     main()
