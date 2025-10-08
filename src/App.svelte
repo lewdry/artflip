@@ -328,7 +328,7 @@
   <div class="container">
     <header>
       <div class="title-group">
-        <h1>ArtFlip</h1>
+        <h1>Artflip.</h1>
         <h2>Public domain art</h2>
       </div>
 
@@ -420,7 +420,7 @@
     <footer>
       <p class="footer-credit">
         All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
-        ArtFlip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
+        Artflip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
     </footer>
   </div>
