@@ -2,6 +2,7 @@ import json
 import random
 import requests
 import os
+import time
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -74,6 +75,7 @@ def format_caption(metadata):
     return "\n".join(lines)
 
 def create_media_container(image_url, caption):
+    """Create a media container for the image and caption."""
     url = f"{GRAPH_API_BASE}/{IG_USER_ID}/media"
     payload = {
         "image_url": image_url,
@@ -84,7 +86,37 @@ def create_media_container(image_url, caption):
     resp.raise_for_status()
     return resp.json()["id"]
 
+def check_media_status(creation_id):
+    """Check the status of the media container until it's ready."""
+    url = f"{GRAPH_API_BASE}/{creation_id}"
+    params = {
+        "fields": "status_code",
+        "access_token": ACCESS_TOKEN
+    }
+    
+    # Check status up to 10 times, waiting 3 seconds between checks
+    for _ in range(10): 
+        resp = requests.get(url, params=params)
+        resp.raise_for_status()
+        status = resp.json().get("status_code")
+        
+        print(f"Current media status: {status}")
+        
+        if status == "FINISHED":
+            return True
+        elif status == "ERROR":
+            print("Media container processing failed.")
+            return False
+            
+        # Wait before checking again
+        time.sleep(3)
+        
+    print("Media container did not become ready in time.")
+    return False
+
+
 def publish_media(creation_id):
+    """Publish the media using its creation ID."""
     url = f"{GRAPH_API_BASE}/{IG_USER_ID}/media_publish"
     payload = {
         "creation_id": creation_id,
@@ -99,7 +131,7 @@ def publish_media(creation_id):
 def main():
     # Check if secrets are loaded
     if not ACCESS_TOKEN or not IG_USER_ID:
-        print("Error: ACCESS_TOKEN or IG_USER_ID not found in .env file.")
+        print("Error: ACCESS_TOKEN or IG_USER_ID not found in environment variables.")
         return
 
     try:
@@ -110,15 +142,20 @@ def main():
         return
 
     caption = format_caption(metadata)
-
     image_url = f"{BASE_RAW_URL}/{IMAGES_DIR}/{object_id}.jpg"
 
     print(f"Posting artwork {object_id} with caption:\n{caption}")
 
     try:
         creation_id = create_media_container(image_url, caption)
-        result = publish_media(creation_id)
-        print("Post published successfully:", result)
+        
+        # NEW: Wait for media to be ready before publishing
+        if check_media_status(creation_id):
+            result = publish_media(creation_id)
+            print("Post published successfully:", result)
+        else:
+            print("Failed to publish media because it was not ready.")
+
     except requests.HTTPError as e:
         print("Error posting to Instagram:", e.response.text)
     except Exception as e:
