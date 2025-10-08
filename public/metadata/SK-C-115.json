@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-115",
-  "title": "Still life",
-  "artistDisplayName": "Elisabeth Iosetta Hoopstad",
-  "objectDate": "1842",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 74.1cm × w 92.8cm × t 3.6cm × d 10.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-115",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s843",
-  "primaryImageMedium": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s600",
-  "primaryImageSmall": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s400",
-  "localImage": "SK-C-115.jpg",
-  "webImage": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still life",
+    "artistDisplayName": "Elisabeth Iosetta Hoopstad",
+    "objectDate": "1842",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 74.1cm \u00d7 w 92.8cm \u00d7 t 3.6cm \u00d7 d 10.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-115",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s843",
+    "primaryImageMedium": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s600",
+    "primaryImageSmall": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s400",
+    "localImage": "SK-C-115.jpg",
+    "webImage": "https://lh6.ggpht.com/OcE8EbQ9YDhwFgZLh4FFzoDaMpppoNn-TuntRJDaf6ZQEd1dphI5kwQYpEqkDgyJlhVki4d6EPWibazHz_UOAJdTI2pg=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-115"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1407",
-  "title": "Still Life with Fish",
-  "artistDisplayName": "A. van Doeff",
-  "objectDate": "1625 - 1675",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 104cm × w 92.5cm × d 5.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1407",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s400",
-  "localImage": "SK-A-1407.jpg",
-  "webImage": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Fish",
+    "artistDisplayName": "A. van Doeff",
+    "objectDate": "1625 - 1675",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 104cm \u00d7 w 92.5cm \u00d7 d 5.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1407",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s400",
+    "localImage": "SK-A-1407.jpg",
+    "webImage": "https://lh3.googleusercontent.com/zL5273rN_k90RS3lgSFLEjv92k6bneRWwcrr14PWkIqGTprNZIUGajoeY1pgyfVyXjHvDpkvBVxSq7uRSv9g9k9IVlE=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1407"
 }

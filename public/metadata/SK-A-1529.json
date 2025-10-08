@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1529",
-  "title": "Still Life with Fish and Fruit",
-  "artistDisplayName": "Harmen Steenwijck",
-  "objectDate": "1652",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 23cm × w 27cm × d 5.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1529",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s400",
-  "localImage": "SK-A-1529.jpg",
-  "webImage": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Fish and Fruit",
+    "artistDisplayName": "Harmen Steenwijck",
+    "objectDate": "1652",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 23cm \u00d7 w 27cm \u00d7 d 5.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1529",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s400",
+    "localImage": "SK-A-1529.jpg",
+    "webImage": "https://lh3.googleusercontent.com/6vTX8wxCAGKouT5AzfE8IJB6RY0xkPR9iACNKeTLQyEUI_M5SU789YUb3o0CZek1qbybURuovN0HUH8-XfCGNtqBXLpM=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1529"
 }

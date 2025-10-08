@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-844",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "B. Schaak",
-  "objectDate": "1675 - 1700",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 47cm × w 40.5cm × d 6.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-844",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s843",
-  "primaryImageMedium": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s600",
-  "primaryImageSmall": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s400",
-  "localImage": "SK-A-844.jpg",
-  "webImage": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "B. Schaak",
+    "objectDate": "1675 - 1700",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 47cm \u00d7 w 40.5cm \u00d7 d 6.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-844",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s843",
+    "primaryImageMedium": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s600",
+    "primaryImageSmall": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s400",
+    "localImage": "SK-A-844.jpg",
+    "webImage": "https://lh6.ggpht.com/tInKQ6WNLNcdUXqMge74_Bm4XL3MYKWRLGujm8dFdg1aZwU9MDzSGrJ3PO1JrzZlQH-MBXJ010uU_7ssi7H3qjiGpogQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-844"
 }

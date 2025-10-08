@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-1846",
-  "title": "Two Children with a Cat",
-  "artistDisplayName": "Judith Leyster",
-  "objectDate": "c. 1630",
-  "objectName": "",
-  "medium": "Oil paint (paint), canvas",
-  "dimensions": "h 61cm × w 52cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-1846",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s400",
-  "localImage": "SK-C-1846.jpg",
-  "webImage": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Two Children with a Cat",
+    "artistDisplayName": "Judith Leyster",
+    "objectDate": "c. 1630",
+    "objectName": "",
+    "medium": "Oil paint (paint), canvas",
+    "dimensions": "h 61cm \u00d7 w 52cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-1846",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s400",
+    "localImage": "SK-C-1846.jpg",
+    "webImage": "https://lh3.googleusercontent.com/fCNBrs1yIu1bsM4G7crSuXUVR046rnYHMTfJxH-yBbG9s7i_veqGKBQpJnYAjLYvb9DDXc_eNlQT60VxrLP0ef-udp84fdYABUdaRho=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-1846"
 }

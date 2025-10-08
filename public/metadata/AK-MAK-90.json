@@ -1,24 +1,24 @@
 {
-  "objectNumber": "AK-MAK-90",
-  "title": "Fragment van een muurschildering",
-  "artistDisplayName": "anonymous",
-  "objectDate": "1416 - 1448",
-  "objectName": "",
-  "medium": "Loam, dye",
-  "dimensions": "h c.35cm × w c.45cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/AK-MAK-90",
-  "department": "",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s400",
-  "localImage": "AK-MAK-90.jpg",
-  "webImage": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s0",
-  "tags": [
-    "fragment",
-    "painting",
-    "mural painting"
-  ],
-  "facets": {}
+    "title": "Fragment van een muurschildering",
+    "artistDisplayName": "anonymous",
+    "objectDate": "1416 - 1448",
+    "objectName": "",
+    "medium": "Loam, dye",
+    "dimensions": "h c.35cm \u00d7 w c.45cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/AK-MAK-90",
+    "department": "",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s400",
+    "localImage": "AK-MAK-90.jpg",
+    "webImage": "https://lh3.googleusercontent.com/8trvqkMNgqIWtJPUZGRd-wyMc__GH-oRSU9rPhFHen5kGqxp9p9aFR7W0tx2dJF5KbX1uTMF7YG-0Y0XUUgOp7Ci2W8=s0",
+    "tags": [
+        "fragment",
+        "painting",
+        "mural painting"
+    ],
+    "facets": {},
+    "objectID": "AK-MAK-90"
 }

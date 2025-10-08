@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-3828",
-  "title": "Still Life",
-  "artistDisplayName": "Abraham van Beyeren",
-  "objectDate": "c. 1660 - 1690",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 57cm × w 52.5cm × t 3.9cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3828",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s400",
-  "localImage": "SK-A-3828.jpg",
-  "webImage": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life",
+    "artistDisplayName": "Abraham van Beyeren",
+    "objectDate": "c. 1660 - 1690",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 57cm \u00d7 w 52.5cm \u00d7 t 3.9cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3828",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s400",
+    "localImage": "SK-A-3828.jpg",
+    "webImage": "https://lh3.googleusercontent.com/gflvsT0Gyi7Sbf8Yf_alYs2U5fCSyJ45xskTR16F3e1FzCUw_-wdkuonZW-5iVUy1jjRD4Q2JrkuHK5nJXNpscLYm68SqLq9bRMrO5uj=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-3828"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1449",
-  "title": "Still Life with Fruit",
-  "artistDisplayName": "Johannes Hannot",
-  "objectDate": "1668",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 60cm × w 45.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1449",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s400",
-  "localImage": "SK-A-1449.jpg",
-  "webImage": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Fruit",
+    "artistDisplayName": "Johannes Hannot",
+    "objectDate": "1668",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 60cm \u00d7 w 45.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1449",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s400",
+    "localImage": "SK-A-1449.jpg",
+    "webImage": "https://lh3.googleusercontent.com/XlKsQBqskduQ7fPxqxH3yQIEgHDhWjGg36ntjhUnZe4G-17iWcDkvx6XbUdyxcntAbHkVBGgBDG2wU60eO3-9IsKeUW8=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1449"
 }

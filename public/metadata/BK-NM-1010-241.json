@@ -1,24 +1,24 @@
 {
-  "objectNumber": "BK-NM-1010-241",
-  "title": "Finding of Moses",
-  "artistDisplayName": "Johannes Voorhout (I)",
-  "objectDate": "c. 1690 - c. 1710",
-  "objectName": "",
-  "medium": "Paint (coating), oil paint (paint), canvas",
-  "dimensions": "h 13.5cm × w 11.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-NM-1010-241",
-  "department": "Paintings, dollhouse",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s843",
-  "primaryImageMedium": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s600",
-  "primaryImageSmall": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s400",
-  "localImage": "BK-NM-1010-241.jpg",
-  "webImage": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s0",
-  "tags": [
-    "miniature",
-    "overmantel",
-    "painting"
-  ],
-  "facets": {}
+    "title": "Finding of Moses",
+    "artistDisplayName": "Johannes Voorhout (I)",
+    "objectDate": "c. 1690 - c. 1710",
+    "objectName": "",
+    "medium": "Paint (coating), oil paint (paint), canvas",
+    "dimensions": "h 13.5cm \u00d7 w 11.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-NM-1010-241",
+    "department": "Paintings, dollhouse",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s843",
+    "primaryImageMedium": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s600",
+    "primaryImageSmall": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s400",
+    "localImage": "BK-NM-1010-241.jpg",
+    "webImage": "https://lh3.ggpht.com/9o4WIIuT7KKPP9UdIW4U_SnNSUdZqarBPtuTogx8YOW_g6lH_XoAqmDE5zD0iXzAPRmqbpl4rNqUkGUEptrK1rIWXw4=s0",
+    "tags": [
+        "miniature",
+        "overmantel",
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "BK-NM-1010-241"
 }

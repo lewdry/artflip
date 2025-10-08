@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-335",
-  "title": "Still Life with Golden Goblet",
-  "artistDisplayName": "Pieter de Ring",
-  "objectDate": "c. 1655 - c. 1660",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 101.2cm × w 84.7cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-335",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s400",
-  "localImage": "SK-A-335.jpg",
-  "webImage": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Golden Goblet",
+    "artistDisplayName": "Pieter de Ring",
+    "objectDate": "c. 1655 - c. 1660",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 101.2cm \u00d7 w 84.7cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-335",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s400",
+    "localImage": "SK-A-335.jpg",
+    "webImage": "https://lh3.googleusercontent.com/3ISiYprJYeL5-2C74AWTdt-Uuc2G4zgkOB4pCww4jhxqUuX7nfasy5CUzFXO1vmBOnZ4jPu5O4W0eQbGOeqqP4uiwQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-335"
 }

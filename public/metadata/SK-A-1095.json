@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1095",
-  "title": "Still Life with Flowers, Fruit and Birds",
-  "artistDisplayName": "Jan van Os",
-  "objectDate": "1774",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 89cm × w 72cm × d 5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1095",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s843",
-  "primaryImageMedium": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s600",
-  "primaryImageSmall": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s400",
-  "localImage": "SK-A-1095.jpg",
-  "webImage": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Flowers, Fruit and Birds",
+    "artistDisplayName": "Jan van Os",
+    "objectDate": "1774",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 89cm \u00d7 w 72cm \u00d7 d 5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1095",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s843",
+    "primaryImageMedium": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s600",
+    "primaryImageSmall": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s400",
+    "localImage": "SK-A-1095.jpg",
+    "webImage": "https://lh3.ggpht.com/51RlUpGhWeEN5UcJWF01iuDoBeE7POk-Enpgoru8dfza6iOHm4pKVsDvF_EngfQztnK5yhU3fgycQ9LUxnkwq86xngI=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1095"
 }

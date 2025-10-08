@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2982",
-  "title": "Still Life with Fruit",
-  "artistDisplayName": "Henri Fantin-Latour",
-  "objectDate": "c. 1880 - c. 1890",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 28.3cm × w 42.8cm × t 2.5cm × d 10.8cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2982",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s843",
-  "primaryImageMedium": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s600",
-  "primaryImageSmall": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s400",
-  "localImage": "SK-A-2982.jpg",
-  "webImage": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Fruit",
+    "artistDisplayName": "Henri Fantin-Latour",
+    "objectDate": "c. 1880 - c. 1890",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 28.3cm \u00d7 w 42.8cm \u00d7 t 2.5cm \u00d7 d 10.8cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2982",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s843",
+    "primaryImageMedium": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s600",
+    "primaryImageSmall": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s400",
+    "localImage": "SK-A-2982.jpg",
+    "webImage": "https://lh3.ggpht.com/ksaTBrNFsVIYuohcuK9aFPkmLYgOI6t4SBmP73CaJiONJVGiSSmgKCHU_t7Gds3O1oPqjMuo_kF_mzboQjT1jGuJks4G=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2982"
 }

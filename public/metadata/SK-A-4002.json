@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-4002",
-  "title": "Madonna van de nederigheid",
-  "artistDisplayName": "Bartolommeo Bulgarini",
-  "objectDate": "c. 1353",
-  "objectName": "",
-  "medium": "Tempera, poplar (wood), linden",
-  "dimensions": "h 57cm × w 24.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4002",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s400",
-  "localImage": "SK-A-4002.jpg",
-  "webImage": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Madonna van de nederigheid",
+    "artistDisplayName": "Bartolommeo Bulgarini",
+    "objectDate": "c. 1353",
+    "objectName": "",
+    "medium": "Tempera, poplar (wood), linden",
+    "dimensions": "h 57cm \u00d7 w 24.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4002",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s400",
+    "localImage": "SK-A-4002.jpg",
+    "webImage": "https://lh3.googleusercontent.com/XTH85DSHexVP3uxEya3apMYqQFCESZo1YKDfbBUeaTTnlszusulwfdyqdsc4T14BEK0x71-G20k_dRrEZXuKk8hwbVQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-4002"
 }

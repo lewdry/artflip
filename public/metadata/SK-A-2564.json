@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2564",
-  "title": "Still Life",
-  "artistDisplayName": "Johann Friedrich Grueber",
-  "objectDate": "1662 - 1681",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 153cm × w 166cm × d 7cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2564",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s400",
-  "localImage": "SK-A-2564.jpg",
-  "webImage": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life",
+    "artistDisplayName": "Johann Friedrich Grueber",
+    "objectDate": "1662 - 1681",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 153cm \u00d7 w 166cm \u00d7 d 7cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2564",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s400",
+    "localImage": "SK-A-2564.jpg",
+    "webImage": "https://lh3.googleusercontent.com/ZGPpBxbKjf_PI5JNQ-1ilaUGd4aG7XlhW930bE6ZNVcv7mfX028h66wZ86EwXPMMHoEG4kGUn_29p4o2M4aoWGN9Xg=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2564"
 }

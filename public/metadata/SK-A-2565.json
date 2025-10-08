@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2565",
-  "title": "Still Life with Books",
-  "artistDisplayName": "Jan Davidsz. de Heem",
-  "objectDate": "c. 1628 - c. 1629",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 26.5cm × w 41.5cm × d 5.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2565",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s400",
-  "localImage": "SK-A-2565.jpg",
-  "webImage": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Books",
+    "artistDisplayName": "Jan Davidsz. de Heem",
+    "objectDate": "c. 1628 - c. 1629",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 26.5cm \u00d7 w 41.5cm \u00d7 d 5.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2565",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s400",
+    "localImage": "SK-A-2565.jpg",
+    "webImage": "https://lh3.googleusercontent.com/Jq-ZhL8kU6AFoC5F804qAYSG6kmrBKMZRwtYj92wh3KfS_100G1hKXTfLy-Zm5yq2kbCNv6TZRtyVVRGjgidsvtdaO-T=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2565"
 }

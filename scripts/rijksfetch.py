@@ -58,11 +58,11 @@ MAX_SEARCH_RESULTS_CAP = 5000
 SEARCH_PARAMS = {
     "imgonly": True,                # only artworks with images
     "toppieces": True,              # suspect this is deprecated, leaving it in just-in-case
-    "ondisplay": None,          # only top pieces (True/False)
+    "ondisplay": True,          # only top pieces (True/False)
     "involvedMaker": None,
     "type": "painting",
     "material": None,
-    "q": "still life",  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
+    "q": None,  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
 }
 
 # Paths - match your other scripts' layout

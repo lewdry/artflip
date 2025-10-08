@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1686",
-  "title": "Vanitas still life",
-  "artistDisplayName": "N.L. Peschier",
-  "objectDate": "1660",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 57cm × w 70cm × d 6cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1686",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s843",
-  "primaryImageMedium": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s600",
-  "primaryImageSmall": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s400",
-  "localImage": "SK-A-1686.jpg",
-  "webImage": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas still life",
+    "artistDisplayName": "N.L. Peschier",
+    "objectDate": "1660",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 57cm \u00d7 w 70cm \u00d7 d 6cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1686",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s843",
+    "primaryImageMedium": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s600",
+    "primaryImageSmall": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s400",
+    "localImage": "SK-A-1686.jpg",
+    "webImage": "https://lh6.ggpht.com/f7I-BIgxDLZem2TOY2Wdu1wGOxqZyS6r7F1ZYJ5VU_4o3XWo-HKW3IuIWrf06Hm6ro_3eIl4VASK-6wojFBPHjHyLOw=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1686"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1281",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "Cornelis Brisé",
-  "objectDate": "1665",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 107cm × w 90cm × d 8cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1281",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s400",
-  "localImage": "SK-A-1281.jpg",
-  "webImage": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "Cornelis Bris\u00e9",
+    "objectDate": "1665",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 107cm \u00d7 w 90cm \u00d7 d 8cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1281",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s400",
+    "localImage": "SK-A-1281.jpg",
+    "webImage": "https://lh3.googleusercontent.com/UoEfOn6s-qPqoFRr5p6R-y1hq9HqSpJV34T6teXR671GM0B7tqNbMkFPu-eVLyOs9dPdwxhEuaBBEZGClAaOWO0r0MY=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1281"
 }

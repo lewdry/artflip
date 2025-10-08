@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-771",
-  "title": "Still Life with Flowers",
-  "artistDisplayName": "Nicolaes Lachtropius",
-  "objectDate": "1667",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 63cm × w 52cm × d 6cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-771",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s843",
-  "primaryImageMedium": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s600",
-  "primaryImageSmall": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s400",
-  "localImage": "SK-A-771.jpg",
-  "webImage": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Flowers",
+    "artistDisplayName": "Nicolaes Lachtropius",
+    "objectDate": "1667",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 63cm \u00d7 w 52cm \u00d7 d 6cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-771",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s843",
+    "primaryImageMedium": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s600",
+    "primaryImageSmall": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s400",
+    "localImage": "SK-A-771.jpg",
+    "webImage": "https://lh3.ggpht.com/HnmCdzYjKjJLHxChk48YF2odVNUs-49Aq6h1kwwPAqgQXa9E9KPDs7mBmBhLWBVWMLuxy1O0cdd4SUyKj1SUMTljDRyR=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-771"
 }

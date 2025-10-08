@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1865",
-  "title": "Still Life with Apples",
-  "artistDisplayName": "Gustave Courbet",
-  "objectDate": "1871 - 1872",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 59cm × w 48cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1865",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s843",
-  "primaryImageMedium": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s600",
-  "primaryImageSmall": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s400",
-  "localImage": "SK-A-1865.jpg",
-  "webImage": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Apples",
+    "artistDisplayName": "Gustave Courbet",
+    "objectDate": "1871 - 1872",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 59cm \u00d7 w 48cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1865",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s843",
+    "primaryImageMedium": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s600",
+    "primaryImageSmall": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s400",
+    "localImage": "SK-A-1865.jpg",
+    "webImage": "https://lh3.ggpht.com/AQu3L6kF9WHCmAVOau3UzcBFtpuzcYSJ2oDQ7iO-JkdT-U8jG7FaQUlqbgooivfkraksGlX3D3hrjNZ9MXty-oD50_M=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1865"
 }

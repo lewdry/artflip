@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2366",
-  "title": "Still Life",
-  "artistDisplayName": "Christiaen van Dielaert",
-  "objectDate": "1666",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 135cm × w 115cm × d 6cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2366",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s400",
-  "localImage": "SK-A-2366.jpg",
-  "webImage": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life",
+    "artistDisplayName": "Christiaen van Dielaert",
+    "objectDate": "1666",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 135cm \u00d7 w 115cm \u00d7 d 6cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2366",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s400",
+    "localImage": "SK-A-2366.jpg",
+    "webImage": "https://lh3.googleusercontent.com/KXtDIBSyStOMgwFIHneUSi7PhDnuqziUySz-yzKV3uWLRWOLm_3m6MlFlMshLC-M5NgZn88xxcqc-qAWwhYgBWHbqQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2366"
 }

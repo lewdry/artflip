@@ -1,23 +1,23 @@
 {
-  "objectNumber": "BK-C-2007-1-A",
-  "title": "Saint Philip Baptizes the Eunuch",
-  "artistDisplayName": "Jacob de Wit",
-  "objectDate": "1748",
-  "objectName": "",
-  "medium": "Oil paint (paint)",
-  "dimensions": "h c.215cm × w c.108.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-C-2007-1-A",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s400",
-  "localImage": "BK-C-2007-1-A.jpg",
-  "webImage": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s0",
-  "tags": [
-    "overmantel",
-    "painting"
-  ],
-  "facets": {}
+    "title": "Saint Philip Baptizes the Eunuch",
+    "artistDisplayName": "Jacob de Wit",
+    "objectDate": "1748",
+    "objectName": "",
+    "medium": "Oil paint (paint)",
+    "dimensions": "h c.215cm \u00d7 w c.108.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-C-2007-1-A",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s400",
+    "localImage": "BK-C-2007-1-A.jpg",
+    "webImage": "https://lh3.googleusercontent.com/bI5dqTL3VhK1skYw2p-VzK9ai7LBt8VdxahFIxIM03s7l9pq3SF86_nY6umDr_P7DM5ZAmSoRflBNlfTrIsWAsDzAw=s0",
+    "tags": [
+        "overmantel",
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "BK-C-2007-1-A"
 }

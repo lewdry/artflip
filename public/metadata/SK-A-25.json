@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-25",
-  "title": "Still Life with Fish",
-  "artistDisplayName": "Abraham van Beyeren",
-  "objectDate": "c. 1650 - c. 1670",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 74cm × w 87cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-25",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s400",
-  "localImage": "SK-A-25.jpg",
-  "webImage": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Fish",
+    "artistDisplayName": "Abraham van Beyeren",
+    "objectDate": "c. 1650 - c. 1670",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 74cm \u00d7 w 87cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-25",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s400",
+    "localImage": "SK-A-25.jpg",
+    "webImage": "https://lh3.googleusercontent.com/mwaDuDxK9Muo8lygb9wXam206MIZK0z2-17lvENs4iSCSo7-KPfHAuAjiBTy5_5QF4Ds1NQReQCrY8KCWQCPZDMnEdzIVaKAe_uIFJag=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-25"
 }

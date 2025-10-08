@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-204",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "Pieter Symonsz Potter",
-  "objectDate": "1646",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 53.5cm × w 41.4cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-204",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s400",
-  "localImage": "SK-C-204.jpg",
-  "webImage": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "Pieter Symonsz Potter",
+    "objectDate": "1646",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 53.5cm \u00d7 w 41.4cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-204",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s400",
+    "localImage": "SK-C-204.jpg",
+    "webImage": "https://lh3.googleusercontent.com/9JvNwn4ckeVkypnya1touRArlk48qkOKFdiXtQC9-j2qguAgmU4yfrWJ5dIBgwCHgFc3au_mhFJo8ZeJLm9fVTROetLG6IzdZ6IrJBU=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-204"
 }

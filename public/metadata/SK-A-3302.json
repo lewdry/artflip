@@ -1,23 +1,23 @@
 {
-  "objectNumber": "SK-A-3302",
-  "title": "Horatius Cocles Defending the Sublician Bridge",
-  "artistDisplayName": "anonymous",
-  "objectDate": "c. 1450",
-  "objectName": "",
-  "medium": "Panel, tempera",
-  "dimensions": "h 40cm × w 128cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3302",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s400",
-  "localImage": "SK-A-3302.jpg",
-  "webImage": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s0",
-  "tags": [
-    "cassone",
-    "painting"
-  ],
-  "facets": {}
+    "title": "Horatius Cocles Defending the Sublician Bridge",
+    "artistDisplayName": "anonymous",
+    "objectDate": "c. 1450",
+    "objectName": "",
+    "medium": "Panel, tempera",
+    "dimensions": "h 40cm \u00d7 w 128cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3302",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s400",
+    "localImage": "SK-A-3302.jpg",
+    "webImage": "https://lh3.googleusercontent.com/71Kpsl0mqxwkalm_XpKEudsIB6cutMdqIiL2QjqKXNA1cNligog59ISxS6yFjjxwlq3yJnsfl_3VA1jhlMp4xBG3_W4=s0",
+    "tags": [
+        "cassone",
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-3302"
 }

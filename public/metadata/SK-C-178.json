@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-178",
-  "title": "The fishwife",
-  "artistDisplayName": "Quiringh Gerritsz. van Brekelenkam",
-  "objectDate": "1650 - 1670",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 30cm × w 26cm × d 6cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-178",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s400",
-  "localImage": "SK-C-178.jpg",
-  "webImage": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "The fishwife",
+    "artistDisplayName": "Quiringh Gerritsz. van Brekelenkam",
+    "objectDate": "1650 - 1670",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 30cm \u00d7 w 26cm \u00d7 d 6cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-178",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s400",
+    "localImage": "SK-C-178.jpg",
+    "webImage": "https://lh3.googleusercontent.com/xrw0rVctw8sTmfY0surpyx9SktfhR2IWpbNg5ylQmnwLDtmWSJePrOOkqWR2_hS7fp32wRDOsU_IHvIsHDl2Dh-OjNo=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-178"
 }

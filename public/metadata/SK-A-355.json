@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-355",
-  "title": "Still Life with Flowers",
-  "artistDisplayName": "Abraham van Beyeren",
-  "objectDate": "c. 1660 - 1690",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 63.5cm × w 45.8cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-355",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s400",
-  "localImage": "SK-A-355.jpg",
-  "webImage": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Flowers",
+    "artistDisplayName": "Abraham van Beyeren",
+    "objectDate": "c. 1660 - 1690",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 63.5cm \u00d7 w 45.8cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-355",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s400",
+    "localImage": "SK-A-355.jpg",
+    "webImage": "https://lh3.googleusercontent.com/tFvy_o838PSqvr8T1hAn1iyTf-mA9N1YuLbHce4iy1LcYGKHwhOl4JU7koxNhlft6cRth7LvlvysegumZFPgjOpuQhXGGJB4cQurkegZvQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-355"
 }

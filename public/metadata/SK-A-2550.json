@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2550",
-  "title": "Still Life",
-  "artistDisplayName": "Georg Hainz",
-  "objectDate": "1666 - 1700",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 113cm × w 94.5cm × d 5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2550",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s843",
-  "primaryImageMedium": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s600",
-  "primaryImageSmall": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s400",
-  "localImage": "SK-A-2550.jpg",
-  "webImage": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life",
+    "artistDisplayName": "Georg Hainz",
+    "objectDate": "1666 - 1700",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 113cm \u00d7 w 94.5cm \u00d7 d 5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2550",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s843",
+    "primaryImageMedium": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s600",
+    "primaryImageSmall": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s400",
+    "localImage": "SK-A-2550.jpg",
+    "webImage": "https://lh5.ggpht.com/JJfQbH90jXs4yT0orR9MIKIHUMnS9rQHAHS8-y0xgXYgYtBC5YTKQgWPepU6L8Imii8OHccGXiV48hYnFqGgYtaD0g=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2550"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2258",
-  "title": "Vanitas Still Life with Books",
-  "artistDisplayName": "anonymous",
-  "objectDate": "1633",
-  "objectName": "",
-  "medium": "Panel",
-  "dimensions": "h 73.5cm × w 70cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2258",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s400",
-  "localImage": "SK-A-2258.jpg",
-  "webImage": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life with Books",
+    "artistDisplayName": "anonymous",
+    "objectDate": "1633",
+    "objectName": "",
+    "medium": "Panel",
+    "dimensions": "h 73.5cm \u00d7 w 70cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2258",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s400",
+    "localImage": "SK-A-2258.jpg",
+    "webImage": "https://lh3.googleusercontent.com/JmIJSl6tnxVAKFKI_rVzVamjzyBo8PI_32oOExOvj-bC3SxqPxxZCqHXlPGGz5xKn-tgyl78Fu7Flzk39uDDFw17fQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2258"
 }

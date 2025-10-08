@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-5008",
-  "title": "Portrait of Jan van Huysum",
-  "artistDisplayName": "Arnold Boonen",
-  "objectDate": "c. 1720",
-  "objectName": "",
-  "medium": "Oil paint (paint), canvas",
-  "dimensions": "h 99.2cm × w 84cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-5008",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s400",
-  "localImage": "SK-A-5008.jpg",
-  "webImage": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Portrait of Jan van Huysum",
+    "artistDisplayName": "Arnold Boonen",
+    "objectDate": "c. 1720",
+    "objectName": "",
+    "medium": "Oil paint (paint), canvas",
+    "dimensions": "h 99.2cm \u00d7 w 84cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-5008",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s400",
+    "localImage": "SK-A-5008.jpg",
+    "webImage": "https://lh3.googleusercontent.com/zjPmEcPC1KFd7nrkek7rYrRQepPyTu7AFf1JqeMiJ6m-AkOYCVHjpDr9SmmHDHdgJ1gN2gPQO18sR-lntTAOaST5EQ=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-5008"
 }

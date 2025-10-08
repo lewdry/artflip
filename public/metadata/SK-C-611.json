@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-611",
-  "title": "Stilleven",
-  "artistDisplayName": "Jan Albertsz. Rotius",
-  "objectDate": "c. 1644 - c. 1666",
-  "objectName": "",
-  "medium": "Oil paint (paint), panel",
-  "dimensions": "h 60cm × w 82.5cm × d 5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-611",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s400",
-  "localImage": "SK-C-611.jpg",
-  "webImage": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Stilleven",
+    "artistDisplayName": "Jan Albertsz. Rotius",
+    "objectDate": "c. 1644 - c. 1666",
+    "objectName": "",
+    "medium": "Oil paint (paint), panel",
+    "dimensions": "h 60cm \u00d7 w 82.5cm \u00d7 d 5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-611",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s400",
+    "localImage": "SK-C-611.jpg",
+    "webImage": "https://lh3.googleusercontent.com/ykkbJUz-fBSTVIb0ZcdguMShphvYDqktFN10z-RuF-7Yhg1zyqMTYH5GcXIpBKSMB8kqBSFCrsVo0smYO6WDCVKORWM=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-611"
 }

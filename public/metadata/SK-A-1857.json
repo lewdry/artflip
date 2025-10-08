@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1857",
-  "title": "Still Life with a Fish",
-  "artistDisplayName": "Pieter Claesz",
-  "objectDate": "1647",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 62cm × w 81cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1857",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s400",
-  "localImage": "SK-A-1857.jpg",
-  "webImage": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with a Fish",
+    "artistDisplayName": "Pieter Claesz",
+    "objectDate": "1647",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 62cm \u00d7 w 81cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1857",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s400",
+    "localImage": "SK-A-1857.jpg",
+    "webImage": "https://lh3.googleusercontent.com/LTx6ianXlMDdYPiN9Yy_dJPxdhEpo7MRmbnhTYSqi2iIRDbEsjqnq1ZA0Tsr7F3yFp6JLZSTE1KOZI_3EssET8vLsG0iPwb2ixd0AdY=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1857"
 }

@@ -1,23 +1,23 @@
 {
-  "objectNumber": "BK-2011-40",
-  "title": "Three Painted Wall Hangings of a Dutch landscape",
-  "artistDisplayName": "Jurriaan Andriessen",
-  "objectDate": "1776",
-  "objectName": "",
-  "medium": "Oil paint (paint), canvas",
-  "dimensions": "h 327cm × w 117cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-2011-40",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s400",
-  "localImage": "BK-2011-40.jpg",
-  "webImage": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s0",
-  "tags": [
-    "painting",
-    "hanging"
-  ],
-  "facets": {}
+    "title": "Three Painted Wall Hangings of a Dutch landscape",
+    "artistDisplayName": "Jurriaan Andriessen",
+    "objectDate": "1776",
+    "objectName": "",
+    "medium": "Oil paint (paint), canvas",
+    "dimensions": "h 327cm \u00d7 w 117cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/BK-2011-40",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s400",
+    "localImage": "BK-2011-40.jpg",
+    "webImage": "https://lh3.googleusercontent.com/qwgQbyU9BiUjuaKovZKN08DHvgq99P86Pdb6-w7X86lh3sR_6shGsFGxiFojiAW5pDDTpvFihYcAx77BXSoPG7AdjeWP=s0",
+    "tags": [
+        "painting",
+        "hanging"
+    ],
+    "facets": {},
+    "objectID": "BK-2011-40"
 }

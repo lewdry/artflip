@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2941",
-  "title": "Still Life with Zinnias in a green Jar",
-  "artistDisplayName": "Floris Verster",
-  "objectDate": "1910",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 24.3cm × w 19cm × d 6.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2941",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s400",
-  "localImage": "SK-A-2941.jpg",
-  "webImage": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Zinnias in a green Jar",
+    "artistDisplayName": "Floris Verster",
+    "objectDate": "1910",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 24.3cm \u00d7 w 19cm \u00d7 d 6.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2941",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s400",
+    "localImage": "SK-A-2941.jpg",
+    "webImage": "https://lh3.googleusercontent.com/zWumKXql5xqGyddgiFb1D9s80Zo9yrnqQVXhrqHLD6DXm9DkKFeyEKArcCxFDAybWbWGsndkNCSm-eQt7uJa1NgnNgI7GKdm4Py5kNsk=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2941"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2358",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "Stevers",
-  "objectDate": "1630 - 1660",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 45cm × w 52cm × d 7cm × w 5.2kg",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2358",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s400",
-  "localImage": "SK-A-2358.jpg",
-  "webImage": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "Stevers",
+    "objectDate": "1630 - 1660",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 45cm \u00d7 w 52cm \u00d7 d 7cm \u00d7 w 5.2kg",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2358",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s400",
+    "localImage": "SK-A-2358.jpg",
+    "webImage": "https://lh3.googleusercontent.com/UzsYADUQ5ij928PH6PjCw_R6DTz5PKtxePLDZeBPxp9FlpUoWCNTW2yYQ9nVPveKdiHJjJxGjy7A8nUkuR2gJFETEBg=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2358"
 }

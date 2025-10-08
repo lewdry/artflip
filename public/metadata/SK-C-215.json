@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-215",
-  "title": "Still Life with Flowers",
-  "artistDisplayName": "Ottmar Elliger (I)",
-  "objectDate": "1673",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 86cm × w 68cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-215",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s400",
-  "localImage": "SK-C-215.jpg",
-  "webImage": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Flowers",
+    "artistDisplayName": "Ottmar Elliger (I)",
+    "objectDate": "1673",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 86cm \u00d7 w 68cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-215",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s400",
+    "localImage": "SK-C-215.jpg",
+    "webImage": "https://lh3.googleusercontent.com/Mw6lgmKXszjZBGCdZwcEzF2rIZhJL7CKj5uJJU-HCquEjOcX7ZgnxczY8GSUwaD8FTY4TY8Qc5AEtQbP4N8P7NfXooY=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-215"
 }

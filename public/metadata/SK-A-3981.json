@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-3981",
-  "title": "Still Life with Peacocks",
-  "artistDisplayName": "Rembrandt van Rijn",
-  "objectDate": "c. 1639",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 145cm × w 135.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3981",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s400",
-  "localImage": "SK-A-3981.jpg",
-  "webImage": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Peacocks",
+    "artistDisplayName": "Rembrandt van Rijn",
+    "objectDate": "c. 1639",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 145cm \u00d7 w 135.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-3981",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s400",
+    "localImage": "SK-A-3981.jpg",
+    "webImage": "https://lh3.googleusercontent.com/I9oSzKfxHOxXB2GHbHE5byjd5FABgY7XEbAh0U5AJgsVJdCwsVJrtazWekJ7NSW5jPM96gflYIDeAu2wv3-8oXBhsT8=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-3981"
 }

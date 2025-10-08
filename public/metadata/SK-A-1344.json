@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1344",
-  "title": "Dead Birds",
-  "artistDisplayName": "Jan Vonck",
-  "objectDate": "1640 - 1662",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 34cm × w 42cm × d 3.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1344",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s843",
-  "primaryImageMedium": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s600",
-  "primaryImageSmall": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s400",
-  "localImage": "SK-A-1344.jpg",
-  "webImage": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Dead Birds",
+    "artistDisplayName": "Jan Vonck",
+    "objectDate": "1640 - 1662",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 34cm \u00d7 w 42cm \u00d7 d 3.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1344",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s843",
+    "primaryImageMedium": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s600",
+    "primaryImageSmall": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s400",
+    "localImage": "SK-A-1344.jpg",
+    "webImage": "https://lh6.ggpht.com/zw5EtPmJtIw03RE7qXkD1Jka7U-95kQdA09vSH3QKskRLx9OGkvaxBoX18vgrTOMvO5pc1fBvteDEKzJzW5wqXbxjTWA=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1344"
 }

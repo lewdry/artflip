@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2566",
-  "title": "Still Life",
-  "artistDisplayName": "David Davidsz de Heem",
-  "objectDate": "c. 1668",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 76.5cm × w 64.5cm × d 7.5cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2566",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s400",
-  "localImage": "SK-A-2566.jpg",
-  "webImage": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life",
+    "artistDisplayName": "David Davidsz de Heem",
+    "objectDate": "c. 1668",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 76.5cm \u00d7 w 64.5cm \u00d7 d 7.5cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2566",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s400",
+    "localImage": "SK-A-2566.jpg",
+    "webImage": "https://lh3.googleusercontent.com/ubks6jv5TtvAyBC7J17wosOt8-wuRUuK8bBes2y6VaBfjezAriwwGM3H1DCrfgvkduvERXQxPNBFG7xjiz7YT2d_U8Q=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2566"
 }

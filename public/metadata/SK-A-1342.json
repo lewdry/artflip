@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1342",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "Aelbert Jansz van der Schoor",
-  "objectDate": "c. 1660 - c. 1665",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 63.5cm × w 73cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1342",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s400",
-  "localImage": "SK-A-1342.jpg",
-  "webImage": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "Aelbert Jansz van der Schoor",
+    "objectDate": "c. 1660 - c. 1665",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 63.5cm \u00d7 w 73cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1342",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s400",
+    "localImage": "SK-A-1342.jpg",
+    "webImage": "https://lh3.googleusercontent.com/7xqbnIZQzVEe4Z-ZMZcdkRUtNbC96mxk1qeTdj2qSfTp5PzYXs8A0T39PHOkDFimDzMfdtQ6cY8Na0ERep7NOeGMHLg=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1342"
 }

@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-2205",
-  "title": "Vanitas Still Life",
-  "artistDisplayName": "Gerrit van Vucht",
-  "objectDate": "1658 - 1697",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 9.3cm × w 12cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2205",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s400",
-  "localImage": "SK-A-2205.jpg",
-  "webImage": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Vanitas Still Life",
+    "artistDisplayName": "Gerrit van Vucht",
+    "objectDate": "1658 - 1697",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 9.3cm \u00d7 w 12cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-2205",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s400",
+    "localImage": "SK-A-2205.jpg",
+    "webImage": "https://lh3.googleusercontent.com/Vwhi9MnMoGfbY0B3vX6-m3hq4F9Oseh_LpiX4RVjH5mVn1mPXHCLBdOyCrhhA6DwyQsJGbVeoIwmsIL9fbFcIZ0bNTV0=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-2205"
 }

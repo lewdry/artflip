@@ -1,23 +1,23 @@
 {
-  "objectNumber": "SK-A-4111",
-  "title": "Still Life with Flowers and Fruits",
-  "artistDisplayName": "Willem van Leen",
-  "objectDate": "1780 - 1810",
-  "objectName": "",
-  "medium": "Glass, metal, leather",
-  "dimensions": "d 6.2cm × h 11cm × w 10.4cm × d 0.6cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4111",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s843",
-  "primaryImageMedium": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s600",
-  "primaryImageSmall": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s400",
-  "localImage": "SK-A-4111.jpg",
-  "webImage": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s0",
-  "tags": [
-    "reverse painting on glass",
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Flowers and Fruits",
+    "artistDisplayName": "Willem van Leen",
+    "objectDate": "1780 - 1810",
+    "objectName": "",
+    "medium": "Glass, metal, leather",
+    "dimensions": "d 6.2cm \u00d7 h 11cm \u00d7 w 10.4cm \u00d7 d 0.6cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4111",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s843",
+    "primaryImageMedium": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s600",
+    "primaryImageSmall": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s400",
+    "localImage": "SK-A-4111.jpg",
+    "webImage": "https://lh5.ggpht.com/Dm0r5ije8RmVsF_HM8TnfqyzpwGEm1Z3QC5c25z6bFFD_v0Yav1IMihtRhsyypPh1ATSV07In4ZbN5VdNNi3m7-5kQ=s0",
+    "tags": [
+        "reverse painting on glass",
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-4111"
 }

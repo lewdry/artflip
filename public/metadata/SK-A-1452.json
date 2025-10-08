@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-A-1452",
-  "title": "Dead roosters",
-  "artistDisplayName": "Christoffel Puytlinck",
-  "objectDate": "1671",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 74.5cm × w 56cm × d 11.3cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1452",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s400",
-  "localImage": "SK-A-1452.jpg",
-  "webImage": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Dead roosters",
+    "artistDisplayName": "Christoffel Puytlinck",
+    "objectDate": "1671",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 74.5cm \u00d7 w 56cm \u00d7 d 11.3cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1452",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s400",
+    "localImage": "SK-A-1452.jpg",
+    "webImage": "https://lh3.googleusercontent.com/KdnBGro7hcxzOv5wmOcQMOF8KUu5mJmdM2Wet87H33GkPsNsOUJyrZbWGNhXrtFN7UcjCeG0Yi43PdwM_ABg0-5Tz_M=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1452"
 }

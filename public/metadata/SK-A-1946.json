@@ -1,23 +1,23 @@
 {
-  "objectNumber": "SK-A-1946",
-  "title": "Still Life with Implements of the Hunt",
-  "artistDisplayName": "Johannes Leemans",
-  "objectDate": "1670 - 1686",
-  "objectName": "",
-  "medium": "Canvas, oil paint (paint)",
-  "dimensions": "h 73.5cm × w 59cm × d 8cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1946",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s400",
-  "localImage": "SK-A-1946.jpg",
-  "webImage": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s0",
-  "tags": [
-    "trompe-l'oeil",
-    "painting"
-  ],
-  "facets": {}
+    "title": "Still Life with Implements of the Hunt",
+    "artistDisplayName": "Johannes Leemans",
+    "objectDate": "1670 - 1686",
+    "objectName": "",
+    "medium": "Canvas, oil paint (paint)",
+    "dimensions": "h 73.5cm \u00d7 w 59cm \u00d7 d 8cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-1946",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s400",
+    "localImage": "SK-A-1946.jpg",
+    "webImage": "https://lh3.googleusercontent.com/SKXNd3MkVCBn8WSLFQJXAIyu9re4g5ru6f4eLwzonSuVO7lbyKXz-X1fGLiw_hSMbqtRUHCpIfLRPrzGK2sK5aYSSlRF=s0",
+    "tags": [
+        "trompe-l'oeil",
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-A-1946"
 }

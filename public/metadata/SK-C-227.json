@@ -1,22 +1,22 @@
 {
-  "objectNumber": "SK-C-227",
-  "title": "Fish Market",
-  "artistDisplayName": "Hendrick Martensz. Sorgh",
-  "objectDate": "1650 - 1670",
-  "objectName": "",
-  "medium": "Panel, oil paint (paint)",
-  "dimensions": "h 47.5cm × w 65cm",
-  "creditLine": "Rijksmuseum. ",
-  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-227",
-  "department": "Paintings",
-  "isPublicDomain": true,
-  "primaryImage": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s843",
-  "primaryImageMedium": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s600",
-  "primaryImageSmall": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s400",
-  "localImage": "SK-C-227.jpg",
-  "webImage": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s0",
-  "tags": [
-    "painting"
-  ],
-  "facets": {}
+    "title": "Fish Market",
+    "artistDisplayName": "Hendrick Martensz. Sorgh",
+    "objectDate": "1650 - 1670",
+    "objectName": "",
+    "medium": "Panel, oil paint (paint)",
+    "dimensions": "h 47.5cm \u00d7 w 65cm",
+    "creditLine": "Rijksmuseum. ",
+    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-C-227",
+    "department": "Paintings",
+    "isPublicDomain": true,
+    "primaryImage": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s843",
+    "primaryImageMedium": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s600",
+    "primaryImageSmall": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s400",
+    "localImage": "SK-C-227.jpg",
+    "webImage": "https://lh3.googleusercontent.com/yl66Jioi89ZuXH69DHoCn-rzxU4McYjQ-n0EuPLI85T7NC3sAiuXDX6Hx8EAn5xRd3flZBGGl962daEhJmKYx4Nyc6K6=s0",
+    "tags": [
+        "painting"
+    ],
+    "facets": {},
+    "objectID": "SK-C-227"
 }
