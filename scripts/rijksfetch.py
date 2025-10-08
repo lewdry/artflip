@@ -17,43 +17,61 @@ import requests
 import json
 import time
 import logging
+import re
 from pathlib import Path
 from typing import List, Dict, Optional, Set
 from datetime import datetime
 
 # ============================================================================
-# CONFIGURATION
+# LOAD ENVIRONMENT VARIABLES
 # ============================================================================
+
+# Ensure python-dotenv is installed and load .env file
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    import subprocess
+    import sys
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "python-dotenv"])
+    from dotenv import load_dotenv
+
+# Load .env file (same directory as script by default)
+load_dotenv()
 
 API_KEY = os.getenv("RIJKS_API_KEY")
 if not API_KEY:
-    raise EnvironmentError("❌ Missing Rijksmuseum API key. Please set RIJKS_API_KEY environment variable.")
+    raise EnvironmentError("❌ Missing Rijksmuseum API key. Please set RIJKS_API_KEY in your .env file or environment.")
 
-MAX_NEW_ARTWORKS = 20
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+MAX_NEW_ARTWORKS = 800
+USE_RESOLVER_FALLBACK = False  # Set to True to enable resolver API for English titles
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 SEARCH_PAGE_LIMIT = 100  # items per page (Rijks uses 'ps')
-MAX_SEARCH_PAGES = 10
+MAX_SEARCH_PAGES = 100
 MAX_SEARCH_RESULTS_CAP = 5000
 
 # Filters (only non-None values will be sent)
 SEARCH_PARAMS = {
     "imgonly": True,                # only artworks with images
-    "rightsType": "Public Domain",  # public domain only
-    "toppieces": True, 
-    "ondisplay": True,          # only top pieces (True/False)
+    "toppieces": True,              # suspect this is deprecated, leaving it in just-in-case
+    "ondisplay": None,          # only top pieces (True/False)
     "involvedMaker": None,
-    "type": None,
+    "type": "painting",
     "material": None,
-    # You can add other Rijks params here if needed (e.g. 'rp' for Rijks pages)
+    "q": "still life",  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
 }
 
 # Paths - match your other scripts' layout
-ARTWORKIDS_FILE = Path("../scripts/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../scripts/metadata")
-IMAGES_OUTPUT_DIR = Path("../scripts/images")
+ARTWORKIDS_FILE = Path("../public/artworkids.json")
+METADATA_OUTPUT_DIR = Path("../public/metadata")
+IMAGES_OUTPUT_DIR = Path("../public/images")
 LOG_FILE = Path("rijksfetch.log")
 DONTFETCH_FILE = Path("rijksdontfetch.json")
-TEMP_NEWIDS_FILE = ARTWORKIDS_FILE  # TEMP behavior matches chicfetch/metfetch
+TEMP_NEWIDS_FILE = Path("../public/artworkids.json")  # TEMP behavior matches chicfetch/metfetch
 
 # ============================================================================
 # LOGGING
@@ -77,6 +95,110 @@ DETAIL_ENDPOINT = f"{BASE_URL}/collection/{{object_number}}"
 HEADERS = {
     "User-Agent": "ArtFlip/1.0 (hello@artflip.me)"
 }
+
+# ============================================================================
+# ENGLISH TITLE HELPERS
+# ============================================================================
+def looks_english(s: str) -> bool:
+    """Heuristic check to guess if a string is English."""
+    if not s or not isinstance(s, str):
+        return False
+    s_l = s.lower()
+    for tok in (' the ', ' of ', ' and ', ' in ', ' by ', ' from ', ' with ', ' for '):
+        if tok in s_l:
+            return True
+    return re.search(r'[^\x00-\x7f]', s) is None
+
+
+def extract_english_string(obj):
+    """Recursively search JSON for English text."""
+    if obj is None:
+        return None
+
+    if isinstance(obj, dict):
+        if obj.get('@language') == 'en' and '@value' in obj:
+            return obj['@value']
+        if 'en' in obj and isinstance(obj['en'], str):
+            return obj['en']
+        for k in ('label', 'name', 'title', 'prefLabel', 'skos:prefLabel'):
+            if k in obj:
+                res = extract_english_string(obj[k])
+                if res:
+                    return res
+        for v in obj.values():
+            res = extract_english_string(v)
+            if res:
+                return res
+
+    elif isinstance(obj, list):
+        for item in obj:
+            res = extract_english_string(item)
+            if res:
+                return res
+
+    elif isinstance(obj, str):
+        if looks_english(obj):
+            return obj
+
+    return None
+
+
+def fetch_title_from_resolver(priref: str) -> Optional[str]:
+    """Use Persistent Identifier Resolver to try fetching an English title."""
+    if not priref:
+        return None
+    resolver_base = f"https://data.rijksmuseum.nl/{priref}"
+    tries = [
+        {'_profile': 'la', '_mediatype': 'application/json'},
+        {'_profile': 'schema', '_mediatype': 'application/json'},
+        {'_profile': 'alt', '_mediatype': 'application/json'},
+    ]
+    for params in tries:
+        try:
+            r = requests.get(resolver_base, params=params, timeout=15, headers=HEADERS)
+            r.raise_for_status()
+            data = r.json()
+        except Exception:
+            continue
+        title = extract_english_string(data)
+        if title:
+            return title
+    return None
+
+
+def get_preferred_title(art_object: Dict) -> str:
+    """Pick the best available English title, fallback to Dutch if needed."""
+    # 1) normal title (will be English if the API has a translation)
+    title = art_object.get('title', '') or ''
+    if looks_english(title):
+        return title
+
+    # 2) label.title
+    label_title = (art_object.get('label') or {}).get('title')
+    if label_title and looks_english(label_title):
+        return label_title
+
+    # 3) longTitle
+    long_title = art_object.get('longTitle', '')
+    if long_title and looks_english(long_title):
+        return long_title
+
+    # 4) titles[] array
+    for t in art_object.get('titles', []):
+        if t and looks_english(t):
+            return t
+
+    # 5) resolver fallback (optional)
+    if USE_RESOLVER_FALLBACK:
+        priref = art_object.get('priref')
+        if priref:
+            resolved = fetch_title_from_resolver(str(priref))
+            if resolved:
+                logging.info(f"Resolver provided English title for priref {priref}")
+                return resolved
+
+    # 6) final fallback
+    return title
 
 # ============================================================================
 # RijksDownloader
@@ -236,17 +358,34 @@ class RijksDownloader:
 
             data = payload.get("artObject", {})
 
+            # New public-domain detection: require webImage url AND no copyrightHolder
+            web_image_dict = data.get("webImage")
+            has_image = web_image_dict is not None and web_image_dict.get("url", "") != ""
+            no_copyright = data.get("copyrightHolder") is None
+            is_public_domain = has_image and no_copyright
+
+            # Compute object URL early
+            object_id = data.get("objectNumber")
+            object_url = data.get('links', {}).get('web') or data.get('web')
+            if not object_url and object_id:
+                object_url = f"https://www.rijksmuseum.nl/en/collection/{object_id}"
+
+
             # Ensure image present (extra check)
-            if not data.get("webImage"):
+            if not has_image:
                 logging.warning(f"{object_number} has no webImage despite search filter. Blacklisting.")
                 self.add_to_blacklist(object_number, "No webImage (search mismatch)")
                 return None
 
-            # Ensure public domain (defensive)
-            if data.get("rightsType") != "Public Domain":
-                logging.warning(f"{object_number} is not public domain. Blacklisting.")
+            # Ensure public domain using copyrightHolder logic
+            if not is_public_domain:
+                logging.warning(f"{object_number} is not public domain (copyrightHolder present). Blacklisting.")
                 self.add_to_blacklist(object_number, "Not Public Domain")
                 return None
+
+            # Store computed flag and URL for downstream formatting
+            data["isPublicDomain"] = is_public_domain
+            data["objectURL"] = object_url
 
             return data
         except requests.exceptions.HTTPError as e:
@@ -265,6 +404,9 @@ class RijksDownloader:
     def download_image(self, image_url: str, object_number: str) -> Optional[str]:
         if not image_url:
             return None
+        # Convert to s843 size for download
+        if '=s0' in image_url:
+            image_url = image_url.replace('=s0', '=s843')
         try:
             resp = requests.get(image_url, timeout=40, stream=True, headers=HEADERS)
             resp.raise_for_status()
@@ -288,21 +430,60 @@ class RijksDownloader:
 
     def format_metadata(self, data: Dict, local_image_filename: str) -> Dict:
         # Map Rijks fields into your metadata structure similar to others
+        medium = ", ".join(data.get("materials", [])) if data.get("materials") else ""
+        medium = medium.capitalize() if medium else ""
+        
+        # Use English title extraction
+        title = get_preferred_title(data)
+        
+        # Get base image URL
+        web_image = data.get("webImage", {})
+        image_url = web_image.get("url", "") if web_image else ""
+        
+        # Create resized versions
+        primary_image = image_url.replace('=s0', '=s843') if '=s0' in image_url else image_url
+        primary_image_medium = image_url.replace('=s0', '=s600') if '=s0' in image_url else image_url
+        primary_image_small = image_url.replace('=s0', '=s400') if '=s0' in image_url else image_url
+        
+        # Get dating info
+        dating = data.get("dating", {})
+        period = dating.get("period", "")
+        
+        # Build tags from objectTypes and classification
+        tags = []
+        object_types = data.get("objectTypes", [])
+        if object_types:
+            tags.extend(object_types)
+        
+        icon_class_list = data.get("classification", {}).get("iconClassDescription", [])
+        if icon_class_list and isinstance(icon_class_list, list):
+            tags.extend([d.get("name") for d in icon_class_list if isinstance(d, dict) and d.get("name")])
+        
+        # Limit tags to 10 unique items
+        tags = list(set(tags))[:10]
+        
+        # Format department with capitalization
+        department = ", ".join(data.get("objectCollection", []))
+        department = department.capitalize() if department else ""
+        
         return {
             "objectNumber": data.get("objectNumber"),
-            "title": data.get("title"),
+            "title": title,
             "artistDisplayName": data.get("principalOrFirstMaker"),
             "objectDate": data.get("dating", {}).get("presentingDate", ""),
             "objectName": data.get("objectType", ""),
-            "medium": ", ".join(data.get("materials", [])) if data.get("materials") else "",
+            "medium": medium,
             "dimensions": data.get("subTitle", ""),
             "creditLine": "Rijksmuseum. " + (data.get("creditLine") or ""),
-            "department": "",
-            "culture": "",
-            "objectURL": data.get("links", {}).get("web"),
-            "isPublicDomain": data.get("rightsType") == "Public Domain",
+            "objectURL": data.get("objectURL", ""),
+            "department": department,
+            "isPublicDomain": data.get("isPublicDomain", False),
+            "primaryImage": primary_image,
+            "primaryImageMedium": primary_image_medium,
+            "primaryImageSmall": primary_image_small,
             "localImage": local_image_filename,
             "webImage": data.get("webImage", {}).get("url"),
+            "tags": tags,
             "facets": data.get("facets", {}),
         }
 
@@ -381,6 +562,8 @@ class RijksDownloader:
         print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"Max new artworks to download: {MAX_NEW_ARTWORKS}")
         print("Active filters: Public Domain + Images only")
+        if SEARCH_PARAMS.get("q"):
+            print(f"Search query:           {SEARCH_PARAMS['q']}")
         print("="*70 + "\n")
 
         logging.info("Starting Rijks download process")
