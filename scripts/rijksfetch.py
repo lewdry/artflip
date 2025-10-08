@@ -47,7 +47,7 @@ if not API_KEY:
 # CONFIGURATION
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 800
+MAX_NEW_ARTWORKS = 20
 USE_RESOLVER_FALLBACK = False  # Set to True to enable resolver API for English titles
 RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 SEARCH_PAGE_LIMIT = 100  # items per page (Rijks uses 'ps')
@@ -60,9 +60,9 @@ SEARCH_PARAMS = {
     "toppieces": True,              # suspect this is deprecated, leaving it in just-in-case
     "ondisplay": True,          # only top pieces (True/False)
     "involvedMaker": None,
-    "type": "painting",
+    "type": "drawing",
     "material": None,
-    "q": None,  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
+    "q": "NG-2023-92-1-58",  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
 }
 
 # Paths - match your other scripts' layout
@@ -467,7 +467,7 @@ class RijksDownloader:
         department = department.capitalize() if department else ""
         
         return {
-            "objectNumber": data.get("objectNumber"),
+            "objectID": data.get("objectNumber"),
             "title": title,
             "artistDisplayName": data.get("principalOrFirstMaker"),
             "objectDate": data.get("dating", {}).get("presentingDate", ""),
@@ -519,7 +519,7 @@ class RijksDownloader:
             logging.error(f"Failed to append to {TEMP_NEWIDS_FILE}: {e}")
             return False
 
-    # ---------- Process single artwork ----------
+# ---------- Process single artwork ----------
     def process_artwork(self, object_number: str) -> bool:
         logging.info(f"Processing Rijks artwork {object_number}...")
         data = self.fetch_metadata(object_number)
@@ -529,17 +529,31 @@ class RijksDownloader:
 
         time.sleep(RATE_LIMIT_DELAY)
         image_url = data.get("webImage", {}).get("url")
+        
+        # 1. Download the image first
         local_image_filename = self.download_image(image_url, object_number)
+        
+        # 2. CHECK: If image download failed, stop the process for this ID.
         if not local_image_filename:
+            # Note: The download_image method already logs an error.
             self.failed_downloads.append({"objectNumber": object_number, "reason": "Failed image download"})
             return False
 
+        # --- ONLY PROCEED IF IMAGE DOWNLOAD WAS SUCCESSFUL (local_image_filename is not None) ---
+        
+        # 3. Format, save metadata (objectID.json) and update artworkids.json
         metadata = self.format_metadata(data, local_image_filename)
+        
+        # Use objectNumber as filename, but objectID in the file content
+        object_id_for_file = metadata.get("objectID") # Retrieve the new 'objectID' key
+        
         if not self.save_metadata(metadata, object_number):
+            # If metadata fails to save, treat it as a full failure (even though the image exists)
             self.failed_downloads.append({"objectNumber": object_number, "reason": "Failed to save metadata"})
             return False
 
         if not self.append_to_artworkids(object_number):
+            # If ID fails to update, treat it as a full failure
             self.failed_downloads.append({"objectNumber": object_number, "reason": "Failed to update artworkids.json"})
             return False
 
@@ -551,7 +565,7 @@ class RijksDownloader:
         self.downloaded_count += 1
         logging.info(f"✓ Successfully processed artwork {object_number}")
         return True
-
+    
     # ---------- Run ----------
     def run(self):
         start_time = datetime.now()

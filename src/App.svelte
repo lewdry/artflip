@@ -374,12 +374,12 @@
             {/if}
             
             <div class="details">
-              {#if artwork.objectName}
+             <!-- {#if artwork.objectName}
                 <p><strong>Type:</strong> {artwork.objectName}</p>
-              {/if}
+              {/if} -->
 
               {#if artwork.objectDate}
-                <p><strong>Date:</strong> {artwork.objectDate}</p>
+                <p><strong></strong> {artwork.objectDate}</p> <!-- removed Date:-->
               {/if}
               
               {#if artwork.medium}
@@ -571,7 +571,7 @@
 
   .metadata {
     padding: 1.25rem 1rem;
-    min-height: 200px; /* prevents collapse on short data */
+    min-height: 300px; /* prevents collapse on short data */
     align-items: start;
   }
 
