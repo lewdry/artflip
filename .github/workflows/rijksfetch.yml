@@ -33,14 +33,14 @@ jobs:
       - name: Run Rijksfetch
         env:
           RIJKS_API_KEY: ${{ secrets.RIJKS_API_KEY }}
-        run: python scripts/rijksfetch.py
+        run: python scripts/autorijksfetch.py
 
       # 5️⃣ Commit & push updated data
       - name: Commit updated data
         run: |
           git config user.name "ArtFlip Data Bot"
           git config user.email "hello@artflip.me"
-          git add -A public/artworkids.json public/metadata/ public/images/
+          git add -A public/artworkids.json public/metadata/ public/images/ scripts/
           if ! git diff --cached --quiet; then
             git commit -m "Automated Rijks data update $(date +'%Y-%m-%d')"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
