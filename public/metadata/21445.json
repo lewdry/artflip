@@ -1,0 +1,30 @@
+{
+  "objectID": 21445,
+  "title": "Mary Magdalene",
+  "artistDisplayName": "Moretto da Brescia",
+  "objectDate": "1540–50",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "166 × 47 cm (65 3/8 × 18 1/2 in.); Framed: 181 × 66.1 × 5.1 cm (71 1/4 × 26 × 2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mr. and Mrs. William Goodman",
+  "objectURL": "https://www.artic.edu/artworks/21445",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483633,
+  "galleryTitle": "Gallery 206",
+  "image_id": "98295d2e-7a5f-e1cb-8898-2d587fd67938",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/98295d2e-7a5f-e1cb-8898-2d587fd67938/full/843,/0/default.jpg",
+  "localImage": "21445.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAQAFAPIAAFBCLklLRoVsRpd1SIaDcgAAAAAAAAAAACH5BAAAAAAALAAAAAABAAUAAAMEGCQDCQA7",
+    "width": 2276,
+    "height": 8411,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

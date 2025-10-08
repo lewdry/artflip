@@ -28,6 +28,7 @@ RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 
 # Search parameters: use SEARCH_PARAMS['q'] as the main search term.
 # NOTE: These filters are now applied at the API search level using Elasticsearch!
+# For auto script - looking for all public domain, highlight paintings with images
 SEARCH_PARAMS = {
     'q': None,
     'isPublicDomain': True,
@@ -47,12 +48,12 @@ SEARCH_PARAMS = {
 }
 
 # File paths (kept same relative layout)
-ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
-LOG_FILE = Path("chicfetch.log")
-DONTFETCH_FILE = Path("chicdontfetch.json")
-TEMP_NEWIDS_FILE = Path("../public/artworkids.json")
+ARTWORKIDS_FILE = Path("public/artworkids.json")
+METADATA_OUTPUT_DIR = Path("public/metadata")
+IMAGES_OUTPUT_DIR = Path("public/images")
+LOG_FILE = Path("scripts/chicfetch.log")
+DONTFETCH_FILE = Path("scripts/chicdontfetch.json")
+TEMP_NEWIDS_FILE = Path("public/artworkids.json")
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     # items per page requested from API (ARTIC may cap this)

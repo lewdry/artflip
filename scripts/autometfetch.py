@@ -17,6 +17,7 @@ MAX_NEW_ARTWORKS = 20
 RATE_LIMIT_DELAY = 1.0
 
 # API Search Parameters - Set to None to ignore, or provide value to filter
+# For auto script - looking for all public domain, highlight paintings with images
 SEARCH_PARAMS = {
     'isHighlight': True,          # True = only highlights, False = non-highlights, None = all
     'isPublicDomain': True,       # True = public domain only, False = non-public, None = all
@@ -26,7 +27,7 @@ SEARCH_PARAMS = {
     # Object type filter - examples: "Paintings", "Sculpture", "Drawings", "Prints", 
     # "Photographs", "Textiles", "Ceramics", "Furniture", "Jewelry", "Vessels", etc.
     # Leave as None to get all types
-    'objectName': None,  # Example: "Paintings" or None
+    'objectName': "Paintings",  # Example: "Paintings" or None,
     
     # Department filter - examples: "American Decorative Arts", "Ancient Near Eastern Art",
     # "Arms and Armor", "Arts of Africa, Oceania, and the Americas", "Asian Art",
@@ -54,12 +55,12 @@ SEARCH_PARAMS = {
     'q': "*",                    # Example: "landscape" or None
 }
 
-ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
-LOG_FILE = Path("metfetch.log")
-DONTFETCH_FILE = Path("metdontfetch.json")
-TEMP_NEWIDS_FILE = Path("../public/artworkids.json")
+ARTWORKIDS_FILE = Path("public/artworkids.json")
+METADATA_OUTPUT_DIR = Path("public/metadata")
+IMAGES_OUTPUT_DIR = Path("public/images")
+LOG_FILE = Path("scripts/metfetch.log")
+DONTFETCH_FILE = Path("scripts/metdontfetch.json")
+TEMP_NEWIDS_FILE = Path("public/artworkids.json")
 
 # ============================================================================
 # SETUP

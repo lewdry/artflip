@@ -1,9 +1,9 @@
-name: MetFetch
+name: ChicFetch
 
 on:
   schedule:
-    # Friday 11 PM Sydney time ≈ 12:00 UTC (AEDT/AEST shifts ±1h with daylight savings)
-    - cron: '0 12 * * 5'
+    # Friday 10 PM Sydney time ≈ 11:00 UTC (AEDT/AEST shifts ±1h with daylight savings)
+    - cron: '0 11 * * 5'
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
 
       # 4️⃣ Run Python updater
       - name: Run Python script
-        run: python scripts/autometfetch.py
+        run: python scripts/autochicfetch.py
 
       # 5️⃣ Commit & push updated data
       - name: Commit updated data

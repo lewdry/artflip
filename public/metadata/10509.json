@@ -1,0 +1,30 @@
+{
+  "objectID": 10509,
+  "title": "Saint Helen Testing the True Cross",
+  "artistDisplayName": "Tintoretto",
+  "objectDate": "c. 1545",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "21.5 × 48.9 cm (8 1/2 × 19 3/8 in.); Framed: 31.8 × 59.4 × 6.4 cm (12 1/2 × 23 3/8 × 2 1/2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Böhler and Steinmeyer",
+  "objectURL": "https://www.artic.edu/artworks/10509",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483633,
+  "galleryTitle": "Gallery 206",
+  "image_id": "90a2969d-542a-e97f-09dd-fa1310d91acf",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/90a2969d-542a-e97f-09dd-fa1310d91acf/full/843,/0/default.jpg",
+  "localImage": "10509.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhDAAFAPUAAEA5KkI5LkVANE9ENU5GNFFCNFFGNFBGNVdENVhBMl5DNV1KN11KOVlMPVxNPWRPO2RRO2dTOmRQPXZRM35aPmJVRW5WQ29WRXNfSXVeUGxiQ2xgR29gTHRnT3tjSXhhTn1nTX5nVHVtUnVuVHp0WYZaO4JaPYVjRotjR4FpTYZpTYNqVIFuVoxsW4BzVIZ2W4hzWIh2XZd6V5B0WpN+X5FtYZiFb6GDaKSCcq6SfrWggryulwAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAMAAUAAAY3QMdqtHl1QLQUKyZCzEgYVQVyQuVCEsbN5ZHpbJMSrqUofDSRBWxHMdUuCcHgYAg0OJZHhgAIAgA7",
+    "width": 3000,
+    "height": 1297,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

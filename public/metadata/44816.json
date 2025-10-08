@@ -1,0 +1,30 @@
+{
+  "objectID": 44816,
+  "title": "Venus and Cupid",
+  "artistDisplayName": "Luca Cambiaso",
+  "objectDate": "c. 1570",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "107.5 × 95.7 cm (42 3/8 × 37 5/8 in.); Framed: 138.5 × 126.7 × 8.6 cm (54 1/2 × 49 7/8 × 3 3/8 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. A. A. Munger Collection",
+  "objectURL": "https://www.artic.edu/artworks/44816",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483633,
+  "galleryTitle": "Gallery 206",
+  "image_id": "f2a05278-c678-41d0-f72b-fc7e0b6e42f8",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f2a05278-c678-41d0-f72b-fc7e0b6e42f8/full/843,/0/default.jpg",
+  "localImage": "44816.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABcRDRwVESYeEyAYFCcfGy8lHDYsHzYtJT4uKDwxKEYzKlU6MF5FPFpLP2BIP19QRHFfUHBhVXNgVX5vXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4DIADhIUCvFAU9JEkiEcTAgAOw==",
+    "width": 1975,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

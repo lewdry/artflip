@@ -1,13 +1,13 @@
-name: MetFetch
+name: RijksFetch
 
 on:
   schedule:
-    # Friday 11 PM Sydney time ≈ 12:00 UTC (AEDT/AEST shifts ±1h with daylight savings)
-    - cron: '0 12 * * 5'
+    # Friday 19 PM Sydney time ≈ 10:00 UTC (adjusts with daylight savings)
+    - cron: '0 10 * * 5'
   workflow_dispatch:
 
 permissions:
-  contents: write   # Required to push updated JSON, metadata, images
+  contents: write
   pages: write
   id-token: write
 
@@ -26,23 +26,23 @@ jobs:
           python-version: '3.11'
 
       # 3️⃣ Install dependencies
-      - name: Install requests
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install requests python-dotenv
 
-      # 4️⃣ Run Python updater
-      - name: Run Python script
-        run: python scripts/autometfetch.py
+      # 4️⃣ Run Rijksfetch script with secret key
+      - name: Run Rijksfetch
+        env:
+          RIJKS_API_KEY: ${{ secrets.RIJKS_API_KEY }}
+        run: python scripts/rijksfetch.py
 
       # 5️⃣ Commit & push updated data
       - name: Commit updated data
         run: |
           git config user.name "ArtFlip Data Bot"
           git config user.email "hello@artflip.me"
-          # Stage all new and changed files in JSON, metadata, and images
           git add -A public/artworkids.json public/metadata/ public/images/
-          # Only commit if there are staged changes
           if ! git diff --cached --quiet; then
-            git commit -m "Automated data update $(date +'%Y-%m-%d')"
+            git commit -m "Automated Rijks data update $(date +'%Y-%m-%d')"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
           else
             echo "No changes to commit"

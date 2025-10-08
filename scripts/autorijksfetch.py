@@ -54,24 +54,25 @@ SEARCH_PAGE_LIMIT = 100  # items per page (Rijks uses 'ps')
 MAX_SEARCH_PAGES = 100
 MAX_SEARCH_RESULTS_CAP = 5000
 
-# Filters (only non-None values will be sent)
+# Filters (only non-None values will be sent) 
+# For auto script - looking for all public domain, highlight paintings with images
 SEARCH_PARAMS = {
     "imgonly": True,                # only artworks with images
     "toppieces": True,              # suspect this is deprecated, leaving it in just-in-case
-    "ondisplay": True,          # only top pieces (True/False)
+    "ondisplay": True,          # only on display (True/False)
     "involvedMaker": None,
-    "type": "painting",
+    "type": "painting",         # always painting for Auto
     "material": None,
     "q": None,  # optional free-text search (e.g. 'cats', 'self portrait'), None for no query
 }
 
 # Paths - match your other scripts' layout
-ARTWORKIDS_FILE = Path("../public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("../public/metadata")
-IMAGES_OUTPUT_DIR = Path("../public/images")
-LOG_FILE = Path("rijksfetch.log")
-DONTFETCH_FILE = Path("rijksdontfetch.json")
-TEMP_NEWIDS_FILE = Path("../public/artworkids.json")  # TEMP behavior matches chicfetch/metfetch
+ARTWORKIDS_FILE = Path("public/artworkids.json")
+METADATA_OUTPUT_DIR = Path("public/metadata")
+IMAGES_OUTPUT_DIR = Path("public/images")
+LOG_FILE = Path("scripts/rijksfetch.log")
+DONTFETCH_FILE = Path("scripts/rijksdontfetch.json")
+TEMP_NEWIDS_FILE = Path("public/artworkids.json")
 
 # ============================================================================
 # LOGGING
