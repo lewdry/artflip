@@ -3,7 +3,7 @@ from pathlib import Path
 from collections import Counter
 
 # Folder containing your JSON files
-JSON_FOLDER = Path('.')  # current folder, change if needed
+JSON_FOLDER = Path('../public/metadata/')  # current folder, change if needed
 
 # Known institution prefixes
 INSTITUTIONS = [

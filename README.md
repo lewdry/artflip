@@ -15,10 +15,10 @@
 * **Deep Links:** Shares state via the URL, allowing you to share a direct link to the currently displayed artwork.
 * **Full Metadata:** Displays key information including the artist, title, date, medium, and a direct link to the source museum.
 
-## Current Count  of artworks - 2025/10/07
+## Current Count  of artworks - 2025/10/09
 1. Metropolitan Museum of Art 2439
-2. Art Institute of Chicago 1977
-3. Rijksmuseum 692
+2. Art Institute of Chicago 1989
+3. Rijksmuseum 1390
 
 ---
 
