@@ -422,6 +422,13 @@
         All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
         Artflip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
+      <a href="https://instagram.com/artflip.me" target="_blank" rel="noopener noreferrer" class="instagram-link" aria-label="Follow on Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
     </footer>
   </div>
 </main>
@@ -640,6 +647,7 @@
 
   footer {
     margin-top: 1.25rem;
+    text-align: left;
   }
 
   .footer-credit {
@@ -649,6 +657,22 @@
     text-align: left;
     margin: 0.75rem 0 0 0;
     font-weight: 300;
+  }
+
+  .instagram-link {
+    color: #666;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  .instagram-link:hover {
+    color: #E4405F;
+    transform: scale(1.1);
+  }
+
+  .instagram-link svg {
+    display: block;
   }
 
   @media (max-width: 799px) {
