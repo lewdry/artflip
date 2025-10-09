@@ -1,0 +1,104 @@
+name: Refresh Instagram Token
+
+on:
+  schedule:
+    - cron: "0 0 1 * *" # Run monthly on the 1st at midnight UTC
+  workflow_dispatch: # Also allows manual run
+
+jobs:
+  refresh-token:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      actions: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh Instagram Access Token
+        id: refresh
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          APP_ID: ${{ secrets.APP_ID }}
+          APP_SECRET: ${{ secrets.APP_SECRET }}
+        run: |
+          import os, requests, sys, json
+
+          long_token = os.getenv("ACCESS_TOKEN")
+          app_id = os.getenv("APP_ID")
+          app_secret = os.getenv("APP_SECRET")
+
+          url = "https://graph.facebook.com/v18.0/oauth/access_token"
+          params = {
+              "grant_type": "fb_exchange_token",
+              "client_id": app_id,
+              "client_secret": app_secret,
+              "fb_exchange_token": long_token
+          }
+
+          print("🔄 Requesting new long-lived token...")
+          r = requests.get(url, params=params)
+
+          if r.status_code != 200:
+              print("❌ Failed to refresh token:", r.text)
+              sys.exit(1)
+
+          new_token = r.json()["access_token"]
+          print("✅ Token refreshed successfully!")
+
+          with open("new_token.txt", "w") as f:
+              f.write(new_token)
+
+      - name: Update GitHub Secret with new token
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          new_token=$(cat new_token.txt)
+          echo "🔐 Updating repository secret..."
+          gh secret set INSTAGRAM_ACCESS_TOKEN --body "$new_token"
+          echo "✅ GitHub Secret updated."
+
+      - name: Create or update GitHub issue if failed
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueTitle = "⚠️ Instagram Token Refresh Failed";
+            const issueBody = `
+            The scheduled Instagram token refresh failed.
+
+            Check the workflow logs here:
+            ${context.payload.repository.html_url}/actions/runs/${context.runId}
+
+            You'll need to manually generate a new long-lived token via the Meta Graph Explorer.
+            `;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+            });
+
+            const existing = issues.find(i => i.title === issueTitle);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: "🔁 Token refresh failed again – check workflow logs.",
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: issueTitle,
+                body: issueBody,
+              });
+            }
