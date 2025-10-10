@@ -1,0 +1,30 @@
+{
+  "objectID": 59891,
+  "title": "Portrait of a Young Artist",
+  "artistDisplayName": "South German",
+  "objectDate": "c. 1500",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "45.7 × 32.8 cm (18 × 12 7/8 in.); Framed: 64.5 × 50.5 cm (25 1/2 × 19 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/59891",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483632,
+  "galleryTitle": "Gallery 207",
+  "image_id": "519f5442-5d72-3cf3-3fe7-f3d7b2e16c3c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/519f5442-5d72-3cf3-3fe7-f3d7b2e16c3c/full/843,/0/default.jpg",
+  "localImage": "59891.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACwcCS0eDC8hDzYmDTUlDjwoDzwuE0YwGEcyGEIyH0g0GUs1G1U5F1lKLVpLNGdUKWdQMHRiPW9gR49oPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYAEEjpAskTIhj8EczUBAUggAOw==",
+    "width": 1603,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

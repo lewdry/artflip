@@ -1,0 +1,30 @@
+{
+  "objectID": 864,
+  "title": "Portrait of a Man with a Pink",
+  "artistDisplayName": "Quentin Massys",
+  "objectDate": "1500–10",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "43.8 × 29.2 cm (17 1/4 × 11 1/2 in.); Framed: 51.8 × 36.9 × 4.5 cm (20 3/8 × 14 1/2 × 1 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Netherlands",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of John J. Glessner",
+  "objectURL": "https://www.artic.edu/artworks/864",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483632,
+  "galleryTitle": "Gallery 207",
+  "image_id": "f731615e-ee25-f8e5-b957-69635e1e2d60",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f731615e-ee25-f8e5-b957-69635e1e2d60/full/843,/0/default.jpg",
+  "localImage": "864.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACcWCzYdDyMeFyYqJiQrKiY3NTQ+PE8wIUc0KmlDLXFAKC1HSjRLTEdnbENqcAAAACH5BAAAAAAALAAAAAADAAUAAAQL0K1mDmFqlCASQBEAOw==",
+    "width": 1477,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

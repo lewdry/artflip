@@ -1,0 +1,30 @@
+{
+  "objectID": 59856,
+  "title": "The Crucifixion",
+  "artistDisplayName": "Lucas Cranach the Elder",
+  "objectDate": "1538",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "121.1 × 82.5 cm (47 3/4 × 32 1/2 in.); Framed: 147.4 × 109 × 7.7 cm (58 × 42 7/8 × 3 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/59856",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483632,
+  "galleryTitle": "Gallery 207",
+  "image_id": "f5eb11a2-945f-f7cb-9994-ab54e8f24804",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/f5eb11a2-945f-f7cb-9994-ab54e8f24804/full/843,/0/default.jpg",
+  "localImage": "59856.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAD41LkE5M0w/Nk1EOFNGOFtKPllMPE1IQV1UR2BRQmJTRGBSSHptXoZ3Y4l/bQAAACH5BAAAAAAALAAAAAADAAUAAAQLEJzQHEtqlYGEIREAOw==",
+    "width": 1531,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

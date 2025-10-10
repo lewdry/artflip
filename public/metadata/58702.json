@@ -1,0 +1,30 @@
+{
+  "objectID": 58702,
+  "title": "The Dream of Paris",
+  "artistDisplayName": "Monogrammist PG",
+  "objectDate": "1536",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "49.1 × 32.8 cm (19 5/16 × 12 7/8 in.); Framed: 72.4 × 47.4 × 9.6 cm (28 1/2 × 18 5/8 × 3 3/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/58702",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483632,
+  "galleryTitle": "Gallery 207",
+  "image_id": "550d7d97-e4ae-e023-21ad-066559632a12",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/550d7d97-e4ae-e023-21ad-066559632a12/full/843,/0/default.jpg",
+  "localImage": "58702.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAE1DMlFFN1pPOlxQO2RKN15ZSWRYSGRaS2FkV397Zm12cYVvX41/bH2Lh5ORggAAACH5BAAAAAAALAAAAAADAAUAAAQLsClUXAJiMLJOMBEAOw==",
+    "width": 5368,
+    "height": 8425,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

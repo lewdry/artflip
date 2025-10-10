@@ -1,0 +1,30 @@
+{
+  "objectID": 111456,
+  "title": "Virgin and Child",
+  "artistDisplayName": "Jan Gossart",
+  "objectDate": "c. 1520",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "53.4 × 40.2 cm (21 × 15 7/8 in.); Framed: 63.5 × 49.5 × 5.7 cm (25 × 19 1/2 × 2 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Netherlands",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/111456",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483632,
+  "galleryTitle": "Gallery 207",
+  "image_id": "318b7761-6765-7273-36c6-2ebc1fb41e22",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/318b7761-6765-7273-36c6-2ebc1fb41e22/full/843,/0/default.jpg",
+  "localImage": "111456.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC0jHxwmICAqIjk7OkUpIko5LWs4Kk9CN2BVOWhbPk5AQHRcRXBeTW1kSWxkSnxsUJN2TYJsUoRuV413YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYJAgggNFzTJJj6EwA3EUQAgAOw==",
+    "width": 1689,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}
