@@ -420,7 +420,7 @@
     <footer>
       <p class="footer-credit">
         All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
-        Artflip by <a href="https://lewisdryburgh.com" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
+        Artflip by <a href="https://lewisdryburgh.com/2025/10/13/artflip" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
       </p>
       <a href="https://instagram.com/artflip.me" target="_blank" rel="noopener noreferrer" class="instagram-link" aria-label="Follow on Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
