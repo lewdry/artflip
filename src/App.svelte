@@ -582,12 +582,36 @@
     align-items: start;
   }
 
+      /* Text clamp utility (reusable) */
+  :global(.text-limit) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: relative;
+  }
+
+  :global(.text-limit::after) {
+    content: '...';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 30px;
+    background: linear-gradient(to right, transparent, white 50%);
+  }
+
+
   .title {
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0 0 0.8rem 0;
     color: #111;
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    max-height: calc(1.4em * 3);
   }
 
   .details {
@@ -622,6 +646,12 @@
     padding-top: 0.75rem;
     padding-bottom: 0.5rem;
     border-top: 1px solid #eee;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    max-height: calc(1.5em * 5);
   }
 
   .museum-link {
