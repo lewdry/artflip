@@ -1,0 +1,28 @@
+# --- Core app code ---
+# Count Svelte files as the primary language
+*.svelte linguist-language=Svelte
+
+# Include these JS/TS files in stats
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+
+# --- Ignore build/deploy/support scripts ---
+# Hide Python utilities from language breakdown
+/scripts/* linguist-detectable=false
+/tools/* linguist-detectable=false
+/*.py linguist-detectable=false
+
+# Hide any CI/CD config files
+/.github/* linguist-detectable=false
+/.github/**/* linguist-detectable=false
+
+# Ignore build output and static assets
+/build/* linguist-detectable=false
+/public/* linguist-detectable=false
+/node_modules/* linguist-detectable=false
+
+# Optional: ignore data files, docs, etc.
+*.json linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
+*.md linguist-detectable=false
