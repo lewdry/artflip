@@ -715,8 +715,9 @@
     .museum-link {text-align: center;}
     .details p,
     .footer-credit,
+    .credit-line,
     .department {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 </style>
