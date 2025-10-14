@@ -615,6 +615,7 @@
   }
 
   .details {
+    font-size: 0.9rem;
     margin-bottom: 0.75rem; /* more consistent rhythm */
   }
 
@@ -626,20 +627,21 @@
   }
 
   .details p strong {
+    font-size: 0.9rem;
     font-weight: 600;
     color: #222;
   }
 
   .department {
     color: #777;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-top: 0.5rem !important;
   }
 
   .credit-line {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: #666;
     font-style: italic;
     margin-top: 0.75rem;
@@ -662,7 +664,7 @@
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -676,7 +678,7 @@
   }
 
   footer {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
     text-align: left;
   }
 
@@ -714,7 +716,7 @@
     .details p,
     .footer-credit,
     .department {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 </style>
