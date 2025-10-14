@@ -711,15 +711,10 @@
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
     .museum-link {text-align: center;}
-  }
-
-  @media (orientation: landscape) and (max-width: 799px) {
     .details p,
-    .footer-credit {
-      font-size: 0.6rem; 
-  } 
+    .footer-credit,
     .department {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
-  }
+}
 </style>
