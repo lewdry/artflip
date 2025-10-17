@@ -18,6 +18,7 @@
   let seenIDs = new Set(); // Track artworks shown this session
   let isCoolingDown = false;
   let isPreloading = false;
+  let copied = false;
 
   // Rate limiting
   let lastRequestTime = 0;
@@ -322,6 +323,12 @@
   });
 
   $: artwork = artworks[currentIndex];
+
+  // Ensure 'copied' resets whenever we show a different artwork
+  $: if (artworks && artworks.length) {
+    // when currentIndex or artworks changes, clear copied state
+    copied = false;
+  }
 </script>
 
 <main>
@@ -404,9 +411,19 @@
             {/if}
             
             {#if artwork.objectURL}
-              <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
-                View on Museum Site →
-              </a>
+                <div class="link-buttons">
+                  <button class="copy-link-btn" on:click={async () => { try { await navigator.clipboard.writeText(window.location.href); copied = true; setTimeout(() => copied = false, 1100); } catch (e) { error = 'Unable to copy link'; setTimeout(() => error = null, 3000); } }}>
+                    {#if copied}
+                      Link Copied ✓
+                    {:else}
+                      Copy Link to Clipboard
+                    {/if}
+                  </button>
+
+                  <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
+                    View on Museum Site →
+                  </a>
+                </div>
             {/if}
           </div>
         </article>
@@ -487,7 +504,7 @@
   }
 
   .refresh-btn {
-    background: #1a1a1a;
+    background: #131C1D;
     color: white;
     border: none;
     border-radius: 8px;
@@ -660,7 +677,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #007acc;
+    background: #083555; /* updated museum button color */
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -668,13 +685,66 @@
     padding: 0.7rem 1rem;
     border-radius: 10px;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 8px rgba(0,122,204,0.2);
+    box-shadow: 0 3px 8px rgba(6,42,67,0.18);
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: inherit;
   }
 
   .museum-link:hover {
-    background: #005fa3;
+    background: #052238; /* slightly darker hover for museum */
     transform: scale(1.04);
-    box-shadow: 0 5px 12px rgba(0,122,204,0.3);
+    box-shadow: 0 5px 12px rgba(5,34,56,0.28);
+  }
+
+  /* Container to stack buttons vertically and keep sizes consistent */
+  .link-buttons {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr; /* single column that children can fill */
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    justify-self: center;
+    justify-items: center;
+    width: max-content; /* size the grid to the widest child */
+  }
+
+  .copy-link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  background: #347c76; /* updated copy button color */
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(52,103,124,0.18);
+    cursor: pointer;
+    width: 100%; /* take full width of grid column so both buttons match */
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: inherit;
+  }
+
+  .link-buttons .museum-link {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .copy-link-btn:hover:not(:disabled) {
+    background: #2b6665; /* slightly darker hover for copy */
+    transform: scale(1.04);
+    box-shadow: 0 5px 12px rgba(43,86,102,0.28);
+  }
+
+  .copy-link-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
 
   footer {
