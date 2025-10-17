@@ -703,7 +703,7 @@
     grid-auto-flow: row;
     grid-template-columns: 1fr; /* single column that children can fill */
     gap: 0.6rem;
-    margin-top: 0.6rem;
+    margin-top: 0rem;
     justify-self: center;
     justify-items: center;
     width: max-content; /* size the grid to the widest child */
