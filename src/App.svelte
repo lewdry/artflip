@@ -276,6 +276,26 @@
     }
   }
 
+  // Copy link functionality
+  let copyLinkText = 'Copy Link';
+  
+  async function copyLink() {
+    try {
+      const url = window.location.href;
+      await navigator.clipboard.writeText(url);
+      copyLinkText = 'Copied!';
+      setTimeout(() => {
+        copyLinkText = 'Copy Link';
+      }, 2000);
+    } catch (err) {
+      console.error('Failed to copy link:', err);
+      copyLinkText = 'Failed to copy';
+      setTimeout(() => {
+        copyLinkText = 'Copy Link';
+      }, 2000);
+    }
+  }
+
   onMount(() => {
     // Add keyboard listener
     window.addEventListener('keydown', handleKeydown);
@@ -402,6 +422,10 @@
             {#if artwork.creditLine}
               <p class="credit-line">{artwork.creditLine}</p>
             {/if}
+            
+            <button on:click={copyLink} class="copy-link-btn">
+              {copyLinkText}
+            </button>
             
             {#if artwork.objectURL}
               <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
@@ -656,6 +680,30 @@
     max-height: calc(1.5em * 5);
   }
 
+  .copy-link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #28a745;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(40,167,69,0.2);
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+  }
+
+  .copy-link-btn:hover {
+    background: #218838;
+    transform: scale(1.04);
+    box-shadow: 0 5px 12px rgba(40,167,69,0.3);
+  }
+
   .museum-link {
     display: inline-flex;
     align-items: center;
@@ -713,6 +761,7 @@
     .metadata { padding: 1rem; }
     .title { font-size: 1.2rem; }
     .museum-link {text-align: center;}
+    .copy-link-btn {text-align: center;}
     .details p,
     .footer-credit,
     .credit-line,
