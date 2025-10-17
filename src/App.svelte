@@ -278,19 +278,40 @@
 
   // Copy link functionality
   let copyButtonText = 'Copy Link';
+  let copyTimeoutId = null;
   
   async function copyLinkToClipboard() {
+    if (copyTimeoutId) {
+      clearTimeout(copyTimeoutId);
+      copyTimeoutId = null;
+    }
+    
     try {
-      await navigator.clipboard.writeText(window.location.href);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(window.location.href);
+      } else {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = window.location.href;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+      }
+      
       copyButtonText = 'Copied!';
-      setTimeout(() => {
+      copyTimeoutId = setTimeout(() => {
         copyButtonText = 'Copy Link';
+        copyTimeoutId = null;
       }, 2000);
     } catch (err) {
       console.error('Failed to copy link:', err);
-      copyButtonText = 'Failed';
-      setTimeout(() => {
+      copyButtonText = 'Copy failed';
+      copyTimeoutId = setTimeout(() => {
         copyButtonText = 'Copy Link';
+        copyTimeoutId = null;
       }, 2000);
     }
   }
@@ -338,6 +359,9 @@
   onDestroy(() => {
     window.removeEventListener('keydown', handleKeydown);
     window.removeEventListener('popstate', handlePopState);
+    if (copyTimeoutId) {
+      clearTimeout(copyTimeoutId);
+    }
   });
 
   $: artwork = artworks[currentIndex];
