@@ -305,7 +305,9 @@
             throw new Error('execCommand copy failed');
           }
         } finally {
-          document.body.removeChild(textArea);
+          if (textArea.parentNode) {
+            textArea.parentNode.removeChild(textArea);
+          }
         }
       }
       
