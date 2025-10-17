@@ -276,6 +276,25 @@
     }
   }
 
+  // Copy link functionality
+  let copyButtonText = 'Copy Link';
+  
+  async function copyLinkToClipboard() {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      copyButtonText = 'Copied!';
+      setTimeout(() => {
+        copyButtonText = 'Copy Link';
+      }, 2000);
+    } catch (err) {
+      console.error('Failed to copy link:', err);
+      copyButtonText = 'Failed';
+      setTimeout(() => {
+        copyButtonText = 'Copy Link';
+      }, 2000);
+    }
+  }
+
   onMount(() => {
     // Add keyboard listener
     window.addEventListener('keydown', handleKeydown);
@@ -403,11 +422,17 @@
               <p class="credit-line">{artwork.creditLine}</p>
             {/if}
             
-            {#if artwork.objectURL}
-              <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
-                View on Museum Site →
-              </a>
-            {/if}
+            <div class="button-group">
+              <button on:click={copyLinkToClipboard} class="copy-link-btn">
+                {copyButtonText}
+              </button>
+              
+              {#if artwork.objectURL}
+                <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
+                  View on Museum Site →
+                </a>
+              {/if}
+            </div>
           </div>
         </article>
       {/key}
@@ -656,8 +681,39 @@
     max-height: calc(1.5em * 5);
   }
 
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .copy-link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .copy-link-btn:hover {
+    background: #333;
+    transform: scale(1.04);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+  }
+
   .museum-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: #007acc;
@@ -669,6 +725,7 @@
     border-radius: 10px;
     transition: all 0.3s ease;
     box-shadow: 0 3px 8px rgba(0,122,204,0.2);
+    width: 100%;
   }
 
   .museum-link:hover {
