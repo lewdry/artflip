@@ -293,12 +293,20 @@
         // Fallback for older browsers
         const textArea = document.createElement('textarea');
         textArea.value = window.location.href;
-        textArea.style.position = 'fixed';
-        textArea.style.left = '-999999px';
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
+        textArea.style.position = 'absolute';
+        textArea.style.left = '-9999px';
+        textArea.style.top = '-9999px';
+        
+        try {
+          document.body.appendChild(textArea);
+          textArea.select();
+          const successful = document.execCommand && document.execCommand('copy');
+          if (!successful) {
+            throw new Error('execCommand copy failed');
+          }
+        } finally {
+          document.body.removeChild(textArea);
+        }
       }
       
       copyButtonText = 'Copied!';
