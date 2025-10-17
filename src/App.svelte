@@ -280,20 +280,54 @@
   let copyLinkText = 'Copy Link';
   
   async function copyLink() {
+    const url = window.location.href;
+    
     try {
-      const url = window.location.href;
-      await navigator.clipboard.writeText(url);
-      copyLinkText = 'Copied!';
-      setTimeout(() => {
-        copyLinkText = 'Copy Link';
-      }, 2000);
+      // Try modern Clipboard API first
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(url);
+        copyLinkText = 'Copied!';
+        setTimeout(() => {
+          copyLinkText = 'Copy Link';
+        }, 2000);
+      } else {
+        // Fallback for older browsers
+        fallbackCopyToClipboard(url);
+      }
     } catch (err) {
-      console.error('Failed to copy link:', err);
-      copyLinkText = 'Failed to copy';
+      console.error('Failed to copy link:', err, 'Browser:', navigator.userAgent);
+      copyLinkText = 'Copy failed';
       setTimeout(() => {
         copyLinkText = 'Copy Link';
       }, 2000);
     }
+  }
+
+  function fallbackCopyToClipboard(text) {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    textArea.style.position = 'fixed';
+    textArea.style.left = '-999999px';
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+      const successful = document.execCommand('copy');
+      if (successful) {
+        copyLinkText = 'Copied!';
+      } else {
+        copyLinkText = 'Copy failed';
+      }
+    } catch (err) {
+      console.error('Fallback copy failed:', err);
+      copyLinkText = 'Copy failed';
+    }
+    
+    document.body.removeChild(textArea);
+    setTimeout(() => {
+      copyLinkText = 'Copy Link';
+    }, 2000);
   }
 
   onMount(() => {
