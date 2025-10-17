@@ -295,7 +295,7 @@
         fallbackCopyToClipboard(url);
       }
     } catch (err) {
-      console.error('Failed to copy link:', err, 'Browser:', navigator.userAgent);
+      console.error('Failed to copy link:', err);
       copyLinkText = 'Copy failed';
       setTimeout(() => {
         copyLinkText = 'Copy Link';
@@ -306,8 +306,10 @@
   function fallbackCopyToClipboard(text) {
     const textArea = document.createElement('textarea');
     textArea.value = text;
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-999999px';
+    textArea.style.position = 'absolute';
+    textArea.style.opacity = '0';
+    textArea.style.left = '-9999px';
+    textArea.style.top = '-9999px';
     document.body.appendChild(textArea);
     textArea.focus();
     textArea.select();
@@ -322,12 +324,12 @@
     } catch (err) {
       console.error('Fallback copy failed:', err);
       copyLinkText = 'Copy failed';
+    } finally {
+      document.body.removeChild(textArea);
+      setTimeout(() => {
+        copyLinkText = 'Copy Link';
+      }, 2000);
     }
-    
-    document.body.removeChild(textArea);
-    setTimeout(() => {
-      copyLinkText = 'Copy Link';
-    }, 2000);
   }
 
   onMount(() => {
