@@ -726,7 +726,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #1a1a1a;
+    background: #10b981;
     color: white;
     border: none;
     text-decoration: none;
@@ -735,15 +735,15 @@
     padding: 0.7rem 1rem;
     border-radius: 10px;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 8px rgba(16,185,129,0.2);
     cursor: pointer;
     width: 100%;
   }
 
   .copy-link-btn:hover {
-    background: #333;
+    background: #059669;
     transform: scale(1.04);
-    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 12px rgba(16,185,129,0.3);
   }
 
   .museum-link {
