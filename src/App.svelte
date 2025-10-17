@@ -325,7 +325,9 @@
       console.error('Fallback copy failed:', err);
       copyLinkText = 'Copy failed';
     } finally {
-      document.body.removeChild(textArea);
+      if (textArea.parentNode) {
+        document.body.removeChild(textArea);
+      }
       setTimeout(() => {
         copyLinkText = 'Copy Link';
       }, 2000);
