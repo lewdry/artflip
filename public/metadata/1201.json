@@ -1,0 +1,22 @@
+{
+  "objectID": "1201",
+  "title": "The Mill",
+  "artistDisplayName": "Rembrandt van Rijn",
+  "objectDate": "1645/1648",
+  "beginYear": "1645",
+  "endYear": "1648",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "overall: 87.6 x 105.6 cm (34 1/2 x 41 9/16 in.)\nframed: 125.1 × 142.24 cm (49 1/4 × 56 in.)",
+  "department": "",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "National Gallery of Art. Widener Collection",
+  "objectURL": "https://www.nga.gov/collection/art-object-page.1201.html",
+  "isPublicDomain": true,
+  "imageUUID": "b9d543b3-e55a-490c-b72e-5b038071bc9c",
+  "iiifImageURL": "https://api.nga.gov/iiif/b9d543b3-e55a-490c-b72e-5b038071bc9c/full/!843,843/0/default.jpg",
+  "localImage": "1201.jpg",
+  "tags": []
+}
