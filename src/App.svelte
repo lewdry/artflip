@@ -211,10 +211,13 @@
     const moveX = event.clientX - rect.left;
     const zone = moveX / rect.width;
 
+    // Show a hand (pointer) when hovering over the left or right navigation zones
+    // Keep the default cursor in the middle zone. This preserves keyboard
+    // and click navigation behavior while making the cursor consistent.
     if (zone < NAVIGATION_ZONE_THRESHOLD && currentIndex > 0) {
-      event.currentTarget.style.cursor = 'w-resize';
+      event.currentTarget.style.cursor = 'pointer';
     } else if (zone > (1 - NAVIGATION_ZONE_THRESHOLD)) {
-      event.currentTarget.style.cursor = 'e-resize';
+      event.currentTarget.style.cursor = 'pointer';
     } else {
       event.currentTarget.style.cursor = 'default';
     }
