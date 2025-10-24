@@ -1,0 +1,30 @@
+{
+  "objectID": 39070,
+  "title": "Cupid and Psyche",
+  "artistDisplayName": "Jean Baptiste Regnault",
+  "objectDate": "1828",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "152.8 × 196 cm (60 1/8 × 77 1/8 in.); Framed: 173.4 × 215 × 8.9 cm (68 1/4 × 84 5/8 × 3 1/2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Preston O. Morton Memorial Purchase Fund for Older Paintings",
+  "objectURL": "https://www.artic.edu/artworks/39070",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483611,
+  "galleryTitle": "Gallery 220",
+  "image_id": "550326b2-8256-839f-7e2d-4d91dda67875",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/550326b2-8256-839f-7e2d-4d91dda67875/full/843,/0/default.jpg",
+  "localImage": "39070.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAABcEBhUHBiEVFSofHDwlGjkqHSMeJy8qIlA1GkYyMkw7O1xJOzc5QUhBR01OR05WXm1KQHNMQExaZWxqaKCGdLCZfnyIkJGJgaychbOnl7Wok72xnq6qocu/tgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYJYEkqUpgPA0C1JRBTFMV4dBEccYh7OFADs=",
+    "width": 2890,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

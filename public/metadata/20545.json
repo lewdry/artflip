@@ -1,0 +1,30 @@
+{
+  "objectID": 20545,
+  "title": "Rocks at Port-Goulphar, Belle-Île",
+  "artistDisplayName": "Claude Monet",
+  "objectDate": "1886",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "66 × 81.8 cm (26 × 32 3/16 in.); Framed: 83.9 × 100.4 × 9.9 cm (33 × 39 1/2 × 3 7/8 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mr. and Mrs. Chauncey B. Borland",
+  "objectURL": "https://www.artic.edu/artworks/20545",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147478672,
+  "galleryTitle": "Gallery 240",
+  "image_id": "2765aee9-3d78-ec6c-5c66-a1d9dc8173f6",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
+  "localImage": "20545.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADEtND06PT85QD89RU1FRUNHSkdFS09KTlNKSUBNUEtSW0lZX1JRVVFTVlFUXExTYXJuaWJndmBpdmZsdGJxf2l1fnyLlYyNkYGLnYuQmpCVoZSZo5yksKGnswAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4KZ1XHY1DjQNAWMQiAAcUaFIyYMtlFWFADs=",
+    "width": 6674,
+    "height": 5342,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}
