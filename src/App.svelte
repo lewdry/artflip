@@ -301,15 +301,9 @@
           // Pre-fetch failed or returned invalid data, fetch directly
           artworkIDs = await rateLimitedFetch('artworkids.json');
         }
-      } catch (err) {
-        // If we get here, rateLimitedFetch failed - let error bubble up
-        console.error('Failed to load artwork IDs:', err);
-        throw err;
-      }
-      
-      const urlID = getArtworkIDFromURL();
-      
-      try {
+        
+        const urlID = getArtworkIDFromURL();
+        
         if (urlID) {
           // Load specific artwork from URL - skip preload for faster LCP
           const artwork = await fetchSingleArtwork(urlID, true);
@@ -326,6 +320,7 @@
         // Preload next artworks
         preloadNextArtworks();
       } catch (err) {
+        console.error('Failed to load artwork:', err);
         error = 'Unable to load artwork';
       } finally {
         loading = false;
