@@ -292,8 +292,16 @@
 
     // Load initial artwork
     (async () => {
-      // Use pre-fetched artworkIDs from main.js to save time
-      artworkIDs = await window.artworkIDsPromise;
+      try {
+        // Try to use pre-fetched artworkIDs from main.js to save time
+        // Fall back to fetching if pre-fetch failed
+        const prefetchedIDs = await window.artworkIDsPromise;
+        artworkIDs = prefetchedIDs || await rateLimitedFetch('artworkids.json');
+      } catch (err) {
+        // Fallback if both pre-fetch and fetch fail
+        console.error('Failed to load artwork IDs:', err);
+        artworkIDs = await rateLimitedFetch('artworkids.json');
+      }
       
       const urlID = getArtworkIDFromURL();
       
