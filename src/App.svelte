@@ -294,13 +294,17 @@
     (async () => {
       try {
         // Try to use pre-fetched artworkIDs from main.js to save time
-        // Fall back to fetching if pre-fetch failed
         const prefetchedIDs = await window.artworkIDsPromise;
-        artworkIDs = prefetchedIDs || await rateLimitedFetch('artworkids.json');
+        if (prefetchedIDs && Array.isArray(prefetchedIDs) && prefetchedIDs.length > 0) {
+          artworkIDs = prefetchedIDs;
+        } else {
+          // Pre-fetch failed or returned invalid data, fetch directly
+          artworkIDs = await rateLimitedFetch('artworkids.json');
+        }
       } catch (err) {
-        // Fallback if both pre-fetch and fetch fail
+        // If we get here, rateLimitedFetch failed - let error bubble up
         console.error('Failed to load artwork IDs:', err);
-        artworkIDs = await rateLimitedFetch('artworkids.json');
+        throw err;
       }
       
       const urlID = getArtworkIDFromURL();
