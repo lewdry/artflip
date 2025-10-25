@@ -76,7 +76,7 @@
     });
   }
 
-  async function fetchSingleArtwork(objectID = null) {
+  async function fetchSingleArtwork(objectID = null, skipPreload = false) {
     try {
       // If no ID provided, get a random one that hasn't been seen
       if (!objectID) {
@@ -100,7 +100,12 @@
       }
       
       artworkData.displayImage = `images/${artworkData.localImage}`;
-      await preloadImage(artworkData.displayImage);
+      
+      // Skip preload for initial artwork to show it faster (browser will load it anyway)
+      // Preload for subsequent artworks to ensure smooth transitions
+      if (!skipPreload) {
+        await preloadImage(artworkData.displayImage);
+      }
       
       seenIDs.add(objectID);
       console.log('Successfully loaded:', artworkData.title);
@@ -287,19 +292,20 @@
 
     // Load initial artwork
     (async () => {
-      artworkIDs = await rateLimitedFetch('artworkids.json');
+      // Use pre-fetched artworkIDs from main.js to save time
+      artworkIDs = await window.artworkIDsPromise;
       
       const urlID = getArtworkIDFromURL();
       
       try {
         if (urlID) {
-          // Load specific artwork from URL
-          const artwork = await fetchSingleArtwork(urlID);
+          // Load specific artwork from URL - skip preload for faster LCP
+          const artwork = await fetchSingleArtwork(urlID, true);
           artworks = [artwork];
           currentIndex = 0;
         } else {
-          // Load random initial artwork
-          const artwork = await fetchSingleArtwork();
+          // Load random initial artwork - skip preload for faster LCP
+          const artwork = await fetchSingleArtwork(null, true);
           artworks = [artwork];
           currentIndex = 0;
           updateURL(artwork.objectID);
@@ -372,6 +378,9 @@
             <img 
               src={artwork.displayImage}
               alt={artwork.title || 'Artwork'}
+              fetchpriority={currentIndex === 0 ? 'high' : 'auto'}
+              loading="eager"
+              decoding="async"
               on:error={handleImageError}
             />
           </div>
