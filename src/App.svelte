@@ -76,6 +76,31 @@
     });
   }
 
+  // Preload manager for LCP: adds/removes a <link rel="preload" as="image"> in <head>
+  let lastPreloadHref = null;
+  function ensurePreload(href) {
+    try {
+      const existing = document.querySelector('link[data-preload="artflip"]');
+      if (existing && existing.getAttribute('href') === href) return;
+      if (existing) existing.remove();
+      if (href) {
+        const link = document.createElement('link');
+        link.setAttribute('rel', 'preload');
+        link.setAttribute('as', 'image');
+        link.setAttribute('href', href);
+        link.setAttribute('data-preload', 'artflip');
+        // hint browser to prioritise this resource
+        try { link.setAttribute('fetchpriority', 'high'); } catch (e) { /* not supported everywhere */ }
+        document.head.appendChild(link);
+        lastPreloadHref = href;
+      } else {
+        lastPreloadHref = null;
+      }
+    } catch (e) {
+      console.warn('Preload link management failed', e);
+    }
+  }
+
   async function fetchSingleArtwork(objectID = null) {
     try {
       // If no ID provided, get a random one that hasn't been seen
@@ -327,6 +352,13 @@
 
   $: artwork = artworks[currentIndex];
 
+  // When artwork changes, add a preload hint for the browser (helps LCP on first visit)
+  $: if (artwork && artwork.displayImage) {
+    ensurePreload(artwork.displayImage);
+  } else {
+    ensurePreload(null);
+  }
+
   // Ensure 'copied' resets whenever we show a different artwork
   $: if (artworks && artworks.length) {
     // when currentIndex or artworks changes, clear copied state
@@ -372,6 +404,9 @@
             <img 
               src={artwork.displayImage}
               alt={artwork.title || 'Artwork'}
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
               on:error={handleImageError}
             />
           </div>
