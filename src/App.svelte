@@ -231,6 +231,15 @@
     // Middle third: do nothing, allow default browser behavior
   }
 
+  function handleImageKeydown(event) {
+    // Only respond to Enter and Space keys
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      // For keyboard users, simply advance to next artwork
+      nextArtwork();
+    }
+  }
+
   function handleImageMouseMove(event) {
     const rect = event.currentTarget.getBoundingClientRect();
     const moveX = event.clientX - rect.left;
@@ -350,6 +359,23 @@
     window.removeEventListener('popstate', handlePopState);
   });
 
+  // Generate accessible alt text for artwork images
+  function getArtworkAltText(artwork) {
+    if (!artwork) return 'Artwork';
+    
+    let alt = artwork.title || 'Untitled artwork';
+    if (artwork.artistDisplayName) {
+      alt += ` by ${artwork.artistDisplayName}`;
+    }
+    if (artwork.objectDate) {
+      alt += `, ${artwork.objectDate}`;
+    }
+    if (artwork.medium) {
+      alt += `. ${artwork.medium}`;
+    }
+    return alt;
+  }
+
   $: artwork = artworks[currentIndex];
 
   // When artwork changes, add a preload hint for the browser (helps LCP on first visit)
@@ -367,16 +393,30 @@
 </script>
 
 <main>
+  <a href="#main-content" class="skip-link">Skip to artwork</a>
+  
+  <!-- Screen reader announcements -->
+  <div class="sr-only" aria-live="polite" aria-atomic="true">
+    {#if artwork && !loading}
+      Now viewing: {artwork.title || 'Untitled'} {#if artwork.artistDisplayName}by {artwork.artistDisplayName}{/if}
+    {/if}
+  </div>
+
   <div class="container">
-    <header>
+    <header aria-label="Site header">
       <div class="title-group">
         <h1>Artflip.</h1>
         <h2>Public domain art</h2>
       </div>
 
-      <button on:click={nextArtwork} disabled={isCoolingDown || loading} class="refresh-btn">
+      <button 
+        on:click={nextArtwork} 
+        disabled={isCoolingDown || loading} 
+        aria-disabled={isCoolingDown || loading}
+        class="refresh-btn"
+      >
         {#if loading && artwork} 
-          <span class="spinner"></span>
+          <span class="spinner" aria-hidden="true"></span>
         {:else}
           New Artwork
         {/if}
@@ -384,26 +424,26 @@
     </header>
 
     {#if error}
-      <div class="error">
+      <div class="error" role="alert">
         <p>{error}</p>
       </div>
     {:else if artwork}
       {#key artwork.objectID}
-        <article class="artwork" in:fade={{ duration: 400, delay: 100 }}>
+        <article class="artwork" id="main-content" in:fade={{ duration: 400, delay: 100 }}>
           <div 
             class="image-container"
             role="button"
             tabindex="0"
-            aria-label="Click left or right to navigate artworks"
+            aria-label="Artwork image. Press Enter to view next artwork, or use left and right arrow keys to navigate."
             on:click={handleImageClick}
-            on:keydown={handleImageClick}
+            on:keydown={handleImageKeydown}
             on:mousemove={handleImageMouseMove}
             on:touchstart={handleTouchStart}
             on:touchend={handleTouchEnd}
           >
             <img 
               src={artwork.displayImage}
-              alt={artwork.title || 'Artwork'}
+              alt={getArtworkAltText(artwork)}
               loading="eager"
               decoding="async"
               fetchpriority="high"
@@ -450,7 +490,20 @@
             
             {#if artwork.objectURL}
                 <div class="link-buttons">
-                  <button class="copy-link-btn" on:click={async () => { try { await navigator.clipboard.writeText(window.location.href); copied = true; setTimeout(() => copied = false, 1100); } catch (e) { error = 'Unable to copy link'; setTimeout(() => error = null, 3000); } }}>
+                  <button 
+                    class="copy-link-btn" 
+                    aria-pressed={copied}
+                    on:click={async () => { 
+                      try { 
+                        await navigator.clipboard.writeText(window.location.href); 
+                        copied = true; 
+                        setTimeout(() => copied = false, 1100); 
+                      } catch (e) { 
+                        error = 'Unable to copy link'; 
+                        setTimeout(() => error = null, 3000); 
+                      } 
+                    }}
+                  >
                     {#if copied}
                       Link Copied ✓
                     {:else}
@@ -467,12 +520,12 @@
         </article>
       {/key}
     {:else if loading}
-      <div class="initial-loader">
-        <span class="spinner"></span>
+      <div class="initial-loader" id="main-content" role="status" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
         <p>Finding a masterpiece...</p>
       </div>
     {/if}
-    <footer>
+    <footer aria-label="Site footer">
       <p class="footer-credit">
         All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
         Artflip by <a href="https://lewisdryburgh.com/2025/10/13/artflip" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
@@ -495,6 +548,36 @@
 </main>
 
 <style>
+  /* Screen reader only content */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* Skip link for keyboard navigation */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+    font-weight: 600;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+
   :global(body) {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -575,6 +658,11 @@
     cursor: not-allowed;
   }
 
+  .refresh-btn:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 2px;
+  }
+
   .spinner {
     width: 16px;
     height: 16px;
@@ -626,6 +714,11 @@
     user-select: none;
     object-fit:contain;
     box-shadow: inset 0 0 0 1px #eee; /* faint frame */
+  }
+
+  .image-container:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: -3px;
   }
 
   .image-container img {
@@ -735,10 +828,17 @@
     font-family: inherit;
   }
 
-  .museum-link:hover {
-    background: #052238; /* slightly darker hover for museum */
-    transform: scale(1.04);
-    box-shadow: 0 5px 12px rgba(5,34,56,0.28);
+  @media (hover: hover) {
+    .museum-link:hover {
+      background: #052238; /* slightly darker hover for museum */
+      transform: scale(1.04);
+      box-shadow: 0 5px 12px rgba(5,34,56,0.28);
+    }
+  }
+
+  .museum-link:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 2px;
   }
 
   /* Container to stack buttons vertically and keep sizes consistent */
@@ -780,15 +880,22 @@
     justify-content: center;
   }
 
-  .copy-link-btn:hover:not(:disabled) {
-    background: #2b6665; /* slightly darker hover for copy */
-    transform: scale(1.04);
-    box-shadow: 0 5px 12px rgba(43,86,102,0.28);
+  @media (hover: hover) {
+    .copy-link-btn:hover:not(:disabled) {
+      background: #2b6665; /* slightly darker hover for copy */
+      transform: scale(1.04);
+      box-shadow: 0 5px 12px rgba(43,86,102,0.28);
+    }
   }
 
   .copy-link-btn:disabled {
     opacity: 0.6;
     cursor: not-allowed;
+  }
+
+  .copy-link-btn:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 2px;
   }
 
   footer {
@@ -821,6 +928,11 @@
     display: block;
   }
 
+  .social-link:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 2px;
+  }
+
   .instagram-link:hover {
     color: #E4405F;
     transform: scale(1.1);
@@ -829,6 +941,18 @@
   .email-link:hover {
     color: #0078D4;
     transform: scale(1.1);
+  }
+
+  /* Respect user's motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 
   @media (max-width: 799px) {
