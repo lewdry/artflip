@@ -1,0 +1,30 @@
+{
+  "objectID": 16333,
+  "title": "The Annunciation",
+  "artistDisplayName": "Johann Koerbecke",
+  "objectDate": "Completed by 1457",
+  "objectName": "Painting",
+  "medium": "Oil on panel, transferred to canvas",
+  "dimensions": "Panel: 93.3 × 65.8 cm (36 3/4 × 25 7/8 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://www.artic.edu/artworks/16333",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 26746,
+  "galleryTitle": "Gallery 237",
+  "image_id": "19b940dd-bb34-8ce7-601a-cb3fa1010f97",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/19b940dd-bb34-8ce7-601a-cb3fa1010f97/full/843,/0/default.jpg",
+  "localImage": "16333.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADY6NEo5LF1CIVRCKFdCL31XJW9bPWhaQm9cQYJCMIdcM5ZbO49rS5JtRZJuRgAAACH5BAAAAAAALAAAAAADAAUAAAQL0LFmiiJipAAWOhEAOw==",
+    "width": 1563,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel, transferred to canvas."
+  },
+  "tags": []
+}

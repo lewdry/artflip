@@ -1,0 +1,30 @@
+{
+  "objectID": 21668,
+  "title": "Eve",
+  "artistDisplayName": "Lucas Cranach the Elder",
+  "objectDate": "1533–37",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "107.5 × 36.4 cm (42 5/16 × 14 5/16 in.); Framed: 121.6 × 51.6 cm (47 7/8 × 20 5/16 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/21668",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 28496,
+  "galleryTitle": "Gallery 238",
+  "image_id": "b07c2b88-f2a2-4d0a-e401-ebf8d7928373",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/b07c2b88-f2a2-4d0a-e401-ebf8d7928373/full/843,/0/default.jpg",
+  "localImage": "21668.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAGtgS2xjTXNkSnppSnVpUnlpUH5vVXxtV4B9Z5SCZgAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIEIV0CChGjAgAOw==",
+    "width": 1608,
+    "height": 4929,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

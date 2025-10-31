@@ -1,0 +1,30 @@
+{
+  "objectID": 41211,
+  "title": "Portrait of Philip IV",
+  "artistDisplayName": "Workshop of Diego Velázquez",
+  "objectDate": "c. 1632",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "205.7 × 123.2 cm (81 × 48 1/2 in.); Framed: 228.6 × 146.1 cm (90 × 57 1/2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Spain",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Arma Wyler in memory of Silvain Wyler",
+  "objectURL": "https://www.artic.edu/artworks/41211",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 28498,
+  "galleryTitle": "Gallery 239",
+  "image_id": "a2450337-afed-2797-17e7-2e1f2158235c",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/a2450337-afed-2797-17e7-2e1f2158235c/full/843,/0/default.jpg",
+  "localImage": "41211.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACYbDCgcDCoeDzEjDCkhEi8jEi8kEC8nGTEhETopFjQrHEtAJ0xFOUtKPlxcTQAAACH5BAAAAAAALAAAAAADAAUAAAQLMJwGmBNqoTISMREAOw==",
+    "width": 1338,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

@@ -1,0 +1,30 @@
+{
+  "objectID": 25743,
+  "title": "The Adoration of the Magi",
+  "artistDisplayName": "Attributed to Raffaello Botticini",
+  "objectDate": "c. 1495",
+  "objectName": "Painting",
+  "medium": "Tempera on panel",
+  "dimensions": "Diam.: 104.2 cm (41 in.); Framed: Diam.: 127 cm (50 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://www.artic.edu/artworks/25743",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 28496,
+  "galleryTitle": "Gallery 238",
+  "image_id": "24c1565b-f22d-fb73-4a7f-f35bcb3dcc09",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/24c1565b-f22d-fb73-4a7f-f35bcb3dcc09/full/843,/0/default.jpg",
+  "localImage": "25743.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAHJTOH9hR3lnS3thUn5sV3pxW3t+fIJhQYRkS41sS5JwTodrWI5yVoJwX4B+fJ6AWJqDZJKJdaGPbLKaeoCCgoGEg4SMgpSVh76slAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIGUVV4VNghQhB/QwSxIojUMAgxECADs=",
+    "width": 2237,
+    "height": 2250,
+    "alt_text": "A work made of tempera on panel."
+  },
+  "tags": []
+}

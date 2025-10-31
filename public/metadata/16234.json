@@ -1,0 +1,30 @@
+{
+  "objectID": 16234,
+  "title": "The Crucifixion",
+  "artistDisplayName": "Taddeo di Bartolo",
+  "objectDate": "1401/04",
+  "objectName": "Painting",
+  "medium": "Tempera on panel",
+  "dimensions": "Panel: 37.6 × 72.4 cm (14 3/4 × 28 1/2 in.); Framed: 43.2 × 78.7 cm (17 × 31 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Italy",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
+  "objectURL": "https://www.artic.edu/artworks/16234",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 26746,
+  "galleryTitle": "Gallery 237",
+  "image_id": "308a1405-b198-37e2-c5d2-ca364705c92e",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/308a1405-b198-37e2-c5d2-ca364705c92e/full/843,/0/default.jpg",
+  "localImage": "16234.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhCgAFAPUAAF1MPWtCNGtVOD4/UklFQ09OT1BJRFJIRFNKRldKRV5HS1pTSnFOQWFUQmZZT3BXRH5YTWRbVmBcVm5fXHtSUXJdVHBYWX9kRXlnTHpnTWlgVn9oUX9vVnJmX3RlXnphWXVuZ3RxbnlzbYRsR49xTI11To94T5t+T5p/T4ZtUYhvV4JiWox6V4l3WIt6WI58WpN6UotkYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQEOk9cpgWK4FAXDZoEywU+rROIw0K1JJEIAUEBZFTMVxMCgDiWfyAYlCnUoiCAA7",
+    "width": 8716,
+    "height": 4475,
+    "alt_text": "A work made of tempera on panel."
+  },
+  "tags": []
+}

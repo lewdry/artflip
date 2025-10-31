@@ -1,0 +1,30 @@
+{
+  "objectID": 867,
+  "title": "The Guardhouse",
+  "artistDisplayName": "David Teniers the Younger",
+  "objectDate": "c. 1645",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "72.6 × 55.4 cm (28 9/16 × 21 13/16 in.); Framed: 87 × 69.9 × 5.1 cm (34 1/4 × 27 1/2 × 2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Flanders",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles L. Hutchinson Collection",
+  "objectURL": "https://www.artic.edu/artworks/867",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 28498,
+  "galleryTitle": "Gallery 239",
+  "image_id": "18adfd19-6c76-989e-36ae-1343aa15701b",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/18adfd19-6c76-989e-36ae-1343aa15701b/full/843,/0/default.jpg",
+  "localImage": "867.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABkcEiEhFywkGC4qHDEpHDQwITAyKD0zKD05L087J0I8L0w8KFVIPFJORFVVRltRSGBSTHZjUZtgTItpUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYFIEwDIIRGNABxM9iDQ5SggAOw==",
+    "width": 1719,
+    "height": 2250,
+    "alt_text": "Vertical oil painting of a large pile of discarded armor, weapons, and other items in a guardhouse, including a rolled-up white, yellow, red, and blue flag and a drum. At left, a boy in light-blue clothing holds a gray coat. In the background, a group of men huddle together."
+  },
+  "tags": []
+}

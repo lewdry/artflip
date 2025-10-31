@@ -1,0 +1,30 @@
+{
+  "objectID": 21672,
+  "title": "Portrait of Fridrich Rorbach",
+  "artistDisplayName": "Conrad Faber von Creuznach",
+  "objectDate": "1532",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "50.4 × 35.7 cm (19 7/8 × 14 1/16 in.); Framed: 68.3 × 53.5 cm (26 7/8 × 21 1/16 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/21672",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 28496,
+  "galleryTitle": "Gallery 238",
+  "image_id": "26ac1e6d-e547-0d9d-707b-7cec76babb60",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/26ac1e6d-e547-0d9d-707b-7cec76babb60/full/843,/0/default.jpg",
+  "localImage": "21672.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAB0dEyIdEDsvHT0vHS0tIT0yI0JCNU9JOlpaRG5wVYlqR3KDcoqBaa2rl5quoAAAACH5BAAAAAAALAAAAAADAAUAAAQLcCXHVDMHkRKAGBEAOw==",
+    "width": 1562,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}
