@@ -378,6 +378,29 @@
 
   $: artwork = artworks[currentIndex];
 
+  // Title spinning state and trigger (easter egg).
+  // The animation will only run when the user clicks (or activates via Enter/Space)
+  // and will respect the user's prefers-reduced-motion setting.
+  let titleSpinning = false;
+  function triggerTitleSpin() {
+    // Prevent retrigger while already spinning
+    if (titleSpinning) return;
+
+    try {
+      if (typeof window !== 'undefined' && window.matchMedia) {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          // Respect user preference
+          return;
+        }
+      }
+    } catch (e) {
+      // ignore matchMedia errors
+    }
+
+    // Start the spin; we'll clear the flag on animationend for robustness
+    titleSpinning = true;
+  }
+
   // When artwork changes, add a preload hint for the browser (helps LCP on first visit)
   $: if (artwork && artwork.displayImage) {
     ensurePreload(artwork.displayImage);
@@ -405,7 +428,15 @@
   <div class="container">
     <header aria-label="Site header">
       <div class="title-group">
-        <h1>Artflip.</h1>
+  <h1>
+    <button
+      class="title-button"
+      class:spinning={titleSpinning}
+      aria-pressed={titleSpinning}
+      on:click={triggerTitleSpin}
+      on:animationend={(e) => { if (e.animationName === 'spin360') titleSpinning = false; }}
+    >Artflip.</button>
+  </h1>
         <h2>Public domain art</h2>
       </div>
 
@@ -617,6 +648,37 @@
     font-family: 'Josefin Sans', sans-serif;
     color: #222;
     letter-spacing: -0.25px;
+    /* enable 3D transforms and hint the browser for better performance */
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+
+  /* Spinning animation on the title button (Y-axis) */
+  .title-group h1 .title-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    -webkit-font-smoothing: inherit;
+    transform-style: preserve-3d;
+  }
+
+  .title-group h1 .title-button.spinning {
+    animation: spin360 1s ease-in-out;
+    transform-style: preserve-3d;
+  }
+
+  @keyframes spin360 {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
   }
 
   .title-group h2 {
