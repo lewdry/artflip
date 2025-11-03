@@ -595,7 +595,7 @@
   /* Skip link for keyboard navigation */
   .skip-link {
     position: absolute;
-    top: -40px;
+    top: -100%;
     left: 0;
     background: #000;
     color: white;
@@ -603,10 +603,12 @@
     text-decoration: none;
     z-index: 100;
     font-weight: 600;
+    opacity: 0;
   }
 
   .skip-link:focus {
     top: 0;
+    opacity: 1;
   }
 
   :global(body) {
