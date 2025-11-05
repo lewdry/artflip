@@ -430,15 +430,16 @@
 
   // Share image button logic
   async function handleShareImage() {
-    if (!artwork || !artwork.displayImage) return;
+    if (!artwork || !artwork.displayImage || !artwork.objectID) return;
     const imageUrl = artwork.displayImage;
     const absoluteUrl = imageUrl.startsWith('http') ? imageUrl : `${window.location.origin}/${imageUrl}`;
+    const filename = `${artwork.objectID}.png`;
     // Try Web Share API with files
     if (navigator.canShare && window.fetch && window.Blob && navigator.share) {
       try {
         const response = await fetch(absoluteUrl);
         const blob = await response.blob();
-        const file = new File([blob], 'artflip.png', { type: blob.type || 'image/png' });
+        const file = new File([blob], filename, { type: blob.type || 'image/png' });
         if (navigator.canShare({ files: [file] })) {
           await navigator.share({
             files: [file],
@@ -455,7 +456,7 @@
     // Fallback: trigger download
     const link = document.createElement('a');
     link.href = absoluteUrl;
-    link.download = 'artflip.png';
+    link.download = filename;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
