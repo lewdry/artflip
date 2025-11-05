@@ -376,29 +376,89 @@
     return alt;
   }
 
+
   $: artwork = artworks[currentIndex];
 
   // Title spinning state and trigger (easter egg).
   // The animation will only run when the user clicks (or activates via Enter/Space)
   // and will respect the user's prefers-reduced-motion setting.
   let titleSpinning = false;
+  let titleButtonEl = null;
   function triggerTitleSpin() {
-    // Prevent retrigger while already spinning
-    if (titleSpinning) return;
-
     try {
       if (typeof window !== 'undefined' && window.matchMedia) {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          // Respect user preference
           return;
         }
       }
-    } catch (e) {
-      // ignore matchMedia errors
+    } catch (e) {}
+    if (titleButtonEl) {
+      titleButtonEl.classList.remove('spinning');
+      void titleButtonEl.offsetWidth;
+      titleButtonEl.classList.add('spinning');
     }
-
-    // Start the spin; we'll clear the flag on animationend for robustness
     titleSpinning = true;
+  }
+  function handleTitleAnimationEnd(e) {
+    if (e.animationName === 'spin360') {
+      titleSpinning = false;
+    }
+  }
+
+  // Enhanced Copy/Share button logic
+  async function handleShareOrCopy() {
+    // Only attempt to share text
+    const shareText = `I saw this on artflip: ${window.location.href}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ text: shareText });
+        return;
+      } catch (err) {
+        if (err && err.name === 'AbortError') return;
+        // If sharing fails, fallback to clipboard
+      }
+    }
+    // Fallback: copy to clipboard
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      copied = true;
+      setTimeout(() => copied = false, 1100);
+    } catch (e) {
+      // No feedback if clipboard copy fails
+    }
+  }
+
+  // Share image button logic
+  async function handleShareImage() {
+    if (!artwork || !artwork.displayImage) return;
+    const imageUrl = artwork.displayImage;
+    const absoluteUrl = imageUrl.startsWith('http') ? imageUrl : `${window.location.origin}/${imageUrl}`;
+    // Try Web Share API with files
+    if (navigator.canShare && window.fetch && window.Blob && navigator.share) {
+      try {
+        const response = await fetch(absoluteUrl);
+        const blob = await response.blob();
+        const file = new File([blob], 'artflip.png', { type: blob.type || 'image/png' });
+        if (navigator.canShare({ files: [file] })) {
+          await navigator.share({
+            files: [file],
+            title: artwork.title || 'Artwork',
+            text: `Check out this artwork on artflip! ${window.location.href}`
+          });
+          return; // Success, do nothing else
+        }
+      } catch (err) {
+        if (err && err.name === 'AbortError') return; // User cancelled
+        // If sharing fails, fallback to download
+      }
+    }
+    // Fallback: trigger download
+    const link = document.createElement('a');
+    link.href = absoluteUrl;
+    link.download = 'artflip.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   // When artwork changes, add a preload hint for the browser (helps LCP on first visit)
@@ -430,11 +490,12 @@
       <div class="title-group">
   <h1>
     <button
+      bind:this={titleButtonEl}
       class="title-button"
       class:spinning={titleSpinning}
       aria-pressed={titleSpinning}
       on:click={triggerTitleSpin}
-      on:animationend={(e) => { if (e.animationName === 'spin360') titleSpinning = false; }}
+      on:animationend={handleTitleAnimationEnd}
     >Artflip.</button>
   </h1>
         <h2>Public domain art</h2>
@@ -521,24 +582,23 @@
             
             {#if artwork.objectURL}
                 <div class="link-buttons">
+
+                  <button 
+                    class="share-image-btn" 
+                    on:click={handleShareImage}
+                  >
+                    Share this image
+                  </button>
+
                   <button 
                     class="copy-link-btn" 
                     aria-pressed={copied}
-                    on:click={async () => { 
-                      try { 
-                        await navigator.clipboard.writeText(window.location.href); 
-                        copied = true; 
-                        setTimeout(() => copied = false, 1100); 
-                      } catch (e) { 
-                        error = 'Unable to copy link'; 
-                        setTimeout(() => error = null, 3000); 
-                      } 
-                    }}
+                    on:click={handleShareOrCopy}
                   >
                     {#if copied}
                       Link Copied ✓
                     {:else}
-                      Copy Link to Clipboard
+                      Copy link to artwork
                     {/if}
                   </button>
 
@@ -917,11 +977,46 @@
     width: max-content; /* size the grid to the widest child */
   }
 
+
+  .share-image-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #413993;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(86, 55, 199, 0.18);
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: inherit;
+  }
+
+  @media (hover: hover) {
+    .share-image-btn:hover:not(:disabled) {
+      background: #342E76;
+      transform: scale(1.04);
+      box-shadow: 0 5px 12px rgba(53, 45, 169, 0.28);
+    }
+  }
+
+  .share-image-btn:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 2px;
+  }
+
   .copy-link-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-  background: #347c76; /* updated copy button color */
+    background: #347c76; /* updated copy button color */
     color: white;
     border: none;
     text-decoration: none;
