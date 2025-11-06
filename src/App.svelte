@@ -580,7 +580,7 @@
             {#if artwork.creditLine}
               <p class="credit-line">{artwork.creditLine}</p>
             {/if}
-            
+            <div class="metadata-spacer"></div>
             {#if artwork.objectURL}
                 <div class="link-buttons">
                   <div class="top-row">
@@ -860,8 +860,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100%;
+  }
+
+  .metadata-spacer {
+    flex: 1 1 auto;
+    width: 100%;
   }
 
       /* Text clamp utility (reusable) */
