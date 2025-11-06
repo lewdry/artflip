@@ -583,26 +583,25 @@
             
             {#if artwork.objectURL}
                 <div class="link-buttons">
-
-                  <button 
-                    class="share-image-btn" 
-                    on:click={handleShareImage}
-                  >
-                    Share this image
-                  </button>
-
-                  <button 
-                    class="copy-link-btn" 
-                    aria-pressed={copied}
-                    on:click={handleShareOrCopy}
-                  >
-                    {#if copied}
-                      Link Copied ✓
-                    {:else}
-                      Copy link to artwork
-                    {/if}
-                  </button>
-
+                  <div class="top-row">
+                    <button 
+                      class="share-image-btn" 
+                      on:click={handleShareImage}
+                    >
+                      Share image
+                    </button>
+                    <button 
+                      class="copy-link-btn" 
+                      aria-pressed={copied}
+                      on:click={handleShareOrCopy}
+                    >
+                      {#if copied}
+                        Link Copied ✓
+                      {:else}
+                        Copy link
+                      {/if}
+                    </button>
+                  </div>
                   <a href={artwork.objectURL} target="_blank" rel="noopener noreferrer" class="museum-link">
                     View on Museum Site →
                   </a>
@@ -858,7 +857,11 @@
   .metadata {
     padding: 1.25rem 1rem;
     min-height: 300px; /* prevents collapse on short data */
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
 
       /* Text clamp utility (reusable) */
@@ -966,16 +969,28 @@
     outline-offset: 2px;
   }
 
-  /* Container to stack buttons vertically and keep sizes consistent */
+
+  /* Container for link buttons */
   .link-buttons {
-    display: inline-grid;
-    grid-auto-flow: row;
-    grid-template-columns: 1fr; /* single column that children can fill */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 0.6rem;
-    margin-top: 0rem;
-    justify-self: center;
-    justify-items: center;
-    width: max-content; /* size the grid to the widest child */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Row for share/copy buttons */
+  .link-buttons .top-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    width: 100%;
+    justify-content: center;
   }
 
 
@@ -994,7 +1009,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 3px 8px rgba(86, 55, 199, 0.18);
     cursor: pointer;
-    width: 100%;
+    min-width: 120px;
     box-sizing: border-box;
     line-height: 1.2;
     font-family: inherit;
@@ -1028,7 +1043,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 3px 8px rgba(52,103,124,0.18);
     cursor: pointer;
-    width: 100%; /* take full width of grid column so both buttons match */
+    min-width: 120px;
     box-sizing: border-box;
     line-height: 1.2;
     font-family: inherit;
