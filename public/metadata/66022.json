@@ -1,0 +1,30 @@
+{
+  "objectID": 66022,
+  "title": "Portrait of a Man",
+  "artistDisplayName": "Jan Mijtens",
+  "objectDate": "c. 1665",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "104.8 × 84.1 cm (41 1/4 × 33 1/8 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Holland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Ronald Fritz",
+  "objectURL": "https://www.artic.edu/artworks/66022",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483623,
+  "galleryTitle": "Gallery 213",
+  "image_id": "46765075-304f-8dac-6b72-9a6262239a19",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/46765075-304f-8dac-6b72-9a6262239a19/full/843,/0/default.jpg",
+  "localImage": "66022.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABYHAxUJBh4PCBgQDCcXEiodFycdGikeGDIhFDkhED0nFjclGj4tIkgxGkoyH0IuIE89LkU/OHxwXXt3bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIKIkjcBADkAYz1QckbQEQwgAOw==",
+    "width": 1808,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

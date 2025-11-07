@@ -1,0 +1,30 @@
+{
+  "objectID": 45240,
+  "title": "The Bathers",
+  "artistDisplayName": "Paul Cezanne",
+  "objectDate": "1899-1904",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "51.3 × 61.7 cm (20 3/16 × 24 1/4 in.); Framed: 69.3 × 79.7 × 8.3 cm (27 1/4 × 31 3/8 × 3 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Amy McCormick Memorial Collection",
+  "objectURL": "https://www.artic.edu/artworks/45240",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147479698,
+  "galleryTitle": "Gallery 248",
+  "image_id": "2e166f7c-a959-d686-eeb0-a63a52a4d368",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/2e166f7c-a959-d686-eeb0-a63a52a4d368/full/843,/0/default.jpg",
+  "localImage": "45240.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAE9gXFpjXlRjYVJiZVxnZlVnal5sa1lub1htcFpuel1temBpZWBvamNtbWFxa2V0aWNwb2pucGNzd21zdmZ7fnp+f1dug2N4gWd4gmh6h2qAgGyFiXOKkHWLmwAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4DNYF5UwRcdhinBsWoYQlTRFBtBAzhKEADs=",
+    "width": 11234,
+    "height": 9266,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}
