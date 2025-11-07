@@ -580,7 +580,6 @@
             {#if artwork.creditLine}
               <p class="credit-line">{artwork.creditLine}</p>
             {/if}
-            <div class="metadata-spacer"></div>
             {#if artwork.objectURL}
                 <div class="link-buttons">
                   <div class="top-row">
@@ -859,14 +858,11 @@
     min-height: 300px; /* prevents collapse on short data */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;  Remove to allow children to stretch horizontally */
     height: 100%;
   }
 
-  .metadata-spacer {
-    flex: 1 1 auto;
-    width: 100%;
-  }
+  /* .metadata-spacer removed */
 
       /* Text clamp utility (reusable) */
   :global(.text-limit) {
@@ -979,13 +975,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 0.6rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: max-content;
-    margin-left: auto;
-    margin-right: auto;
+    align-self: center;
   }
 
   /* Row for share/copy buttons */
