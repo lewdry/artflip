@@ -1,0 +1,30 @@
+{
+  "objectID": 120296,
+  "title": "Wind-Swept Sands",
+  "artistDisplayName": "William Merritt Chase",
+  "objectDate": "1894",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "87 × 101.5 cm (34 1/4 × 39 3/4 in.)",
+  "department": "Arts of the Americas",
+  "culture": "Long Island",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Mrs. Eric Oldberg in honor of Milo M. Naeve; Friends of American Art and R. H. Love Galleries funds; Walter Aitken Endowment; through prior acquisitions of the Charles H. and Mary F. S. Worcester Collection",
+  "objectURL": "https://www.artic.edu/artworks/120296",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147475157,
+  "galleryTitle": "Gallery 162",
+  "image_id": "ff5e49d3-448f-2aba-4461-6e36c1dc7dfa",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/ff5e49d3-448f-2aba-4461-6e36c1dc7dfa/full/843,/0/default.jpg",
+  "localImage": "120296.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAI6FdpOJfJubjqKai6ifj6Chl6mhkayjlK2soayupLWto7msorGxqLa1q7ixqb+0qb+2r7q6vMW8tL7AwsHBwMHBwsPDxMXFxsfKzcrM0MvN0MzP087Q087R1AAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYEVd1hRlXKdtWMI0SCEYxDEAwfJIkOKEADs=",
+    "width": 2630,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}
