@@ -408,7 +408,8 @@
   // Enhanced Copy/Share button logic
   async function handleShareOrCopy() {
     // Only attempt to share text
-    const shareText = `I saw this on artflip: ${window.location.href}`;
+    const titlePart = artwork && artwork.title ? artwork.title : 'Untitled';
+    const shareText = `I found this on Artflip. ${titlePart}. ${window.location.href}`;
     if (navigator.share) {
       try {
         await navigator.share({ text: shareText });
@@ -420,7 +421,7 @@
     }
     // Fallback: copy to clipboard
     try {
-      await navigator.clipboard.writeText(window.location.href);
+      await navigator.clipboard.writeText(shareText);
       copied = true;
       setTimeout(() => copied = false, 1100);
     } catch (e) {
@@ -444,7 +445,7 @@
           await navigator.share({
             files: [file],
             title: artwork.title || 'Artwork',
-            text: `Check out this artwork on artflip! ${window.location.href}`
+            text: `I found this on Artflip! ${window.location.href}`
           });
           return; // Success, do nothing else
         }
@@ -587,7 +588,7 @@
                       class="share-image-btn" 
                       on:click={handleShareImage}
                     >
-                      Share image
+                      Save image
                     </button>
                     <button 
                       class="copy-link-btn" 
@@ -597,7 +598,7 @@
                       {#if copied}
                         Link Copied ✓
                       {:else}
-                        Copy link
+                        Share link
                       {/if}
                     </button>
                   </div>
