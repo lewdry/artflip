@@ -409,7 +409,7 @@
   async function handleShareOrCopy() {
     // Only attempt to share text
     const titlePart = artwork && artwork.title ? artwork.title : 'Untitled';
-    const shareText = `I found this on Artflip. ${titlePart}. ${window.location.href}`;
+    const shareText = `Artflip: ${titlePart}. ${window.location.href}`;
     if (navigator.share) {
       try {
         await navigator.share({ text: shareText });
