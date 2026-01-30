@@ -1,0 +1,30 @@
+{
+  "objectID": 74242,
+  "title": "Standing Beauty",
+  "artistDisplayName": "Artist unknown",
+  "objectDate": "1661/73",
+  "objectName": "Painting",
+  "medium": "Hanging scroll; ink, color, and gold on paper",
+  "dimensions": "66.0 × 27.0 cm (26 × 10 5/8 in.), including mount and knobs: 145.8 × 39.6 cm (57 7/16 × 15 5/8 in.)",
+  "department": "Arts of Asia",
+  "culture": "Japan",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Frederick W. and Nathalie C. Gookin Endowment",
+  "objectURL": "https://www.artic.edu/artworks/74242",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147480089,
+  "galleryTitle": "Gallery 108",
+  "image_id": "c6b98dab-96d0-87b6-86e4-5f00d9b8231a",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/c6b98dab-96d0-87b6-86e4-5f00d9b8231a/full/843,/0/default.jpg",
+  "localImage": "74242.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAJp/X5qAX5uFaZyGap+Md6CNd6KPeKWRe6STfqmWgAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIMABSzEFpiAgAOw==",
+    "width": 4003,
+    "height": 8796,
+    "alt_text": "A work made of hanging scroll; ink, color, and gold on paper."
+  },
+  "tags": []
+}

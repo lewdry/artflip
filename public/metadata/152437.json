@@ -1,0 +1,30 @@
+{
+  "objectID": 152437,
+  "title": "Fisherman's Cottage",
+  "artistDisplayName": "Harald Sohlberg",
+  "objectDate": "1906",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "109 × 94 cm (43 × 37 in.)",
+  "department": "Modern Art",
+  "culture": "Norway",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Edward Byron Smith",
+  "objectURL": "https://www.artic.edu/artworks/152437",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147479701,
+  "galleryTitle": "Gallery 245",
+  "image_id": "efef304d-190c-294f-1cba-73374b3361a3",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+  "localImage": "152437.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABUVEhUWExYVFhYXFxcXGBgXGBcYGRkbGhgbHhkdIB0hIx8iJiAkIyElJiAkKCEmKSUsMSgwNwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoEAUhZEgxBNBi/I0jHAAQAgAOw==",
+    "width": 7611,
+    "height": 8758,
+    "alt_text": "Dark twilight scene of a a brightly illuminated white cottage along the shore of an expansive body of water, seen through a thick of silhouetted trees."
+  },
+  "tags": []
+}
