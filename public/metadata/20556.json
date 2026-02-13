@@ -1,0 +1,30 @@
+{
+  "objectID": 20556,
+  "title": "Young Girl with Hat",
+  "artistDisplayName": "Berthe Morisot",
+  "objectDate": "1892",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "55.9 × 47 cm (22 × 18 1/2 in.); Framed: 77.1 × 68.6 × 8.3 cm (30 3/8 × 27 × 3 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mrs. Frederic C. Bartlett",
+  "objectURL": "https://www.artic.edu/artworks/20556",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483643,
+  "galleryTitle": "Gallery 201",
+  "image_id": "12731595-67a3-dc3c-efa8-29d75b9cd315",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/12731595-67a3-dc3c-efa8-29d75b9cd315/full/843,/0/default.jpg",
+  "localImage": "20556.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC4zLDxBMURDNERKN05RP1dXOGZfSWFiTntrTnZrVHhsUH1wVnl0XYRwTIJyXYNyXY6BZ5eHbKmZgbemkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYHEwwZBEhOA8ADJJhgItTQgAOw==",
+    "width": 6434,
+    "height": 8157,
+    "alt_text": "Painted portrait of a seated young light-skinned girl with brown hair in a gauzy white dress and hat, eyes downcast, holding a basket."
+  },
+  "tags": []
+}
