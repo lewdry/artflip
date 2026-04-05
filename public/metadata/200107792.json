@@ -1,0 +1,20 @@
+{
+  "objectID": "200107792",
+  "title": "Mountainous Landscape near D\u00fcsseldorf",
+  "artistDisplayName": "Gerard van Nijmegen",
+  "objectDate": "1790",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "height 62 cm x width 89 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Stichting tot Bevordering van de Belangen van het Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107792",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/OfGsE/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/OfGsE/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/OfGsE/full/400,/0/default.jpg",
+  "localImage": "200107792.jpg",
+  "webImage": "https://iiif.micr.io/OfGsE/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

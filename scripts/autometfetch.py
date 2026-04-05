@@ -1,7 +1,6 @@
 import requests
 import json
 import time
-import logging
 from pathlib import Path
 from typing import List, Dict, Optional, Set
 from datetime import datetime
@@ -55,26 +54,12 @@ SEARCH_PARAMS = {
     'q': "*",                    # Example: "landscape" or None
 }
 
-ARTWORKIDS_FILE = Path("public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("public/metadata")
-IMAGES_OUTPUT_DIR = Path("public/images")
+ARTWORKIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
+METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "metadata"
+IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "images"
 LOG_FILE = Path("scripts/metfetch.log")
 DONTFETCH_FILE = Path("scripts/metdontfetch.json")
-TEMP_NEWIDS_FILE = Path("public/artworkids.json")
-
-# ============================================================================
-# SETUP
-# ============================================================================
-
-# Setup logging (append mode for multiple runs)
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE, mode='a'),
-        logging.StreamHandler()
-    ]
-)
+TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 
 class MetDownloader:
     def __init__(self):
@@ -100,14 +85,10 @@ class MetDownloader:
                     # Filter to only numeric IDs (Met Museum IDs)
                     # Rijksmuseum IDs start with "SK-" so we exclude those
                     met_ids = {str(id_val) for id_val in data if str(id_val).isdigit()}
-                    logging.info(f"Loaded {len(data)} total IDs from file")
-                    logging.info(f"Filtered to {len(met_ids)} Met Museum IDs (numeric only)")
                     return met_ids
             else:
-                logging.info("No existing artworkids.json found. Starting fresh.")
                 return set()
         except Exception as e:
-            logging.error(f"Error loading artworkids.json: {e}")
             return set()
     
     def load_blacklist(self) -> Set[str]:
@@ -117,13 +98,10 @@ class MetDownloader:
                 with open(DONTFETCH_FILE, 'r') as f:
                     data = json.load(f)
                     blacklist = {str(id_val) for id_val in data}
-                    logging.info(f"Loaded {len(blacklist)} blacklisted IDs from metdontfetch.json")
                     return blacklist
             else:
-                logging.info("No metdontfetch.json found. Starting with empty blacklist.")
                 return set()
         except Exception as e:
-            logging.error(f"Error loading metdontfetch.json: {e}")
             return set()
     
     def add_to_blacklist(self, object_id: int, reason: str = ""):
@@ -147,13 +125,11 @@ class MetDownloader:
                     json.dump(blacklist, f, indent=2)
                 
                 self.newly_blacklisted.append({'objectID': object_id, 'reason': reason})
-                logging.info(f"Added {object_id} to blacklist: {reason}")
                 return True
             
             return False
             
         except Exception as e:
-            logging.error(f"Failed to add {object_id} to blacklist: {e}")
             return False
     
     def build_search_url(self) -> str:
@@ -176,13 +152,10 @@ class MetDownloader:
         """Fetch list of artwork IDs from Met API based on search parameters"""
         try:
             url = self.build_search_url()
-            logging.info(f"Fetching artworks from: {url}")
-            
             response = requests.get(url, timeout=30)
             
             # Check for 502 Bad Gateway or other server errors
             if response.status_code == 502:
-                logging.error("Met API returned 502 Bad Gateway - server is temporarily unavailable")
                 print("\n❌ Met API is currently unavailable (502 error).")
                 print("   This is a temporary server issue. Please try again in a few minutes.")
                 return []
@@ -193,21 +166,17 @@ class MetDownloader:
             try:
                 data = response.json()
             except json.JSONDecodeError:
-                logging.error("API returned non-JSON response (likely HTML error page)")
                 print("\n❌ Met API returned an unexpected response format.")
                 print("   The server may be experiencing issues. Please try again later.")
                 return []
             
             object_ids = data.get("objectIDs", [])
             if not object_ids:
-                logging.warning("No artworks found matching search criteria")
                 return []
             
-            logging.info(f"Found {len(object_ids)} artworks from API")
             return object_ids
             
         except requests.exceptions.RequestException as e:
-            logging.error(f"Failed to fetch artwork list: {e}")
             print(f"\n❌ Network error: {e}")
             return []
     
@@ -246,10 +215,6 @@ class MetDownloader:
         
         print("="*70 + "\n")
         
-        logging.info(f"Found {len(new_ids)} new artworks not in collection or blacklist")
-        logging.info(f"API-Collection overlap: {len(already_have)} artworks")
-        logging.info(f"API-Blacklist overlap: {len(blacklisted)} artworks")
-        
         return new_ids
     
     def fetch_artwork_metadata(self, object_id: int) -> Optional[Dict]:
@@ -262,12 +227,10 @@ class MetDownloader:
             
             # Verify it's public domain and has an image
             if not data.get('isPublicDomain'):
-                logging.warning(f"Object {object_id} is not public domain. Blacklisting.")
                 self.add_to_blacklist(object_id, "Not public domain")
                 return None
             
             if not data.get('primaryImageSmall'):
-                logging.warning(f"Object {object_id} has no primaryImageSmall. Blacklisting.")
                 self.add_to_blacklist(object_id, "No image available")
                 return None
             
@@ -277,16 +240,10 @@ class MetDownloader:
             # Specifically handle 404 and 502 errors by blacklisting the ID
             if e.response.status_code in [404, 502]:
                 reason = f"HTTP {e.response.status_code} Error on fetch"
-                logging.warning(f"Object {object_id} returned {e.response.status_code}. Blacklisting.")
                 self.add_to_blacklist(object_id, reason)
-            else:
-                # Log other HTTP errors without blacklisting
-                logging.error(f"HTTP Error for {object_id}: {e}")
             return None # Fail this download
         
         except requests.exceptions.RequestException as e:
-            # Handle other network issues (timeouts, connection errors) without blacklisting
-            logging.error(f"Network error fetching metadata for {object_id}: {e}")
             return None # Fail this download
     
     def download_image(self, image_url: str, object_id: int) -> Optional[str]:
@@ -312,11 +269,9 @@ class MetDownloader:
                 for chunk in response.iter_content(chunk_size=8192):
                     f.write(chunk)
             
-            logging.info(f"Downloaded image: {filename}")
             return filename
             
         except requests.exceptions.RequestException as e:
-            logging.error(f"Failed to download image for {object_id}: {e}")
             return None
     
     def format_metadata(self, artwork_data: Dict, local_image_filename: str) -> Dict:
@@ -349,11 +304,9 @@ class MetDownloader:
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(metadata, f, indent=2, ensure_ascii=False)
             
-            logging.info(f"Saved metadata: {object_id}.json")
             return True
             
         except Exception as e:
-            logging.error(f"Failed to save metadata for {object_id}: {e}")
             return False
     
     def append_to_artworkids(self, object_id: int) -> bool:
@@ -375,11 +328,9 @@ class MetDownloader:
             with open(TEMP_NEWIDS_FILE, 'w') as f:
                 json.dump(ids, f, indent=2)
             
-            logging.info(f"Added {object_id} to artworkids.json")
             return True
             
         except Exception as e:
-            logging.error(f"Failed to update artworkids.json: {e}")
             return False
     
     # def append_to_artworkids(self, object_id: int) -> bool:
@@ -400,17 +351,13 @@ class MetDownloader:
     #         with open(ARTWORKIDS_FILE, 'w') as f:
     #             json.dump(ids, f, indent=2)
     #         
-    #         logging.info(f"Added {object_id} to artworkids.json")
     #         return True
     #         
     #     except Exception as e:
-    #         logging.error(f"Failed to update artworkids.json: {e}")
     #         return False
     
     def process_artwork(self, object_id: int) -> bool:
         """Process a single artwork: fetch metadata, download image, save both"""
-        logging.info(f"\nProcessing artwork {object_id}...")
-        
         # Fetch metadata
         artwork_data = self.fetch_artwork_metadata(object_id)
         if not artwork_data:
@@ -446,7 +393,6 @@ class MetDownloader:
         })
         self.downloaded_count += 1
         
-        logging.info(f"✓ Successfully processed artwork {object_id}")
         return True
     
     def run(self):
@@ -460,11 +406,6 @@ class MetDownloader:
         print(f"Max new artworks to download: {MAX_NEW_ARTWORKS}")
         print("="*70 + "\n")
         
-        logging.info("="*70)
-        logging.info("Starting Met Museum download process")
-        logging.info(f"Configuration: MAX_NEW_ARTWORKS={MAX_NEW_ARTWORKS}")
-        logging.info("="*70)
-        
         # Load existing IDs
         self.existing_ids = self.load_existing_ids()
         
@@ -475,7 +416,6 @@ class MetDownloader:
         api_ids = self.fetch_available_artworks()
         if not api_ids:
             print("❌ No artworks found from API. Exiting.")
-            logging.error("No artworks returned from API")
             return
         
         # Compare and identify new artworks
@@ -483,7 +423,6 @@ class MetDownloader:
         
         if not new_ids:
             print("✓ No new artworks to download. Collection is up to date!")
-            logging.info("No new artworks to download")
             return
         
         # Download first N new artworks
@@ -533,7 +472,6 @@ class MetDownloader:
         print("\nFiles saved to:")
         print(f"  - Metadata: {METADATA_OUTPUT_DIR}/")
         print(f"  - Images:   {IMAGES_OUTPUT_DIR}/")
-        print(f"  - Log file: /scripts/{LOG_FILE}")
         print(f"  - New IDs:  /scripts/{TEMP_NEWIDS_FILE} (TEMP)")
         if self.newly_blacklisted:
             print(f"  - Blacklist: /scripts/{DONTFETCH_FILE}")
@@ -544,10 +482,6 @@ class MetDownloader:
         else:
             print("⚠ Process completed with no successful downloads.")
         print("="*70 + "\n")
-        
-        logging.info("="*70)
-        logging.info(f"Download session complete: {self.downloaded_count} successful, {len(self.failed_downloads)} failed, {len(self.newly_blacklisted)} blacklisted")
-        logging.info("="*70)
 
 
 def main():

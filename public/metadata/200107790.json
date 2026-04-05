@@ -1,0 +1,20 @@
+{
+  "objectID": "200107790",
+  "title": "Crucifixion",
+  "artistDisplayName": "Unknown",
+  "objectDate": "ca. 1360 - ca. 1370",
+  "objectName": "painting",
+  "medium": "tempera on panel",
+  "dimensions": "height 33 cm x width 21 cm x depth 5.3 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107790",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/whnXa/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/whnXa/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/whnXa/full/400,/0/default.jpg",
+  "localImage": "200107790.jpg",
+  "webImage": "https://iiif.micr.io/whnXa/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

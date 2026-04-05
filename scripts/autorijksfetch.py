@@ -48,6 +48,8 @@ ARTWORKIDS_FILE = _REPO_ROOT / "public/artworkids.json"
 METADATA_OUTPUT_DIR = _REPO_ROOT / "public/metadata"
 IMAGES_OUTPUT_DIR = _REPO_ROOT / "public/images"
 
+DONTFETCH_FILE = _REPO_ROOT / "scripts/rijksdontfetch.json"
+
 # The LOD Search Endpoint (No sort parameter to avoid 400 errors)
 SEARCH_URL = "https://data.rijksmuseum.nl/search/collection"
 INITIAL_PARAMS = {
@@ -192,6 +194,7 @@ class RijksLODFetcher:
         # Load as list to preserve Git order, set for fast lookups
         self.master_list = self._load_ids()
         self.processed_set = set(self.master_list)
+        self.blacklist = self._load_blacklist()
 
     def _load_ids(self) -> List[str]:
         if ARTWORKIDS_FILE.exists():
@@ -199,6 +202,27 @@ class RijksLODFetcher:
                 data = json.load(f)
                 return data if isinstance(data, list) else []
         return []
+
+    def _load_blacklist(self) -> set:
+        if DONTFETCH_FILE.exists():
+            with open(DONTFETCH_FILE, "r") as f:
+                data = json.load(f)
+                return set(data) if isinstance(data, list) else set()
+        return set()
+
+    def _add_to_blacklist(self, obj_id: str):
+        if obj_id in self.blacklist:
+            return
+        self.blacklist.add(obj_id)
+        existing = []
+        if DONTFETCH_FILE.exists():
+            with open(DONTFETCH_FILE, "r") as f:
+                existing = json.load(f)
+        if obj_id not in existing:
+            existing.append(obj_id)
+            existing.sort()
+            with open(DONTFETCH_FILE, "w") as f:
+                json.dump(existing, f, indent=2)
 
     def fetch(self):
         current_url = SEARCH_URL
@@ -237,7 +261,11 @@ class RijksLODFetcher:
 
                     # If we already have this painting, skip it and keep looking
                     if obj_id in self.processed_set:
-                        continue 
+                        continue
+
+                    # Skip IDs known to be non-public-domain
+                    if obj_id in self.blacklist:
+                        continue
 
                     print(f"Processing New Artwork: {obj_id}")
                     
@@ -251,6 +279,7 @@ class RijksLODFetcher:
 
                         if not is_pd:
                             print(f"Skipping {obj_id}: not public domain")
+                            self._add_to_blacklist(obj_id)
                             continue
 
                         mapped_meta = LODMapper.map_to_old_schema(raw_meta, uri, iiif_base, is_pd)
