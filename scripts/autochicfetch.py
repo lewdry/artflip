@@ -23,7 +23,7 @@ from datetime import datetime
 # ============================================================================
 
 MAX_NEW_ARTWORKS = 20
-RATE_LIMIT_DELAY = 1.0  # seconds between API calls
+RATE_LIMIT_DELAY = 2.0  # seconds between API calls
 
 # Updated headers
 HEADERS = {
