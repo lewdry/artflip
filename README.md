@@ -32,8 +32,9 @@
   3.  1515  Rijksmuseum
   4.  1058  National Gallery of Art
   5.   420  Cleveland Museum of Art
+  6.   410  Minneapolis Institute of Art
 
-  Total artworks: 7184
+  Total artworks: 7594
 
 
 ---
