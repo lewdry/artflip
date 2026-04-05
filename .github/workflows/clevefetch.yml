@@ -1,0 +1,47 @@
+name: CleveFetch
+
+on:
+  schedule:
+    # Friday 8 PM Sydney time ≈ 09:00 UTC (AEDT/AEST shifts ±1h with daylight savings)
+    - cron: '0 9 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # Required to push updated JSON, metadata, images
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout repo
+      - uses: actions/checkout@v4
+
+      # 2️⃣ Set up Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3️⃣ Install dependencies
+      - name: Install requests
+        run: pip install requests
+
+      # 4️⃣ Run Python updater
+      - name: Run Python script
+        run: python scripts/autoclevefetch.py
+
+      # 5️⃣ Commit & push updated data
+      - name: Commit updated data
+        run: |
+          git config user.name "ArtFlip Data Bot"
+          git config user.email "hello@artflip.me"
+          # Stage all new and changed files in JSON, metadata, and images
+          git add -A public/artworkids.json public/metadata/ public/images/ scripts/
+          # Only commit if there are staged changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Automated data update $(date +'%Y-%m-%d')"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          else
+            echo "No changes to commit"
+          fi

@@ -3,11 +3,16 @@ import os
 
 print("🔍 Validating artwork files...\n")
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+PUBLIC_DIR = os.path.join(PROJECT_ROOT, 'public')
+ARTWORK_IDS_PATH = os.path.join(PUBLIC_DIR, 'artworkids.json')
+
 # ------------------------------------------------
 # Load object IDs
 # ------------------------------------------------
 print("Loading artworkids.json...")
-with open('artworkids.json', 'r') as f:
+with open(ARTWORK_IDS_PATH, 'r', encoding='utf-8') as f:
     object_ids = json.load(f)
 
 object_ids = [str(x).strip() for x in object_ids]
@@ -23,7 +28,6 @@ missing_fields = []
 errored_files = []
 
 # For reverse-checks
-all_json_files = []
 all_image_files = []
 used_image_files = []
 
@@ -38,11 +42,7 @@ for i, obj_id in enumerate(object_ids):
         print(f"  Checked {i + 1}/{len(object_ids)}...")
 
     errored_in_this_loop = False
-    json_path = f"public/metadata/{obj_id}.json"
-
-    # Record all known metadata file paths for later comparison
-    if os.path.exists(json_path):
-        all_json_files.append(json_path)
+    json_path = os.path.join(PUBLIC_DIR, 'metadata', f'{obj_id}.json')
 
     if not os.path.exists(json_path):
         missing_json.append(obj_id)
@@ -64,7 +64,7 @@ for i, obj_id in enumerate(object_ids):
         # Check image file exists
         if 'localImage' in data and data['localImage']:
             image_filename = data['localImage']
-            image_path = f"public/images/{image_filename}"
+            image_path = os.path.join(PUBLIC_DIR, 'images', image_filename)
             used_image_files.append(image_path)
 
             if not os.path.exists(image_path):
@@ -85,8 +85,8 @@ for i, obj_id in enumerate(object_ids):
 # ------------------------------------------------
 print("\n🔄 Checking for extra files not listed in artworkids.json...")
 
-metadata_dir = "public/metadata"
-images_dir = "public/images"
+metadata_dir = os.path.join(PUBLIC_DIR, 'metadata')
+images_dir = os.path.join(PUBLIC_DIR, 'images')
 
 all_metadata_files = [
     f for f in os.listdir(metadata_dir)
@@ -165,8 +165,8 @@ if extra_metadata or extra_images:
     # ------------------------------------------------
     move_to_trash = input("\n🗑️  Move unreferenced files to trash/? (y/N): ").strip().lower()
     if move_to_trash == 'y':
-        trash_metadata_dir = "trash/metadata"
-        trash_images_dir = "trash/images"
+        trash_metadata_dir = os.path.join(PROJECT_ROOT, 'trash', 'metadata')
+        trash_images_dir = os.path.join(PROJECT_ROOT, 'trash', 'images')
         os.makedirs(trash_metadata_dir, exist_ok=True)
         os.makedirs(trash_images_dir, exist_ok=True)
 
@@ -197,22 +197,15 @@ if extra_metadata or extra_images:
         print("\nSkipped moving unreferenced files.")
 
 # ------------------------------------------------
-# Log errored files
+# Print errored file paths
 # ------------------------------------------------
-log_filename = 'errored_files_log.txt'
-print(f"\nWriting errored file paths to {log_filename}...")
-
 unique_errored_files = sorted(set(errored_files))
 if unique_errored_files:
-    try:
-        with open(log_filename, 'w', encoding='utf-8') as log_f:
-            log_f.write(f"--- Errored File Paths ({len(unique_errored_files)} total) ---\n")
-            log_f.write('\n'.join(unique_errored_files))
-        print(f"✅ Saved {len(unique_errored_files)} paths to {log_filename}.")
-    except Exception as e:
-        print(f"❌ Failed to save log file: {e}")
+    print(f"\n⚠️  Errored file paths ({len(unique_errored_files)} total):")
+    for path in unique_errored_files:
+        print(f"   - {path}")
 else:
-    print("No errored files found. Log file will not be created.")
+    print("\nNo errored files found.")
 
 # ------------------------------------------------
 # Final Summary
