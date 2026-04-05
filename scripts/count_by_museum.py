@@ -14,6 +14,7 @@ MUSEUMS = [
     "Rijksmuseum",
     "National Gallery of Art",
     "Cleveland Museum of Art",
+    "Minneapolis Institute of Art",
 ]
 
 # Build a regex that matches museum name at start of creditLine followed by a period
