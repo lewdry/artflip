@@ -1,0 +1,20 @@
+{
+  "objectID": "200106799",
+  "title": "Fragment van een muurschildering",
+  "artistDisplayName": "anonymous",
+  "objectDate": "1416 - 1448",
+  "objectName": "painting",
+  "medium": "",
+  "dimensions": "height 35 cm x width 45 cm",
+  "creditLine": "Rijksmuseum. On loan from the Royal Asian Art Society in The Netherlands (purchase Herman Visser, 1946)",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200106799",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/tdAPv/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/tdAPv/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/tdAPv/full/400,/0/default.jpg",
+  "localImage": "200106799.jpg",
+  "webImage": "https://iiif.micr.io/tdAPv/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

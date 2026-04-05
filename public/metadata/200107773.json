@@ -1,0 +1,20 @@
+{
+  "objectID": "200107773",
+  "title": "The Adoration of the Magi",
+  "artistDisplayName": "Jan Jansz Mostaert",
+  "objectDate": "c. 1520 - c. 1525",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 51 cm x width 36.5 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107773",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/gwTXR/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/gwTXR/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/gwTXR/full/400,/0/default.jpg",
+  "localImage": "200107773.jpg",
+  "webImage": "https://iiif.micr.io/gwTXR/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

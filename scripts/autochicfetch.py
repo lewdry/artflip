@@ -45,12 +45,12 @@ SEARCH_PARAMS = {
 }
 
 # File paths
-ARTWORKIDS_FILE = Path("public/artworkids.json")
-METADATA_OUTPUT_DIR = Path("public/metadata")
-IMAGES_OUTPUT_DIR = Path("public/images")
+ARTWORKIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
+METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public/metadata"
+IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public/images"
 LOG_FILE = Path("scripts/chicfetch.log")
 DONTFETCH_FILE = Path("scripts/chicdontfetch.json")
-TEMP_NEWIDS_FILE = Path("public/artworkids.json")
+TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     

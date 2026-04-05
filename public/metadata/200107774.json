@@ -1,0 +1,20 @@
+{
+  "objectID": "200107774",
+  "title": "De boom van Jesse",
+  "artistDisplayName": "Unknown",
+  "objectDate": "ca. 1500",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 89.8 cm x width 60.6 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107774",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/LcfFk/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/LcfFk/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/LcfFk/full/400,/0/default.jpg",
+  "localImage": "200107774.jpg",
+  "webImage": "https://iiif.micr.io/LcfFk/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

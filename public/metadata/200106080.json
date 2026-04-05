@@ -1,0 +1,20 @@
+{
+  "objectID": "200106080",
+  "title": "De Aanbidding van de koningen",
+  "artistDisplayName": "anonymous",
+  "objectDate": "ca. 1410",
+  "objectName": "painting",
+  "medium": "",
+  "dimensions": "height 29 cm x width 15.5 cm x height 36 cm x width 22.5 cm",
+  "creditLine": "Rijksmuseum. Gift of C.J.A.M. Merkelbach van Enkhuizen, Amsterdam",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200106080",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/HhzPC/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/HhzPC/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/HhzPC/full/400,/0/default.jpg",
+  "localImage": "200106080.jpg",
+  "webImage": "https://iiif.micr.io/HhzPC/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

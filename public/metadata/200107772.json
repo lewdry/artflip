@@ -1,0 +1,20 @@
+{
+  "objectID": "200107772",
+  "title": "Portrait of a woman",
+  "artistDisplayName": "Jan Jansz Mostaert",
+  "objectDate": "ca. 1520",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 64.3 cm x width 49.5 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107772",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/XCRvo/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/XCRvo/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/XCRvo/full/400,/0/default.jpg",
+  "localImage": "200107772.jpg",
+  "webImage": "https://iiif.micr.io/XCRvo/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}
