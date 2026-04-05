@@ -29,12 +29,12 @@
 #   Paths  anchored to repo root via Path(__file__).parent.parent so the script
 #          can be run from any working directory.
 # =============================================================================
-import os
 import requests
 import json
 import time
 from pathlib import Path
 from typing import List, Dict, Optional, Any
+from datetime import datetime
 
 # ============================================================================
 # CONFIGURATION
@@ -195,6 +195,10 @@ class RijksLODFetcher:
         self.master_list = self._load_ids()
         self.processed_set = set(self.master_list)
         self.blacklist = self._load_blacklist()
+        self.downloaded_count = 0
+        self.failed_downloads = []
+        self.successful_downloads = []
+        self.newly_blacklisted = []
 
     def _load_ids(self) -> List[str]:
         if ARTWORKIDS_FILE.exists():
@@ -210,7 +214,7 @@ class RijksLODFetcher:
                 return set(data) if isinstance(data, list) else set()
         return set()
 
-    def _add_to_blacklist(self, obj_id: str):
+    def _add_to_blacklist(self, obj_id: str, reason: str = ""):
         if obj_id in self.blacklist:
             return
         self.blacklist.add(obj_id)
@@ -223,92 +227,133 @@ class RijksLODFetcher:
             existing.sort()
             with open(DONTFETCH_FILE, "w") as f:
                 json.dump(existing, f, indent=2)
+        self.newly_blacklisted.append({'objectID': obj_id, 'reason': reason})
 
-    def fetch(self):
+    def download_image(self, image_url: str, obj_id: str) -> bool:
+        try:
+            resp = requests.get(image_url, timeout=30, stream=True)
+            resp.raise_for_status()
+            with open(IMAGES_OUTPUT_DIR / f"{obj_id}.jpg", "wb") as f:
+                for chunk in resp.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+            return True
+        except Exception:
+            return False
+
+    def save_metadata(self, metadata: Dict, obj_id: str) -> bool:
+        try:
+            with open(METADATA_OUTPUT_DIR / f"{obj_id}.json", "w", encoding="utf-8") as f:
+                json.dump(metadata, f, indent=2, ensure_ascii=False)
+            return True
+        except Exception:
+            return False
+
+    def append_to_artworkids(self, obj_id: str) -> bool:
+        try:
+            self.master_list.append(obj_id)
+            self.processed_set.add(obj_id)
+            with open(ARTWORKIDS_FILE, "w") as f:
+                json.dump(self.master_list, f, indent=2)
+            return True
+        except Exception:
+            return False
+
+    def process_artwork(self, obj_id: str, uri: str) -> bool:
+        detail_resp = requests.get(uri, headers={"Accept": "application/json"}, timeout=20)
+        if detail_resp.status_code != 200:
+            self.failed_downloads.append({'objectID': obj_id, 'reason': f'HTTP {detail_resp.status_code} fetching detail'})
+            return False
+
+        raw_meta = detail_resp.json()
+        visual_data = LODMapper.resolve_visual_data(raw_meta.get("shows", []))
+        iiif_base = visual_data["iiif_base"]
+        is_pd = visual_data["is_pd"]
+
+        if not is_pd:
+            self._add_to_blacklist(obj_id, "Not public domain")
+            return False
+
+        if not iiif_base:
+            self._add_to_blacklist(obj_id, "No IIIF image URL")
+            return False
+
+        mapped_meta = LODMapper.map_to_old_schema(raw_meta, uri, iiif_base, is_pd)
+
+        if not self.download_image(mapped_meta["primaryImage"], obj_id):
+            self.failed_downloads.append({'objectID': obj_id, 'reason': 'Image download failed'})
+            return False
+
+        if not self.save_metadata(mapped_meta, obj_id):
+            self.failed_downloads.append({'objectID': obj_id, 'reason': 'Failed to save metadata'})
+            return False
+
+        if not self.append_to_artworkids(obj_id):
+            self.failed_downloads.append({'objectID': obj_id, 'reason': 'Failed to update artworkids.json'})
+            return False
+
+        self.successful_downloads.append({
+            'objectID': obj_id,
+            'title': mapped_meta['title'],
+            'artist': mapped_meta['artistDisplayName']
+        })
+        self.downloaded_count += 1
+        return True
+
+    def run(self):
+        start_time = datetime.now()
+
+        print("\n" + "="*70)
+        print("RIJKSMUSEUM ARTWORK DOWNLOADER")
+        print("="*70)
+        print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Max new artworks to download: {MAX_NEW_ARTWORKS}")
+        print("="*70 + "\n")
+
         current_url = SEARCH_URL
-        new_count = 0
 
-        print(f"Starting crawl...")
-
-        while new_count < MAX_NEW_ARTWORKS:
+        while self.downloaded_count < MAX_NEW_ARTWORKS:
             try:
                 # Use params only on the first request; 'next' URLs have them baked in
                 r = requests.get(
-                    current_url, 
+                    current_url,
                     params=INITIAL_PARAMS if current_url == SEARCH_URL else None,
-                    headers={"Accept": "application/json"}, 
+                    headers={"Accept": "application/json"},
                     timeout=30
                 )
-                
+
                 if r.status_code != 200:
                     print(f"Search failed: {r.status_code} - {r.text}")
                     break
-                
+
                 search_data = r.json()
                 items = search_data.get("orderedItems", [])
-                
+
                 if not items:
                     print("Reached end of search results.")
                     break
 
                 for item in items:
-                    if new_count >= MAX_NEW_ARTWORKS: 
+                    if self.downloaded_count >= MAX_NEW_ARTWORKS:
                         break
-                    
+
                     uri = item.get("id")
-                    if not uri: continue
+                    if not uri:
+                        continue
                     obj_id = uri.split("/")[-1]
 
-                    # If we already have this painting, skip it and keep looking
-                    if obj_id in self.processed_set:
+                    if obj_id in self.processed_set or obj_id in self.blacklist:
                         continue
 
-                    # Skip IDs known to be non-public-domain
-                    if obj_id in self.blacklist:
-                        continue
-
-                    print(f"Processing New Artwork: {obj_id}")
-                    
-                    # Resolve Full Metadata via JSON-LD
-                    detail_resp = requests.get(uri, headers={"Accept": "application/json"}, timeout=20)
-                    if detail_resp.status_code == 200:
-                        raw_meta = detail_resp.json()
-                        visual_data = LODMapper.resolve_visual_data(raw_meta.get("shows", []))
-                        iiif_base = visual_data["iiif_base"]
-                        is_pd = visual_data["is_pd"]
-
-                        if not is_pd:
-                            print(f"Skipping {obj_id}: not public domain")
-                            self._add_to_blacklist(obj_id)
-                            continue
-
-                        mapped_meta = LODMapper.map_to_old_schema(raw_meta, uri, iiif_base, is_pd)
-
-                        # Download Image via IIIF URL
-                        if mapped_meta["primaryImage"]:
-                            try:
-                                img_data = requests.get(mapped_meta["primaryImage"], timeout=30).content
-                                with open(IMAGES_OUTPUT_DIR / f"{obj_id}.jpg", "wb") as f:
-                                    f.write(img_data)
-                            except Exception as img_err:
-                                print(f"Image download failed for {obj_id}: {img_err}")
-                                continue
-
-                        # Save individual JSON metadata file
-                        with open(METADATA_OUTPUT_DIR / f"{obj_id}.json", "w") as f:
-                            json.dump(mapped_meta, f, indent=2)
-
-                        # Track progress
-                        self.master_list.append(obj_id)
-                        self.processed_set.add(obj_id)
-                        new_count += 1
-                        time.sleep(RATE_LIMIT_DELAY)
+                    print(f"[{self.downloaded_count + 1}/{MAX_NEW_ARTWORKS}] Processing {obj_id}...")
+                    self.process_artwork(obj_id, uri)
+                    time.sleep(RATE_LIMIT_DELAY)
 
                 # Find the 'next' page link (the token bookmark)
                 next_page = search_data.get("next")
-                if next_page and new_count < MAX_NEW_ARTWORKS:
+                if next_page and self.downloaded_count < MAX_NEW_ARTWORKS:
                     current_url = next_page.get("id", "") if isinstance(next_page, dict) else next_page
-                    print("Page full of known items. Flipping to next page...")
+                    print("Moving to next page...")
                 else:
                     break
 
@@ -316,11 +361,56 @@ class RijksLODFetcher:
                 print(f"Error during execution: {e}")
                 break
 
-        # Save Master List (Stable order: new IDs added to the end)
-        with open(ARTWORKIDS_FILE, "w") as f:
-            json.dump(self.master_list, f, indent=2)
-            
-        print(f"Success. Added {new_count} new artworks to the collection.")
+        self.print_summary(start_time)
+
+    def print_summary(self, start_time: datetime):
+        end_time = datetime.now()
+        duration = end_time - start_time
+
+        print("\n" + "="*70)
+        print("DOWNLOAD SUMMARY")
+        print("="*70)
+        print(f"Start time:           {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"End time:             {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Duration:             {duration.total_seconds():.1f} seconds")
+        print(f"\nSuccessful downloads: {self.downloaded_count}")
+        print(f"Failed downloads:     {len(self.failed_downloads)}")
+        print(f"Added to blacklist:   {len(self.newly_blacklisted)}")
+
+        if self.successful_downloads:
+            print("\n✓ Successfully downloaded:")
+            for item in self.successful_downloads:
+                artist = item['artist'] if item['artist'] else 'Unknown Artist'
+                print(f"  - {item['objectID']}: {item['title']} by {artist}")
+
+        if self.failed_downloads:
+            print("\n❌ Failed downloads:")
+            for item in self.failed_downloads:
+                print(f"  - {item['objectID']}: {item['reason']}")
+
+        if self.newly_blacklisted:
+            print(f"\n🚫 Added to blacklist ({DONTFETCH_FILE.name}):")
+            for item in self.newly_blacklisted:
+                print(f"  - {item['objectID']}: {item['reason']}")
+
+        print("\nFiles saved to:")
+        print(f"  - Metadata: {METADATA_OUTPUT_DIR}/")
+        print(f"  - Images:   {IMAGES_OUTPUT_DIR}/")
+        print(f"  - IDs:      {ARTWORKIDS_FILE}")
+        print(f"  - Blacklist: {DONTFETCH_FILE}")
+
+        print("\n" + "="*70)
+        if self.downloaded_count > 0:
+            print(f"✓ Process completed successfully! Downloaded {self.downloaded_count} new artwork(s).")
+        else:
+            print("⚠ Process completed with no successful downloads.")
+        print("="*70 + "\n")
+
+
+def main():
+    downloader = RijksLODFetcher()
+    downloader.run()
+
 
 if __name__ == "__main__":
-    RijksLODFetcher().fetch()
+    main()

@@ -1,14 +1,32 @@
 #!/usr/bin/env python3
-"""
-chicfetch.py
-
-Art Institute of Chicago (AIC / ARTIC) artwork downloader for ArtFlip.
-Updates:
- - Added custom User-Agent to bypass 403 CDN blocks.
- - Dynamic IIIF base URL extraction (no longer hardcoded).
- - Optimized API payload by requesting only mapped fields.
- - Cleaned up duplicate methods and logging bugs.
-"""
+# =============================================================================
+# autochicfetch.py — Art Institute of Chicago collection fetcher
+# =============================================================================
+# Built against the ARTIC public API (api.artic.edu/api/v1).
+#
+#   Search endpoint  https://api.artic.edu/api/v1/artworks/search
+#     - Elasticsearch-backed; queries sent as POST with JSON body
+#     - Filters built as `bool.must` DSL clauses: is_public_domain, image_id
+#       presence (exists), is_on_view, and classification_titles (match)
+#     - Paginated via `pagination.current_page` / `pagination.total_pages`;
+#       capped at MAX_SEARCH_PAGES pages or MAX_SEARCH_RESULTS_CAP total IDs
+#
+#   Per-object metadata  https://api.artic.edu/api/v1/artworks/{id}
+#     - Only required fields fetched (see `fields` list in fetch_artwork_metadata)
+#     - `config` field requested alongside artwork data to extract the
+#       dynamic IIIF base URL (`config.iiif_url`)
+#     - Artist cleaned from `artist_display` (first line, parenthetical stripped)
+#
+#   Image  IIIF protocol via the dynamic base URL returned by the API
+#     {iiif_url}/{image_id}/full/843,/0/default.jpg
+#     - Custom User-Agent + Referer headers required to avoid 403 CDN blocks
+#     - IIIF base URL falls back to https://www.artic.edu/iiif/2 if not present
+#
+#   ID format  numeric integers; stored as strings in artworkids.json.
+#
+#   Paths  anchored to repo root via Path(__file__).parent.parent so the
+#          script can be run from any working directory.
+# =============================================================================
 
 import requests
 import json
@@ -47,7 +65,7 @@ SEARCH_PARAMS = {
 ARTWORKIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public/metadata"
 IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public/images"
-DONTFETCH_FILE = Path("scripts/chicdontfetch.json")
+DONTFETCH_FILE = Path(__file__).parent / "chicdontfetch.json"
 TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 
 # Pagination/search caps

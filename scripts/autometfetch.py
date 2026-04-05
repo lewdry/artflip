@@ -1,3 +1,34 @@
+#!/usr/bin/env python3
+# =============================================================================
+# autometfetch.py — Metropolitan Museum of Art collection fetcher
+# =============================================================================
+# Built against the Met Museum Open Access Collection API (v1).
+#
+#   Search endpoint  https://collectionapi.metmuseum.org/public/collection/v1/search
+#     - Returns a flat list of `objectIDs` matching query parameters
+#     - Filters passed as URL query params: isHighlight, isPublicDomain, isOnView,
+#       hasImages, objectName, departmentId, artistOrCulture, medium,
+#       geoLocation, dateBegin/dateEnd, q
+#     - No pagination: the full matched ID list is returned in one response
+#
+#   Per-object metadata  https://collectionapi.metmuseum.org/public/collection/v1/objects/{id}
+#     - Title in `title`
+#     - Artist in `artistDisplayName`
+#     - Date in `objectDate`
+#     - Medium in `medium`, dimensions in `dimensions`
+#     - Public domain flag: `isPublicDomain` (boolean)
+#     - Non-public-domain or imageless artworks are blacklisted immediately
+#
+#   Image  `primaryImageSmall` (web-large JPEG, hosted by the Met)
+#     - Extension inferred from Content-Type header (jpg/png)
+#
+#   ID format  numeric integers; stored as strings in artworkids.json.
+#     load_existing_ids() filters to numeric-only entries to avoid
+#     collision with Rijksmuseum SK-* IDs in the shared list.
+#
+#   Paths  anchored to repo root via Path(__file__).parent.parent so the
+#          script can be run from any working directory.
+# =============================================================================
 import requests
 import json
 import time
@@ -58,7 +89,6 @@ ARTWORKIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "metadata"
 IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "images"
 DONTFETCH_FILE = Path(__file__).parent / "metdontfetch.json"
-TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 
 class MetDownloader:
     def __init__(self):
@@ -309,51 +339,23 @@ class MetDownloader:
             return False
     
     def append_to_artworkids(self, object_id: int) -> bool:
-        """Append new object ID to artworkids.json file"""
-        # Writing to artworkids.json for testing
-        # TODO: Switch back to ARTWORKIDS_FILE once confirmed working
+        """Append new object ID to artworkids.json"""
         try:
-            # Load current IDs from temp file
-            if TEMP_NEWIDS_FILE.exists():
-                with open(TEMP_NEWIDS_FILE, 'r') as f:
+            if ARTWORKIDS_FILE.exists():
+                with open(ARTWORKIDS_FILE, 'r') as f:
                     ids = json.load(f)
             else:
                 ids = []
             
-            # Add new ID as string (to match existing format)
             ids.append(str(object_id))
             
-            # Save to temp file
-            with open(TEMP_NEWIDS_FILE, 'w') as f:
+            with open(ARTWORKIDS_FILE, 'w') as f:
                 json.dump(ids, f, indent=2)
             
             return True
             
         except Exception as e:
             return False
-    
-    # def append_to_artworkids(self, object_id: int) -> bool:
-    #     """Append new object ID to artworkids.json"""
-    #     # PRODUCTION VERSION: Uncomment this when ready to write to main file
-    #     try:
-    #         # Load current IDs
-    #         if ARTWORKIDS_FILE.exists():
-    #             with open(ARTWORKIDS_FILE, 'r') as f:
-    #                 ids = json.load(f)
-    #         else:
-    #             ids = []
-    #         
-    #         # Add new ID as string (to match existing format)
-    #         ids.append(str(object_id))
-    #         
-    #         # Save back
-    #         with open(ARTWORKIDS_FILE, 'w') as f:
-    #             json.dump(ids, f, indent=2)
-    #         
-    #         return True
-    #         
-    #     except Exception as e:
-    #         return False
     
     def process_artwork(self, object_id: int) -> bool:
         """Process a single artwork: fetch metadata, download image, save both"""
@@ -471,9 +473,8 @@ class MetDownloader:
         print("\nFiles saved to:")
         print(f"  - Metadata: {METADATA_OUTPUT_DIR}/")
         print(f"  - Images:   {IMAGES_OUTPUT_DIR}/")
-        print(f"  - New IDs:  /scripts/{TEMP_NEWIDS_FILE} (TEMP)")
-        if self.newly_blacklisted:
-            print(f"  - Blacklist: /scripts/{DONTFETCH_FILE}")
+        print(f"  - IDs:      {ARTWORKIDS_FILE}")
+        print(f"  - Blacklist: {DONTFETCH_FILE}")
         
         print("\n" + "="*70)
         if self.downloaded_count > 0:

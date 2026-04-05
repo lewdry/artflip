@@ -1,0 +1,20 @@
+{
+  "objectID": "200107840",
+  "title": "Portrait of Adriaen Pietersz van de Venne, Painter and Poet",
+  "artistDisplayName": "Arnoud van Halen",
+  "objectDate": "1700 - 1732",
+  "objectName": "painting",
+  "medium": "",
+  "dimensions": "height 11 cm x width 9.5 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107840",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/uNUuk/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/uNUuk/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/uNUuk/full/400,/0/default.jpg",
+  "localImage": "200107840.jpg",
+  "webImage": "https://iiif.micr.io/uNUuk/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}
