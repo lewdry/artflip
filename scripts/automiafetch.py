@@ -46,7 +46,7 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 20
+MAX_NEW_ARTWORKS = 400
 RATE_LIMIT_DELAY = 1.0  # seconds between image downloads
 
 # Elasticsearch query string — all filters baked in
