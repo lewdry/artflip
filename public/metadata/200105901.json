@@ -1,0 +1,20 @@
+{
+  "objectID": "200105901",
+  "title": "Portret van een Surinaams meisje",
+  "artistDisplayName": "anonymous",
+  "objectDate": "ca. 1805",
+  "objectName": "painting",
+  "medium": "",
+  "dimensions": "height 5.9 cm x width 4.8 cm x weight 24.9 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200105901",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/JdGJx/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/JdGJx/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/JdGJx/full/400,/0/default.jpg",
+  "localImage": "200105901.jpg",
+  "webImage": "https://iiif.micr.io/JdGJx/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

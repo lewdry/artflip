@@ -1,0 +1,20 @@
+{
+  "objectID": "200105887",
+  "title": "Katjesspel",
+  "artistDisplayName": "Unknown",
+  "objectDate": "ca. 1860 - ca. 1878",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "height 32.8 cm x width 45.2 cm x thickness 1.8 cm",
+  "creditLine": "Rijksmuseum. J.B.A.M. Westerwoudt Bequest, Haarlem",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200105887",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/YAxov/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/YAxov/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/YAxov/full/400,/0/default.jpg",
+  "localImage": "200105887.jpg",
+  "webImage": "https://iiif.micr.io/YAxov/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

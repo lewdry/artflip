@@ -1,0 +1,20 @@
+{
+  "objectID": "200106079",
+  "title": "Portrait of Willem Bilderdijk",
+  "artistDisplayName": "Charles Howard Hodges",
+  "objectDate": "1810",
+  "objectName": "painting",
+  "medium": "oil on canvas",
+  "dimensions": "height 79 cm x width 63 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200106079",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/pNXoS/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/pNXoS/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/pNXoS/full/400,/0/default.jpg",
+  "localImage": "200106079.jpg",
+  "webImage": "https://iiif.micr.io/pNXoS/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

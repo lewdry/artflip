@@ -1,0 +1,20 @@
+{
+  "objectID": "200106038",
+  "title": "Landschap met stenen brug",
+  "artistDisplayName": "Rembrandt van Rijn",
+  "objectDate": "ca. 1638",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "height 29.5 cm x width 42.5 cm x depth 5.5 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt and A. Bredius, Amsterdam",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200106038",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/hodeb/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/hodeb/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/hodeb/full/400,/0/default.jpg",
+  "localImage": "200106038.jpg",
+  "webImage": "https://iiif.micr.io/hodeb/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}
