@@ -1,0 +1,30 @@
+{
+  "objectID": 28173,
+  "title": "The Resurrection",
+  "artistDisplayName": "Bartholomeus Breenbergh",
+  "objectDate": "c. 1635",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "35.5 × 20.7 cm (14 × 8 1/8 in.); Framed: 50.8 × 36.4 × 6.4 cm (20 × 14 3/8 × 2 1/2 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Holland",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Louise B. and Frank H. Woods Purchase Fund",
+  "objectURL": "https://www.artic.edu/artworks/28173",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483623,
+  "galleryTitle": "Gallery 213",
+  "image_id": "50ac4789-b167-eb84-b8da-3b3ddc1c095d",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/50ac4789-b167-eb84-b8da-3b3ddc1c095d/full/843,/0/default.jpg",
+  "localImage": "28173.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACoeCi0nFjMmET0sFUAxFkIxGk04H1EzEVM/Ik9KNn1VJX1XL39cN3teOotmNgAAACH5BAAAAAAALAAAAAADAAUAAAQL0DHV1iEIjBSMKBEAOw==",
+    "width": 1335,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

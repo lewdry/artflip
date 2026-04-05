@@ -1,0 +1,30 @@
+{
+  "objectID": 81519,
+  "title": "Young Woman",
+  "artistDisplayName": "Jean-François Millet",
+  "objectDate": "1844–45",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "52.1 × 62.4 cm (20 1/2 × 24 1/2 in.); Framed: 66.7 × 79.1 × 7.7 cm (26 1/4 × 31 1/8 × 3 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "France",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Potter Palmer Collection",
+  "objectURL": "https://www.artic.edu/artworks/81519",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483607,
+  "galleryTitle": "Gallery 222",
+  "image_id": "681c9b51-6682-3f8c-dac8-ad250ed82240",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/681c9b51-6682-3f8c-dac8-ad250ed82240/full/843,/0/default.jpg",
+  "localImage": "81519.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB8NEywXFi0aGjEfHTIfHDopIkQxKk82KlA9MV9LPGJOPGJPPG9XP2xXQ3NfSnlkVYtuTYdqU5lvUYZyW5p5VJ2FZpmJcKqNb66Tb7uZb7ugdb6qir6tj8OwlAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoEE4jTAsQcYUgHJIkPYgVkVhXTJF18aFADs=",
+    "width": 2724,
+    "height": 2250,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}

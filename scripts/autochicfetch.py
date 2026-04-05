@@ -13,7 +13,6 @@ Updates:
 import requests
 import json
 import time
-import logging
 from pathlib import Path
 from typing import List, Dict, Optional, Set
 from datetime import datetime
@@ -48,7 +47,6 @@ SEARCH_PARAMS = {
 ARTWORKIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public/metadata"
 IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public/images"
-LOG_FILE = Path("scripts/chicfetch.log")
 DONTFETCH_FILE = Path("scripts/chicdontfetch.json")
 TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 
@@ -56,18 +54,6 @@ TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 SEARCH_PAGE_LIMIT = 100     
 MAX_SEARCH_PAGES = 10       
 MAX_SEARCH_RESULTS_CAP = 5000  
-
-# ============================================================================
-# SETUP logging
-# ============================================================================
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE, mode='a', encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
 
 # ============================================================================
 # ARTIC API endpoints
@@ -97,14 +83,10 @@ class ChicDownloader:
             if ARTWORKIDS_FILE.exists():
                 with open(ARTWORKIDS_FILE, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    ids = {str(i) for i in data}
-                    logging.info(f"Loaded {len(ids)} existing IDs from {ARTWORKIDS_FILE}")
-                    return ids
+                    return {str(i) for i in data}
             else:
-                logging.info(f"No {ARTWORKIDS_FILE} found. Starting with empty set.")
                 return set()
-        except Exception as e:
-            logging.error(f"Error loading {ARTWORKIDS_FILE}: {e}")
+        except Exception:
             return set()
 
     def load_blacklist(self) -> Set[str]:
@@ -112,14 +94,10 @@ class ChicDownloader:
             if DONTFETCH_FILE.exists():
                 with open(DONTFETCH_FILE, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    bl = {str(i) for i in data}
-                    logging.info(f"Loaded {len(bl)} blacklisted IDs from {DONTFETCH_FILE}")
-                    return bl
+                    return {str(i) for i in data}
             else:
-                logging.info(f"No {DONTFETCH_FILE} found. Starting with empty blacklist.")
                 return set()
-        except Exception as e:
-            logging.error(f"Error loading {DONTFETCH_FILE}: {e}")
+        except Exception:
             return set()
 
     def add_to_blacklist(self, object_id: int, reason: str = ""):
@@ -143,11 +121,9 @@ class ChicDownloader:
                 with open(DONTFETCH_FILE, 'w', encoding='utf-8') as f:
                     json.dump(current_sorted, f, indent=2)
                 self.newly_blacklisted.append({'objectID': object_id, 'reason': reason})
-                logging.info(f"Added {object_id} to blacklist: {reason}")
                 return True
             return False
-        except Exception as e:
-            logging.error(f"Failed to add {object_id} to blacklist: {e}")
+        except Exception:
             return False
 
     # ---------- Search / compare ----------
@@ -156,7 +132,7 @@ class ChicDownloader:
         params = {
             "limit": SEARCH_PAGE_LIMIT,
             "page": page,
-            "fields": "id"
+            "fields": "id",
         }
         
         query_filters = []
@@ -203,13 +179,9 @@ class ChicDownloader:
         try:
             while True:
                 params = self.build_search_params(page=page)
-                logging.info(f"ARTIC search page {page} with payload: {json.dumps(params)}")
-                
-                # Appended HEADERS here
                 resp = requests.post(SEARCH_ENDPOINT, json=params, headers=HEADERS, timeout=30)
 
                 if resp.status_code == 502:
-                    logging.error("ARTIC API returned 502 Bad Gateway")
                     print("\n❌ ARTIC API is currently unavailable (502).")
                     break
 
@@ -219,20 +191,15 @@ class ChicDownloader:
                 hits = payload.get('data', [])
                 ids_this_page = [int(item['id']) for item in hits if 'id' in item]
                 all_ids.extend(ids_this_page)
-
                 pages_fetched += 1
-                logging.info(f"Fetched page {page}: {len(ids_this_page)} ids (total collected: {len(all_ids)})")
 
                 if len(all_ids) >= MAX_SEARCH_RESULTS_CAP:
-                    logging.info(f"Reached MAX_SEARCH_RESULTS_CAP ({MAX_SEARCH_RESULTS_CAP}). Stopping pagination.")
                     break
 
                 pagination = payload.get('pagination', {})
                 if pagination:
                     current_page = int(pagination.get('current_page', page))
                     total_pages = int(pagination.get('total_pages', current_page))
-                    total_results = int(pagination.get('total', 0))
-                    logging.info(f"Pagination: current_page={current_page}, total_pages={total_pages}, total_results={total_results}")
                     if current_page >= total_pages:
                         break
                 else:
@@ -240,22 +207,17 @@ class ChicDownloader:
                         break
 
                 if pages_fetched >= MAX_SEARCH_PAGES:
-                    logging.info(f"Reached MAX_SEARCH_PAGES ({MAX_SEARCH_PAGES}). Stopping pagination.")
                     break
 
                 page += 1
                 time.sleep(RATE_LIMIT_DELAY)
 
-            unique_ids = list(dict.fromkeys(all_ids))
-            logging.info(f"ARTIC search completed: collected {len(unique_ids)} unique IDs across {pages_fetched} pages")
-            return unique_ids
+            return list(dict.fromkeys(all_ids))
 
         except requests.exceptions.RequestException as e:
-            logging.error(f"Network error during ARTIC search: {e}")
             print(f"\n❌ Network error: {e}")
             return []
-        except Exception as e:
-            logging.error(f"Error parsing ARTIC search response: {e}")
+        except Exception:
             return []
 
     def compare_and_report(self, api_ids: List[int], existing_ids: Set[str]) -> List[int]:
@@ -285,7 +247,6 @@ class ChicDownloader:
 
         print("="*70 + "\n")
 
-        logging.info(f"Found {len(new_ids)} new artworks (ARTIC)")
         return new_ids
 
     # ---------- Metadata + image fetch ----------
@@ -307,17 +268,11 @@ class ChicDownloader:
             resp = requests.get(url, params={"fields": ",".join(fields)}, headers=HEADERS, timeout=20)
             resp.raise_for_status()
             payload = resp.json()
-            
-            # The artwork data is inside 'data', the configuration is inside 'config'
-            data = payload.get('data', {})
-            config = payload.get('config', {})
-            
-            # Attach config to the data dict so we have access to it down the line
-            data['_config'] = config 
 
-            image_id = data.get('image_id')
-            if not image_id:
-                logging.warning(f"Object {object_id} has no image_id despite search filter. Blacklisting.")
+            data = payload.get('data', {})
+            data['_config'] = payload.get('config', {})
+
+            if not data.get('image_id'):
                 self.add_to_blacklist(object_id, "No image_id (search filter mismatch)")
                 return {}
 
@@ -325,12 +280,10 @@ class ChicDownloader:
 
         except requests.exceptions.HTTPError as e:
             status = e.response.status_code if e.response is not None else "HTTPError"
-            logging.warning(f"HTTP error fetching {object_id}: {status}")
             if status in [404, 502, 403]:
                 self.add_to_blacklist(object_id, f"HTTP {status}")
             return {}
-        except Exception as e:
-            logging.error(f"Error fetching metadata for {object_id}: {e}")
+        except Exception:
             return {}
 
     def construct_image_url(self, image_id: Optional[str], iiif_base_url: str) -> Optional[str]:
@@ -354,10 +307,8 @@ class ChicDownloader:
                     if not chunk:
                         continue
                     f.write(chunk)
-            logging.info(f"Downloaded image for {object_id} -> {filename}")
             return filename
-        except requests.exceptions.RequestException as e:
-            logging.error(f"Failed to download image for {object_id}: {e}")
+        except requests.exceptions.RequestException:
             return None
 
     def clean_artist_name(self, artist_display: str) -> str:
@@ -402,10 +353,8 @@ class ChicDownloader:
             filepath = METADATA_OUTPUT_DIR / f"{object_id}.json"
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(metadata, f, indent=2, ensure_ascii=False)
-            logging.info(f"Saved metadata for {object_id}")
             return True
-        except Exception as e:
-            logging.error(f"Failed to save metadata for {object_id}: {e}")
+        except Exception:
             return False
 
     def append_to_artworkids(self, object_id: int) -> bool:
@@ -422,15 +371,12 @@ class ChicDownloader:
             ids.append(str(object_id))
             with open(TEMP_NEWIDS_FILE, 'w', encoding='utf-8') as f:
                 json.dump(ids, f, indent=2)
-            logging.info(f"Appended {object_id} to {TEMP_NEWIDS_FILE}")
             return True
-        except Exception as e:
-            logging.error(f"Failed to append to {TEMP_NEWIDS_FILE}: {e}")
+        except Exception:
             return False
 
     # ---------- Process single artwork ----------
     def process_artwork(self, object_id: int) -> bool:
-        logging.info(f"Processing ARTIC artwork {object_id}...")
         artwork_data = self.fetch_artwork_metadata(object_id)
         if not artwork_data:
             self.failed_downloads.append({'objectID': object_id, 'reason': 'Failed to fetch metadata or blacklisted'})
@@ -467,7 +413,6 @@ class ChicDownloader:
             'artist': metadata['artistDisplayName']
         })
         self.downloaded_count += 1
-        logging.info(f"✓ Successfully processed artwork {object_id}")
         return True
 
     # ---------- Run ----------
@@ -498,24 +443,17 @@ class ChicDownloader:
         
         print("="*70 + "\n")
 
-        logging.info("Starting ARTIC download process")
-        logging.info(f"Configuration: MAX_NEW_ARTWORKS={MAX_NEW_ARTWORKS}")
-        if active_filters:
-            logging.info(f"Active Elasticsearch filters: {', '.join(active_filters)}")
-
         self.existing_ids = self.load_existing_ids()
         self.blacklist_ids = self.load_blacklist()
 
         api_ids = self.fetch_available_artworks()
         if not api_ids:
             print("❌ No artworks returned by ARTIC search. Exiting.")
-            logging.error("No artworks returned from ARTIC")
             return
 
         new_ids = self.compare_and_report(api_ids, self.existing_ids)
         if not new_ids:
             print("✓ No new artworks to download. Collection is up to date!")
-            logging.info("No new artworks to download")
             return
 
         to_download = new_ids[:MAX_NEW_ARTWORKS]
@@ -561,8 +499,7 @@ class ChicDownloader:
         print("\nFiles saved to:")
         print(f"  - Metadata: {METADATA_OUTPUT_DIR}/")
         print(f"  - Images:   {IMAGES_OUTPUT_DIR}/")
-        print(f"  - Log file: {LOG_FILE}")
-        print(f"  - New IDs:  {TEMP_NEWIDS_FILE} (TEMP)")
+        print(f"  - New IDs:  {TEMP_NEWIDS_FILE}")
         print(f"  - Blacklist: {DONTFETCH_FILE}")
 
         print("\n" + "="*70)
@@ -572,7 +509,7 @@ class ChicDownloader:
             print("⚠ Process completed with no successful downloads.")
         print("="*70 + "\n")
 
-        logging.info(f"Download session complete: {self.downloaded_count} successful, {len(self.failed_downloads)} failed, {len(self.newly_blacklisted)} blacklisted")
+
 
 def main():
     downloader = ChicDownloader()

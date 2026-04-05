@@ -1,0 +1,30 @@
+{
+  "objectID": 30899,
+  "title": "Portrait of Cardinal Zelada",
+  "artistDisplayName": "Anton Raphael Mengs",
+  "objectDate": "1773",
+  "objectName": "Painting",
+  "medium": "Oil on panel",
+  "dimensions": "90 × 66 cm (35 7/16 × 26 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Germany",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Purchased with funds provided by Silvain and Arma Wyler Foundation",
+  "objectURL": "https://www.artic.edu/artworks/30899",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483616,
+  "galleryTitle": "Gallery 217",
+  "image_id": "e53b4972-30dc-5aed-1696-2b5778277d60",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/e53b4972-30dc-5aed-1696-2b5778277d60/full/843,/0/default.jpg",
+  "localImage": "30899.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACInJyotLTs9N001MGA5M2E6N1NKQ1dMRlNUUGROS3REQHFdU1ZhVYpZUZdnWYRyZIB3braGdrzBsNvQuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYHAYArA8DCJNDhQ1ykAUSQgAOw==",
+    "width": 1672,
+    "height": 2250,
+    "alt_text": "A work made of oil on panel."
+  },
+  "tags": []
+}

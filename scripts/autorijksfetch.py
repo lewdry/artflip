@@ -129,12 +129,18 @@ class LODMapper:
     def map_to_old_schema(cls, data: Dict, uri: str, iiif_base: str = "", is_pd: bool = False) -> Dict:
         obj_id = uri.split("/")[-1]
 
-        # Title: from identified_by, first Name entry's content
-        title = "Untitled"
+        # Title: prefer English Name (language AAT 300388277), fall back to any Name
+        en_title = ""
+        any_title = ""
         for ident in data.get("identified_by", []):
             if ident.get("type") == "Name" and ident.get("content"):
-                title = ident["content"]
-                break
+                lang_ids = [l.get("id", "") for l in ident.get("language", [])]
+                if any(cls.AAT_LANG_EN in lid for lid in lang_ids):
+                    if not en_title:
+                        en_title = ident["content"]
+                elif not any_title:
+                    any_title = ident["content"]
+        title = en_title or any_title or "Untitled"
 
         # Artist & Date
         production = data.get("produced_by", {})

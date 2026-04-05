@@ -1,0 +1,30 @@
+{
+  "objectID": 87515,
+  "title": "Job",
+  "artistDisplayName": "Spanish, possibly Seville; or Italian, possibly Naples",
+  "objectDate": "c. 1618–c. 1630",
+  "objectName": "Painting",
+  "medium": "Oil on canvas",
+  "dimensions": "120.3 × 95 cm (47 3/8 × 37 3/8 in.); Framed: 139.7 × 114.3 × 8.3 cm (55 × 45 × 3 1/4 in.)",
+  "department": "Painting and Sculpture of Europe",
+  "culture": "Spain",
+  "period": "",
+  "dynasty": "",
+  "creditLine": "Art Institute of Chicago. Gift of Mr. and Mrs. Chauncey McCormick",
+  "objectURL": "https://www.artic.edu/artworks/87515",
+  "isPublicDomain": true,
+  "isOnView": true,
+  "isBoosted": false,
+  "galleryId": 2147483626,
+  "galleryTitle": "Gallery 211",
+  "image_id": "5403c6fd-fb8b-c22c-abaa-9c30eb3710f4",
+  "iiifImageURL": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
+  "localImage": "87515.jpg",
+  "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABsLBRwLBB4QCB8SCykWByAQCCAQCSMUCygUCj4lFEQlDkMnE0crEUgwHl45F0w+MFRCKmhIJmNIM2lNMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoIEERdIIh0MMgDRFywMxSggAOw==",
+    "width": 6446,
+    "height": 8075,
+    "alt_text": "A work made of oil on canvas."
+  },
+  "tags": []
+}
