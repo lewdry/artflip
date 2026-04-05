@@ -57,7 +57,6 @@ SEARCH_PARAMS = {
 ARTWORKIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "metadata"
 IMAGES_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "images"
-LOG_FILE = Path("scripts/metfetch.log")
 DONTFETCH_FILE = Path(__file__).parent / "metdontfetch.json"
 TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 
