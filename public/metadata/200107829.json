@@ -1,0 +1,20 @@
+{
+  "objectID": "200107829",
+  "title": "Venus and Adonis",
+  "artistDisplayName": "Joos de Pape",
+  "objectDate": "1629",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 123.3 cm x width 104.9 cm",
+  "creditLine": "Rijksmuseum. Gift of the Leden van de Vereniging Rembrandt",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107829",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/kmGDy/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/kmGDy/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/kmGDy/full/400,/0/default.jpg",
+  "localImage": "200107829.jpg",
+  "webImage": "https://iiif.micr.io/kmGDy/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

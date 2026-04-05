@@ -8,8 +8,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   update-data:
@@ -21,18 +19,16 @@ jobs:
 
       # 2️⃣ Set up Python
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: pip install requests python-dotenv
+        run: pip install requests
 
-      # 4️⃣ Run Rijksfetch script with secret key
+      # 4️⃣ Run Rijksfetch script
       - name: Run Rijksfetch
-        env:
-          RIJKS_API_KEY: ${{ secrets.RIJKS_API_KEY }}
         run: python scripts/autorijksfetch.py
 
       # 5️⃣ Commit & push updated data

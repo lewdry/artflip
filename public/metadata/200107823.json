@@ -1,0 +1,20 @@
+{
+  "objectID": "200107823",
+  "title": "Travellers at Rest",
+  "artistDisplayName": "Unknown",
+  "objectDate": "1671",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 36.9 cm x width 30.3 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107823",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/LEaJn/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/LEaJn/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/LEaJn/full/400,/0/default.jpg",
+  "localImage": "200107823.jpg",
+  "webImage": "https://iiif.micr.io/LEaJn/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

@@ -1,0 +1,20 @@
+{
+  "objectID": "200107816",
+  "title": "The Virgin and Child",
+  "artistDisplayName": "Unknown",
+  "objectDate": "ca. 1520 - ca. 1530",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "support: height 37 cm x width 27.8 cm",
+  "creditLine": "Rijksmuseum. Gift of the heirs of C. Hoogendijk, The Hague",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107816",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/QjyVP/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/QjyVP/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/QjyVP/full/400,/0/default.jpg",
+  "localImage": "200107816.jpg",
+  "webImage": "https://iiif.micr.io/QjyVP/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}

@@ -1,0 +1,20 @@
+{
+  "objectID": "200107818",
+  "title": "The Watercourse near 's-Graveland",
+  "artistDisplayName": "Unknown",
+  "objectDate": "1818",
+  "objectName": "painting",
+  "medium": "oil on canvas",
+  "dimensions": "height 111.5 cm x width 89.5 cm",
+  "creditLine": "Rijksmuseum. Gift of F.G. Waller, Amsterdam",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107818",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/NdHpv/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/NdHpv/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/NdHpv/full/400,/0/default.jpg",
+  "localImage": "200107818.jpg",
+  "webImage": "https://iiif.micr.io/NdHpv/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}
