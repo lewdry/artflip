@@ -1,0 +1,20 @@
+{
+  "objectID": "200107879",
+  "title": "Rich Children, Poor Parents",
+  "artistDisplayName": "Unknown",
+  "objectDate": "1599",
+  "objectName": "painting",
+  "medium": "oil on panel",
+  "dimensions": "height 61 cm x width 163 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt and the Rijksmuseum-Stichting",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107879",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/hFCRi/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/hFCRi/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/hFCRi/full/400,/0/default.jpg",
+  "localImage": "200107879.jpg",
+  "webImage": "https://iiif.micr.io/hFCRi/full/max/0/default.jpg",
+  "tags": [],
+  "facets": {}
+}
