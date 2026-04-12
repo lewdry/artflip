@@ -682,7 +682,7 @@
   .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
