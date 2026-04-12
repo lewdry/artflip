@@ -682,7 +682,7 @@
   .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
     box-sizing: border-box;
     min-height: 100vh;
   }
@@ -691,7 +691,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem; /* slightly more breathing room */
+    margin-bottom: 0.75rem;
     gap: 1rem;
   }
 
@@ -704,8 +704,8 @@
   }
 
   .title-group h1 {
-    font-size: 1.6rem; /* slightly larger for stronger identity */
-    margin: 0 0 0.2rem 0;
+    font-size: 1.4rem;
+    margin: 0 0 0.15rem 0;
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
     color: #222;
@@ -744,7 +744,7 @@
   }
 
   .title-group h2 {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     margin: 0;
     font-style: italic;
     color: #555;
@@ -758,12 +758,12 @@
     background: #131C1D;
     color: white;
     border: none;
-    border-radius: 8px;
-    padding: 0.7rem 1.4rem; /* slightly more substantial */
-    font-size: 0.9rem;
+    border-radius: 0;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s ease; /* smoother animation */
+    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -805,22 +805,22 @@
     padding: 4rem 2rem;
     margin-top: 2rem;
     background: #fff;
-    border-radius: 12px;
+    border-radius: 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   }
 
   .artwork {
     background: white;
-    border-radius: 20px;
+    border-radius: 0;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
     display: grid;
     transition: box-shadow 0.2s ease;
     vertical-align: center;
   }
 
   .artwork:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   }
 
   @media (min-width: 800px) {
@@ -855,11 +855,10 @@
   }
 
   .metadata {
-    padding: 1.25rem 1rem;
-    min-height: 300px; /* prevents collapse on short data */
+    padding: 1rem;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
-    /* align-items: center;  Remove to allow children to stretch horizontally */
     height: 100%;
   }
 
@@ -884,52 +883,52 @@
 
 
   .title {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin: 0 0 0.8rem 0;
+    margin: 0 0 0.5rem 0;
     color: #111;
-    line-height: 1.4;
+    line-height: 1.35;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 3;
     line-clamp: 3;
-    max-height: calc(1.4em * 3);
+    max-height: calc(1.35em * 3);
   }
 
   .details {
-    font-size: 0.9rem;
-    margin-bottom: 0.75rem; /* more consistent rhythm */
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
   }
 
   .details p {
-    margin: 0.4rem 0;
-    font-size: 0.9rem;
+    margin: 0.25rem 0;
+    font-size: 0.85rem;
     color: #444;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
   .details p strong {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: #222;
   }
 
   .department {
     color: #777;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    margin-top: 0.5rem !important;
+    margin-top: 0.25rem !important;
   }
 
   .credit-line {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #666;
     font-style: italic;
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
     border-top: 1px solid #eee;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -943,15 +942,15 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #083555; /* updated museum button color */
+    background: #083555;
     color: white;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
-    padding: 0.7rem 1rem;
-    border-radius: 10px;
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 8px rgba(6,42,67,0.18);
+    box-shadow: 0 2px 6px rgba(6,42,67,0.15);
     box-sizing: border-box;
     line-height: 1.2;
     font-family: inherit;
@@ -976,9 +975,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.6rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     width: max-content;
     align-self: center;
   }
@@ -987,7 +986,7 @@
   .link-buttons .top-row {
     display: flex;
     flex-direction: row;
-    gap: 0.6rem;
+    gap: 0.5rem;
     width: 100%;
     justify-content: center;
   }
@@ -1002,13 +1001,13 @@
     border: none;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
-    padding: 0.7rem 1rem;
-    border-radius: 10px;
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 8px rgba(86, 55, 199, 0.18);
+    box-shadow: 0 2px 6px rgba(86, 55, 199, 0.15);
     cursor: pointer;
-    min-width: 120px;
+    min-width: 110px;
     box-sizing: border-box;
     line-height: 1.2;
     font-family: inherit;
@@ -1031,18 +1030,18 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #347c76; /* updated copy button color */
+    background: #347c76;
     color: white;
     border: none;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
-    padding: 0.7rem 1rem;
-    border-radius: 10px;
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0;
     transition: all 0.3s ease;
-    box-shadow: 0 3px 8px rgba(52,103,124,0.18);
+    box-shadow: 0 2px 6px rgba(52,103,124,0.15);
     cursor: pointer;
-    min-width: 120px;
+    min-width: 110px;
     box-sizing: border-box;
     line-height: 1.2;
     font-family: inherit;
@@ -1130,16 +1129,26 @@
   }
 
   @media (max-width: 799px) {
-    .container { padding: 1rem 1rem; }
-    .title-group h1 { font-size: 1.3rem; }
-    .metadata { padding: 1rem; }
-    .title { font-size: 1.2rem; }
-    .museum-link {text-align: center;}
+    .container { padding: 0.5rem 0.75rem; }
+    header { margin-bottom: 0.5rem; }
+    .title-group h1 { font-size: 1.15rem; }
+    .title-group h2 { font-size: 0.75rem; }
+    .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; }
+    .metadata { padding: 0.75rem; min-height: unset; }
+    .title { font-size: 1rem; margin-bottom: 0.35rem; }
+    .museum-link { text-align: center; }
+    .details { margin-bottom: 0.35rem; }
     .details p,
     .footer-credit,
     .credit-line,
     .department {
-    font-size: 0.8rem;
+      font-size: 0.75rem;
+    }
+    .details p { margin: 0.2rem 0; }
+    .credit-line { margin-top: 0.35rem; padding-top: 0.35rem; }
+    .link-buttons { margin-top: 0.5rem; margin-bottom: 0.5rem; gap: 0.4rem; }
+    .link-buttons .top-row { gap: 0.4rem; }
+    .share-image-btn, .copy-link-btn { padding: 0.5rem 0.75rem; font-size: 0.8rem; min-width: 90px; }
+    .museum-link { padding: 0.5rem 0.75rem; font-size: 0.8rem; }
   }
-}
 </style>
