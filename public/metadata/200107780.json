@@ -1,10 +1,9 @@
 {
   "objectID": "200107780",
   "title": "Portrait of a Couple and Four Children",
-  "artistDisplayName": "anonymous",
+  "artistDisplayName": "",
   "objectDate": "ca. 1620 - ca. 1625",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "support: height 51.2 cm x width 46.3 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107780",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/LXvGk/full/400,/0/default.jpg",
   "localImage": "200107780.jpg",
   "webImage": "https://iiif.micr.io/LXvGk/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

@@ -1,9 +1,8 @@
 {
   "objectID": "SK-A-905",
   "title": "Portrait of Margarita Cassier",
-  "artistDisplayName": "anonymous",
+  "artistDisplayName": "",
   "objectDate": "1616",
-  "objectName": "",
   "medium": "Panel, oil paint (paint)",
   "dimensions": "h 130.7cm × w 95.3cm",
   "creditLine": "Rijksmuseum. ",
@@ -17,6 +16,5 @@
   "webImage": "https://lh3.googleusercontent.com/yTX8FVcklTT8cPda8X8puuwtPoOIhYUhkaiMJb-4Br91B4LOVssHaqyCh6IPFZwHmsND2A582KPeoFoE2UprtJg1mkbEI3V1pIwx1Krd=s0",
   "tags": [
     "painting"
-  ],
-  "facets": {}
+  ]
 }

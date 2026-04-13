@@ -1,10 +1,9 @@
 {
   "objectID": "200107811",
-  "title": "Adriaan van der Hoop\u2019s Trotter \u2018De Rot\u2019 at the Coach House",
+  "title": "Adriaan van der Hoop’s Trotter ‘De Rot’ at the Coach House",
   "artistDisplayName": "Anthony Oberman",
   "objectDate": "1828",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 61 cm x width 54.5 cm",
   "creditLine": "Rijksmuseum. On loan from the City of Amsterdam (A. van der Hoop Bequest)",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107811",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/qDdZe/full/400,/0/default.jpg",
   "localImage": "200107811.jpg",
   "webImage": "https://iiif.micr.io/qDdZe/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

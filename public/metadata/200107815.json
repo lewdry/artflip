@@ -3,8 +3,7 @@
   "title": "Triptych with the Virgin and Child, and Saints Mary Magdalene and Ansanus",
   "artistDisplayName": "Andrea di Cione named Orcagna",
   "objectDate": "1350",
-  "objectName": "painting",
-  "medium": "tempera on panel",
+  "medium": "Tempera on panel",
   "dimensions": "height 146 cm x width 119.5 cm x thickness 8 cm",
   "creditLine": "Rijksmuseum. On loan from the Cultural Heritage Agency of the Netherlands, Amersfoort",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107815",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/QtBeY/full/400,/0/default.jpg",
   "localImage": "200107815.jpg",
   "webImage": "https://iiif.micr.io/QtBeY/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

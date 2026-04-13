@@ -553,10 +553,6 @@
             {/if}
             
             <div class="details">
-             <!-- {#if artwork.objectName}
-                <p><strong>Type:</strong> {artwork.objectName}</p>
-              {/if} -->
-
               {#if artwork.objectDate}
                 <p><strong></strong> {artwork.objectDate}</p> <!-- removed Date:-->
               {/if}
@@ -569,10 +565,6 @@
                 <p><strong>Culture:</strong> {artwork.culture}</p>
               {/if}
 
-              {#if artwork.period}
-                <p><strong>Period:</strong> {artwork.period}</p>
-              {/if}
-              
               {#if artwork.department}
                 <p class="department">{artwork.department}</p>
               {/if}
@@ -851,7 +843,7 @@
     display: block;
     object-fit: contain;
     background: #fff;
-    max-height: 70vh;
+    max-height: 65vh;
   }
 
   .metadata {

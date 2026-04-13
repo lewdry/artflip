@@ -1,10 +1,9 @@
 {
   "objectID": "200107812",
-  "title": "Adriaan van der Hoop\u2019s Trotter \u2018De Vlugge\u2019 (The Fast One) in a Meadow",
+  "title": "Adriaan van der Hoop’s Trotter ‘De Vlugge’ (The Fast One) in a Meadow",
   "artistDisplayName": "Anthony Oberman",
   "objectDate": "1828",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 60 cm x width 54 cm",
   "creditLine": "Rijksmuseum. On loan from the City of Amsterdam (A. van der Hoop Bequest)",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107812",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/zRfVE/full/400,/0/default.jpg",
   "localImage": "200107812.jpg",
   "webImage": "https://iiif.micr.io/zRfVE/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

@@ -1,10 +1,9 @@
 {
   "objectID": "200107771",
   "title": "Portret van een man, mogelijk Reijnier Pauw (1591-1676)",
-  "artistDisplayName": "Unknown",
+  "artistDisplayName": "",
   "objectDate": "1625",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "support: height 127.5 cm x width 94 cm",
   "creditLine": "Rijksmuseum. On loan from a private collector",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107771",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/ApPZn/full/400,/0/default.jpg",
   "localImage": "200107771.jpg",
   "webImage": "https://iiif.micr.io/ApPZn/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

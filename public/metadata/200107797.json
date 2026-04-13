@@ -1,10 +1,9 @@
 {
   "objectID": "200107797",
   "title": "Portrait of Frederik Houtman (1571-1627)",
-  "artistDisplayName": "anonymous",
+  "artistDisplayName": "",
   "objectDate": "ca. 1610 - ca. 1620",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "support: height 129.2 cm x width 93.7 cm",
   "creditLine": "Rijksmuseum. Gift of J.W. IJzerman, The Hague",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107797",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/gzjMa/full/400,/0/default.jpg",
   "localImage": "200107797.jpg",
   "webImage": "https://iiif.micr.io/gzjMa/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

@@ -3,8 +3,7 @@
   "title": "Self-Portrait",
   "artistDisplayName": "Michiel van Musscher",
   "objectDate": "1685",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 20.5 cm x width 18 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107777",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/wfHCM/full/400,/0/default.jpg",
   "localImage": "200107777.jpg",
   "webImage": "https://iiif.micr.io/wfHCM/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

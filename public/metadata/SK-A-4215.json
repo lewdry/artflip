@@ -1,23 +1,21 @@
 {
-    "title": "Italian Landscape with two Roman Soldiers",
-    "artistDisplayName": "Gerard de Lairesse",
-    "objectDate": "c. 1687",
-    "objectName": "",
-    "medium": "Canvas, oil paint (paint)",
-    "dimensions": "h 282cm \u00d7 w 209cm \u00d7 d 7.5cm \u00d7 w 51kg",
-    "creditLine": "Rijksmuseum. ",
-    "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4215",
-    "department": "Paintings",
-    "isPublicDomain": true,
-    "primaryImage": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s843",
-    "primaryImageMedium": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s600",
-    "primaryImageSmall": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s400",
-    "localImage": "SK-A-4215.jpg",
-    "webImage": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s0",
-    "tags": [
-        "mural painting",
-        "painting"
-    ],
-    "facets": {},
-    "objectID": "SK-A-4215"
+  "title": "Italian Landscape with two Roman Soldiers",
+  "artistDisplayName": "Gerard de Lairesse",
+  "objectDate": "c. 1687",
+  "medium": "Canvas, oil paint (paint)",
+  "dimensions": "h 282cm × w 209cm × d 7.5cm × w 51kg",
+  "creditLine": "Rijksmuseum. ",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/SK-A-4215",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s843",
+  "primaryImageMedium": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s600",
+  "primaryImageSmall": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s400",
+  "localImage": "SK-A-4215.jpg",
+  "webImage": "https://lh3.googleusercontent.com/pzWqjZ3MdoRnm8OlLN4gigardzq-INWt4M356tjOR5iTQrowHzKgoZimS2DgH2Qjudnc5HRmaIrSzWlCw0Z8DYv3jNo=s0",
+  "tags": [
+    "mural painting",
+    "painting"
+  ],
+  "objectID": "SK-A-4215"
 }

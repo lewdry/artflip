@@ -277,8 +277,7 @@ class ChicDownloader:
                 "id", "title", "image_id", "is_public_domain", "artist_display", 
                 "artist_title", "date_display", "medium_display", "dimensions", 
                 "credit_line", "department_title", "place_of_origin", "thumbnail", 
-                "artwork_type_title", "alt_titles", "is_on_view", "is_boosted", 
-                "gallery_id", "gallery_title", "config"
+                "artwork_type_title", "alt_titles", "config"
             ]
             url = f"{ARTWORK_ENDPOINT}/{object_id}"
             
@@ -345,20 +344,14 @@ class ChicDownloader:
             'title': artwork_data.get('title', 'Untitled'),
             'artistDisplayName': self.clean_artist_name(raw_artist),
             'objectDate': artwork_data.get('date_display', ''),
-            'objectName': artwork_data.get('artwork_type_title', ''),
-            'medium': artwork_data.get('medium_display', ''),
+            'medium': (lambda m: m[0].upper() + m[1:] if m else '')(artwork_data.get('medium_display', '')),
+
             'dimensions': artwork_data.get('dimensions', ''),
             'department': artwork_data.get('department_title', ''),
             'culture': artwork_data.get('place_of_origin', ''),
-            'period': '',
-            'dynasty': '',
             'creditLine': 'Art Institute of Chicago. ' + (artwork_data.get('credit_line') or ''),
             'objectURL':  f"https://www.artic.edu/artworks/{artwork_data.get('id')}",
             'isPublicDomain': artwork_data.get('is_public_domain', False),
-            'isOnView': artwork_data.get('is_on_view', False),
-            'isBoosted': artwork_data.get('is_boosted', False),
-            'galleryId': artwork_data.get('gallery_id'),
-            'galleryTitle': artwork_data.get('gallery_title'),
             'image_id': artwork_data.get('image_id', ''),
             'iiifImageURL': self.construct_image_url(artwork_data.get('image_id'), iiif_base_url),
             'localImage': local_image_filename,

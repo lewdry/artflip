@@ -1,9 +1,8 @@
 {
   "objectID": "200107007",
   "title": "Waaierschildering met een rivierlandschap",
-  "artistDisplayName": "anonymous",
+  "artistDisplayName": "",
   "objectDate": "1800 - 1900",
-  "objectName": "painting",
   "medium": "",
   "dimensions": "height 180 mm x width 514 mm",
   "creditLine": "Rijksmuseum. On loan from the Royal Asian Art Society in The Netherlands (Westendorp-Osieck bequest, 1968)",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/PYMfr/full/400,/0/default.jpg",
   "localImage": "200107007.jpg",
   "webImage": "https://iiif.micr.io/PYMfr/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

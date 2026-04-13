@@ -3,8 +3,7 @@
   "title": "Portrait of Constantijn Huygens (1596-1687), lord of Zuylichem, secretary of Frederik Hendrick, Willem II and Willem III, and poet",
   "artistDisplayName": "Caspar Netscher",
   "objectDate": "1672",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "height 27 cm x width 23 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107787",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/xtDbB/full/400,/0/default.jpg",
   "localImage": "200107787.jpg",
   "webImage": "https://iiif.micr.io/xtDbB/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

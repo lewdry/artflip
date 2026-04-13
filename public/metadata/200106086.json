@@ -1,10 +1,9 @@
 {
   "objectID": "200106086",
   "title": "A Young Woman Warming her Hands over a Brazier: Allegory of Winter",
-  "artistDisplayName": "Unknown",
+  "artistDisplayName": "",
   "objectDate": "ca. 1650",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "support: height 97 cm x width 81.5 cm",
   "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt, with additional funding from the Prins Bernhard Fonds",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200106086",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/nuhhV/full/400,/0/default.jpg",
   "localImage": "200106086.jpg",
   "webImage": "https://iiif.micr.io/nuhhV/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

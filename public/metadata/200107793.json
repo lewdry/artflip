@@ -3,8 +3,7 @@
   "title": "The Battle of Livorno",
   "artistDisplayName": "Reinier Nooms",
   "objectDate": "1653 - 1664",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 142 cm x width 225 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107793",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/apxGf/full/400,/0/default.jpg",
   "localImage": "200107793.jpg",
   "webImage": "https://iiif.micr.io/apxGf/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

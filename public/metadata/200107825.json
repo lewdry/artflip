@@ -1,10 +1,9 @@
 {
   "objectID": "200107825",
   "title": "A Couple in an Interior",
-  "artistDisplayName": "Unknown",
+  "artistDisplayName": "",
   "objectDate": "1672",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "support: height 23 cm x width 19.3 cm",
   "creditLine": "Rijksmuseum. On loan from the City of Amsterdam (A. van der Hoop Bequest)",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107825",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/VrDZC/full/400,/0/default.jpg",
   "localImage": "200107825.jpg",
   "webImage": "https://iiif.micr.io/VrDZC/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

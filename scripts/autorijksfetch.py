@@ -161,7 +161,8 @@ class LODMapper:
         date = date_entries[0].get("content", "") if date_entries else ""
         
         referred = data.get("referred_to_by", [])
-        medium = cls.get_referred_to_by(referred, cls.AAT_MEDIUM, cls.AAT_LANG_EN)
+        medium_raw = cls.get_referred_to_by(referred, cls.AAT_MEDIUM, cls.AAT_LANG_EN)
+        medium = medium_raw[0].upper() + medium_raw[1:] if medium_raw else ""
         dimensions = cls.get_referred_to_by(referred, cls.AAT_DIMENSIONS, cls.AAT_LANG_EN, primary_only=True)
         credit_suffix = cls.get_referred_to_by(referred, cls.AAT_CREDIT, cls.AAT_LANG_EN)
         credit_line = f"Rijksmuseum. {credit_suffix}".rstrip(". ") if credit_suffix else "Rijksmuseum"
@@ -171,7 +172,6 @@ class LODMapper:
             "title": title,
             "artistDisplayName": artist,
             "objectDate": date,
-            "objectName": "painting",
             "medium": medium,
             "dimensions": dimensions,
             "creditLine": credit_line,
@@ -183,8 +183,7 @@ class LODMapper:
             "primaryImageSmall": f"{iiif_base}/full/400,/0/default.jpg" if iiif_base else "",
             "localImage": f"{obj_id}.jpg",
             "webImage": f"{iiif_base}/full/max/0/default.jpg" if iiif_base else "",
-            "tags": [],
-            "facets": {}
+            "tags": []
         }
 
 class RijksLODFetcher:

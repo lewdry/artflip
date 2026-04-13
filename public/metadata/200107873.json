@@ -3,8 +3,7 @@
   "title": "Watermill by a Wooded Outcrop",
   "artistDisplayName": "Gillis Peeters (I)",
   "objectDate": "1633",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "support: height 42.8 cm x width 57.8 cm (oval)",
   "creditLine": "Rijksmuseum. Gift of A. Bredius, The Hague",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107873",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/yaEop/full/400,/0/default.jpg",
   "localImage": "200107873.jpg",
   "webImage": "https://iiif.micr.io/yaEop/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

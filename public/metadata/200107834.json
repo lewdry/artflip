@@ -3,7 +3,6 @@
   "title": "Portrait of Balthasar Bekker, Clergyman and Man of Letters in Amsterdam",
   "artistDisplayName": "Arnoud van Halen",
   "objectDate": "1700 - 1732",
-  "objectName": "painting",
   "medium": "",
   "dimensions": "height 11 cm x width 9.5 cm",
   "creditLine": "Rijksmuseum",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/fuLxv/full/400,/0/default.jpg",
   "localImage": "200107834.jpg",
   "webImage": "https://iiif.micr.io/fuLxv/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

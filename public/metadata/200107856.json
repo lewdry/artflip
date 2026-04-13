@@ -3,7 +3,6 @@
   "title": "Portrait of Frans de Haes, Poet and Linguist in Rotterdam",
   "artistDisplayName": "Dionys van Nijmegen",
   "objectDate": "1732 - 1771",
-  "objectName": "painting",
   "medium": "",
   "dimensions": "height 11 cm x width 9 cm",
   "creditLine": "Rijksmuseum",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/TtHDW/full/400,/0/default.jpg",
   "localImage": "200107856.jpg",
   "webImage": "https://iiif.micr.io/TtHDW/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

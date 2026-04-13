@@ -3,8 +3,7 @@
   "title": "Het Raampoortje in Amsterdam",
   "artistDisplayName": "Wouter Johannes van Troostwijk",
   "objectDate": "1809",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 57 cm x width 48 cm",
   "creditLine": "Rijksmuseum. On loan from the Koninklijk Oudheidkundig Genootschap",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200106078",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/vHCad/full/400,/0/default.jpg",
   "localImage": "200106078.jpg",
   "webImage": "https://iiif.micr.io/vHCad/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

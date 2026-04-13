@@ -1,10 +1,9 @@
 {
   "objectID": "200107824",
-  "title": "The Painter\u2019s Studio",
+  "title": "The Painter’s Studio",
   "artistDisplayName": "Adriaen van Ostade",
   "objectDate": "ca. 1647 - ca. 1650",
-  "objectName": "painting",
-  "medium": "oil on panel",
+  "medium": "Oil on panel",
   "dimensions": "support: height 36.5 cm x width 34.5 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107824",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/cWAta/full/400,/0/default.jpg",
   "localImage": "200107824.jpg",
   "webImage": "https://iiif.micr.io/cWAta/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

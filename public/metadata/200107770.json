@@ -1,10 +1,9 @@
 {
   "objectID": "200107770",
   "title": "A Shepherdess",
-  "artistDisplayName": "Unknown",
+  "artistDisplayName": "",
   "objectDate": "1630",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "support: height 81.5 cm x width 64.5 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107770",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/SPbhh/full/400,/0/default.jpg",
   "localImage": "200107770.jpg",
   "webImage": "https://iiif.micr.io/SPbhh/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }

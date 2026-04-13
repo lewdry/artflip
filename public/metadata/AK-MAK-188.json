@@ -1,9 +1,8 @@
 {
   "objectID": "AK-MAK-188",
   "title": "Uma",
-  "artistDisplayName": "anonymous",
+  "artistDisplayName": "",
   "objectDate": "1400 - 1500",
-  "objectName": "",
   "medium": "Bronze (metal)",
   "dimensions": "h 74cm × w 23cm × d 23cm",
   "creditLine": "Rijksmuseum. ",
@@ -18,6 +17,5 @@
   "tags": [
     "sculpture",
     "figure"
-  ],
-  "facets": {}
+  ]
 }

@@ -1,10 +1,9 @@
 {
   "objectID": "200107798",
   "title": "View of Canton, China",
-  "artistDisplayName": "Unknown",
+  "artistDisplayName": "",
   "objectDate": "ca. 1662 - ca. 1663",
-  "objectName": "painting",
-  "medium": "oil on canvas",
+  "medium": "Oil on canvas",
   "dimensions": "height 97 cm x width 140 cm",
   "creditLine": "Rijksmuseum",
   "objectURL": "https://www.rijksmuseum.nl/en/collection/200107798",
@@ -15,6 +14,5 @@
   "primaryImageSmall": "https://iiif.micr.io/MsOUQ/full/400,/0/default.jpg",
   "localImage": "200107798.jpg",
   "webImage": "https://iiif.micr.io/MsOUQ/full/max/0/default.jpg",
-  "tags": [],
-  "facets": {}
+  "tags": []
 }
