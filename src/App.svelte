@@ -825,7 +825,7 @@
     border-radius: 0;
     padding: 0.6rem 1.2rem;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;
@@ -996,6 +996,13 @@
     -webkit-line-clamp: 3;
     line-clamp: 3;
     max-height: calc(1.35em * 3);
+  }
+
+  .artist {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #333;
+    margin: 0 0 0.4rem 0;
   }
 
   .details {
@@ -1238,6 +1245,7 @@
     .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; }
     .metadata { padding: 0.75rem; min-height: unset; }
     .title { font-size: 1rem; margin-bottom: 0.35rem; }
+    .artist { font-size: 0.82rem; }
     .museum-link { text-align: center; }
     .details { margin-bottom: 0.35rem; }
     .details p,
@@ -1252,5 +1260,6 @@
     .link-buttons .top-row { gap: 0.4rem; }
     .share-image-btn, .copy-link-btn { padding: 0.5rem 0.75rem; font-size: 0.8rem; min-width: 90px; }
     .museum-link { padding: 0.5rem 0.75rem; font-size: 0.8rem; }
+    .image-container img { max-height: 65vh; }
   }
 </style>
