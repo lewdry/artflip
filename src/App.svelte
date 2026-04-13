@@ -19,6 +19,15 @@
   let isCoolingDown = false;
   let isPreloading = false;
   let copied = false;
+  let mouseActive = false;
+  let mouseIdleTimer = null;
+  let mouseZone = null; // 'left' | 'right' | 'center'
+
+  function handleGlobalMouseMove() {
+    mouseActive = true;
+    if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
+    mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
+  }
 
   // Rate limiting
   let lastRequestTime = 0;
@@ -250,11 +259,18 @@
     // and click navigation behavior while making the cursor consistent.
     if (zone < NAVIGATION_ZONE_THRESHOLD && currentIndex > 0) {
       event.currentTarget.style.cursor = 'pointer';
+      mouseZone = 'left';
     } else if (zone > (1 - NAVIGATION_ZONE_THRESHOLD)) {
       event.currentTarget.style.cursor = 'pointer';
+      mouseZone = 'right';
     } else {
       event.currentTarget.style.cursor = 'default';
+      mouseZone = 'center';
     }
+  }
+
+  function handleImageMouseLeave() {
+    mouseZone = null;
   }
 
   function handleKeydown(event) {
@@ -318,6 +334,7 @@
     // Add keyboard listener
     window.addEventListener('keydown', handleKeydown);
     window.addEventListener('popstate', handlePopState);
+    window.addEventListener('mousemove', handleGlobalMouseMove);
 
     // Load initial artwork
     (async () => {
@@ -351,12 +368,16 @@
     return () => {
       window.removeEventListener('keydown', handleKeydown);
       window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('mousemove', handleGlobalMouseMove);
+      if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
     };
   });
 
   onDestroy(() => {
     window.removeEventListener('keydown', handleKeydown);
     window.removeEventListener('popstate', handlePopState);
+    window.removeEventListener('mousemove', handleGlobalMouseMove);
+    if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
   });
 
   // Generate accessible alt text for artwork images
@@ -475,6 +496,13 @@
     // when currentIndex or artworks changes, clear copied state
     copied = false;
   }
+
+  // Flash chevrons briefly on each new artwork load as a discovery cue
+  $: if (artwork) {
+    mouseActive = true;
+    if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
+    mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
+  }
 </script>
 
 <main>
@@ -532,6 +560,7 @@
             on:click={handleImageClick}
             on:keydown={handleImageKeydown}
             on:mousemove={handleImageMouseMove}
+            on:mouseleave={handleImageMouseLeave}
             on:touchstart={handleTouchStart}
             on:touchend={handleTouchEnd}
           >
@@ -543,6 +572,32 @@
               fetchpriority="high"
               on:error={handleImageError}
             />
+
+            <!-- Back chevron: only visible after navigating past the first artwork -->
+            {#if currentIndex > 0}
+              <div
+                class="chevron chevron-left"
+                class:nav-visible={mouseActive}
+                class:nav-highlight={mouseZone === 'left'}
+                aria-hidden="true"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </div>
+            {/if}
+
+            <!-- Next chevron: always visible -->
+            <div
+              class="chevron chevron-right"
+              class:nav-visible={mouseActive}
+              class:nav-highlight={mouseZone === 'right'}
+              aria-hidden="true"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
           </div>
           
           <div class="metadata">
@@ -611,7 +666,7 @@
     <footer aria-label="Site footer">
       <p class="footer-credit">
         All artworks displayed are in the public domain, available under Creative Commons Zero.<br>
-        Artflip by <a href="https://lewisdryburgh.com/2025-10-13-artflip" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025
+        Artflip by <a href="https://lewisdryburgh.com/2025-10-13-artflip" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2026
       </p>
         <a href="https://instagram.com/artflip.me" target="_blank" rel="noopener noreferrer" class="social-link instagram-link" aria-label="Follow on Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -830,6 +885,44 @@
     user-select: none;
     object-fit:contain;
     box-shadow: inset 0 0 0 1px #eee; /* faint frame */
+    position: relative;
+  }
+
+  /* Navigation chevrons */
+  .chevron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 10;
+  }
+
+  .chevron-left {
+    left: 12px;
+  }
+
+  .chevron-right {
+    right: 12px;
+  }
+
+  .chevron.nav-visible {
+    opacity: 0.6;
+  }
+
+  .chevron.nav-highlight {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.1);
   }
 
   .image-container:focus-visible {
