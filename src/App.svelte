@@ -29,7 +29,8 @@
   $: chevronsVisible = mouseActive || artworkFlashActive;
 
   function handleGlobalMouseMove(event) {
-    if (event.pointerType !== 'mouse') return; // ignore synthetic touch events
+    if (event.pointerType !== 'mouse') return; // ignore touch pointer events
+    if (Date.now() - lastTouchTime < 1000) return; // suppress compat mouse events fired after a touch
     mouseActive = true;
     if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
     mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
@@ -313,7 +314,10 @@
   let touchEndX = 0;
   const SWIPE_THRESHOLD = 60;
 
+  let lastTouchTime = 0;
+
   function handleTouchStart(event) {
+    lastTouchTime = Date.now();
     touchStartX = event.changedTouches[0].screenX;
   }
 
