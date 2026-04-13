@@ -21,9 +21,15 @@
   let copied = false;
   let mouseActive = false;
   let mouseIdleTimer = null;
+  let artworkFlashActive = false;
+  let artworkFlashTimer = null;
+  let lastFlashedArtworkID = null;
   let mouseZone = null; // 'left' | 'right' | 'center'
 
-  function handleGlobalMouseMove() {
+  $: chevronsVisible = mouseActive || artworkFlashActive;
+
+  function handleGlobalMouseMove(event) {
+    if (event.pointerType !== 'mouse') return; // ignore synthetic touch events
     mouseActive = true;
     if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
     mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
@@ -334,7 +340,7 @@
     // Add keyboard listener
     window.addEventListener('keydown', handleKeydown);
     window.addEventListener('popstate', handlePopState);
-    window.addEventListener('mousemove', handleGlobalMouseMove);
+    window.addEventListener('pointermove', handleGlobalMouseMove);
 
     // Load initial artwork
     (async () => {
@@ -368,16 +374,18 @@
     return () => {
       window.removeEventListener('keydown', handleKeydown);
       window.removeEventListener('popstate', handlePopState);
-      window.removeEventListener('mousemove', handleGlobalMouseMove);
+      window.removeEventListener('pointermove', handleGlobalMouseMove);
       if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
+      if (artworkFlashTimer) clearTimeout(artworkFlashTimer);
     };
   });
 
   onDestroy(() => {
     window.removeEventListener('keydown', handleKeydown);
     window.removeEventListener('popstate', handlePopState);
-    window.removeEventListener('mousemove', handleGlobalMouseMove);
+    window.removeEventListener('pointermove', handleGlobalMouseMove);
     if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
+    if (artworkFlashTimer) clearTimeout(artworkFlashTimer);
   });
 
   // Generate accessible alt text for artwork images
@@ -497,11 +505,12 @@
     copied = false;
   }
 
-  // Flash chevrons briefly on each new artwork load as a discovery cue
-  $: if (artwork) {
-    mouseActive = true;
-    if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
-    mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
+  // Flash chevrons briefly on each genuine artwork change as a discovery cue
+  $: if (artwork && artwork.objectID !== lastFlashedArtworkID) {
+    lastFlashedArtworkID = artwork.objectID;
+    artworkFlashActive = true;
+    if (artworkFlashTimer) clearTimeout(artworkFlashTimer);
+    artworkFlashTimer = setTimeout(() => { artworkFlashActive = false; }, 500);
   }
 </script>
 
@@ -577,7 +586,7 @@
             {#if currentIndex > 0}
               <div
                 class="chevron chevron-left"
-                class:nav-visible={mouseActive}
+                class:nav-visible={chevronsVisible}
                 class:nav-highlight={mouseZone === 'left'}
                 aria-hidden="true"
               >
@@ -590,7 +599,7 @@
             <!-- Next chevron: always visible -->
             <div
               class="chevron chevron-right"
-              class:nav-visible={mouseActive}
+              class:nav-visible={chevronsVisible}
               class:nav-highlight={mouseZone === 'right'}
               aria-hidden="true"
             >
@@ -893,8 +902,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 34px;
-    height: 34px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(8px);
