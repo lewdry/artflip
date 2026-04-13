@@ -324,6 +324,10 @@
   function handleTouchEnd(event) {
     touchEndX = event.changedTouches[0].screenX;
     handleSwipe();
+    // Ensure mouse-active state is dead after any touch — prevents compat
+    // pointer events from keeping the chevrons permanently visible.
+    mouseActive = false;
+    if (mouseIdleTimer) { clearTimeout(mouseIdleTimer); mouseIdleTimer = null; }
   }
 
   function handleSwipe() {
