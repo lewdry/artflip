@@ -24,8 +24,6 @@
   let artworkFlashActive = false;
   let artworkFlashTimer = null;
   let lastFlashedArtworkID = null;
-  let mouseZone = null; // 'left' | 'right' | 'center'
-
   $: chevronsVisible = mouseActive || artworkFlashActive;
 
   function handleGlobalMouseMove(event) {
@@ -256,30 +254,6 @@
     }
   }
 
-  function handleImageMouseMove(event) {
-    const rect = event.currentTarget.getBoundingClientRect();
-    const moveX = event.clientX - rect.left;
-    const zone = moveX / rect.width;
-
-    // Show a hand (pointer) when hovering over the left or right navigation zones
-    // Keep the default cursor in the middle zone. This preserves keyboard
-    // and click navigation behavior while making the cursor consistent.
-    if (zone < NAVIGATION_ZONE_THRESHOLD && currentIndex > 0) {
-      event.currentTarget.style.cursor = 'pointer';
-      mouseZone = 'left';
-    } else if (zone > (1 - NAVIGATION_ZONE_THRESHOLD)) {
-      event.currentTarget.style.cursor = 'pointer';
-      mouseZone = 'right';
-    } else {
-      event.currentTarget.style.cursor = 'default';
-      mouseZone = 'center';
-    }
-  }
-
-  function handleImageMouseLeave() {
-    mouseZone = null;
-  }
-
   function handleKeydown(event) {
     if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
     
@@ -323,6 +297,7 @@
 
   function handleTouchEnd(event) {
     touchEndX = event.changedTouches[0].screenX;
+    lastTouchTime = Date.now(); // reset guard from touchend, not just touchstart
     handleSwipe();
     // Ensure mouse-active state is dead after any touch — prevents compat
     // pointer events from keeping the chevrons permanently visible.
@@ -576,8 +551,6 @@
             aria-label="Artwork image. Press Enter to view next artwork, or use left and right arrow keys to navigate."
             on:click={handleImageClick}
             on:keydown={handleImageKeydown}
-            on:mousemove={handleImageMouseMove}
-            on:mouseleave={handleImageMouseLeave}
             on:touchstart={handleTouchStart}
             on:touchend={handleTouchEnd}
           >
@@ -595,7 +568,6 @@
               <div
                 class="chevron chevron-left"
                 class:nav-visible={chevronsVisible}
-                class:nav-highlight={mouseZone === 'left'}
                 aria-hidden="true"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -608,7 +580,6 @@
             <div
               class="chevron chevron-right"
               class:nav-visible={chevronsVisible}
-              class:nav-highlight={mouseZone === 'right'}
               aria-hidden="true"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -935,11 +906,6 @@
 
   .chevron.nav-visible {
     opacity: 0.6;
-  }
-
-  .chevron.nav-highlight {
-    opacity: 1;
-    transform: translateY(-50%) scale(1.1);
   }
 
   .image-container:focus-visible {
