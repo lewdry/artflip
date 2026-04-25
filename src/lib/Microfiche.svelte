@@ -2,6 +2,7 @@
   import { createEventDispatcher, onMount } from 'svelte';
 
   export let artworkIDs = [];
+  export let regenKey = 0;
 
   const dispatch = createEventDispatcher();
 
@@ -47,12 +48,19 @@
   function handleResize() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
+      const oldCols = cols;
+      const oldRows = rows;
       computeGrid();
-      generate();
-    }, 150);
+      if (cols !== oldCols || rows !== oldRows) {
+        generate();
+      }
+    }, 200);
   }
 
   let gridEl;
+
+  let prevRegenKey = regenKey;
+  $: if (regenKey !== prevRegenKey) { prevRegenKey = regenKey; generate(); }
 
   onMount(() => {
     computeGrid();
@@ -64,50 +72,70 @@
     };
   });
 
-  // Touch two-tap: first tap scales, second tap navigates.
-  // Mouse clicks navigate immediately (hover already gives preview).
-  let activeID = null;
-  let lastPointerType = 'mouse';
+  // ── Touch interaction ─────────────────────────────────────────
+  // Only one cell is ever scaled at a time — whichever is under the finger.
+  // A tap (no movement) navigates. Mouse clicks navigate immediately.
 
-  function handlePointerDown(e) {
-    lastPointerType = e.pointerType;
+  let activeID = null;
+  let touchMoved = false;
+  let lastTouchEndTime = 0;
+
+  function getIDAtPoint(x, y) {
+    const el = document.elementFromPoint(x, y);
+    const cell = el?.closest('[data-id]');
+    return cell instanceof HTMLElement ? cell.dataset.id ?? null : null;
   }
 
-  function handleCellClick(id) {
-    if (lastPointerType === 'touch') {
-      if (activeID === id) {
-        // Second tap on the same scaled image - navigate to it
+  function handleTouchStart(e) {
+    touchMoved = false;
+    activeID = getIDAtPoint(e.touches[0].clientX, e.touches[0].clientY);
+  }
+
+  function handleTouchMove(e) {
+    touchMoved = true;
+    const id = getIDAtPoint(e.touches[0].clientX, e.touches[0].clientY);
+    if (id !== activeID) activeID = id;
+  }
+
+  function handleTouchEnd(e) {
+    lastTouchEndTime = Date.now();
+    if (touchMoved) {
+      // Swipe ended — clear the highlight
+      activeID = null;
+    } else {
+      // Tap: first tap scales, second tap on the same cell navigates
+      const t = e.changedTouches[0];
+      const id = getIDAtPoint(t.clientX, t.clientY);
+      if (id && id === activeID) {
         dispatch('select', id);
         activeID = null;
-      } else if (activeID === null) {
-        // First tap - scale this image
-        activeID = id;
       } else {
-        // Tap on a different image while one is scaled - unscale instead
-        activeID = null;
+        activeID = id;
       }
-    } else {
-      dispatch('select', id);
     }
   }
 
-  function handleWrapClick(e) {
-    if (!e.target.closest('.cell')) activeID = null;
+  // Mouse: navigate on click (ignore synthetic clicks from touch)
+  function handleCellClick(id) {
+    if (Date.now() - lastTouchEndTime < 600) return;
+    dispatch('select', id);
   }
 </script>
 
-<div class="microfiche-wrap" role="presentation" on:click={handleWrapClick} on:keydown={() => {}}>
+<div class="microfiche-wrap" role="presentation">
   <div
     class="microfiche-grid"
     style="grid-template-columns: repeat({cols}, 30px)"
     bind:this={gridEl}
+    on:touchstart={handleTouchStart}
+    on:touchmove|preventDefault={handleTouchMove}
+    on:touchend={handleTouchEnd}
   >
     {#each gridItems as id (id)}
       <button
         class="cell"
         class:active={id === activeID}
         data-id={id}
-        on:pointerdown={handlePointerDown}
         on:click={() => handleCellClick(id)}
         aria-label="View artwork {id}"
       >
@@ -116,7 +144,7 @@
     {/each}
   </div>
   <div class="controls">
-    <button class="regen-btn" on:click={generate}>Redo</button>
+    <button class="regen-btn" on:click={() => dispatch('home')}>Home</button>
   </div>
 </div>
 
@@ -146,7 +174,8 @@
     /* no overflow:hidden here — lets the scaled image bleed outside the cell */
   }
 
-  .cell:hover {
+  .cell:hover,
+  .cell.active {
     z-index: 10;
   }
 

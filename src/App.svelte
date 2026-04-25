@@ -11,7 +11,8 @@
   const NAVIGATION_ZONE_THRESHOLD = 0.33; // Configurable thirds (0.33 = 1/3)
 
   // State
-  let microficheMode = false;
+  let microficheMode = new URLSearchParams(window.location.search).get('mode') === 'microfiche';
+  let microficheRegenKey = 0;
   let artworks = [];
   let currentIndex = 0;
   let loading = true;
@@ -594,14 +595,22 @@
       </div>
 
       <div class="header-actions">
-        <button
-          on:click={toggleMicrofiche}
-          disabled={artworkIDs.length === 0}
-          class="refresh-btn microfiche-btn"
-          class:microfiche-active={microficheMode}
-        >
-          {microficheMode ? 'Home' : 'Microfiche'}
-        </button>
+        {#if microficheMode}
+          <button
+            on:click={() => microficheRegenKey++}
+            class="refresh-btn microfiche-btn"
+          >
+            Redo
+          </button>
+        {:else}
+          <button
+            on:click={toggleMicrofiche}
+            disabled={artworkIDs.length === 0}
+            class="refresh-btn microfiche-btn"
+          >
+            Microfiche
+          </button>
+        {/if}
         {#if !microficheMode}
           <button
             on:click={nextArtwork}
@@ -620,7 +629,7 @@
     </header>
 
     {#if microficheMode}
-      <Microfiche artworkIDs={artworkIDs} on:select={handleMicroficheSelect} />
+      <Microfiche artworkIDs={artworkIDs} regenKey={microficheRegenKey} on:select={handleMicroficheSelect} on:home={toggleMicrofiche} />
     {:else if error}
       <div class="error" role="alert">
         <p>{error}</p>
@@ -919,14 +928,6 @@
 
   .microfiche-btn:hover:not(:disabled) {
     background: #3a5566;
-  }
-
-  .microfiche-active {
-    background: #083555;
-  }
-
-  .microfiche-active:hover:not(:disabled) {
-    background: #052238;
   }
 
   .spinner {
