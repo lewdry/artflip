@@ -26,15 +26,14 @@
  3. 1399  Rijksmuseum
  4. 1058  National Gallery of Art
 
-## Current Count of artworks - 2026/04/05
+## Current Count of artworks - 2026/04/25
   1.  2289  Metropolitan Museum of Art
   2.  1902  Art Institute of Chicago
   3.  1515  Rijksmuseum
-  4.  1058  National Gallery of Art
-  5.   420  Cleveland Museum of Art
-  6.   410  Minneapolis Institute of Art
+  4.   420  Cleveland Museum of Art
+  5.   410  Minneapolis Institute of Art
 
-  Total artworks: 7594
+  Total artworks: 6575
 
 
 ---
