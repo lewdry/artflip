@@ -14,6 +14,7 @@
 * **Preloading & History:** ArtFlip efficiently preloads upcoming images and maintains a local history (up to 20 past works) for seamless navigation without repeated fetching.
 * **Deep Links:** Shares state via the URL, allowing you to share a direct link to the currently displayed artwork.
 * **Full Metadata:** Displays key information including the artist, title, date, medium, and a direct link to the source museum.
+* **Microfiche Mode:** A grid view showing hundreds of thumbnails at once. Hit the Microfiche button to browse the collection at a glance, hover over any image to get a closer look, click to open it. On mobile, tap once to zoom in, tap again to open. Use Redo to shuffle in a fresh set of images. Accessible directly at `/?mode=microfiche`.
 
 ## Current Count  of artworks - 2025/10/09
 1. 2439 Metropolitan Museum of Art 

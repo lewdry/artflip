@@ -76,10 +76,15 @@
   function handleCellClick(id) {
     if (lastPointerType === 'touch') {
       if (activeID === id) {
+        // Second tap on the same scaled image - navigate to it
         dispatch('select', id);
         activeID = null;
-      } else {
+      } else if (activeID === null) {
+        // First tap - scale this image
         activeID = id;
+      } else {
+        // Tap on a different image while one is scaled - unscale instead
+        activeID = null;
       }
     } else {
       dispatch('select', id);
@@ -111,7 +116,7 @@
     {/each}
   </div>
   <div class="controls">
-    <button class="regen-btn" on:click={generate}>Regenerate</button>
+    <button class="regen-btn" on:click={generate}>Redo</button>
   </div>
 </div>
 
@@ -160,7 +165,7 @@
 
   .cell:hover img,
   .cell.active img {
-    transform: scale(1.6);
+    transform: scale(2.0);
   }
 
   @media (prefers-reduced-motion: reduce) {

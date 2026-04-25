@@ -525,6 +525,8 @@
   }
 
   async function handleMicroficheSelect(event) {
+    artworks = [];
+    currentIndex = 0;
     microficheMode = false;
     loading = true;
     try {
