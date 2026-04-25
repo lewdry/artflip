@@ -88,7 +88,7 @@
 
   function handleTouchStart(e) {
     touchMoved = false;
-    activeID = getIDAtPoint(e.touches[0].clientX, e.touches[0].clientY);
+    // Don't set activeID yet — wait to see if this is a swipe or a tap
   }
 
   function handleTouchMove(e) {
@@ -100,16 +100,18 @@
   function handleTouchEnd(e) {
     lastTouchEndTime = Date.now();
     if (touchMoved) {
-      // Swipe ended — clear the highlight
+      // Swipe ended — nothing stays scaled
       activeID = null;
     } else {
-      // Tap: first tap scales, second tap on the same cell navigates
+      // Discrete tap
       const t = e.changedTouches[0];
       const id = getIDAtPoint(t.clientX, t.clientY);
       if (id && id === activeID) {
+        // Second tap on the already-scaled cell → navigate
         dispatch('select', id);
         activeID = null;
       } else {
+        // First tap → scale this cell, clear any previous one
         activeID = id;
       }
     }
