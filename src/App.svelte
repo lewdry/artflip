@@ -1,6 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { fade } from 'svelte/transition';
+  import Microfiche from './lib/Microfiche.svelte';
 
   // Configuration
   const MAX_HISTORY = 24; // 20 back + 1 current + 3 forward
@@ -10,6 +11,7 @@
   const NAVIGATION_ZONE_THRESHOLD = 0.33; // Configurable thirds (0.33 = 1/3)
 
   // State
+  let microficheMode = false;
   let artworks = [];
   let currentIndex = 0;
   let loading = true;
@@ -72,13 +74,26 @@
     if (objectID && window.history && window.history.pushState) {
       const url = new URL(window.location.href);
       url.searchParams.set('id', objectID);
+      url.searchParams.delete('mode'); // always clear microfiche mode on artwork nav
       window.history.pushState({ artworkID: objectID }, '', url);
     }
+  }
+
+  function setMicroficheURL() {
+    const url = new URL(window.location.href);
+    url.searchParams.set('mode', 'microfiche');
+    url.searchParams.delete('id');
+    window.history.pushState({ mode: 'microfiche' }, '', url);
   }
 
   function getArtworkIDFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get('id');
+  }
+
+  function getModeFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('mode');
   }
 
   function preloadImage(src) {
@@ -268,11 +283,19 @@
 
   function handlePopState(event) {
     const urlID = getArtworkIDFromURL();
-    if (urlID) {
-      // Find this artwork in our history
-      const index = artworks.findIndex(a => a.objectID === urlID);
-      if (index !== -1) {
-        currentIndex = index;
+    const urlMode = getModeFromURL();
+
+    if (urlMode === 'microfiche') {
+      if (!microficheMode) {
+        microficheMode = true;
+      }
+    } else {
+      microficheMode = false;
+      if (urlID) {
+        const index = artworks.findIndex(a => a.objectID === urlID);
+        if (index !== -1) {
+          currentIndex = index;
+        }
       }
     }
   }
@@ -330,6 +353,7 @@
       artworkIDs = await rateLimitedFetch('artworkids.json');
       
       const urlID = getArtworkIDFromURL();
+      const urlMode = getModeFromURL();
       
       try {
         if (urlID) {
@@ -337,16 +361,28 @@
           const artwork = await fetchSingleArtwork(urlID);
           artworks = [artwork];
           currentIndex = 0;
+          // If microfiche mode is in URL, preserve it
+          if (urlMode !== 'microfiche') updateURL(artwork.objectID);
         } else {
           // Load random initial artwork
           const artwork = await fetchSingleArtwork();
           artworks = [artwork];
           currentIndex = 0;
-          updateURL(artwork.objectID);
+          if (urlMode === 'microfiche') {
+            // Preserve microfiche mode in URL, set anchor to this random artwork
+            setMicroficheURL();
+          } else {
+            updateURL(artwork.objectID);
+          }
         }
         
         // Preload next artworks
         preloadNextArtworks();
+
+        // Enter microfiche mode if URL requests it
+        if (urlMode === 'microfiche') {
+          microficheMode = true;
+        }
       } catch (err) {
         error = 'Unable to load artwork';
       } finally {
@@ -488,6 +524,38 @@
     copied = false;
   }
 
+  async function handleMicroficheSelect(event) {
+    microficheMode = false;
+    loading = true;
+    try {
+      const selected = await fetchSingleArtwork(event.detail);
+      artworks = [...artworks, selected];
+      currentIndex = artworks.length - 1;
+      trimHistory();
+      updateURL(selected.objectID);
+      preloadNextArtworks();
+    } catch (err) {
+      error = 'Unable to load artwork';
+      setTimeout(() => error = null, 3000);
+    } finally {
+      loading = false;
+    }
+  }
+
+  function toggleMicrofiche() {
+    if (microficheMode) {
+      microficheMode = false;
+      nextArtwork();
+    } else {
+      // Drop artwork history before entering microfiche — nothing to go back to
+      artworks = [];
+      currentIndex = 0;
+      seenIDs.clear();
+      microficheMode = true;
+      setMicroficheURL();
+    }
+  }
+
   // Flash chevrons briefly on each genuine artwork change as a discovery cue
   $: if (artwork && artwork.objectID !== lastFlashedArtworkID) {
     lastFlashedArtworkID = artwork.objectID;
@@ -523,21 +591,35 @@
         <h2>Public domain art</h2>
       </div>
 
-      <button 
-        on:click={nextArtwork} 
-        disabled={isCoolingDown || loading} 
-        aria-disabled={isCoolingDown || loading}
-        class="refresh-btn"
-      >
-        {#if loading && artwork} 
-          <span class="spinner" aria-hidden="true"></span>
-        {:else}
-          New Artwork
+      <div class="header-actions">
+        <button
+          on:click={toggleMicrofiche}
+          disabled={artworkIDs.length === 0}
+          class="refresh-btn microfiche-btn"
+          class:microfiche-active={microficheMode}
+        >
+          {microficheMode ? 'Home' : 'Microfiche'}
+        </button>
+        {#if !microficheMode}
+          <button
+            on:click={nextArtwork}
+            disabled={isCoolingDown || loading}
+            aria-disabled={isCoolingDown || loading}
+            class="refresh-btn"
+          >
+            {#if loading && artwork}
+              <span class="spinner" aria-hidden="true"></span>
+            {:else}
+              New Artwork
+            {/if}
+          </button>
         {/if}
-      </button>
+      </div>
     </header>
 
-    {#if error}
+    {#if microficheMode}
+      <Microfiche artworkIDs={artworkIDs} on:select={handleMicroficheSelect} />
+    {:else if error}
       <div class="error" role="alert">
         <p>{error}</p>
       </div>
@@ -730,6 +812,13 @@
     gap: 1rem;
   }
 
+  .header-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
   .title-group {
     display: flex;
     flex-direction: column;
@@ -820,6 +909,22 @@
   .refresh-btn:focus-visible {
     outline: 3px solid #4A90E2;
     outline-offset: 2px;
+  }
+
+  .microfiche-btn {
+    background: #2a3f4a;
+  }
+
+  .microfiche-btn:hover:not(:disabled) {
+    background: #3a5566;
+  }
+
+  .microfiche-active {
+    background: #083555;
+  }
+
+  .microfiche-active:hover:not(:disabled) {
+    background: #052238;
   }
 
   .spinner {
@@ -1209,6 +1314,7 @@
     .title-group h1 { font-size: 1.15rem; }
     .title-group h2 { font-size: 0.75rem; }
     .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; }
+    .header-actions { gap: 0.4rem; }
     .metadata { padding: 0.75rem; min-height: unset; }
     .title { font-size: 1rem; margin-bottom: 0.35rem; }
     .artist { font-size: 0.82rem; }

@@ -24,8 +24,8 @@ jobs:
           python-version: '3.11'
 
       # 3️⃣ Install dependencies
-      - name: Install requests
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install requests Pillow
 
       # 4️⃣ Run Python updater
       - name: Run Python script
@@ -37,7 +37,7 @@ jobs:
           git config user.name "ArtFlip Data Bot"
           git config user.email "hello@artflip.me"
           # Stage all new and changed files in JSON, metadata, and images
-          git add -A public/artworkids.json public/metadata/ public/images/ scripts/
+          git add -A public/artworkids.json public/metadata/ public/images/ public/thumbs/ scripts/
           # Only commit if there are staged changes
           if ! git diff --cached --quiet; then
             git commit -m "Automated data update $(date +'%Y-%m-%d')"

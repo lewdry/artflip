@@ -35,6 +35,7 @@ import time
 from pathlib import Path
 from typing import List, Dict, Optional, Any
 from datetime import datetime
+from PIL import Image, ImageFilter
 
 # ============================================================================
 # CONFIGURATION
@@ -47,6 +48,7 @@ _REPO_ROOT = Path(__file__).parent.parent
 ARTWORKIDS_FILE = _REPO_ROOT / "public/artworkids.json"
 METADATA_OUTPUT_DIR = _REPO_ROOT / "public/metadata"
 IMAGES_OUTPUT_DIR = _REPO_ROOT / "public/images"
+THUMBS_DIR        = _REPO_ROOT / "public/thumbs"
 
 DONTFETCH_FILE = _REPO_ROOT / "scripts/rijksdontfetch.json"
 
@@ -56,6 +58,25 @@ INITIAL_PARAMS = {
     "type": "painting",
     "imageAvailable": "true"
 }
+
+
+def generate_thumbnail(src_path: Path, thumb_stem: str) -> None:
+    """Generate a 50×50 WebP thumbnail matching the microfiche display format."""
+    try:
+        with Image.open(src_path) as img:
+            if img.mode != 'RGB':
+                img = img.convert('RGB')
+            w, h = img.size
+            min_dim = min(w, h)
+            left = (w - min_dim) // 2
+            top = (h - min_dim) // 2
+            img = img.crop((left, top, left + min_dim, top + min_dim))
+            img = img.resize((100, 100), Image.LANCZOS)
+            img = img.filter(ImageFilter.UnsharpMask(radius=0.3, percent=150, threshold=3))
+            img.save(THUMBS_DIR / f"{thumb_stem}.webp", 'WEBP', quality=60, method=6)
+    except Exception as e:
+        print(f"  ⚠ Thumbnail generation failed for {thumb_stem}: {e}")
+
 
 class LODMapper:
     """Maps Linked Art JSON-LD to your site's original metadata schema."""
@@ -190,6 +211,7 @@ class RijksLODFetcher:
     def __init__(self):
         METADATA_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         IMAGES_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        THUMBS_DIR.mkdir(parents=True, exist_ok=True)
         # Load as list to preserve Git order, set for fast lookups
         self.master_list = self._load_ids()
         self.processed_set = set(self.master_list)
@@ -232,10 +254,12 @@ class RijksLODFetcher:
         try:
             resp = requests.get(image_url, timeout=30, stream=True)
             resp.raise_for_status()
-            with open(IMAGES_OUTPUT_DIR / f"{obj_id}.jpg", "wb") as f:
+            dest = IMAGES_OUTPUT_DIR / f"{obj_id}.jpg"
+            with open(dest, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=8192):
                     if chunk:
                         f.write(chunk)
+            generate_thumbnail(dest, obj_id)
             return True
         except Exception:
             return False
