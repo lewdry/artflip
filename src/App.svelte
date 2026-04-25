@@ -1315,6 +1315,10 @@
     .title-group h2 { font-size: 0.75rem; }
     .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; }
     .header-actions { gap: 0.4rem; }
+  }
+
+  @media (max-width: 480px) {
+    .refresh-btn { padding: 0.5rem 0.55rem; }
     .metadata { padding: 0.75rem; min-height: unset; }
     .title { font-size: 1rem; margin-bottom: 0.35rem; }
     .artist { font-size: 0.82rem; }

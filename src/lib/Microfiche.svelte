@@ -58,12 +58,9 @@
     computeGrid();
     generate();
     window.addEventListener('resize', handleResize);
-    // Non-passive so we can conditionally preventDefault to block synthetic click after swipe
-    gridEl.addEventListener('touchend', handleGridTouchEnd, { passive: false });
     return () => {
       window.removeEventListener('resize', handleResize);
       clearTimeout(resizeTimer);
-      gridEl?.removeEventListener('touchend', handleGridTouchEnd);
     };
   });
 
@@ -72,49 +69,11 @@
   let activeID = null;
   let lastPointerType = 'mouse';
 
-  // Swipe-hover: tracks which cell is under the finger during a drag.
-  let swipeHoverID = null;
-  let touchStartX = 0;
-  let touchStartY = 0;
-  let touchMoved = false;
-  const SWIPE_THRESHOLD = 6;
-
-  function handleGridTouchStart(e) {
-    const t = e.touches[0];
-    touchStartX = t.clientX;
-    touchStartY = t.clientY;
-    touchMoved = false;
-  }
-
-  function handleGridTouchMove(e) {
-    const t = e.touches[0];
-    const dx = t.clientX - touchStartX;
-    const dy = t.clientY - touchStartY;
-    if (!touchMoved && Math.sqrt(dx * dx + dy * dy) > SWIPE_THRESHOLD) {
-      touchMoved = true;
-      activeID = null; // clear any pending tap
-    }
-    if (touchMoved) {
-      const el = document.elementFromPoint(t.clientX, t.clientY);
-      const cell = el?.closest('[data-id]');
-      swipeHoverID = (cell instanceof HTMLElement ? cell.dataset.id : null) ?? null;
-    }
-  }
-
-  function handleGridTouchEnd(e) {
-    if (touchMoved) {
-      e.preventDefault(); // block synthetic mouse/click events after swipe
-      swipeHoverID = null;
-      touchMoved = false;
-    }
-  }
-
   function handlePointerDown(e) {
     lastPointerType = e.pointerType;
   }
 
   function handleCellClick(id) {
-    if (touchMoved) { touchMoved = false; return; } // safety guard
     if (lastPointerType === 'touch') {
       if (activeID === id) {
         dispatch('select', id);
@@ -137,14 +96,11 @@
     class="microfiche-grid"
     style="grid-template-columns: repeat({cols}, 30px)"
     bind:this={gridEl}
-    on:touchstart={handleGridTouchStart}
-    on:touchmove={handleGridTouchMove}
   >
     {#each gridItems as id (id)}
       <button
         class="cell"
         class:active={id === activeID}
-        class:swipe-hover={id === swipeHoverID}
         data-id={id}
         on:pointerdown={handlePointerDown}
         on:click={() => handleCellClick(id)}
@@ -203,8 +159,7 @@
   }
 
   .cell:hover img,
-  .cell.active img,
-  .cell.swipe-hover img {
+  .cell.active img {
     transform: scale(1.6);
   }
 
