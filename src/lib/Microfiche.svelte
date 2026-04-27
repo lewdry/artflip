@@ -39,9 +39,19 @@
     rows = Math.max(1, Math.min(MAX_ROWS, Math.floor(availH / CELL)));
   }
 
-  function generate() {
+  let randomOrder = [];
+
+  function updateGridItems() {
     const count = cols * rows;
-    gridItems = shuffled(artworkIDs).slice(0, count);
+    if (randomOrder.length !== artworkIDs.length) {
+      randomOrder = shuffled(artworkIDs);
+    }
+    gridItems = randomOrder.slice(0, count);
+  }
+
+  function generate() {
+    randomOrder = shuffled(artworkIDs);
+    updateGridItems();
   }
 
   let resizeTimer;
@@ -52,7 +62,7 @@
       const oldRows = rows;
       computeGrid();
       if (cols !== oldCols || rows !== oldRows) {
-        generate();
+        updateGridItems();
       }
     }, 200);
   }
@@ -62,12 +72,22 @@
   let prevRegenKey = regenKey;
   $: if (regenKey !== prevRegenKey) { prevRegenKey = regenKey; generate(); }
 
+  function handleGlobalInteraction(e) {
+    if (activeID && gridEl && !gridEl.contains(e.target)) {
+      activeID = null;
+    }
+  }
+
   onMount(() => {
     computeGrid();
     generate();
     window.addEventListener('resize', handleResize);
+    window.addEventListener('touchstart', handleGlobalInteraction);
+    window.addEventListener('mousedown', handleGlobalInteraction);
     return () => {
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('touchstart', handleGlobalInteraction);
+      window.removeEventListener('mousedown', handleGlobalInteraction);
       clearTimeout(resizeTimer);
     };
   });
@@ -102,6 +122,7 @@
     if (touchMoved) {
       // Swipe ended — nothing stays scaled
       activeID = null;
+      if (e.cancelable) e.preventDefault();
     } else {
       // Discrete tap
       const t = e.changedTouches[0];
@@ -110,9 +131,11 @@
         // Second tap on the already-scaled cell → navigate
         dispatch('select', id);
         activeID = null;
+        if (e.cancelable) e.preventDefault();
       } else {
         // First tap → scale this cell, clear any previous one
         activeID = id;
+        if (e.cancelable) e.preventDefault();
       }
     }
   }
@@ -176,7 +199,6 @@
     /* no overflow:hidden here — lets the scaled image bleed outside the cell */
   }
 
-  .cell:hover,
   .cell.active {
     z-index: 10;
   }
@@ -194,9 +216,18 @@
     image-rendering: pixelated; /* Chromium/Safari: nearest-neighbour, no smoothing */
   }
 
-  .cell:hover img,
   .cell.active img {
     transform: scale(2.0);
+  }
+
+  @media (hover: hover) {
+    .cell:hover {
+      z-index: 10;
+    }
+    
+    .cell:hover img {
+      transform: scale(2.0);
+    }
   }
 
   @media (prefers-reduced-motion: reduce) {
