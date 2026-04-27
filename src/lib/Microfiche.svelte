@@ -71,6 +71,7 @@
 
   let prevRegenKey = regenKey;
   $: if (regenKey !== prevRegenKey) { prevRegenKey = regenKey; generate(); }
+  $: if (artworkIDs && artworkIDs.length > 0 && randomOrder.length !== artworkIDs.length) { generate(); }
 
   function handleGlobalInteraction(e) {
     if (activeID && gridEl && !gridEl.contains(e.target)) {
