@@ -148,7 +148,8 @@
       console.log(`Fetching artwork ${objectID}`);
       
       const metadataUrl = `metadata/${objectID}.json`;
-      const artworkData = await rateLimitedFetch(metadataUrl);
+      const cached = prefetchCache.get(String(objectID));
+      const artworkData = cached ?? await rateLimitedFetch(metadataUrl);
       
       if (!artworkData || !artworkData.localImage) {
         throw new Error('Invalid artwork data');
@@ -525,6 +526,31 @@
     copied = false;
   }
 
+  // ── Microfiche metadata prefetch cache ──────────────────────
+  // Holds pre-parsed metadata for artworks hovered >2s. Max 5 entries;
+  // oldest (first inserted) is evicted when the limit is reached.
+  const PREFETCH_MAX = 5;
+  const prefetchCache = new Map();
+
+  async function handleMicrofichePrefetch(event) {
+    const id = String(event.detail);
+    if (prefetchCache.has(id)) return;
+    if (prefetchCache.size >= PREFETCH_MAX) {
+      prefetchCache.delete(prefetchCache.keys().next().value);
+    }
+    try {
+      const res = await fetch(`metadata/${id}.json`);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data && data.localImage) {
+        data.displayImage = `images/${data.localImage}`;
+        prefetchCache.set(id, data);
+      }
+    } catch {
+      // best-effort — silent failure is fine
+    }
+  }
+
   async function handleMicroficheSelect(event) {
     artworks = [];
     currentIndex = 0;
@@ -629,7 +655,7 @@
     </header>
 
     {#if microficheMode}
-      <Microfiche artworkIDs={artworkIDs} regenKey={microficheRegenKey} on:select={handleMicroficheSelect} on:home={toggleMicrofiche} />
+      <Microfiche artworkIDs={artworkIDs} regenKey={microficheRegenKey} on:select={handleMicroficheSelect} on:prefetch={handleMicrofichePrefetch} on:home={toggleMicrofiche} />
     {:else if error}
       <div class="error" role="alert">
         <p>{error}</p>
@@ -741,7 +767,7 @@
     {:else if loading}
       <div class="initial-loader" id="main-content" role="status" aria-live="polite">
         <span class="spinner" aria-hidden="true"></span>
-        <p>Finding a masterpiece...</p>
+        <p>Loading masterpiece...</p>
       </div>
     {/if}
     <footer aria-label="Site footer">

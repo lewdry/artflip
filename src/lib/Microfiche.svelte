@@ -146,6 +146,20 @@
     if (Date.now() - lastTouchEndTime < 600) return;
     dispatch('select', id);
   }
+
+  // ── Hover-based metadata prefetch ─────────────────────────────
+  // Desktop only: if the pointer rests on a cell for >1s, signal the parent
+  // to warm its metadata cache so a subsequent click skips that fetch.
+  let hoverTimer = null;
+
+  function handleCellMouseEnter(id) {
+    clearTimeout(hoverTimer);
+    hoverTimer = setTimeout(() => dispatch('prefetch', id), 1000);
+  }
+
+  function handleCellMouseLeave() {
+    clearTimeout(hoverTimer);
+  }
 </script>
 
 <div class="microfiche-wrap" role="presentation">
@@ -163,6 +177,8 @@
         class:active={id === activeID}
         data-id={id}
         on:click={() => handleCellClick(id)}
+        on:mouseenter={() => handleCellMouseEnter(id)}
+        on:mouseleave={handleCellMouseLeave}
         aria-label="View artwork {id}"
       >
         <img src="thumbs/{id}.webp" alt="" loading="lazy" on:error={e => { if (e.currentTarget instanceof HTMLElement) e.currentTarget.style.visibility = 'hidden'; }} />
