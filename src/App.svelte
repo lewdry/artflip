@@ -21,6 +21,7 @@
   let seenIDs = new Set(); // Track artworks shown this session
   let isCoolingDown = false;
   let isPreloading = false;
+  let preloadGeneration = 0; // Incremented on navigation resets to cancel stale preloads
   let copied = false;
   let mouseActive = false;
   let mouseIdleTimer = null;
@@ -172,14 +173,18 @@
   async function preloadNextArtworks() {
     if (isPreloading) return;
     isPreloading = true;
+    const myGeneration = preloadGeneration;
 
     try {
       const neededCount = PRELOAD_COUNT - (artworks.length - currentIndex - 1);
       
       for (let i = 0; i < neededCount; i++) {
+        if (preloadGeneration !== myGeneration) break; // stale — a navigation reset happened
         try {
           await new Promise(resolve => setTimeout(resolve, PRELOAD_DELAY));
+          if (preloadGeneration !== myGeneration) break; // stale
           const newArtwork = await fetchSingleArtwork();
+          if (preloadGeneration !== myGeneration) break; // stale
           artworks = [...artworks, newArtwork];
           trimHistory(); // Trim after each addition
           console.log(`Preloaded artwork. Array size: ${artworks.length}, Current index: ${currentIndex}`);
@@ -552,14 +557,17 @@
   }
 
   async function handleMicroficheSelect(event) {
+    preloadGeneration++; // Invalidate any in-flight preloads before we start fresh
+    const myGeneration = preloadGeneration;
     artworks = [];
     currentIndex = 0;
     microficheMode = false;
     loading = true;
     try {
       const selected = await fetchSingleArtwork(event.detail);
-      artworks = [...artworks, selected];
-      currentIndex = artworks.length - 1;
+      if (preloadGeneration !== myGeneration) return; // A newer navigation superseded this one
+      artworks = [selected];
+      currentIndex = 0;
       trimHistory();
       updateURL(selected.objectID);
       preloadNextArtworks();
@@ -567,7 +575,7 @@
       error = 'Unable to load artwork';
       setTimeout(() => error = null, 3000);
     } finally {
-      loading = false;
+      if (preloadGeneration === myGeneration) loading = false;
     }
   }
 
@@ -577,6 +585,7 @@
       nextArtwork();
     } else {
       // Drop artwork history before entering microfiche — nothing to go back to
+      preloadGeneration++; // Invalidate any in-flight preloads
       artworks = [];
       currentIndex = 0;
       seenIDs.clear();
