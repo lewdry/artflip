@@ -31,7 +31,7 @@
   $: chevronsVisible = mouseActive || artworkFlashActive;
 
   // Slideshow
-  const SLIDESHOW_INTERVAL = 10000; // ms
+  const SLIDESHOW_INTERVAL = 8000; // ms
   let isSlideshowing = false;
   let _wasSlidshoingBeforeHide = false;
   let slideshowTimer = null;
@@ -725,8 +725,8 @@
               <span class="spinner" aria-hidden="true"></span>
             {:else}
               <span class="btn-label-wrapper">
-                <span class="btn-label-sizer" aria-hidden="true">⏸ Pause</span>
-                <span class="btn-label-text">{isSlideshowing ? '⏸ Pause' : '▶ Shuffle'}</span>
+                <span class="btn-label-sizer" aria-hidden="true">⏸&#xFE0E; Pause</span>
+                <span class="btn-label-text">{isSlideshowing ? '⏸︎ Pause' : '▶︎ Shuffle'}</span>
               </span>
             {/if}
             {#if isSlideshowing && artwork}
