@@ -162,9 +162,9 @@
   }
 </script>
 
-<div class="microfiche-wrap" role="presentation">
+<div class="grid-view-wrap" role="presentation">
   <div
-    class="microfiche-grid"
+    class="grid-view-grid"
     style="grid-template-columns: repeat({cols}, 30px)"
     bind:this={gridEl}
     on:touchstart={handleTouchStart}
@@ -185,20 +185,17 @@
       </button>
     {/each}
   </div>
-  <div class="controls">
-    <button class="regen-btn" on:click={() => dispatch('home')}>Home</button>
-  </div>
 </div>
 
 <style>
-  .microfiche-wrap {
+  .grid-view-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0.5rem 0 1rem;
   }
 
-  .microfiche-grid {
+  .grid-view-grid {
     display: grid;
     gap: 1px;
     overflow: visible;
@@ -253,30 +250,4 @@
     }
   }
 
-  .controls {
-    margin-top: 1rem;
-  }
-
-  .regen-btn {
-    background: #131C1D;
-    color: white;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: inherit;
-  }
-
-  .regen-btn:hover {
-    background: #333;
-    transform: scale(1.04);
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  .regen-btn:focus-visible {
-    outline: 3px solid #4a90e2;
-    outline-offset: 2px;
-  }
 </style>

@@ -61,7 +61,7 @@ INITIAL_PARAMS = {
 
 
 def generate_thumbnail(src_path: Path, thumb_stem: str) -> None:
-    """Generate a 50×50 WebP thumbnail matching the microfiche display format."""
+    """Generate a 50×50 WebP thumbnail matching the grid view display format."""
     try:
         with Image.open(src_path) as img:
             if img.mode != 'RGB':

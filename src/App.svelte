@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { fade } from 'svelte/transition';
-  import Microfiche from './lib/Microfiche.svelte';
+  import GridView from './lib/GridView.svelte';
 
   // Configuration
   const MAX_HISTORY = 24; // 20 back + 1 current + 3 forward
@@ -11,8 +11,8 @@
   const NAVIGATION_ZONE_THRESHOLD = 0.33; // Configurable thirds (0.33 = 1/3)
 
   // State
-  let microficheMode = new URLSearchParams(window.location.search).get('mode') === 'microfiche';
-  let microficheRegenKey = 0;
+  let gridMode = new URLSearchParams(window.location.search).get('mode') === 'grid';
+  let gridRegenKey = 0;
   let artworks = [];
   let currentIndex = 0;
   let loading = true;
@@ -30,12 +30,19 @@
   let lastFlashedArtworkID = null;
   $: chevronsVisible = mouseActive || artworkFlashActive;
 
+  // Slideshow
+  const SLIDESHOW_INTERVAL = 10000; // ms
+  let isSlideshowing = false;
+  let _wasSlidshoingBeforeHide = false;
+  let slideshowTimer = null;
+  let slideshowGeneration = 0; // cancel stale ticks on pause/navigation
+
   function handleGlobalMouseMove(event) {
     if (event.pointerType !== 'mouse') return; // ignore touch pointer events
     if (Date.now() - lastTouchTime < 1000) return; // suppress compat mouse events fired after a touch
     mouseActive = true;
     if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
-    mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 500);
+    mouseIdleTimer = setTimeout(() => { mouseActive = false; }, 1000);
   }
 
   // Rate limiting
@@ -76,16 +83,16 @@
     if (objectID && window.history && window.history.pushState) {
       const url = new URL(window.location.href);
       url.searchParams.set('id', objectID);
-      url.searchParams.delete('mode'); // always clear microfiche mode on artwork nav
+      url.searchParams.delete('mode'); // always clear grid mode on artwork nav
       window.history.pushState({ artworkID: objectID }, '', url);
     }
   }
 
-  function setMicroficheURL() {
+  function setGridURL() {
     const url = new URL(window.location.href);
-    url.searchParams.set('mode', 'microfiche');
+    url.searchParams.set('mode', 'grid');
     url.searchParams.delete('id');
-    window.history.pushState({ mode: 'microfiche' }, '', url);
+    window.history.pushState({ mode: 'grid' }, '', url);
   }
 
   function getArtworkIDFromURL() {
@@ -235,6 +242,7 @@
         loading = false;
       }
     }
+    if (isSlideshowing) resetSlideshowTimer();
   }
 
   function prevArtwork() {
@@ -243,6 +251,7 @@
     currentIndex--;
     updateURL(artworks[currentIndex].objectID);
     startCooldown();
+    if (isSlideshowing) resetSlideshowTimer();
   }
 
   function startCooldown() {
@@ -250,6 +259,49 @@
     setTimeout(() => {
       isCoolingDown = false;
     }, COOLDOWN_DURATION);
+  }
+
+  function resetSlideshowTimer() {
+    if (!isSlideshowing) return;
+    if (slideshowTimer) clearTimeout(slideshowTimer);
+    const gen = ++slideshowGeneration;
+    slideshowTimer = setTimeout(async () => {
+      if (gen !== slideshowGeneration || !isSlideshowing) return;
+      await nextArtwork();
+    }, SLIDESHOW_INTERVAL);
+  }
+
+  async function startSlideshow() {
+    isSlideshowing = true;
+    await nextArtwork();
+    resetSlideshowTimer();
+  }
+
+  function pauseSlideshow() {
+    isSlideshowing = false;
+    slideshowGeneration++; // invalidate any pending tick
+    if (slideshowTimer) { clearTimeout(slideshowTimer); slideshowTimer = null; }
+  }
+
+  function handleVisibilityChange() {
+    if (document.hidden) {
+      if (isSlideshowing) {
+        _wasSlidshoingBeforeHide = true;
+        pauseSlideshow();
+      }
+    } else if (_wasSlidshoingBeforeHide) {
+      _wasSlidshoingBeforeHide = false;
+      isSlideshowing = true;
+      resetSlideshowTimer();
+    }
+  }
+
+  function toggleSlideshow() {
+    if (isSlideshowing) {
+      pauseSlideshow();
+    } else {
+      startSlideshow();
+    }
   }
 
   function handleImageClick(event) {
@@ -285,6 +337,13 @@
     } else if (event.key === 'ArrowRight') {
       event.preventDefault();
       nextArtwork();
+    } else if (event.key === ' ' && !gridMode) {
+      // Space = play/pause (universal media convention)
+      // Skip if a button/link is focused to avoid double-firing native activation
+      const tag = event.target.tagName;
+      if (tag === 'BUTTON' || tag === 'A') return;
+      event.preventDefault();
+      toggleSlideshow();
     }
   }
 
@@ -292,12 +351,12 @@
     const urlID = getArtworkIDFromURL();
     const urlMode = getModeFromURL();
 
-    if (urlMode === 'microfiche') {
-      if (!microficheMode) {
-        microficheMode = true;
+    if (urlMode === 'grid') {
+      if (!gridMode) {
+        gridMode = true;
       }
     } else {
-      microficheMode = false;
+      gridMode = false;
       if (urlID) {
         const index = artworks.findIndex(a => a.objectID === urlID);
         if (index !== -1) {
@@ -354,6 +413,7 @@
     window.addEventListener('keydown', handleKeydown);
     window.addEventListener('popstate', handlePopState);
     window.addEventListener('pointermove', handleGlobalMouseMove);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
 
     // Load initial artwork
     (async () => {
@@ -368,16 +428,16 @@
           const artwork = await fetchSingleArtwork(urlID);
           artworks = [artwork];
           currentIndex = 0;
-          // If microfiche mode is in URL, preserve it
-          if (urlMode !== 'microfiche') updateURL(artwork.objectID);
+          // If grid mode is in URL, preserve it
+          if (urlMode !== 'grid') updateURL(artwork.objectID);
         } else {
           // Load random initial artwork
           const artwork = await fetchSingleArtwork();
           artworks = [artwork];
           currentIndex = 0;
-          if (urlMode === 'microfiche') {
-            // Preserve microfiche mode in URL, set anchor to this random artwork
-            setMicroficheURL();
+          if (urlMode === 'grid') {
+            // Preserve grid mode in URL, set anchor to this random artwork
+            setGridURL();
           } else {
             updateURL(artwork.objectID);
           }
@@ -386,9 +446,9 @@
         // Preload next artworks
         preloadNextArtworks();
 
-        // Enter microfiche mode if URL requests it
-        if (urlMode === 'microfiche') {
-          microficheMode = true;
+        // Enter grid mode if URL requests it
+        if (urlMode === 'grid') {
+          gridMode = true;
         }
       } catch (err) {
         error = 'Unable to load artwork';
@@ -410,8 +470,10 @@
     window.removeEventListener('keydown', handleKeydown);
     window.removeEventListener('popstate', handlePopState);
     window.removeEventListener('pointermove', handleGlobalMouseMove);
+    document.removeEventListener('visibilitychange', handleVisibilityChange);
     if (mouseIdleTimer) clearTimeout(mouseIdleTimer);
     if (artworkFlashTimer) clearTimeout(artworkFlashTimer);
+    if (slideshowTimer) clearTimeout(slideshowTimer);
   });
 
   // Generate accessible alt text for artwork images
@@ -531,13 +593,13 @@
     copied = false;
   }
 
-  // ── Microfiche metadata prefetch cache ──────────────────────
+  // ── Grid View metadata prefetch cache ────────────────────────
   // Holds pre-parsed metadata for artworks hovered >2s. Max 5 entries;
   // oldest (first inserted) is evicted when the limit is reached.
   const PREFETCH_MAX = 5;
   const prefetchCache = new Map();
 
-  async function handleMicrofichePrefetch(event) {
+  async function handleGridPrefetch(event) {
     const id = String(event.detail);
     if (prefetchCache.has(id)) return;
     if (prefetchCache.size >= PREFETCH_MAX) {
@@ -556,12 +618,12 @@
     }
   }
 
-  async function handleMicroficheSelect(event) {
+  async function handleGridSelect(event) {
     preloadGeneration++; // Invalidate any in-flight preloads before we start fresh
     const myGeneration = preloadGeneration;
     artworks = [];
     currentIndex = 0;
-    microficheMode = false;
+    gridMode = false;
     loading = true;
     try {
       const selected = await fetchSingleArtwork(event.detail);
@@ -579,18 +641,19 @@
     }
   }
 
-  function toggleMicrofiche() {
-    if (microficheMode) {
-      microficheMode = false;
+  function toggleGridView() {
+    if (gridMode) {
+      gridMode = false;
       nextArtwork();
     } else {
-      // Drop artwork history before entering microfiche — nothing to go back to
+      // Drop artwork history before entering grid view — nothing to go back to
+      pauseSlideshow();
       preloadGeneration++; // Invalidate any in-flight preloads
       artworks = [];
       currentIndex = 0;
       seenIDs.clear();
-      microficheMode = true;
-      setMicroficheURL();
+      gridMode = true;
+      setGridURL();
     }
   }
 
@@ -599,7 +662,7 @@
     lastFlashedArtworkID = artwork.objectID;
     artworkFlashActive = true;
     if (artworkFlashTimer) clearTimeout(artworkFlashTimer);
-    artworkFlashTimer = setTimeout(() => { artworkFlashActive = false; }, 500);
+    artworkFlashTimer = setTimeout(() => { artworkFlashActive = false; }, 1000);
   }
 </script>
 
@@ -630,41 +693,54 @@
       </div>
 
       <div class="header-actions">
-        {#if microficheMode}
+        {#if gridMode}
           <button
-            on:click={() => microficheRegenKey++}
-            class="refresh-btn microfiche-btn"
+            on:click={() => gridRegenKey++}
+            class="refresh-btn grid-btn"
           >
-            Redo
+            ⊞ New Grid
+          </button>
+          <button
+            on:click={toggleGridView}
+            class="refresh-btn"
+          >
+            ⌂ Home
           </button>
         {:else}
           <button
-            on:click={toggleMicrofiche}
+            on:click={toggleGridView}
             disabled={artworkIDs.length === 0}
-            class="refresh-btn microfiche-btn"
+            class="refresh-btn grid-btn"
           >
-            Microfiche
+            ⊞ Grid View
           </button>
-        {/if}
-        {#if !microficheMode}
           <button
-            on:click={nextArtwork}
-            disabled={isCoolingDown || loading}
-            aria-disabled={isCoolingDown || loading}
+            on:click={toggleSlideshow}
+            disabled={!isSlideshowing && (isCoolingDown || loading)}
+            aria-disabled={!isSlideshowing && (isCoolingDown || loading)}
             class="refresh-btn"
+            class:slideshow-active={isSlideshowing}
           >
-            {#if loading && artwork}
+            {#if loading && artwork && !isSlideshowing}
               <span class="spinner" aria-hidden="true"></span>
             {:else}
-              New Artwork
+              <span class="btn-label-wrapper">
+                <span class="btn-label-sizer" aria-hidden="true">⏸ Pause</span>
+                <span class="btn-label-text">{isSlideshowing ? '⏸ Pause' : '▶ Shuffle'}</span>
+              </span>
+            {/if}
+            {#if isSlideshowing && artwork}
+              {#key artwork.objectID}
+                <div class="slideshow-progress" aria-hidden="true"></div>
+              {/key}
             {/if}
           </button>
         {/if}
       </div>
     </header>
 
-    {#if microficheMode}
-      <Microfiche artworkIDs={artworkIDs} regenKey={microficheRegenKey} on:select={handleMicroficheSelect} on:prefetch={handleMicrofichePrefetch} on:home={toggleMicrofiche} />
+    {#if gridMode}
+      <GridView artworkIDs={artworkIDs} regenKey={gridRegenKey} on:select={handleGridSelect} on:prefetch={handleGridPrefetch} on:home={toggleGridView} on:regen={() => gridRegenKey++} />
     {:else if error}
       <div class="error" role="alert">
         <p>{error}</p>
@@ -936,9 +1012,49 @@
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     flex-shrink: 0;
     white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    min-width: 8rem;
+  }
+
+  .btn-label-wrapper {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .btn-label-sizer {
+    visibility: hidden;
+    pointer-events: none;
+    display: block;
+  }
+
+  .btn-label-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slideshow-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.55);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: slideshow-fill 10s linear forwards;
+  }
+
+  @keyframes slideshow-fill {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
   }
 
   .refresh-btn:hover:not(:disabled) {
@@ -957,11 +1073,11 @@
     outline-offset: 2px;
   }
 
-  .microfiche-btn {
+  .grid-btn {
     background: #2a3f4a;
   }
 
-  .microfiche-btn:hover:not(:disabled) {
+  .grid-btn:hover:not(:disabled) {
     background: #3a5566;
   }
 
@@ -1351,12 +1467,12 @@
     header { margin-bottom: 0.5rem; }
     .title-group h1 { font-size: 1.15rem; }
     .title-group h2 { font-size: 0.75rem; }
-    .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; }
-    .header-actions { gap: 0.4rem; }
+    .header-actions { gap: 0.4rem; flex: 1; }
+    .refresh-btn { padding: 0.5rem 0.9rem; font-size: 0.8rem; min-width: 0; flex: 1; }
   }
 
   @media (max-width: 480px) {
-    .refresh-btn { padding: 0.5rem 0.55rem; }
+    .refresh-btn { padding: 0.5rem 0.7rem; min-width: 0; }
     .metadata { padding: 0.75rem; min-height: unset; }
     .title { font-size: 1rem; margin-bottom: 0.35rem; }
     .artist { font-size: 0.82rem; }

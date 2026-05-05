@@ -5,7 +5,7 @@
  * saving results to public/thumbs.
  *
  * Settings:
- *   - 50×50px, cover-crop centred (matches microfiche display)
+ *   - 50×50px, cover-crop centred (matches grid view display)
  *   - WebP, quality 60, 4:2:0 chroma subsampling (smartSubsample: false)
  *   - Metadata stripped (Sharp default; withMetadata() is never called)
  *   - Skips files that already have an up-to-date thumbnail
