@@ -5,6 +5,7 @@ import sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMAGES_DIR = os.path.join(BASE, "public", "images")
+THUMBS_DIR = os.path.join(BASE, "public", "thumbs")
 METADATA_DIR = os.path.join(BASE, "public", "metadata")
 ARTWORKIDS_FILE = os.path.join(BASE, "public", "artworkids.json")
 
@@ -46,11 +47,19 @@ if os.path.exists(image_path):
 else:
     print(f"Image not found (skipping): {image_path}")
 
-# --- 2. Delete metadata ---
+# --- 2. Delete thumbnail ---
+thumb_path = os.path.join(THUMBS_DIR, f"{object_id}.webp")
+if os.path.exists(thumb_path):
+    os.remove(thumb_path)
+    print(f"Deleted thumbnail: {thumb_path}")
+else:
+    print(f"Thumbnail not found (skipping): {thumb_path}")
+
+# --- 3. Delete metadata ---
 os.remove(metadata_path)
 print(f"Deleted metadata: {metadata_path}")
 
-# --- 3. Remove from artworkids.json ---
+# --- 4. Remove from artworkids.json ---
 with open(ARTWORKIDS_FILE) as f:
     artwork_ids = json.load(f)
 
@@ -62,7 +71,7 @@ if object_id in artwork_ids:
 else:
     print(f"{object_id!r} not found in artworkids.json (skipping)")
 
-# --- 4. Add to institution dontfetch list ---
+# --- 5. Add to institution dontfetch list ---
 if institution is None:
     print("Skipping blacklist update (no dontfetch file for this institution).")
 else:
