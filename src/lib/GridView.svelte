@@ -192,7 +192,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.5rem 0 1rem;
+    padding: 0;
+    background: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
   }
 
   .grid-view-grid {
