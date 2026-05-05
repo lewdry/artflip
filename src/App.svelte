@@ -937,7 +937,7 @@
   .header-actions {
     display: flex;
     gap: 0.5rem;
-    align-items: flex-start;
+    align-items: stretch;
     flex-shrink: 0;
   }
 
