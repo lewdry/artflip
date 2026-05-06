@@ -108,7 +108,7 @@
   function preloadImage(src) {
     return new Promise((resolve, reject) => {
       const img = new Image();
-      img.onload = () => resolve();
+      img.onload = () => resolve(undefined);
       img.onerror = reject;
       img.src = src;
     });
@@ -139,6 +139,7 @@
     }
   }
 
+  /** @param {string | null | undefined} [objectID] */
   async function fetchSingleArtwork(objectID = null) {
     try {
       // If no ID provided, get a random one that hasn't been seen
@@ -358,10 +359,43 @@
     } else {
       gridMode = false;
       if (urlID) {
-        const index = artworks.findIndex(a => a.objectID === urlID);
+        const index = artworks.findIndex(a => String(a.objectID) === String(urlID));
         if (index !== -1) {
           currentIndex = index;
+        } else {
+          // Artwork not in history (e.g. cleared when entering grid view) — reload it
+          loading = true;
+          preloadGeneration++;
+          const myGeneration = preloadGeneration;
+          fetchSingleArtwork(urlID).then(artwork => {
+            if (preloadGeneration !== myGeneration) return;
+            artworks = [artwork];
+            currentIndex = 0;
+            preloadNextArtworks();
+          }).catch(() => {
+            error = 'Unable to load artwork';
+            setTimeout(() => error = null, 3000);
+          }).finally(() => {
+            if (preloadGeneration === myGeneration) loading = false;
+          });
         }
+      } else if (artworks.length === 0) {
+        // No ID in URL and no artworks — fetch a fresh random one
+        loading = true;
+        preloadGeneration++;
+        const myGeneration = preloadGeneration;
+        fetchSingleArtwork().then(artwork => {
+          if (preloadGeneration !== myGeneration) return;
+          artworks = [artwork];
+          currentIndex = 0;
+          updateURL(artwork.objectID);
+          preloadNextArtworks();
+        }).catch(() => {
+          error = 'Unable to load artwork';
+          setTimeout(() => error = null, 3000);
+        }).finally(() => {
+          if (preloadGeneration === myGeneration) loading = false;
+        });
       }
     }
   }
@@ -532,7 +566,7 @@
         await navigator.share({ text: shareText });
         return;
       } catch (err) {
-        if (err && err.name === 'AbortError') return;
+        if (err instanceof Error && err.name === 'AbortError') return;
         // If sharing fails, fallback to clipboard
       }
     }
@@ -553,7 +587,7 @@
     const absoluteUrl = imageUrl.startsWith('http') ? imageUrl : `${window.location.origin}/${imageUrl}`;
     const filename = `${artwork.objectID}.png`;
     // Try Web Share API with files
-    if (navigator.canShare && window.fetch && window.Blob && navigator.share) {
+    if (typeof navigator.canShare === 'function' && typeof navigator.share === 'function') {
       try {
         const response = await fetch(absoluteUrl);
         const blob = await response.blob();
@@ -567,7 +601,7 @@
           return; // Success, do nothing else
         }
       } catch (err) {
-        if (err && err.name === 'AbortError') return; // User cancelled
+        if (err instanceof Error && err.name === 'AbortError') return; // User cancelled
         // If sharing fails, fallback to download
       }
     }
