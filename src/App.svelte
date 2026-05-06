@@ -1083,7 +1083,7 @@
     background: rgba(255, 255, 255, 0.55);
     transform: scaleX(0);
     transform-origin: left;
-    animation: slideshow-fill 10s linear forwards;
+    animation: slideshow-fill 8s linear forwards;
   }
 
   @keyframes slideshow-fill {
