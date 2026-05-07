@@ -363,6 +363,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px; /* ~1.3 cells (31px each) from each edge */
     background: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     animation: expand-from-cell 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
