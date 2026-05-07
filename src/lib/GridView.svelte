@@ -111,6 +111,7 @@
 
   function handleTouchStart(e) {
     touchMoved = false; // always reset so overlay tap detection works correctly
+    if (!expandedID) activeID = null; // clear any stale scale from previous swipe
     if (expandedID) return; // overlay handles its own touches
     clearTimeout(touchHoldTimer);
     // Don't set activeID yet — wait to see if this is a swipe or a tap
@@ -151,8 +152,16 @@
     }
     lastTouchEndTime = Date.now();
     if (touchMoved) {
-      // Swipe ended — nothing stays scaled
-      activeID = null;
+      // Swipe ended — enlarge the last cell the finger was over.
+      // Fall back to the lift position if touchmove didn't track a cell yet.
+      const t = e.changedTouches[0];
+      const id = activeID ?? getIDAtPoint(t.clientX, t.clientY);
+      if (id) {
+        activeID = id;
+        loadFullRes(id);
+        // activeID stays set so the cell shows 2× scale while loading;
+        // loadFullRes clears it once the overlay opens
+      }
       if (e.cancelable) e.preventDefault();
     } else {
       // Discrete tap
@@ -297,6 +306,9 @@
     gap: 1px;
     overflow: visible;
     position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .cell {
@@ -309,10 +321,18 @@
     position: relative;
     z-index: 0;
     /* no overflow:hidden here — lets the scaled image bleed outside the cell */
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
   }
 
   .cell.active {
     z-index: 10;
+  }
+
+  .cell:focus {
+    outline: none;
   }
 
   .cell img {

@@ -1010,6 +1010,9 @@
     cursor: pointer;
     -webkit-font-smoothing: inherit;
     transform-style: preserve-3d;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .title-group h1 .title-button.spinning {
@@ -1047,6 +1050,9 @@
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
