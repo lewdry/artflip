@@ -266,6 +266,9 @@
     {#if expandedID}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div class="overlay-backdrop" on:click={closeOverlay}></div>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div class="overlay" style="transform-origin: {expandedOrigin.x}px {expandedOrigin.y}px" on:click={closeOverlay}>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -356,16 +359,24 @@
     }
   }
 
-  .overlay {
+  .overlay-backdrop {
     position: absolute;
     inset: 0;
     z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 101;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px; /* ~1.3 cells (31px each) from each edge */
-    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
     cursor: pointer;
+    animation: expand-from-cell 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
   .overlay img {
@@ -374,7 +385,12 @@
     object-fit: contain;
     cursor: pointer;
     display: block;
-    animation: expand-from-cell 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @media (max-width: 700px) {
+    .overlay {
+      animation-duration: 0.45s;
+    }
   }
 
 </style>
