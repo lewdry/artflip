@@ -359,12 +359,18 @@
     }
   }
 
+  @keyframes fade-in-backdrop {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
   .overlay-backdrop {
     position: absolute;
     inset: 0;
     z-index: 100;
     background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    animation: fade-in-backdrop 0.95s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
   .overlay {
