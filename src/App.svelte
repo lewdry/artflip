@@ -633,6 +633,10 @@
   const PREFETCH_MAX = 5;
   const prefetchCache = new Map();
 
+  function handleGridUncache(event) {
+    prefetchCache.delete(String(event.detail));
+  }
+
   async function handleGridPrefetch(event) {
     const id = String(event.detail);
     if (prefetchCache.has(id)) return;
@@ -774,7 +778,7 @@
     </header>
 
     {#if gridMode}
-      <GridView artworkIDs={artworkIDs} regenKey={gridRegenKey} on:select={handleGridSelect} on:prefetch={handleGridPrefetch} on:home={toggleGridView} on:regen={() => gridRegenKey++} />
+      <GridView artworkIDs={artworkIDs} regenKey={gridRegenKey} on:select={handleGridSelect} on:prefetch={handleGridPrefetch} on:uncache={handleGridUncache} on:home={toggleGridView} on:regen={() => gridRegenKey++} />
     {:else if error}
       <div class="error" role="alert">
         <p>{error}</p>

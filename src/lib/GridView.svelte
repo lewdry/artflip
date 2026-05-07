@@ -107,9 +107,12 @@
     return cell instanceof HTMLElement ? cell.dataset.id ?? null : null;
   }
 
+  let touchHoldTimer = null;
+
   function handleTouchStart(e) {
+    touchMoved = false; // always reset so overlay tap detection works correctly
     if (expandedID) return; // overlay handles its own touches
-    touchMoved = false;
+    clearTimeout(touchHoldTimer);
     // Don't set activeID yet — wait to see if this is a swipe or a tap
   }
 
@@ -117,12 +120,26 @@
     if (expandedID) return; // overlay handles its own touches
     touchMoved = true;
     const id = getIDAtPoint(e.touches[0].clientX, e.touches[0].clientY);
-    if (id !== activeID) activeID = id;
+    if (id !== activeID) {
+      activeID = id;
+      clearTimeout(touchHoldTimer);
+      if (id) {
+        touchHoldTimer = setTimeout(() => {
+          if (activeID === id) loadFullRes(id);
+        }, 500);
+      }
+    }
   }
 
   function handleTouchEnd(e) {
+    clearTimeout(touchHoldTimer);
     if (expandedID) {
-      // Overlay is open — tap on the image navigates, tap anywhere else closes
+      if (touchMoved) {
+        // Overlay opened via swipe-hold — finger lifting ends the swipe, leave overlay open
+        if (e.cancelable) e.preventDefault();
+        return;
+      }
+      // Deliberate tap while overlay open — image tap navigates, anywhere else closes
       const t = e.changedTouches[0];
       const el = document.elementFromPoint(t.clientX, t.clientY);
       if (el?.tagName === 'IMG' && el?.closest('.overlay')) {
@@ -176,6 +193,7 @@
   let expandedOrigin = { x: 0, y: 0 };
 
   function loadFullRes(id) {
+    dispatch('prefetch', id); // warm metadata cache immediately
     const img = new Image();
     img.src = `images/${id}.jpg`;
     img.onload = () => {
@@ -197,6 +215,7 @@
   }
 
   function closeOverlay() {
+    if (expandedID) dispatch('uncache', expandedID);
     expandedID = null;
     expandedSrc = null;
     activeID = null;
@@ -211,8 +230,7 @@
     hoveredID = id;
     clearTimeout(hoverTimer);
     hoverTimer = setTimeout(() => {
-      dispatch('prefetch', id);
-      loadFullRes(id);
+      loadFullRes(id); // dispatches prefetch internally
     }, 500);
   }
 
