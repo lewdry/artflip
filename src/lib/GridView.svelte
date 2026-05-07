@@ -376,7 +376,7 @@
     justify-content: center;
     padding: 20px;
     cursor: pointer;
-    animation: expand-from-cell 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation: expand-from-cell 0.95s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   }
 
   .overlay img {
@@ -389,7 +389,7 @@
 
   @media (max-width: 700px) {
     .overlay {
-      animation-duration: 0.45s;
+      animation-duration: 0.95s;
     }
   }
 
