@@ -786,7 +786,6 @@
             class="image-container"
             role="button"
             tabindex="0"
-            aria-label="Artwork image. Press Enter to view next artwork, or use left and right arrow keys to navigate."
             on:click={handleImageClick}
             on:keydown={handleImageKeydown}
             on:touchstart={handleTouchStart}

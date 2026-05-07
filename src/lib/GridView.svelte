@@ -74,8 +74,8 @@
   $: if (artworkIDs && artworkIDs.length > 0 && randomOrder.length !== artworkIDs.length) { generate(); }
 
   function handleGlobalInteraction(e) {
-    if (activeID && gridEl && !gridEl.contains(e.target)) {
-      activeID = null;
+    if (gridEl && !gridEl.contains(e.target)) {
+      closeOverlay();
     }
   }
 
@@ -108,17 +108,30 @@
   }
 
   function handleTouchStart(e) {
+    if (expandedID) return; // overlay handles its own touches
     touchMoved = false;
     // Don't set activeID yet — wait to see if this is a swipe or a tap
   }
 
   function handleTouchMove(e) {
+    if (expandedID) return; // overlay handles its own touches
     touchMoved = true;
     const id = getIDAtPoint(e.touches[0].clientX, e.touches[0].clientY);
     if (id !== activeID) activeID = id;
   }
 
   function handleTouchEnd(e) {
+    if (expandedID) {
+      // Overlay is open — tap on the image navigates, tap anywhere else closes
+      const t = e.changedTouches[0];
+      const el = document.elementFromPoint(t.clientX, t.clientY);
+      if (el?.tagName === 'IMG' && el?.closest('.overlay')) {
+        dispatch('select', expandedID);
+      }
+      closeOverlay();
+      if (e.cancelable) e.preventDefault();
+      return;
+    }
     lastTouchEndTime = Date.now();
     if (touchMoved) {
       // Swipe ended — nothing stays scaled
@@ -129,35 +142,82 @@
       const t = e.changedTouches[0];
       const id = getIDAtPoint(t.clientX, t.clientY);
       if (id && id === activeID) {
-        // Second tap on the already-scaled cell → navigate
-        dispatch('select', id);
-        activeID = null;
+        // Second tap on the already-scaled cell
+        if (expandedID === id) {
+          // Overlay is open → navigate
+          dispatch('select', expandedID);
+          closeOverlay();
+        } else {
+          // Overlay not yet loaded → navigate immediately as fallback
+          dispatch('select', id);
+          activeID = null;
+        }
         if (e.cancelable) e.preventDefault();
       } else {
-        // First tap → scale this cell, clear any previous one
+        // First tap → scale this cell, start loading full-res
         activeID = id;
+        loadFullRes(id);
         if (e.cancelable) e.preventDefault();
       }
     }
   }
 
-  // Mouse: navigate on click (ignore synthetic clicks from touch)
+  // Mouse: scale + start loading full-res on click (ignore synthetic clicks from touch)
   function handleCellClick(id) {
     if (Date.now() - lastTouchEndTime < 600) return;
-    dispatch('select', id);
+    activeID = id;
+    loadFullRes(id);
   }
 
-  // ── Hover-based metadata prefetch ─────────────────────────────
-  // Desktop only: if the pointer rests on a cell for >1s, signal the parent
-  // to warm its metadata cache so a subsequent click skips that fetch.
+  // ── Full-res overlay ──────────────────────────────────────────
+  let hoveredID = null;
+  let expandedID = null;
+  let expandedSrc = null;
+  let expandedOrigin = { x: 0, y: 0 };
+
+  function loadFullRes(id) {
+    const img = new Image();
+    img.src = `images/${id}.jpg`;
+    img.onload = () => {
+      if (hoveredID === id || activeID === id) {
+        const cellEl = gridEl?.querySelector(`[data-id="${id}"]`);
+        if (cellEl && gridEl) {
+          const cellRect = cellEl.getBoundingClientRect();
+          const gridRect = gridEl.getBoundingClientRect();
+          expandedOrigin = {
+            x: cellRect.left - gridRect.left + cellRect.width / 2,
+            y: cellRect.top - gridRect.top + cellRect.height / 2,
+          };
+        }
+        expandedID = id;
+        expandedSrc = `images/${id}.jpg`;
+        activeID = null; // remove 2× scale from the cell once overlay is shown
+      }
+    };
+  }
+
+  function closeOverlay() {
+    expandedID = null;
+    expandedSrc = null;
+    activeID = null;
+  }
+
+  // ── Hover-based prefetch + full-res load ──────────────────────
+  // Desktop only: if the pointer rests on a cell for >300ms, prefetch metadata
+  // and start loading the full-res image in the background.
   let hoverTimer = null;
 
   function handleCellMouseEnter(id) {
+    hoveredID = id;
     clearTimeout(hoverTimer);
-    hoverTimer = setTimeout(() => dispatch('prefetch', id), 1000);
+    hoverTimer = setTimeout(() => {
+      dispatch('prefetch', id);
+      loadFullRes(id);
+    }, 500);
   }
 
   function handleCellMouseLeave() {
+    hoveredID = null;
     clearTimeout(hoverTimer);
   }
 </script>
@@ -165,6 +225,7 @@
 <div class="grid-view-wrap" role="presentation">
   <div
     class="grid-view-grid"
+    aria-hidden="true"
     style="grid-template-columns: repeat({cols}, 30px)"
     bind:this={gridEl}
     on:touchstart={handleTouchStart}
@@ -179,11 +240,24 @@
         on:click={() => handleCellClick(id)}
         on:mouseenter={() => handleCellMouseEnter(id)}
         on:mouseleave={handleCellMouseLeave}
-        aria-label="View artwork {id}"
       >
         <img src="thumbs/{id}.webp" alt="" loading="lazy" on:error={e => { if (e.currentTarget instanceof HTMLElement) e.currentTarget.style.visibility = 'hidden'; }} />
       </button>
     {/each}
+
+    {#if expandedID}
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <div class="overlay" style="transform-origin: {expandedOrigin.x}px {expandedOrigin.y}px" on:click={closeOverlay}>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img
+          src={expandedSrc}
+          alt=""
+          on:click|stopPropagation={() => { dispatch('select', expandedID); closeOverlay(); }}
+        />
+      </div>
+    {/if}
   </div>
 </div>
 
@@ -201,6 +275,7 @@
     display: grid;
     gap: 1px;
     overflow: visible;
+    position: relative;
   }
 
   .cell {
@@ -250,6 +325,37 @@
     .cell img {
       transition: none;
     }
+  }
+
+  @keyframes expand-from-cell {
+    from {
+      transform: scale(0.05);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    animation: expand-from-cell 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .overlay img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    display: block;
   }
 
 </style>
