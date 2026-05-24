@@ -1,0 +1,18 @@
+{
+  "objectID": "200107935",
+  "title": "Musical Company",
+  "artistDisplayName": "Rembrandt van Rijn",
+  "objectDate": "1626",
+  "medium": "Oil on panel",
+  "dimensions": "height 63.5 cm x width 48 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt and the Stichting tot Bevordering van de Belangen van het Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107935",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/hdvov/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/hdvov/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/hdvov/full/400,/0/default.jpg",
+  "localImage": "200107935.jpg",
+  "webImage": "https://iiif.micr.io/hdvov/full/max/0/default.jpg",
+  "tags": []
+}

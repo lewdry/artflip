@@ -319,6 +319,16 @@ class MetDownloader:
             with open(filepath, 'wb') as f:
                 for chunk in response.iter_content(chunk_size=8192):
                     f.write(chunk)
+            
+            with Image.open(filepath) as img:
+                w, h = img.size
+                aspect_ratio = w / h
+                if aspect_ratio < 0.53 or aspect_ratio > 2.5:
+                    filepath.unlink(missing_ok=True)
+                    self.add_to_blacklist(object_id, f"Extreme aspect ratio: {aspect_ratio:.2f}")
+                    print(f"  ⚠ Skipping {object_id}: extreme aspect ratio ({aspect_ratio:.2f})")
+                    return None
+
             generate_thumbnail(filepath, Path(filename).stem)
             return filename
             

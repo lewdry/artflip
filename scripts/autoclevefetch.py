@@ -270,6 +270,16 @@ class CleveDownloader:
             with open(filepath, 'wb') as f:
                 for chunk in resp.iter_content(chunk_size=8192):
                     f.write(chunk)
+            
+            with Image.open(filepath) as img:
+                w, h = img.size
+                aspect_ratio = w / h
+                if aspect_ratio < 0.53 or aspect_ratio > 2.5:
+                    filepath.unlink(missing_ok=True)
+                    self.add_to_blacklist(accession_number, f"Extreme aspect ratio: {aspect_ratio:.2f}")
+                    print(f"  ⚠ Skipping {accession_number}: extreme aspect ratio ({aspect_ratio:.2f})")
+                    return None
+
             generate_thumbnail(filepath, Path(filename).stem)
             print(f"  ✓ Image saved: {filename}")
             return filename

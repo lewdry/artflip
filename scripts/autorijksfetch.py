@@ -90,16 +90,27 @@ class LODMapper:
     @classmethod
     def get_referred_to_by(cls, items: List[Dict], aat_id: str, lang_aat: str = None, primary_only: bool = False) -> str:
         """Extract content from referred_to_by matching a classified_as AAT id."""
+        if isinstance(items, dict):
+            items = [items]
         for item in items:
-            classified_ids = [c.get("id", "") for c in item.get("classified_as", [])]
+            if not isinstance(item, dict): continue
+            cls_as = item.get("classified_as", [])
+            if isinstance(cls_as, dict): cls_as = [cls_as]
+            elif isinstance(cls_as, str): cls_as = [{"id": cls_as}]
+            classified_ids = [c.get("id", "") for c in cls_as if isinstance(c, dict)]
+            
             if not any(aat_id in cid for cid in classified_ids):
                 continue
             if lang_aat:
-                lang_ids = [l.get("id", "") for l in item.get("language", [])]
+                langs = item.get("language", [])
+                if isinstance(langs, dict): langs = [langs]
+                lang_ids = [l.get("id", "") for l in langs if isinstance(l, dict)]
                 if not any(lang_aat in lid for lid in lang_ids):
                     continue
             if primary_only:
-                id_contents = [i.get("content") for i in item.get("identified_by", [])]
+                idents = item.get("identified_by", [])
+                if isinstance(idents, dict): idents = [idents]
+                id_contents = [i.get("content") for i in idents if isinstance(i, dict)]
                 if "1" not in id_contents:
                     continue
             return item.get("content", "")
@@ -112,7 +123,8 @@ class LODMapper:
         if not shows:
             return result
         try:
-            visual_item_id = shows[0].get("id")
+            if isinstance(shows, dict): shows = [shows]
+            visual_item_id = shows[0].get("id") if isinstance(shows[0], dict) else None
             if not visual_item_id:
                 return result
             vi_resp = requests.get(visual_item_id, headers={"Accept": "application/json"}, timeout=20)
@@ -120,15 +132,23 @@ class LODMapper:
                 return result
             vi_data = vi_resp.json()
             # Public domain: check subject_to rights on the VisualItem
-            for right in vi_data.get("subject_to", []):
-                for cls_ in right.get("classified_as", []):
-                    rid = cls_.get("id", "").lower()
-                    if "publicdomain" in rid or "cc0" in rid:
-                        result["is_pd"] = True
+            rights = vi_data.get("subject_to", [])
+            if isinstance(rights, dict): rights = [rights]
+            for right in rights:
+                if not isinstance(right, dict): continue
+                cls_as = right.get("classified_as", [])
+                if isinstance(cls_as, dict): cls_as = [cls_as]
+                elif isinstance(cls_as, str): cls_as = [{"id": cls_as}]
+                for cls_ in cls_as:
+                    if isinstance(cls_, dict):
+                        rid = cls_.get("id", "").lower()
+                        if "publicdomain" in rid or "cc0" in rid:
+                            result["is_pd"] = True
             digital_shown_by = vi_data.get("digitally_shown_by", [])
+            if isinstance(digital_shown_by, dict): digital_shown_by = [digital_shown_by]
             if not digital_shown_by:
                 return result
-            digital_obj_id = digital_shown_by[0].get("id")
+            digital_obj_id = digital_shown_by[0].get("id") if isinstance(digital_shown_by[0], dict) else None
             if not digital_obj_id:
                 return result
             do_resp = requests.get(digital_obj_id, headers={"Accept": "application/json"}, timeout=20)
@@ -155,9 +175,13 @@ class LODMapper:
         # Title: prefer English Name (language AAT 300388277), fall back to any Name
         en_title = ""
         any_title = ""
-        for ident in data.get("identified_by", []):
-            if ident.get("type") == "Name" and ident.get("content"):
-                lang_ids = [l.get("id", "") for l in ident.get("language", [])]
+        idents = data.get("identified_by", [])
+        if isinstance(idents, dict): idents = [idents]
+        for ident in idents:
+            if isinstance(ident, dict) and ident.get("type") == "Name" and ident.get("content"):
+                langs = ident.get("language", [])
+                if isinstance(langs, dict): langs = [langs]
+                lang_ids = [l.get("id", "") for l in langs if isinstance(l, dict)]
                 if any(cls.AAT_LANG_EN in lid for lid in lang_ids):
                     if not en_title:
                         en_title = ident["content"]
@@ -167,19 +191,27 @@ class LODMapper:
 
         # Artist & Date
         production = data.get("produced_by", {})
+        if isinstance(production, list): production = production[0] if production else {}
         artist = "Unknown"
         # Artist is in produced_by.part[].carried_out_by[], name in notation (@language: en)
-        for part in production.get("part", []):
+        parts = production.get("part", [])
+        if isinstance(parts, dict): parts = [parts]
+        for part in parts:
+            if not isinstance(part, dict): continue
             performers = part.get("carried_out_by", [])
-            if performers:
+            if isinstance(performers, dict): performers = [performers]
+            if performers and isinstance(performers[0], dict):
                 notations = performers[0].get("notation", [])
-                en_name = next((n.get("@value") for n in notations if n.get("@language") == "en"), None)
-                artist = en_name or (notations[0].get("@value") if notations else "Unknown")
+                if isinstance(notations, dict): notations = [notations]
+                en_name = next((n.get("@value") for n in notations if isinstance(n, dict) and n.get("@language") == "en"), None)
+                artist = en_name or (notations[0].get("@value") if notations and isinstance(notations[0], dict) else "Unknown")
                 break
         # Date: timespan.identified_by[0].content
         timespan = production.get("timespan", {})
+        if isinstance(timespan, list): timespan = timespan[0] if timespan else {}
         date_entries = timespan.get("identified_by", [])
-        date = date_entries[0].get("content", "") if date_entries else ""
+        if isinstance(date_entries, dict): date_entries = [date_entries]
+        date = date_entries[0].get("content", "") if date_entries and isinstance(date_entries[0], dict) else ""
         
         referred = data.get("referred_to_by", [])
         medium_raw = cls.get_referred_to_by(referred, cls.AAT_MEDIUM, cls.AAT_LANG_EN)
@@ -259,6 +291,16 @@ class RijksLODFetcher:
                 for chunk in resp.iter_content(chunk_size=8192):
                     if chunk:
                         f.write(chunk)
+            
+            with Image.open(dest) as img:
+                w, h = img.size
+                aspect_ratio = w / h
+                if aspect_ratio < 0.53 or aspect_ratio > 2.5:
+                    dest.unlink(missing_ok=True)
+                    self._add_to_blacklist(obj_id, f"Extreme aspect ratio: {aspect_ratio:.2f}")
+                    print(f"  ⚠ Skipping {obj_id}: extreme aspect ratio ({aspect_ratio:.2f})")
+                    return False
+
             generate_thumbnail(dest, obj_id)
             return True
         except Exception:

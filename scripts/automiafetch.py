@@ -265,16 +265,32 @@ class MIADownloader:
         """Download 800px image from img.artsmia.org CDN."""
         image_url = self.build_image_url(source)
         if not image_url:
-            print(f"    Cannot build image URL for {mia_id}: missing Cache_Location or Primary_RenditionNumber.")
+            self.add_to_blacklist(mia_id, "Missing Cache_Location or Primary_RenditionNumber")
+            print(f"    ⚠ Blacklisting {mia_id}: missing Cache_Location or Primary_RenditionNumber.")
             return None
         try:
             resp = requests.get(image_url, timeout=30, stream=True)
+            if resp.status_code == 403:
+                self.add_to_blacklist(mia_id, f"CDN returned 403 Forbidden")
+                print(f"    ⚠ Blacklisting {mia_id}: CDN returned 403 Forbidden.")
+                return None
             resp.raise_for_status()
             filename = f"{mia_id}.jpg"
-            with open(IMAGES_OUTPUT_DIR / filename, "wb") as f:
+            filepath = IMAGES_OUTPUT_DIR / filename
+            with open(filepath, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=8192):
                     f.write(chunk)
-            generate_thumbnail(IMAGES_OUTPUT_DIR / filename, mia_id)
+            
+            with Image.open(filepath) as img:
+                w, h = img.size
+                aspect_ratio = w / h
+                if aspect_ratio < 0.53 or aspect_ratio > 2.5:
+                    filepath.unlink(missing_ok=True)
+                    self.add_to_blacklist(mia_id, f"Extreme aspect ratio: {aspect_ratio:.2f}")
+                    print(f"    Skipping {mia_id}: extreme aspect ratio ({aspect_ratio:.2f})")
+                    return None
+
+            generate_thumbnail(filepath, mia_id)
             return filename
         except requests.exceptions.RequestException as e:
             print(f"    Image download failed for {mia_id}: {e}")
