@@ -1,4 +1,8 @@
+
 # ArtFlip
+
+[![Svelte](https://img.shields.io/badge/Svelte-Framework-orange?logo=svelte&logoColor=white)](https://svelte.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A Svelte app for browsing random public domain artworks.
 
@@ -9,7 +13,7 @@ A Svelte app for browsing random public domain artworks.
 * Preloads upcoming images and keeps a history of up to 20 past works.
 * Deep links — the current artwork is reflected in the URL so you can share it.
 * Shows artist, title, date, medium, and a link to the source museum.
-* **Grid View:** Grid view of hundreds of thumbnails. Hover to zoom, click to open. On mobile, tap once to zoom, tap again to open. Use Redo to shuffle. Access directly at `/?mode=grid`.
+* Grid View: Grid view of hundreds of thumbnails. Hover to zoom, click to open. On mobile, tap once to zoom, tap again to open. Use Redo to shuffle. Access directly at `/?mode=grid`.
 
 ## Current Count  of artworks - 2025/10/09
 1. 2439 Metropolitan Museum of Art 

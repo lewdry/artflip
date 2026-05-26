@@ -894,8 +894,8 @@
     {/if}
     <footer aria-label="Site footer">
       <p class="footer-credit">
-        Curated public domain art, shared under Creative Commons Zero.<br>
-        Artflip by <a href="https://lewisdryburgh.com/" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>, 2025–{new Date().getFullYear()}
+        Open access public domain art.<br>
+        Artflip by <a href="https://lewisdryburgh.com/" target="_blank" rel="noopener noreferrer">Lewis Dryburgh</a>
       </p>
         <a href="https://instagram.com/artflip.me" target="_blank" rel="noopener noreferrer" class="social-link instagram-link" aria-label="Follow on Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
