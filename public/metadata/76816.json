@@ -13,11 +13,5 @@
   "image_id": "c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca",
   "iiifImageURL": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/843,/0/default.jpg",
   "localImage": "76816.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAJiFW6WJVJ+Nbp2LcaeHc7aQcbWfirCflr2ii76li7+mlMKohsGnkc6vkdC1nQAAACH5BAAAAAAALAAAAAADAAUAAAQLUIwDwiKFJYWaMxEAOw==",
-    "width": 3549,
-    "height": 5983,
-    "alt_text": "A work made of opaque watercolor and gold on paper."
-  },
   "tags": []
 }

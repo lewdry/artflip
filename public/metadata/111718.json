@@ -13,11 +13,5 @@
   "image_id": "0356e981-edc5-56ad-1a64-9ebdae3c5aab",
   "iiifImageURL": "https://www.artic.edu/iiif/2/0356e981-edc5-56ad-1a64-9ebdae3c5aab/full/843,/0/default.jpg",
   "localImage": "111718.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAFxKI11JKWROKmdaOHNcMX9iNXZsSYFiOIdoPZNxRAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQI0Ix0UAmCgAgAOw==",
-    "width": 1630,
-    "height": 4969,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }

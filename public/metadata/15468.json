@@ -13,11 +13,5 @@
   "image_id": "8a0e4ac9-43ea-bc3e-884b-ee27f8a10501",
   "iiifImageURL": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
   "localImage": "15468.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAF5LJm1ZN25aN21bO3dgQ3VlS35tUHtqWIJuUIl0VZB/ZZaAXJ2IaKyNaqWUfAAAACH5BAAAAAAALAAAAAADAAUAAAQLsJxhSGNqORSSABEAOw==",
-    "width": 6524,
-    "height": 10455,
-    "alt_text": "St. George on white horse, piercing green, gold dragon"
-  },
   "tags": []
 }

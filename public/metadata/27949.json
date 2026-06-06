@@ -4,7 +4,7 @@
   "artistDisplayName": "Vincent van Gogh",
   "objectDate": "1889",
   "medium": "Oil on canvas",
-  "dimensions": "92.7 \u00d7 73.8 cm (36 1/2 \u00d7 29 1/2 in.); Framed: 111.9 \u00d7 91.8 \u00d7 8.3 cm (44 1/16 \u00d7 36 1/8 \u00d7 3 1/2 in.)",
+  "dimensions": "92.7 × 73.8 cm (36 1/2 × 29 1/2 in.); Framed: 111.9 × 91.8 × 8.3 cm (44 1/16 × 36 1/8 × 3 1/2 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Netherlands",
   "creditLine": "Art Institute of Chicago. Helen Birch Bartlett Memorial Collection",
@@ -13,11 +13,5 @@
   "image_id": "6f3ca8b9-fef6-edfc-a71c-3e7b471d5f6c",
   "iiifImageURL": "https://www.artic.edu/iiif/2/6f3ca8b9-fef6-edfc-a71c-3e7b471d5f6c/full/843,/0/default.jpg",
   "localImage": "27949.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACw2Lyw4M0g5Mk5ANEVDO1ZKN1ZSPl5XPW1gP05RSEtSTFBVR1hWRVleQ1RcSFx3VWBqTm5xYW1yaGCCWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4MIYkXQgiRIAhAA5QzM9RQgAOw==",
-    "width": 8676,
-    "height": 10963,
-    "alt_text": "A work made of oil on canvas."
-  },
   "tags": []
 }

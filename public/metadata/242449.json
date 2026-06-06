@@ -1,10 +1,10 @@
 {
   "objectID": 242449,
   "title": "Crucifixion",
-  "artistDisplayName": "Mar\u00eda Josefa S\u00e1nchez",
+  "artistDisplayName": "María Josefa Sánchez",
   "objectDate": "1646",
   "medium": "Oil on panel",
-  "dimensions": "63 \u00d7 39 cm (24 13/16 \u00d7 15 3/8 in.)",
+  "dimensions": "63 × 39 cm (24 13/16 × 15 3/8 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Spain",
   "creditLine": "Art Institute of Chicago. C. Harker and Mae Svoboda Rhodes Acquisition Fund",
@@ -13,11 +13,5 @@
   "image_id": "774c1cdd-74f5-dadf-8e84-143410cc7119",
   "iiifImageURL": "https://www.artic.edu/iiif/2/774c1cdd-74f5-dadf-8e84-143410cc7119/full/843,/0/default.jpg",
   "localImage": "242449.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAHFpYXtzbImFgZOOi5OPjZWSiZWQjpaTkZuZlK6ura+vrq+vr7CwsLW2tgAAAAAAACH5BAAAAAAALAAAAAADAAUAAAQL0IQzAGmipaIWYhEAOw==",
-    "width": 5327,
-    "height": 7618,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }

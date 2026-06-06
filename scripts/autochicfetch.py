@@ -298,7 +298,7 @@ class ChicDownloader:
             fields = [
                 "id", "title", "image_id", "is_public_domain", "artist_display", 
                 "artist_title", "date_display", "medium_display", "dimensions", 
-                "credit_line", "department_title", "place_of_origin", "thumbnail", 
+                "credit_line", "department_title", "place_of_origin", 
                 "artwork_type_title", "alt_titles", "config"
             ]
             url = f"{ARTWORK_ENDPOINT}/{object_id}"
@@ -388,7 +388,6 @@ class ChicDownloader:
             'image_id': artwork_data.get('image_id', ''),
             'iiifImageURL': self.construct_image_url(artwork_data.get('image_id'), iiif_base_url),
             'localImage': local_image_filename,
-            'thumbnail': artwork_data.get('thumbnail'),
             'tags': artwork_data.get('alt_titles') or []
         }
 

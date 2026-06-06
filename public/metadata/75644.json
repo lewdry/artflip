@@ -13,11 +13,5 @@
   "image_id": "ea8c5d62-6ce8-88e8-feb1-e0053cf534c5",
   "iiifImageURL": "https://www.artic.edu/iiif/2/ea8c5d62-6ce8-88e8-feb1-e0053cf534c5/full/843,/0/default.jpg",
   "localImage": "75644.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACgiHzIrJDMvLDw1L01IQFZUTmZjWm5nXWVpaHFvaH54boF8bYeBcouEdoKEgYGFhIOMj52UhaOdjrSunwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4BAAwhE1hDJJRsIsBfQ4SAgAOw==",
-    "width": 1743,
-    "height": 2250,
-    "alt_text": "Large plaque of stone carved with animal and geometric hieroglyphs."
-  },
   "tags": []
 }

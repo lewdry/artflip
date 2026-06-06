@@ -4,7 +4,7 @@
   "artistDisplayName": "Jan Both",
   "objectDate": "c. 1650",
   "medium": "Oil on canvas",
-  "dimensions": "49.5 \u00d7 61 cm (19 1/2 \u00d7 24 in.); Framed: 69.2 \u00d7 81 \u00d7 5.4 cm (27 1/4 \u00d7 31 7/8 \u00d7 2 1/8 in.)",
+  "dimensions": "49.5 × 61 cm (19 1/2 × 24 in.); Framed: 69.2 × 81 × 5.4 cm (27 1/4 × 31 7/8 × 2 1/8 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Holland",
   "creditLine": "Art Institute of Chicago. Alexander A. McKay and Annie Swan Coburn funds, purchased with funds provided by Julius Lewis",
@@ -13,11 +13,5 @@
   "image_id": "96458291-2c6c-76ba-4be9-dca201687edf",
   "iiifImageURL": "https://www.artic.edu/iiif/2/96458291-2c6c-76ba-4be9-dca201687edf/full/843,/0/default.jpg",
   "localImage": "69041.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAABsJEyUTGS0aGCoZHDcqITwrIkIrIkk1Jkk4I0Q4LFk/KlFHMmNQL2BWRGxfQ2ZhTHZ3XH55XJOYd6ilgJiwr5+0sqO5t6K6vL/AobvCqbTDusDAnsfHndHRpwAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4GVVFERo2JZJS8dN0ZM0DoMIA2AoRxGEADs=",
-    "width": 2794,
-    "height": 2250,
-    "alt_text": "A work made of oil on canvas."
-  },
   "tags": []
 }

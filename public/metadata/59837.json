@@ -4,7 +4,7 @@
   "artistDisplayName": "",
   "objectDate": "1494",
   "medium": "Oil on panel",
-  "dimensions": "Painted surface: 26 \u00d7 19.7 cm (10 1/4 \u00d7 7 3/4 in.); Panel with engaged frame: 32.3 \u00d7 26 cm (12 3/4 \u00d7 10 1/4 in.)",
+  "dimensions": "Painted surface: 26 × 19.7 cm (10 1/4 × 7 3/4 in.); Panel with engaged frame: 32.3 × 26 cm (12 3/4 × 10 1/4 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Austria",
   "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
@@ -13,11 +13,5 @@
   "image_id": "173911e9-689c-234c-ec2b-e8c2c6c76586",
   "iiifImageURL": "https://www.artic.edu/iiif/2/173911e9-689c-234c-ec2b-e8c2c6c76586/full/843,/0/default.jpg",
   "localImage": "59837.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADAvJzkuIj0xJUM0JUg4Jko6KEk6LVA8JVM/KlBALllELFNCMVZFMVJFNVtKMWRUPWhWPGhYPWlaPHhmRwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIHIojCNN0PJEjQEUiRAQQwgAOw==",
-    "width": 6159,
-    "height": 7821,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }

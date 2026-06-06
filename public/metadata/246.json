@@ -13,11 +13,5 @@
   "image_id": "44abac03-4d36-aac6-f44e-ffe1d57dfb03",
   "iiifImageURL": "https://www.artic.edu/iiif/2/44abac03-4d36-aac6-f44e-ffe1d57dfb03/full/843,/0/default.jpg",
   "localImage": "246.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAFE3KD5AP0VFRE9QUWtQQWVgXXl6eoCCg4uEgouGg4iJipubnqOhoqqmp6+usQAAACH5BAAAAAAAIf4KQXBwbGVNYXJrCgAsAAAAAAMABQAABAswiHHMSqQhwFRxEQA7",
-    "width": 997,
-    "height": 1454,
-    "alt_text": "A work made of terracotta, red-figure."
-  },
   "tags": []
 }

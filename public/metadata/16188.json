@@ -4,7 +4,7 @@
   "artistDisplayName": "Workshop of Neroccio de' Landi",
   "objectDate": "1490/1500",
   "medium": "Tempera and gold on stucco",
-  "dimensions": "57.8 \u00d7 38.1 \u00d7 3.8 cm (22 3/4 \u00d7 15 \u00d7 1 1/2 in.)",
+  "dimensions": "57.8 × 38.1 × 3.8 cm (22 3/4 × 15 × 1 1/2 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Italy",
   "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
@@ -13,11 +13,5 @@
   "image_id": "08f7ee0f-52b6-310f-166b-c94b83aedefb",
   "iiifImageURL": "https://www.artic.edu/iiif/2/08f7ee0f-52b6-310f-166b-c94b83aedefb/full/843,/0/default.jpg",
   "localImage": "16188.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACIbEichGExGOE1JPllDPVRKOlVMPVpQPF1RPmBPPVJNQGJTQWJXRnlbT2VjU3ptW3txZ4d2Zox1Y7GUfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIJAgwSJBzjM1ChMRgjEURwgAOw==",
-    "width": 4896,
-    "height": 6800,
-    "alt_text": "A work made of tempera and gold on stucco."
-  },
   "tags": []
 }

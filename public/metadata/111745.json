@@ -4,7 +4,7 @@
   "artistDisplayName": "Fernand Khnopff",
   "objectDate": "c. 1887",
   "medium": "Charcoal and graphite with stumping on ivory wove paper, laid down on wood pulp board",
-  "dimensions": "40 \u00d7 21 cm (15 3/4 \u00d7 8 5/16 in.)",
+  "dimensions": "40 × 21 cm (15 3/4 × 8 5/16 in.)",
   "department": "Prints and Drawings",
   "culture": "Belgium",
   "creditLine": "Art Institute of Chicago. Through prior bequest of Mr. and Mrs. Martin A. Ryerson Collection",
@@ -13,11 +13,5 @@
   "image_id": "903b2618-a3df-8440-6cff-14cfa3c30fa0",
   "iiifImageURL": "https://www.artic.edu/iiif/2/903b2618-a3df-8440-6cff-14cfa3c30fa0/full/843,/0/default.jpg",
   "localImage": "111745.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAKaTfauZgqiah6yeibCfibKgi7Ojjriki7mplci5oc6+qtbHr9zMuNzOu+7fzgAAACH5BAAAAAAALAAAAAADAAUAAAQLMI3VhHLIsEJOABEAOw==",
-    "width": 1212,
-    "height": 2250,
-    "alt_text": "A work made of charcoal and graphite with stumping on ivory wove paper, laid down on wood pulp board."
-  },
   "tags": []
 }

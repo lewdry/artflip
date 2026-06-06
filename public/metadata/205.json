@@ -13,11 +13,5 @@
   "image_id": "1aa5f4fd-76df-dc28-0831-be64ba5f5c97",
   "iiifImageURL": "https://www.artic.edu/iiif/2/1aa5f4fd-76df-dc28-0831-be64ba5f5c97/full/843,/0/default.jpg",
   "localImage": "205.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADs4OT06PEE+P0I/P0ZDQ0tFQ0lFRlNIQ1RNSV1QSFhSUVpUUlpVVGBaWGZcWXZoXnlsZ3lva314e4F4cYN4cId6cpCBd4qEhIqEhaiYjqidlLClnqWfo8CzqQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYCAUyAAYx2NRhJJUm7ZIUNZNDIdFTnOFADs=",
-    "width": 2690,
-    "height": 2250,
-    "alt_text": "A work made of ceramic and pigment."
-  },
   "tags": []
 }

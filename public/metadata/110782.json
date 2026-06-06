@@ -2,9 +2,9 @@
   "objectID": 110782,
   "title": "Diana and Actaeon",
   "artistDisplayName": "Jacopo Bassano",
-  "objectDate": "1585\u201392",
+  "objectDate": "1585–92",
   "medium": "Oil on canvas",
-  "dimensions": "63.6 \u00d7 68.7 cm (25 \u00d7 27 in.); Framed: 82.6 \u00d7 88.3 \u00d7 10.2 cm (32 1/2 \u00d7 34 3/4 \u00d7 4 in.)",
+  "dimensions": "63.6 × 68.7 cm (25 × 27 in.); Framed: 82.6 × 88.3 × 10.2 cm (32 1/2 × 34 3/4 × 4 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Italy",
   "creditLine": "Art Institute of Chicago. Charles H. and Mary F. S. Worcester Collection",
@@ -13,11 +13,5 @@
   "image_id": "7ee5e05c-9dfa-ef87-2dd9-2696da7dbc74",
   "iiifImageURL": "https://www.artic.edu/iiif/2/7ee5e05c-9dfa-ef87-2dd9-2696da7dbc74/full/843,/0/default.jpg",
   "localImage": "110782.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAABITDBYVDRsdFSAdDxshFiMhFiMhFygjFSooFS4oGSwoGi0zIjU0IDYzJD4zIzgzJD02JTQ1Kz09KktDMUtUPFhZPV9ZRWthR3t/XAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVYCBRC8FgFVIcA5A416Q0T2RBghECADs=",
-    "width": 2455,
-    "height": 2250,
-    "alt_text": "A work made of oil on canvas."
-  },
   "tags": []
 }

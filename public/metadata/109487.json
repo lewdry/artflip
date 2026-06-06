@@ -4,7 +4,7 @@
   "artistDisplayName": "Joachim Beuckelaer",
   "objectDate": "1562",
   "medium": "Oil on panel",
-  "dimensions": "42.5 \u00d7 32.3 cm (16 3/4 \u00d7 12 3/4 in.); Framed: 61 \u00d7 50.8 \u00d7 7.7 cm (24 \u00d7 20 \u00d7 3 in.)",
+  "dimensions": "42.5 × 32.3 cm (16 3/4 × 12 3/4 in.); Framed: 61 × 50.8 × 7.7 cm (24 × 20 × 3 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Flanders",
   "creditLine": "Art Institute of Chicago. Purchased with funds provided by Mrs. George B. Young in memory of her husband; estate of Arma S. Wyler; Alexander A. McKay, Arma S. Wyler and European Painting Purchase funds",
@@ -13,11 +13,5 @@
   "image_id": "11d1c6e6-f051-0a5e-5c7b-57f935b6d181",
   "iiifImageURL": "https://www.artic.edu/iiif/2/11d1c6e6-f051-0a5e-5c7b-57f935b6d181/full/843,/0/default.jpg",
   "localImage": "109487.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACMjIiUlJSUmJycoKCkpKi8rKDctJz0tIzQuKzMvLS4vMDg0MUE0LUQ6MkE+O0U/OkpDPVxUTGFRRn5pWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIBE5gDJBwvAsAZIUBiM1RwgAOw==",
-    "width": 3412,
-    "height": 4559,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }

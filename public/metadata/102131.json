@@ -13,11 +13,5 @@
   "image_id": "dfe5d0d9-5ef0-5ff7-dfa8-43a98d704493",
   "iiifImageURL": "https://www.artic.edu/iiif/2/dfe5d0d9-5ef0-5ff7-dfa8-43a98d704493/full/843,/0/default.jpg",
   "localImage": "102131.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC4qKCwrLC4sLDMuKTQwLjkwKjYzMTs3NDo6ODw7OT8/PEE6NEE7NEI8NkhCOlNNQllPQVhVT2hdToFuVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYBA1RCIVhzEtygMxiAMMQggAOw==",
-    "width": 6101,
-    "height": 7648,
-    "alt_text": "Portrait of a man wearing glasses, pink and white scarf, and blue visor."
-  },
   "tags": []
 }

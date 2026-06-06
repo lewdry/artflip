@@ -4,7 +4,7 @@
   "artistDisplayName": "",
   "objectDate": "c. 1480",
   "medium": "Oil on panel",
-  "dimensions": "Panel: 29.5 \u00d7 21.6 cm (11 5/8 \u00d7 8 in.)",
+  "dimensions": "Panel: 29.5 × 21.6 cm (11 5/8 × 8 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Germany",
   "creditLine": "Art Institute of Chicago. Gift of the Old Masters Society, C. Harker and Mae Svoboda Rhodes, and purchased with funds provided by Barbara Danielson",
@@ -13,11 +13,5 @@
   "image_id": "629e6e88-5776-8ba5-e49f-fda92cdbac93",
   "iiifImageURL": "https://www.artic.edu/iiif/2/629e6e88-5776-8ba5-e49f-fda92cdbac93/full/843,/0/default.jpg",
   "localImage": "218072.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACYVCi4VDDQZDyscEDEfEi8kGigiHjoqGzctJ1QXD1tFNVVJPFZJPX9hSZhUQgAAACH5BAAAAAAALAAAAAADAAUAAAQLEKRAnBjtFLYUMhEAOw==",
-    "width": 1541,
-    "height": 2250,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }

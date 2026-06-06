@@ -4,7 +4,7 @@
   "artistDisplayName": "",
   "objectDate": "c. 1510",
   "medium": "Oil and tempera on panel",
-  "dimensions": "Framed overall: 155 \u00d7 241.3 \u00d7 8.3 cm (61 \u00d7 95 \u00d7 3 1/4 in.); Left wing: 154.7 \u00d7 60.4 \u00d7 8.3 cm (60 7/8 \u00d7 23 3/4 \u00d7 3 1/4 in.); Center: 155 \u00d7 120.1 \u00d7 8.3 cm (61 \u00d7 47 1/4 \u00d7 3 1/4 in.); Right wing: 154.7 \u00d7 60.4 \u00d7 8.3 cm (60 7/8 \u00d7 23 3/4 \u00d7 3 1/4 in.)",
+  "dimensions": "Framed overall: 155 × 241.3 × 8.3 cm (61 × 95 × 3 1/4 in.); Left wing: 154.7 × 60.4 × 8.3 cm (60 7/8 × 23 3/4 × 3 1/4 in.); Center: 155 × 120.1 × 8.3 cm (61 × 47 1/4 × 3 1/4 in.); Right wing: 154.7 × 60.4 × 8.3 cm (60 7/8 × 23 3/4 × 3 1/4 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Germany",
   "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
@@ -13,11 +13,5 @@
   "image_id": "6555e35a-4dc5-ad78-7cb3-372a7fc34bde",
   "iiifImageURL": "https://www.artic.edu/iiif/2/6555e35a-4dc5-ad78-7cb3-372a7fc34bde/full/843,/0/default.jpg",
   "localImage": "16336.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAEA9Kl1KIFpKJ1RPNF9VNVpTO2NHKmFOKGxXL2ZaLWdaL21cLndeLm9SNG5bN3FVN3FbNnFWOHVgLW1hQoFfPIhmOoJpPINpQ5aEU5iCV52GVpiFWJeJXa6OUquOVaKMX5eIY52JYZyMaZmUeKOMYKSNZKKUdJuYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwI+mMzp5MJxQhiQylTagB8UymFQgjsjlACgwBATEImBoSBKKIAA7",
-    "width": 7132,
-    "height": 4536,
-    "alt_text": "A work made of oil and tempera on panel."
-  },
   "tags": []
 }

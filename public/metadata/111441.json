@@ -4,7 +4,7 @@
   "artistDisplayName": "Workshop of Cornelis Engebrechtsz.",
   "objectDate": "1515-25",
   "medium": "Oil on panel",
-  "dimensions": "28.2 \u00d7 35.6 cm (11 3/16 \u00d7 14 in.); Framed: 40.1 \u00d7 46.7 \u00d7 7 cm (15 3/4 \u00d7 18 3/8 \u00d7 2 3/4 in.)",
+  "dimensions": "28.2 × 35.6 cm (11 3/16 × 14 in.); Framed: 40.1 × 46.7 × 7 cm (15 3/4 × 18 3/8 × 2 3/4 in.)",
   "department": "Painting and Sculpture of Europe",
   "culture": "Netherlands",
   "creditLine": "Art Institute of Chicago. Mr. and Mrs. Martin A. Ryerson Collection",
@@ -13,11 +13,5 @@
   "image_id": "d4167bca-367c-481b-a5df-2f5aa51e7280",
   "iiifImageURL": "https://www.artic.edu/iiif/2/d4167bca-367c-481b-a5df-2f5aa51e7280/full/843,/0/default.jpg",
   "localImage": "111441.jpg",
-  "thumbnail": {
-    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACMkJzQwLzQyMD04NEUoIkQ3LkU5L1g3IlU8LUc7M2A3MFNCM1ZBMlpEPFdNO19JPGJMPFNLQUtVTU5VTVRRQ19RSlpaTmBRRWxUSGBdU2ZgUmNsZH5/dQAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoDBM0sYFkWZRWVMYD7NUEKJcDsAcBJaEADs=",
-    "width": 5980,
-    "height": 4792,
-    "alt_text": "A work made of oil on panel."
-  },
   "tags": []
 }
