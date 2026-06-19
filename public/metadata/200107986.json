@@ -1,0 +1,18 @@
+{
+  "objectID": "200107986",
+  "title": "Portrait of a man",
+  "artistDisplayName": "Jan van Scorel",
+  "objectDate": "1529",
+  "medium": "Oil on panel",
+  "dimensions": "support: height 48.5 cm x width 34.5 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200107986",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/BGQRV/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/BGQRV/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/BGQRV/full/400,/0/default.jpg",
+  "localImage": "200107986.jpg",
+  "webImage": "https://iiif.micr.io/BGQRV/full/max/0/default.jpg",
+  "tags": []
+}
