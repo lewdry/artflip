@@ -1,0 +1,18 @@
+{
+  "objectID": "200108017",
+  "title": "Self Portrait",
+  "artistDisplayName": "Wouter Johannes van Troostwijk",
+  "objectDate": "ca. 1809",
+  "medium": "",
+  "dimensions": "height 51.3 cm x width 40 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108017",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/quBNB/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/quBNB/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/quBNB/full/400,/0/default.jpg",
+  "localImage": "200108017.jpg",
+  "webImage": "https://iiif.micr.io/quBNB/full/max/0/default.jpg",
+  "tags": []
+}
