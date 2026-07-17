@@ -1,0 +1,18 @@
+{
+  "objectID": "200108123",
+  "title": "The Egg Dance",
+  "artistDisplayName": "Pieter Aertsen",
+  "objectDate": "1552",
+  "medium": "Oil on panel",
+  "dimensions": "height 84 cm x width 172 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108123",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/mReXJ/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/mReXJ/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/mReXJ/full/400,/0/default.jpg",
+  "localImage": "200108123.jpg",
+  "webImage": "https://iiif.micr.io/mReXJ/full/max/0/default.jpg",
+  "tags": []
+}

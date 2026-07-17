@@ -1,0 +1,18 @@
+{
+  "objectID": "200108090",
+  "title": "Portrait of a Painter, probably the Artist himself",
+  "artistDisplayName": "Unknown",
+  "objectDate": "1788",
+  "medium": "Oil on panel",
+  "dimensions": "height 25 cm x width 20 cm",
+  "creditLine": "Rijksmuseum. Gift of W. Mumm, Bussum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108090",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/qsXqb/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/qsXqb/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/qsXqb/full/400,/0/default.jpg",
+  "localImage": "200108090.jpg",
+  "webImage": "https://iiif.micr.io/qsXqb/full/max/0/default.jpg",
+  "tags": []
+}

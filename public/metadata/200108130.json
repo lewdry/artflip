@@ -1,0 +1,18 @@
+{
+  "objectID": "200108130",
+  "title": "Portrait of a Woman",
+  "artistDisplayName": "Pieter van Anraedt",
+  "objectDate": "1671",
+  "medium": "Oil on canvas",
+  "dimensions": "height 81 cm x width 65.5 cm",
+  "creditLine": "Rijksmuseum. Gift of Kunsthandel C.F. Roos & Co",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108130",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/fedYA/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/fedYA/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/fedYA/full/400,/0/default.jpg",
+  "localImage": "200108130.jpg",
+  "webImage": "https://iiif.micr.io/fedYA/full/max/0/default.jpg",
+  "tags": []
+}
