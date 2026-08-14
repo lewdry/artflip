@@ -1,0 +1,18 @@
+{
+  "objectID": "200108240",
+  "title": "Sandy Path",
+  "artistDisplayName": "Théophile de Bock",
+  "objectDate": "1870 - 1904",
+  "medium": "",
+  "dimensions": "height 32 cm x width 51 cm",
+  "creditLine": "Rijksmuseum. Gift of Mr and Mrs Drucker-Fraser, Montreux",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108240",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/bdmdp/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/bdmdp/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/bdmdp/full/400,/0/default.jpg",
+  "localImage": "200108240.jpg",
+  "webImage": "https://iiif.micr.io/bdmdp/full/max/0/default.jpg",
+  "tags": []
+}
