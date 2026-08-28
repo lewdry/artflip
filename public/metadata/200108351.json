@@ -1,0 +1,18 @@
+{
+  "objectID": "200108351",
+  "title": "The Hut",
+  "artistDisplayName": "Adriaen van de Velde",
+  "objectDate": "1671",
+  "medium": "Oil on canvas",
+  "dimensions": "height 76 cm x width 65 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108351",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/qtaTQ/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/qtaTQ/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/qtaTQ/full/400,/0/default.jpg",
+  "localImage": "200108351.jpg",
+  "webImage": "https://iiif.micr.io/qtaTQ/full/max/0/default.jpg",
+  "tags": []
+}
