@@ -1,0 +1,18 @@
+{
+  "objectID": "200108369",
+  "title": "The Milkmaid",
+  "artistDisplayName": "Johannes Vermeer",
+  "objectDate": "c. 1660",
+  "medium": "Oil on canvas",
+  "dimensions": "height 45.5 cm x width 41 cm",
+  "creditLine": "Rijksmuseum. Purchased with the support of the Vereniging Rembrandt",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108369",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/QkOGy/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/QkOGy/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/QkOGy/full/400,/0/default.jpg",
+  "localImage": "200108369.jpg",
+  "webImage": "https://iiif.micr.io/QkOGy/full/max/0/default.jpg",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "objectID": "200108383",
+  "title": "Portrait of a Man",
+  "artistDisplayName": "Unknown",
+  "objectDate": "ca. 1795",
+  "medium": "Oil on canvas",
+  "dimensions": "height 117 cm x width 89.5 cm",
+  "creditLine": "Rijksmuseum",
+  "objectURL": "https://www.rijksmuseum.nl/en/collection/200108383",
+  "department": "Paintings",
+  "isPublicDomain": true,
+  "primaryImage": "https://iiif.micr.io/XMRRq/full/843,/0/default.jpg",
+  "primaryImageMedium": "https://iiif.micr.io/XMRRq/full/600,/0/default.jpg",
+  "primaryImageSmall": "https://iiif.micr.io/XMRRq/full/400,/0/default.jpg",
+  "localImage": "200108383.jpg",
+  "webImage": "https://iiif.micr.io/XMRRq/full/max/0/default.jpg",
+  "tags": []
+}
