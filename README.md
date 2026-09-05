@@ -45,6 +45,15 @@ A Svelte app for browsing random public domain artworks.
   
   Total artworks: 6371
 
+## Current Count of artworks - 2026-09-06
+  1.  2100  Metropolitan Museum of Art
+  2.  1757  Rijksmuseum
+  3.  1509  Art Institute of Chicago
+  4.   463  Minneapolis Institute of Art
+  5.   451  Cleveland Museum of Art
+
+  Total artworks: 6280
+
 ## Installation
 
 Requires Node.js and npm (or yarn).

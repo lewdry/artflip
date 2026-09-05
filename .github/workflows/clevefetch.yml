@@ -27,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests Pillow
 
-      # 4️⃣ Run Python updater
-      - name: Run Python script
+      # 4️⃣ Run Clevefetch script
+      - name: Run Clevefetch
         run: python scripts/autoclevefetch.py
 
       # 5️⃣ Commit & push updated data
@@ -40,7 +40,7 @@ jobs:
           git add -A public/artworkids.json public/metadata/ public/images/ public/thumbs/ scripts/
           # Only commit if there are staged changes
           if ! git diff --cached --quiet; then
-            git commit -m "Automated data update $(date +'%Y-%m-%d')"
+            git commit -m "Automated Cleve data update $(date +'%Y-%m-%d')"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
           else
             echo "No changes to commit"

@@ -123,6 +123,7 @@ class LODMapper:
         if not shows:
             return result
         try:
+            time.sleep(RATE_LIMIT_DELAY)
             if isinstance(shows, dict): shows = [shows]
             visual_item_id = shows[0].get("id") if isinstance(shows[0], dict) else None
             if not visual_item_id:
@@ -151,6 +152,7 @@ class LODMapper:
             digital_obj_id = digital_shown_by[0].get("id") if isinstance(digital_shown_by[0], dict) else None
             if not digital_obj_id:
                 return result
+            time.sleep(RATE_LIMIT_DELAY)
             do_resp = requests.get(digital_obj_id, headers={"Accept": "application/json"}, timeout=20)
             if do_resp.status_code != 200:
                 return result

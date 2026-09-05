@@ -1,0 +1,33 @@
+{
+  "objectID": 10508,
+  "title": "The Hill of the Alhambra, Granada",
+  "artistDisplayName": "Samuel Colman",
+  "objectDate": "1865",
+  "medium": "Oil on canvas",
+  "dimensions": "47 1/2 x 72 1/2 in. (120.7 x 184.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Oswald C. Hering, in memory of her husband, 1968",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10508",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP226882.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP226882.jpg",
+  "localImage": "10508.jpg",
+  "tags": [
+    {
+      "term": "Buildings",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300004789",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q41176"
+    },
+    {
+      "term": "Bridges",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300386855",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q12280"
+    },
+    {
+      "term": "Towns",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008375",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3957"
+    }
+  ]
+}

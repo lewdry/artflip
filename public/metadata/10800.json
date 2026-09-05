@@ -1,0 +1,33 @@
+{
+  "objectID": 10800,
+  "title": "Boy of the Crossfield Family (Possibly Richard Crossfield)",
+  "artistDisplayName": "John Durand",
+  "objectDate": "ca. 1766–68",
+  "medium": "Oil on canvas",
+  "dimensions": "50 1/4 x 34 1/2 in. (127.6 x 87.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Edgar William and Bernice Chrysler Garbisch, 1969",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/10800",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap69.279.2.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap69.279.2.jpg",
+  "localImage": "10800.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Boys",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

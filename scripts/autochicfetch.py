@@ -19,7 +19,7 @@
 #
 #   Image  IIIF protocol via the dynamic base URL returned by the API
 #     {iiif_url}/{image_id}/full/843,/0/default.jpg
-#     - Custom User-Agent + Referer headers required to avoid 403 CDN blocks
+#     - Uses the documented AIC-User-Agent header when calling the API and IIIF
 #     - IIIF base URL falls back to https://www.artic.edu/iiif/2 if not present
 #
 #   ID format  numeric integers; stored as strings in artworkids.json.
@@ -45,6 +45,7 @@ RATE_LIMIT_DELAY = 2.0  # seconds between API calls
 
 # Updated headers
 HEADERS = {
+    'AIC-User-Agent': 'artflip',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
     'Referer': 'https://www.artic.edu/'
@@ -72,8 +73,8 @@ TEMP_NEWIDS_FILE = Path(__file__).parent.parent / "public/artworkids.json"
 
 # Pagination/search caps
 SEARCH_PAGE_LIMIT = 100     
-MAX_SEARCH_PAGES = 10       
-MAX_SEARCH_RESULTS_CAP = 5000  
+MAX_SEARCH_RESULTS_CAP = 10000
+MAX_SEARCH_PAGES = MAX_SEARCH_RESULTS_CAP // SEARCH_PAGE_LIMIT
 
 # ============================================================================
 # ARTIC API endpoints
@@ -310,6 +311,10 @@ class ChicDownloader:
 
             data = payload.get('data', {})
             data['_config'] = payload.get('config', {})
+
+            if not data.get('is_public_domain'):
+                self.add_to_blacklist(object_id, "Not public domain")
+                return {}
 
             if not data.get('image_id'):
                 self.add_to_blacklist(object_id, "No image_id (search filter mismatch)")

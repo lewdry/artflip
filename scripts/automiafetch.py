@@ -20,9 +20,10 @@
 #     - Paginated via Elasticsearch `size` + `from` params (100 per page)
 #     - Capped at MAX_SEARCH_RESULTS_CAP total items
 #
-#   Image  http://api.artsmia.org/images/{id}/large.jpg
-#     - "large" = 800px on the long side (closest to the ~843px target
-#       used by the other fetch scripts)
+#   Image  https://img.artsmia.org/web_objects_cache/{cache_path}/{stem}_800.jpg
+#     - Built from `Cache_Location` and `Primary_RenditionNumber` in each record
+#     - `_800` is 800px on the long side (closest to the ~843px target used by
+#       the other fetch scripts)
 #     - No authentication or special headers required
 #
 #   ID format  numeric integers; stored in artworkids.json as "mia-{id}"

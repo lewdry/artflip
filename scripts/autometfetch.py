@@ -2,14 +2,14 @@
 # =============================================================================
 # autometfetch.py — Metropolitan Museum of Art collection fetcher
 # =============================================================================
-# Built against the Met Museum Open Access Collection API (v1).
+# Built against the Met Museum Open Access Collection API (v1.1 search).
 #
-#   Search endpoint  https://collectionapi.metmuseum.org/public/collection/v1/search
-#     - Returns a flat list of `objectIDs` matching query parameters
-#     - Filters passed as URL query params: isHighlight, isPublicDomain, isOnView,
-#       hasImages, objectName, departmentId, artistOrCulture, medium,
+#   Search endpoint  https://collectionapi.metmuseum.org/public/collection/v1.1/search
+#     - Returns a paginated list of `objectIDs` matching query parameters
+#     - Filters passed as URL query params: isHighlight, isOnView, hasImages,
+#       departmentId, artistOrCulture, medium,
 #       geoLocation, dateBegin/dateEnd, q
-#     - No pagination: the full matched ID list is returned in one response
+#     - Pages use `offset` and `limit`; the full result count is returned in `total`
 #
 #   Per-object metadata  https://collectionapi.metmuseum.org/public/collection/v1/objects/{id}
 #     - Title in `title`
@@ -48,17 +48,17 @@ MAX_NEW_ARTWORKS = 20
 RATE_LIMIT_DELAY = 1.0
 
 # API Search Parameters - Set to None to ignore, or provide value to filter
-# For auto script - looking for all public domain, highlight paintings with images
+# For auto script - looking for public-domain, highlighted paintings on view
 SEARCH_PARAMS = {
-    'isHighlight': True,          # True = only highlights, False = non-highlights, None = all
-    'isPublicDomain': True,       # True = public domain only, False = non-public, None = all
-    'isOnView': True,          # True = on view only, False = not on view, None = all
+    # 'isHighlight': True,        # True = only highlights, False = non-highlights, None = all
+    'isOnView': True,             # True = on view only, False = not on view, None = all
     'hasImages': True,            # True = only with images, False = no images, None = all    
     
-    # Object type filter - examples: "Paintings", "Sculpture", "Drawings", "Prints", 
+    # Object type filter uses the documented `medium` parameter.
+    # Examples: "Paintings", "Sculpture", "Drawings", "Prints", 
     # "Photographs", "Textiles", "Ceramics", "Furniture", "Jewelry", "Vessels", etc.
     # Leave as None to get all types
-    'objectName': "Paintings",  # Example: "Paintings" or None,
+    'medium': "Paintings",       # Example: "Paintings" or None,
     
     # Department filter - examples: "American Decorative Arts", "Ancient Near Eastern Art",
     # "Arms and Armor", "Arts of Africa, Oceania, and the Americas", "Asian Art",
@@ -72,9 +72,6 @@ SEARCH_PARAMS = {
     # Artist/Maker filter
     'artistOrCulture': None,      # Example: "Rembrandt" or None
     
-    # Medium filter - examples: "Oil on canvas", "Bronze", "Watercolor", etc.
-    'medium': None,               # Example: "Oil on canvas" or None
-    
     # Geographic location
     'geoLocation': None,          # Example: "France" or None
     
@@ -82,9 +79,12 @@ SEARCH_PARAMS = {
     'dateBegin': None,            # Example: 1800 or None
     'dateEnd': None,              # Example: 1900 or None
     
-    # Search query (searches across multiple fields)
-    'q': "*",                    # Example: "landscape" or None
+    # Search query (searches across multiple fields); v1.1 supports filter-only searches.
+    'q': None,                    # Example: "landscape" or None
 }
+
+SEARCH_PAGE_LIMIT = 500
+MAX_SEARCH_RESULTS_CAP = 10000
 
 ARTWORKIDS_FILE = Path(__file__).parent.parent / "public" / "artworkids.json"
 METADATA_OUTPUT_DIR = Path(__file__).parent.parent / "public" / "metadata"
@@ -113,7 +113,7 @@ def generate_thumbnail(src_path: Path, thumb_stem: str) -> None:
 
 class MetDownloader:
     def __init__(self):
-        self.base_search_url = "https://collectionapi.metmuseum.org/public/collection/v1/search"
+        self.base_search_url = "https://collectionapi.metmuseum.org/public/collection/v1.1/search"
         self.base_object_url = "https://collectionapi.metmuseum.org/public/collection/v1/objects"
         self.existing_ids: Set[str] = set()  # Changed to string set to handle alphanumeric IDs
         self.blacklist_ids: Set[str] = set()  # IDs to skip
@@ -183,49 +183,58 @@ class MetDownloader:
         except Exception as e:
             return False
     
-    def build_search_url(self) -> str:
-        """Build search URL from configured parameters"""
-        params = []
+    def build_search_params(self, offset: int = 0) -> Dict:
+        """Build v1.1 search parameters for one paginated request."""
+        params = {
+            'offset': offset,
+            'limit': SEARCH_PAGE_LIMIT,
+        }
         for key, value in SEARCH_PARAMS.items():
             if value is not None:
-                if isinstance(value, bool):
-                    params.append(f"{key}={str(value).lower()}")
-                else:
-                    params.append(f"{key}={value}")
-        
-        if params:
-            return f"{self.base_search_url}?{'&'.join(params)}"
-        else:
-            # Default to highlights and public domain if no params
-            return f"{self.base_search_url}?isHighlight=true&isPublicDomain=true"
+                params[key] = str(value).lower() if isinstance(value, bool) else value
+        return params
     
     def fetch_available_artworks(self) -> List[int]:
-        """Fetch list of artwork IDs from Met API based on search parameters"""
+        """Fetch artwork IDs from the paginated Met v1.1 search endpoint."""
+        object_ids = []
+        offset = 0
         try:
-            url = self.build_search_url()
-            response = requests.get(url, timeout=30)
-            
-            # Check for 502 Bad Gateway or other server errors
-            if response.status_code == 502:
-                print("\n❌ Met API is currently unavailable (502 error).")
-                print("   This is a temporary server issue. Please try again in a few minutes.")
-                return []
-            
-            response.raise_for_status()
-            
-            # Try to parse JSON, catch HTML responses from server errors
-            try:
-                data = response.json()
-            except json.JSONDecodeError:
-                print("\n❌ Met API returned an unexpected response format.")
-                print("   The server may be experiencing issues. Please try again later.")
-                return []
-            
-            object_ids = data.get("objectIDs", [])
-            if not object_ids:
-                return []
-            
-            return object_ids
+            while offset < MAX_SEARCH_RESULTS_CAP:
+                response = requests.get(
+                    self.base_search_url,
+                    params=self.build_search_params(offset),
+                    timeout=30,
+                )
+
+                if response.status_code == 502:
+                    print("\n❌ Met API is currently unavailable (502 error).")
+                    print("   This is a temporary server issue. Please try again in a few minutes.")
+                    return []
+
+                response.raise_for_status()
+
+                try:
+                    data = response.json()
+                except json.JSONDecodeError:
+                    print("\n❌ Met API returned an unexpected response format.")
+                    print("   The server may be experiencing issues. Please try again later.")
+                    return []
+
+                page_ids = data.get("objectIDs", [])
+                object_ids.extend(page_ids)
+                total = int(data.get("total", 0))
+                print(f"  Page fetched: offset={offset}, got {len(page_ids)} IDs "
+                      f"(total so far: {len(object_ids)} / {total})")
+
+                if not page_ids or offset + len(page_ids) >= total:
+                    break
+
+                offset += len(page_ids)
+                if offset >= MAX_SEARCH_RESULTS_CAP:
+                    break
+                time.sleep(RATE_LIMIT_DELAY)
+
+            return list(dict.fromkeys(object_ids[:MAX_SEARCH_RESULTS_CAP]))
             
         except requests.exceptions.RequestException as e:
             print(f"\n❌ Network error: {e}")

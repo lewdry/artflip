@@ -46,7 +46,7 @@ RATE_LIMIT_DELAY = 1.0  # seconds between API calls
 SEARCH_PARAMS = {
     'type': 'Painting',
     'has_image': 1,
-    # 'cc0' and 'currently_on_view' are flag params (no value) — handled separately
+    # 'cc0' is a flag; 'highlight=1' is appended to the URL below.
 }
 
 # File paths
@@ -162,16 +162,14 @@ class CleveDownloader:
 
         try:
             while len(all_items) < MAX_SEARCH_RESULTS_CAP:
-                # Flag params ('cc0', 'currently_on_view') must be present in the URL
-                # with no value; build them into the base URL and use params for the rest.
+                # CC0 is a flag; highlight requires an explicit value in the URL.
                 params = {
                     **SEARCH_PARAMS,
                     'skip': skip,
                     'limit': SEARCH_PAGE_LIMIT,
                     'fields': 'id,accession_number',
                 }
-                # Append flag params as bare keys (no value)
-                url = f"{SEARCH_ENDPOINT}?cc0&currently_on_view"
+                url = f"{SEARCH_ENDPOINT}?cc0&highlight=1"
 
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
@@ -418,7 +416,7 @@ class CleveDownloader:
         print("="*70)
         print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"Max new artworks to download: {MAX_NEW_ARTWORKS}")
-        print(f"Filters: CC0, type=Painting, has_image=1, currently_on_view")
+        print(f"Filters: CC0, type=Painting, has_image=1, highlight=1")
         print("="*70 + "\n")
 
         self.existing_ids = self.load_existing_ids()
