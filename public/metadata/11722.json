@@ -1,0 +1,28 @@
+{
+  "objectID": 11722,
+  "title": "Richard Thomas III",
+  "artistDisplayName": "James Peale",
+  "objectDate": "1796",
+  "medium": "Watercolor on ivory",
+  "dimensions": "Sight: 2 1/4 x 1 7/8 in. (7.3 x 5.9 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Maria DeWitt Jesup Fund, 1931",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11722",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP105034.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP105034.jpg",
+  "localImage": "11722.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

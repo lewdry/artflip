@@ -1,0 +1,28 @@
+{
+  "objectID": 11704,
+  "title": "Arthur St. Clair",
+  "artistDisplayName": "Charles Willson Peale",
+  "objectDate": "1780",
+  "medium": "Watercolor on ivory",
+  "dimensions": "1 3/4 x 1 3/8 in. (4.4 x 3.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Morris K. Jesup Fund, 1932",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11704",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap32.110.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap32.110.jpg",
+  "localImage": "11704.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

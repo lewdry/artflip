@@ -1,0 +1,33 @@
+{
+  "objectID": 11705,
+  "title": "General Henry Knox",
+  "artistDisplayName": "Charles Willson Peale",
+  "objectDate": "1778",
+  "medium": "Watercolor on ivory",
+  "dimensions": "2 7/8 x 2 1/8 in. (7.3 x 5.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. William Middendorf II, 1968",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11705",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-38097-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-38097-001.jpg",
+  "localImage": "11705.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Generals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300236762",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q83460"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectID": 11727,
+  "title": "Benjamin Lincoln",
+  "artistDisplayName": "James Peale",
+  "objectDate": "1794",
+  "medium": "Watercolor on ivory",
+  "dimensions": "1 7/8 x 1 1/2 in. (4.8 x 3.7 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. William Middendorf II, 1968",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/11727",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap68.222.8.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap68.222.8.jpg",
+  "localImage": "11727.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}
