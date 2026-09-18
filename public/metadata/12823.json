@@ -1,0 +1,48 @@
+{
+  "objectID": 12823,
+  "title": "George Washington before the Battle of Trenton",
+  "artistDisplayName": "John Trumbull",
+  "objectDate": "ca. 1792–94",
+  "medium": "Oil on canvas",
+  "dimensions": "26 1/2 x 18 1/2 in. (67.3 x 47 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Bequest of Grace Wilkes, 1922",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12823",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT217161.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT217161.jpg",
+  "localImage": "12823.jpg",
+  "tags": [
+    {
+      "term": "Soldiers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300185678",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4991371"
+    },
+    {
+      "term": "American Revolution",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000252",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q192769"
+    },
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Horses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300250148",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q726"
+    }
+  ]
+}
