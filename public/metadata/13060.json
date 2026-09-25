@@ -1,0 +1,33 @@
+{
+  "objectID": 13060,
+  "title": "The Cup of Love",
+  "artistDisplayName": "Elihu Vedder",
+  "objectDate": "1887",
+  "medium": "Oil on wood",
+  "dimensions": "12 x 10 in. (25.4 x 30.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Harold G. Henderson, 1976",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13060",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-19084-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-19084-001.jpg",
+  "localImage": "13060.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Female Nudes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189568",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q40446"
+    },
+    {
+      "term": "Cupid",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300380105",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q5011"
+    }
+  ]
+}

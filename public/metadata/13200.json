@@ -1,0 +1,33 @@
+{
+  "objectID": 13200,
+  "title": "Moses Shown the Promised Land",
+  "artistDisplayName": "Benjamin West",
+  "objectDate": "1801",
+  "medium": "Oil on wood",
+  "dimensions": "19 3/4 x 28 3/4 in. (50.2 x 73 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. James W. Fosburgh, by exchange, 1969",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13200",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/ap69.73.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/ap69.73.jpg",
+  "localImage": "13200.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Angels",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300379004",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q235113"
+    },
+    {
+      "term": "Moses",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000167",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9077"
+    }
+  ]
+}

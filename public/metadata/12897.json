@@ -1,0 +1,33 @@
+{
+  "objectID": 12897,
+  "title": "George Washington",
+  "artistDisplayName": "",
+  "objectDate": "ca. 1876",
+  "medium": "Watercolor on ivory",
+  "dimensions": "Sight: 4 3/8 x 3 5/8 in. (11.1 x 9.2 cm)",
+  "department": "The American Wing",
+  "culture": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of William H. Huntington, 1883",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/12897",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/25459.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/25459.jpg",
+  "localImage": "12897.jpg",
+  "tags": [
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

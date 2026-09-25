@@ -1,0 +1,28 @@
+{
+  "objectID": 13356,
+  "title": "Tennessee",
+  "artistDisplayName": "Alexander H. Wyant",
+  "objectDate": "1866",
+  "medium": "Oil on canvas",
+  "dimensions": "34 3/4 x 53 3/4 in. (88.3 x 136.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. George E. Schanck, in memory of her brother, Arthur Hoppock Hearn, 1913",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13356",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT279076.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT279076.jpg",
+  "localImage": "13356.jpg",
+  "tags": [
+    {
+      "term": "Rivers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300008707",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4022"
+    },
+    {
+      "term": "Landscapes",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+    }
+  ]
+}

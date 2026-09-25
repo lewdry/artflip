@@ -1,0 +1,33 @@
+{
+  "objectID": 14357,
+  "title": "John Maunsell",
+  "artistDisplayName": "John Ramage",
+  "objectDate": "ca. 1785",
+  "medium": "Watercolor on ivory",
+  "dimensions": "1 5/8 x 1 1/4 in. (4.1 x 3.2 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mrs. Alan W. Carrick, 1991",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/14357",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP169097.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP169097.jpg",
+  "localImage": "14357.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Generals",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300236762",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q83460"
+    }
+  ]
+}

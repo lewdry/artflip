@@ -1,0 +1,33 @@
+{
+  "objectID": 13057,
+  "title": "Young Lady with a Rose",
+  "artistDisplayName": "Pieter Vanderlyn",
+  "objectDate": "1732",
+  "medium": "Oil on canvas",
+  "dimensions": "32 1/2 x 27 in. (82.6 x 68.6 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Edgar William and Bernice Chrysler Garbisch, 1962",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/13057",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT2070.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2070.jpg",
+  "localImage": "13057.jpg",
+  "tags": [
+    {
+      "term": "Profiles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Roses",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300266246",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q102231"
+    }
+  ]
+}
