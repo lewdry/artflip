@@ -1,0 +1,43 @@
+{
+  "objectID": 16345,
+  "title": "Conversation Piece",
+  "artistDisplayName": "Lilly Martin Spencer",
+  "objectDate": "ca. 1851–52",
+  "medium": "Oil on canvas",
+  "dimensions": "28 5/16 x 22 5/8 in. (71.9 x 57.5 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Maria DeWitt Jesup and Morris K. Jesup Funds, 1998",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/16345",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT4335.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT4335.jpg",
+  "localImage": "16345.jpg",
+  "tags": [
+    {
+      "term": "Interiors",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+    },
+    {
+      "term": "Infants",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300189561",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q998"
+    },
+    {
+      "term": "Fathers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025931",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7565"
+    },
+    {
+      "term": "Mothers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025932",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7560"
+    },
+    {
+      "term": "Dolls",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300211087",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q168658"
+    }
+  ]
+}

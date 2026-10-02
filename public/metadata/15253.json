@@ -1,0 +1,28 @@
+{
+  "objectID": 15253,
+  "title": "George Washington",
+  "artistDisplayName": "",
+  "objectDate": "ca. 1810–20",
+  "medium": "Watercolor on ivory",
+  "dimensions": "3 1/8 x 2 1/2 in. (7.9 x 6.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Gift of Gloria Manney, 2006",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/15253",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS6908.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6908.jpg",
+  "localImage": "15253.jpg",
+  "tags": [
+    {
+      "term": "George Washington",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500126198",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q23"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

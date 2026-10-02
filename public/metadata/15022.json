@@ -1,0 +1,33 @@
+{
+  "objectID": 15022,
+  "title": "Benjamin Franklin",
+  "artistDisplayName": "Dulieu du Chenevoux",
+  "objectDate": "1785",
+  "medium": "Enameled copper",
+  "dimensions": "3 1/4 x 2 11/16 in. (8.2 x 6.8 cm)",
+  "department": "The American Wing",
+  "culture": "French",
+  "creditLine": "Metropolitan Museum of Art. Gift of Gloria Manney, 2006",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/15022",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS6845.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6845.jpg",
+  "localImage": "15022.jpg",
+  "tags": [
+    {
+      "term": "Benjamin Franklin",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500331804",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34969"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    }
+  ]
+}

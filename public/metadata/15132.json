@@ -1,0 +1,33 @@
+{
+  "objectID": 15132,
+  "title": "Richard Montgomery",
+  "artistDisplayName": "Charles Willson Peale",
+  "objectDate": "ca. 1784–86",
+  "medium": "Watercolor on ivory",
+  "dimensions": "1 3/4 x 1 3/8 in. (4.4 x 3.4 cm)",
+  "department": "The American Wing",
+  "culture": "American",
+  "creditLine": "Metropolitan Museum of Art. Dale T. Johnson Fund, 2006",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/15132",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/APS6632.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/APS6632.jpg",
+  "localImage": "15132.jpg",
+  "tags": [
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Portraits",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+    },
+    {
+      "term": "Profiles",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+    }
+  ]
+}
