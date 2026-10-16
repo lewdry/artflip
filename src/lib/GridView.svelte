@@ -252,7 +252,8 @@
 <div class="grid-view-wrap" role="presentation">
   <div
     class="grid-view-grid"
-    aria-hidden="true"
+    role="region"
+    aria-label="Artwork thumbnail grid"
     style="grid-template-columns: repeat({cols}, 30px)"
     bind:this={gridEl}
     on:touchstart={handleTouchStart}
@@ -261,9 +262,11 @@
   >
     {#each gridItems as id (id)}
       <button
+        type="button"
         class="cell"
         class:active={id === activeID}
         data-id={id}
+        aria-label={`Artwork ${id}`}
         on:click={() => handleCellClick(id)}
         on:mouseenter={() => handleCellMouseEnter(id)}
         on:mouseleave={handleCellMouseLeave}
@@ -279,13 +282,17 @@
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <!-- svelte-ignore a11y-no-static-element-interactions -->
       <div class="overlay" style="transform-origin: {expandedOrigin.x}px {expandedOrigin.y}px" on:click={closeOverlay}>
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img
-          src={expandedSrc}
-          alt=""
+        <button
+          type="button"
+          class="overlay-btn"
+          aria-label={`Open artwork ${expandedID}`}
           on:click|stopPropagation={() => { dispatch('select', expandedID); closeOverlay(); }}
-        />
+        >
+          <img
+            src={expandedSrc}
+            alt={`Artwork ${expandedID}`}
+          />
+        </button>
       </div>
     {/if}
   </div>
@@ -333,6 +340,12 @@
 
   .cell:focus {
     outline: none;
+  }
+
+  .cell:focus-visible {
+    outline: 2px solid #4A90E2;
+    outline-offset: 1px;
+    z-index: 20;
   }
 
   .cell img {
@@ -403,6 +416,23 @@
     padding: 20px;
     cursor: pointer;
     animation: expand-from-cell 0.95s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .overlay-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .overlay-btn:focus-visible {
+    outline: 3px solid #4A90E2;
+    outline-offset: 4px;
   }
 
   .overlay img {

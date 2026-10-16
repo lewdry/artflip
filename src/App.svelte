@@ -79,20 +79,30 @@
     }
   }
 
-  function updateURL(objectID) {
+  function updateURL(objectID, replace = false) {
     if (objectID && window.history && window.history.pushState) {
       const url = new URL(window.location.href);
       url.searchParams.set('id', objectID);
       url.searchParams.delete('mode'); // always clear grid mode on artwork nav
-      window.history.pushState({ artworkID: objectID }, '', url);
+      if (replace || isSlideshowing) {
+        window.history.replaceState({ artworkID: objectID }, '', url);
+      } else {
+        window.history.pushState({ artworkID: objectID }, '', url);
+      }
     }
   }
 
-  function setGridURL() {
-    const url = new URL(window.location.href);
-    url.searchParams.set('mode', 'grid');
-    url.searchParams.delete('id');
-    window.history.pushState({ mode: 'grid' }, '', url);
+  function setGridURL(replace = false) {
+    if (window.history && window.history.pushState) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('mode', 'grid');
+      url.searchParams.delete('id');
+      if (replace) {
+        window.history.replaceState({ mode: 'grid' }, '', url);
+      } else {
+        window.history.pushState({ mode: 'grid' }, '', url);
+      }
+    }
   }
 
   function getArtworkIDFromURL() {
@@ -185,8 +195,11 @@
 
     try {
       const neededCount = PRELOAD_COUNT - (artworks.length - currentIndex - 1);
+      let attempts = 0;
+      const MAX_ATTEMPTS = Math.max(0, neededCount) + 3;
       
-      for (let i = 0; i < neededCount; i++) {
+      while ((artworks.length - currentIndex - 1) < PRELOAD_COUNT && attempts < MAX_ATTEMPTS) {
+        attempts++;
         if (preloadGeneration !== myGeneration) break; // stale — a navigation reset happened
         try {
           await new Promise(resolve => setTimeout(resolve, PRELOAD_DELAY));
@@ -197,8 +210,7 @@
           trimHistory(); // Trim after each addition
           console.log(`Preloaded artwork. Array size: ${artworks.length}, Current index: ${currentIndex}`);
         } catch (err) {
-          console.warn('Failed to preload, trying another:', err);
-          i--; // Retry with a different artwork
+          console.warn('Failed to preload artwork:', err);
         }
       }
     } finally {
@@ -320,14 +332,6 @@
     // Middle third: do nothing, allow default browser behavior
   }
 
-  function handleImageKeydown(event) {
-    // Only respond to Enter and Space keys
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      // For keyboard users, simply advance to next artwork
-      nextArtwork();
-    }
-  }
 
   function handleKeydown(event) {
     if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
@@ -388,7 +392,7 @@
           if (preloadGeneration !== myGeneration) return;
           artworks = [artwork];
           currentIndex = 0;
-          updateURL(artwork.objectID);
+          updateURL(artwork.objectID, true);
           preloadNextArtworks();
         }).catch(() => {
           error = 'Unable to load artwork';
@@ -463,7 +467,7 @@
           artworks = [artwork];
           currentIndex = 0;
           // If grid mode is in URL, preserve it
-          if (urlMode !== 'grid') updateURL(artwork.objectID);
+          if (urlMode !== 'grid') updateURL(artwork.objectID, true);
         } else {
           // Load random initial artwork
           const artwork = await fetchSingleArtwork();
@@ -471,9 +475,9 @@
           currentIndex = 0;
           if (urlMode === 'grid') {
             // Preserve grid mode in URL, set anchor to this random artwork
-            setGridURL();
+            setGridURL(true);
           } else {
-            updateURL(artwork.objectID);
+            updateURL(artwork.objectID, true);
           }
         }
         
@@ -585,13 +589,15 @@
     if (!artwork || !artwork.displayImage || !artwork.objectID) return;
     const imageUrl = artwork.displayImage;
     const absoluteUrl = imageUrl.startsWith('http') ? imageUrl : `${window.location.origin}/${imageUrl}`;
-    const filename = `${artwork.objectID}.png`;
+    const ext = artwork.localImage ? artwork.localImage.split('.').pop().toLowerCase() : 'jpg';
+    const filename = `${artwork.objectID}.${ext}`;
+    const defaultMime = ext === 'png' ? 'image/png' : 'image/jpeg';
     // Try Web Share API with files
     if (typeof navigator.canShare === 'function' && typeof navigator.share === 'function') {
       try {
         const response = await fetch(absoluteUrl);
         const blob = await response.blob();
-        const file = new File([blob], filename, { type: blob.type || 'image/png' });
+        const file = new File([blob], filename, { type: blob.type || defaultMime });
         if (navigator.canShare({ files: [file] })) {
           await navigator.share({
             files: [file],
@@ -786,12 +792,11 @@
     {:else if artwork}
       {#key artwork.objectID}
         <article class="artwork" id="main-content" in:fade={{ duration: 400, delay: 100 }}>
+          <!-- svelte-ignore a11y-click-events-have-key-events -->
+          <!-- svelte-ignore a11y-no-static-element-interactions -->
           <div 
             class="image-container"
-            role="button"
-            tabindex="0"
             on:click={handleImageClick}
-            on:keydown={handleImageKeydown}
             on:touchstart={handleTouchStart}
             on:touchend={handleTouchEnd}
           >
@@ -806,27 +811,31 @@
 
             <!-- Back chevron: only visible after navigating past the first artwork -->
             {#if currentIndex > 0}
-              <div
+              <button
+                type="button"
                 class="chevron chevron-left"
                 class:nav-visible={chevronsVisible}
-                aria-hidden="true"
+                aria-label="Previous artwork"
+                on:click|stopPropagation={prevArtwork}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <polyline points="15 18 9 12 15 6"></polyline>
                 </svg>
-              </div>
+              </button>
             {/if}
 
             <!-- Next chevron: always visible -->
-            <div
+            <button
+              type="button"
               class="chevron chevron-right"
               class:nav-visible={chevronsVisible}
-              aria-hidden="true"
+              aria-label="Next artwork"
+              on:click|stopPropagation={nextArtwork}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2C3E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <polyline points="9 18 15 12 9 6"></polyline>
               </svg>
-            </div>
+            </button>
           </div>
           
           <div class="metadata">
@@ -1183,18 +1192,21 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.45);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     display: flex;
     align-items: center;
     justify-content: center;
-    pointer-events: none;
     opacity: 0;
-    transition: opacity 0.25s ease, transform 0.25s ease;
+    pointer-events: auto;
+    transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease;
     z-index: 10;
   }
 
@@ -1207,12 +1219,19 @@
   }
 
   .chevron.nav-visible {
-    opacity: 0.6;
+    opacity: 0.65;
   }
 
-  .image-container:focus-visible {
+  .chevron:hover {
+    opacity: 0.95;
+    background: rgba(255, 255, 255, 0.85);
+    transform: translateY(-50%) scale(1.08);
+  }
+
+  .chevron:focus-visible {
+    opacity: 1;
     outline: 3px solid #4A90E2;
-    outline-offset: -3px;
+    outline-offset: 2px;
   }
 
   .image-container img {
