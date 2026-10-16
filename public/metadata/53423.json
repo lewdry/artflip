@@ -1,0 +1,33 @@
+{
+  "objectID": 53423,
+  "title": "Blossoming Cherry Trees",
+  "artistDisplayName": "Sakai Hōitsu",
+  "objectDate": "ca. 1805",
+  "medium": "Pair of six-panel folding screens; ink, color, and gold leaf on paper",
+  "dimensions": "Image: 38 x 82 3/16 in. (96.5 x 208.8 cm)\r\nOverall with mounting: 39 9/16 × 83 3/4 in. (100.5 × 212.8 cm)",
+  "department": "Asian Art",
+  "culture": "Japan",
+  "creditLine": "Metropolitan Museum of Art. Mary Griggs Burke Collection, Gift of the Mary and Jackson Burke Foundation, 2015",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/53423",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP704936.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP704936.jpg",
+  "localImage": "53423.jpg",
+  "tags": [
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Leaves",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011892",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q33971"
+    },
+    {
+      "term": "Trees",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132410",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q10884"
+    }
+  ]
+}
