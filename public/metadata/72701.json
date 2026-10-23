@@ -1,0 +1,28 @@
+{
+  "objectID": 72701,
+  "title": "Book Cover with Four Durgas",
+  "artistDisplayName": "",
+  "objectDate": "18th century",
+  "medium": "Distemper on wood",
+  "dimensions": "4 1/2 x 14 1/2 in. (11.4 x 36.8 cm)",
+  "department": "Asian Art",
+  "culture": "Nepal (Kathmandu Valley)",
+  "creditLine": "Metropolitan Museum of Art. Gift of Nancy Wiener Hamill, 2004",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/72701",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/2004_555_3_F.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/2004_555_3_F.jpg",
+  "localImage": "72701.jpg",
+  "tags": [
+    {
+      "term": "Durga",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001417",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q382973"
+    },
+    {
+      "term": "Hinduism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073727",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q9089"
+    }
+  ]
+}

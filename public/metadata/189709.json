@@ -1,0 +1,33 @@
+{
+  "objectID": 189709,
+  "title": "Still life with musical instruments (one of a pair)",
+  "artistDisplayName": "French Painter",
+  "objectDate": "18th century",
+  "medium": "Oil on canvas",
+  "dimensions": "Overall: 22 1/2 × 37 in. (57.2 × 94 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of J. Pierpont Morgan, 1906",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/189709",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/ep07.225.456b.bw.R.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/ep07.225.456b.bw.R.jpg",
+  "localImage": "189709.jpg",
+  "tags": [
+    {
+      "term": "Musical Instruments",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300041620",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q34379"
+    },
+    {
+      "term": "Garlands",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300167386",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q756600"
+    },
+    {
+      "term": "Still Life",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300015638",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q170571"
+    }
+  ]
+}
