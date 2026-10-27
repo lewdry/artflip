@@ -40,7 +40,7 @@ from PIL import Image, ImageFilter
 # CONFIGURATION
 # ============================================================================
 
-MAX_NEW_ARTWORKS = 20
+MAX_NEW_ARTWORKS = 10
 RATE_LIMIT_DELAY = 2.0  # seconds between API calls
 
 # Updated headers

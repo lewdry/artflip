@@ -40,7 +40,7 @@ from PIL import Image, ImageFilter
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-MAX_NEW_ARTWORKS = 20
+MAX_NEW_ARTWORKS = 10
 RATE_LIMIT_DELAY = 1.0  # Seconds between individual item requests
 
 # Paths (relative to repo root, not script location)
