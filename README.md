@@ -15,27 +15,25 @@ A Svelte app for browsing random public domain artworks.
 * Shows artist, title, date, medium, and a link to the source museum.
 * Grid View: Grid view of hundreds of thumbnails. Hover to zoom, click to open. On mobile, tap once to zoom, tap again to open. Use Redo to shuffle. Access directly at `/?mode=grid`.
 
-## Current Count  of artworks - 2025/10/09
-1. 2439 Metropolitan Museum of Art 
-2. 1989 Art Institute of Chicago 
-3. 1390 Rijksmuseum 
+## Current Count of artworks - 2026-10
+  1.  1928  Metropolitan Museum of Art
+  2.  1915  Rijksmuseum
+  3.  1288  Art Institute of Chicago
+  4.   454  Minneapolis Institute of Art
+  5.   446  Cleveland Museum of Art
 
-## Current Count  of artworks - 2025/10/21
- 1. 2289  Metropolitan Museum of Art
- 2. 1827  Art Institute of Chicago
- 3. 1399  Rijksmuseum
- 4. 1058  National Gallery of Art
+  Total artworks: 6031
 
-## Current Count of artworks - 2026/04/25
-  1.  2289  Metropolitan Museum of Art
-  2.  1902  Art Institute of Chicago
-  3.  1515  Rijksmuseum
-  4.   420  Cleveland Museum of Art
-  5.   410  Minneapolis Institute of Art
+## Current Count of artworks - 2026-09
+  1.  2100  Metropolitan Museum of Art
+  2.  1757  Rijksmuseum
+  3.  1509  Art Institute of Chicago
+  4.   463  Minneapolis Institute of Art
+  5.   451  Cleveland Museum of Art
 
-  Total artworks: 6575
+  Total artworks: 6280
 
-## Current Count of artworks - 2026-05-05 
+## Current Count of artworks - 2026-05 
 (removed tall images <0.53, wide images >2.5)
   1.  2235  Metropolitan Museum of Art
   2.  1840  Art Institute of Chicago
@@ -45,14 +43,25 @@ A Svelte app for browsing random public domain artworks.
   
   Total artworks: 6371
 
-## Current Count of artworks - 2026-09-06
-  1.  2100  Metropolitan Museum of Art
-  2.  1757  Rijksmuseum
-  3.  1509  Art Institute of Chicago
-  4.   463  Minneapolis Institute of Art
-  5.   451  Cleveland Museum of Art
+## Current Count of artworks - 2026/04
+  1.  2289  Metropolitan Museum of Art
+  2.  1902  Art Institute of Chicago
+  3.  1515  Rijksmuseum
+  4.   420  Cleveland Museum of Art
+  5.   410  Minneapolis Institute of Art
 
-  Total artworks: 6280
+  Total artworks: 6575
+
+## Current Count  of artworks - 2025/10
+ 1. 2289  Metropolitan Museum of Art
+ 2. 1827  Art Institute of Chicago
+ 3. 1399  Rijksmuseum
+ 4. 1058  National Gallery of Art
+
+## Current Count  of artworks - 2025/10
+1. 2439 Metropolitan Museum of Art 
+2. 1989 Art Institute of Chicago 
+3. 1390 Rijksmuseum 
 
 ## Installation
 
