@@ -1,0 +1,38 @@
+{
+  "objectID": 195779,
+  "title": "Saint Jerome (one of a pair)",
+  "artistDisplayName": "",
+  "objectDate": "mid-16th century",
+  "medium": "Alabaster, painted and gilt",
+  "dimensions": "Overall (confirmed): H. 20 5/8 x D. 4 1/4 in. (52.4 x 10.8 cm); Diam. 21 in. (53.3 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "creditLine": "Metropolitan Museum of Art. Fletcher Fund, 1927",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/195779",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP221972.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP221972.jpg",
+  "localImage": "195779.jpg",
+  "tags": [
+    {
+      "term": "Books",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300028051",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q571"
+    },
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    },
+    {
+      "term": "Saint Jerome",
+      "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+    }
+  ]
+}
