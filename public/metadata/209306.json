@@ -1,0 +1,28 @@
+{
+  "objectID": 209306,
+  "title": "Snuffbox",
+  "artistDisplayName": "Jean Formey",
+  "objectDate": "1757–58",
+  "medium": "Gold, enamel",
+  "dimensions": "Overall: 1 5/8 × 3 3/16 × 2 3/8 in. (4.1 × 8.1 × 6 cm)",
+  "department": "European Sculpture and Decorative Arts",
+  "culture": "",
+  "creditLine": "Metropolitan Museum of Art. Gift of Mr. and Mrs. Charles Wrightsman, 1976",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/209306",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/LC-1976_155_4-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/LC-1976_155_4-001.jpg",
+  "localImage": "209306.jpg",
+  "tags": [
+    {
+      "term": "Fruit",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+    },
+    {
+      "term": "Flowers",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+    }
+  ]
+}
